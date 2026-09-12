@@ -1,0 +1,367 @@
+{
+  "schema_version": "subject-index-evaluation-result-v11",
+  "evaluation_id": "ohfr-2002-original-published-index-v8",
+  "candidate": {
+    "label": "oxford-history-french-revolution-2002-original-published-index",
+    "sha256": "1d43fe7fb158b352393c6e2f14843aae9ae23ccfca1f61c6783307432b0a9d09"
+  },
+  "provenance": {
+    "source_sha256": "5f89aa2592218983c594278bfd86cc1e4b74be1dd6dd8aac5c2610a48fa34047",
+    "judgment_policy_sha256": "06e879c589d8e86b04ebaf3f637d307b2fb5cbeb7bda4f71c63e97e57381730d",
+    "benchmark_sha256": "558980b374ca4b162b12f2726e237319b170f9e8b7014f71ad7c2171e9e98983",
+    "rubric_version": "subject-index-rubric-v8",
+    "dimension_calculation_profile": "subject-index-dimension-calculation-v5"
+  },
+  "audit_scope": {
+    "mode": "full",
+    "complete": true
+  },
+  "dimension_calculations": {
+    "schema_version": "subject-index-dimension-calculations-v6",
+    "artifact_path": "scoring/dimension-calculations.v6.json",
+    "sha256": "164ebdd391eb91a72415f9df399291530ffd828ee455e18c2c37f12c1fcd519c",
+    "calculation_sha256": "b67af2f8f467eaaace1edfbb4bd5ec083b8e072c22a3d13ee3c7b3a4d404a3d6",
+    "rubric_version": "subject-index-rubric-v8",
+    "calculation_profile": "subject-index-dimension-calculation-v5"
+  },
+  "scorecard": [
+    {
+      "dimension_id": "meaningful_coverage",
+      "weight": 20,
+      "dimension_percentage": "86.92592592592592592592592593",
+      "weighted_contribution": "17.38518518518518518518518519",
+      "formula_id": "subject-index-dimension-calculation-v5:meaningful_coverage"
+    },
+    {
+      "dimension_id": "editorial_selectivity",
+      "weight": 15,
+      "dimension_percentage": "76.82657517272091852117083307",
+      "weighted_contribution": "11.52398627590813777817562496",
+      "formula_id": "subject-index-dimension-calculation-v5:editorial_selectivity"
+    },
+    {
+      "dimension_id": "conceptual_stance_fidelity",
+      "weight": 15,
+      "dimension_percentage": "99.08613445378151260504201681",
+      "weighted_contribution": "14.86292016806722689075630252",
+      "formula_id": "subject-index-dimension-calculation-v5:conceptual_stance_fidelity"
+    },
+    {
+      "dimension_id": "page_reference_reliability",
+      "weight": 25,
+      "dimension_percentage": "90",
+      "weighted_contribution": "22.5",
+      "formula_id": "subject-index-dimension-calculation-v5:page_reference_reliability"
+    },
+    {
+      "dimension_id": "findability_navigation",
+      "weight": 20,
+      "dimension_percentage": "90.58902057199691470791215037",
+      "weighted_contribution": "18.11780411439938294158243007",
+      "formula_id": "subject-index-dimension-calculation-v5:findability_navigation"
+    },
+    {
+      "dimension_id": "mechanics_consistency",
+      "weight": 5,
+      "dimension_percentage": "99.8555672268907563025210084",
+      "weighted_contribution": "4.99277836134453781512605042",
+      "formula_id": "subject-index-dimension-calculation-v5:mechanics_consistency"
+    }
+  ],
+  "interpretation": "The validated percentage-native V8 calculation produced 89.38 of 100.",
+  "metrics": {
+    "keep_precision": {
+      "keep_precision_numerator": 5123,
+      "keep_precision_denominator": 5338,
+      "keep_precision": "0.9597227426002248032971150244",
+      "treatment_recall": "0.9037603569152326322498406628",
+      "reliability_f1": "0.9309012446826866785359208541"
+    }
+  },
+  "item_assessments": {
+    "schema_version": "subject-index-item-assessments-v6",
+    "artifact_path": "scoring/item-assessments.percentage-native.v6.json",
+    "sha256": "dd9ff55a6934c3ba816261b3d2111f77a1ac01558fed7121221294e561948757",
+    "grading_policy": "subject-index-item-grading-v4",
+    "summary": {
+      "locators": {
+        "total": 5338,
+        "graded": 5338,
+        "not_measured": 0,
+        "bands": {
+          "excellent": 3517,
+          "strong": 0,
+          "mixed": 1708,
+          "weak": 0,
+          "poor": 113,
+          "not_measured": 0
+        }
+      },
+      "paths": {
+        "total": 1904,
+        "graded": 0,
+        "not_measured": 1904,
+        "bands": {
+          "excellent": 0,
+          "strong": 0,
+          "mixed": 0,
+          "weak": 0,
+          "poor": 0,
+          "not_measured": 1904
+        }
+      },
+      "heading_nodes": {
+        "total": 1904,
+        "graded": 1904,
+        "not_measured": 0,
+        "bands": {
+          "excellent": 1795,
+          "strong": 96,
+          "mixed": 7,
+          "weak": 6,
+          "poor": 0,
+          "not_measured": 0
+        }
+      },
+      "cross_references": {
+        "total": 16,
+        "graded": 16,
+        "not_measured": 0,
+        "bands": {
+          "excellent": 14,
+          "strong": 0,
+          "mixed": 0,
+          "weak": 0,
+          "poor": 2,
+          "not_measured": 0
+        }
+      },
+      "source_subjects": {
+        "total": 638,
+        "graded": 638,
+        "not_measured": 0,
+        "bands": {
+          "excellent": 491,
+          "strong": 0,
+          "mixed": 0,
+          "weak": 0,
+          "poor": 147,
+          "not_measured": 0
+        }
+      },
+      "locator_utility_tiers": {
+        "treatment": {
+          "absent": 72,
+          "mixed": 1682,
+          "substantive": 3560,
+          "weak_presence": 24
+        },
+        "fit": {
+          "exact_fit": 5141,
+          "material_mismatch": 1,
+          "material_partial_fit": 102,
+          "no_fit": 72,
+          "severe_mismatch": 22
+        },
+        "diagnostic_credit": {
+          "0": 72,
+          "0.15": 22,
+          "0.25": 18,
+          "0.35": 1,
+          "0.7": 1708,
+          "1": 3517
+        },
+        "rating_credit": {
+          "0": 215,
+          "1": 5123
+        }
+      }
+    }
+  },
+  "projection_metadata": {
+    "schema_version": "subject-index-v8-projection-metadata-v1",
+    "artifact_path": "scoring/projection-metadata.percentage-native.v1.json",
+    "sha256": "43409bb751e01df02f4ed872d1ad9930c272d50ec66a80a0970855f812376989",
+    "projection_metadata_sha256": "43abd7032c4a712c50b79710604103b7987baa1076ba11286ee19ec8797bd7ab"
+  },
+  "critical_gates": [
+    {
+      "gate_id": "GATE-SCOPE-LOCATOR",
+      "description": "fabricated, nonexistent, or out-of-scope locator",
+      "standard": true,
+      "triggered": false,
+      "defect_ids": []
+    },
+    {
+      "gate_id": "GATE-SYSTEMIC-UNSUPPORTED",
+      "description": "systematic incidental or unsupported locator pattern",
+      "standard": true,
+      "triggered": false,
+      "defect_ids": []
+    },
+    {
+      "gate_id": "GATE-CENTRAL-OMISSION",
+      "description": "central subject or conclusion materially omitted",
+      "standard": true,
+      "triggered": false,
+      "defect_ids": []
+    },
+    {
+      "gate_id": "GATE-STANCE",
+      "description": "heading reverses or seriously misrepresents source stance",
+      "standard": true,
+      "triggered": true,
+      "defect_ids": [
+        "DEFECT-STRUCT-RELATIONSHIP-001"
+      ]
+    },
+    {
+      "gate_id": "GATE-COMPOUND",
+      "description": "compound heading locators support only separate components",
+      "standard": true,
+      "triggered": true,
+      "defect_ids": [
+        "DEFECT-STRUCT-RELATIONSHIP-001"
+      ]
+    },
+    {
+      "gate_id": "GATE-SEE-SUBSTITUTION",
+      "description": "see source replaces a warranted substantive entry",
+      "standard": true,
+      "triggered": false,
+      "defect_ids": []
+    },
+    {
+      "gate_id": "GATE-CROSS-REFERENCE",
+      "description": "unresolved, self-referential, circular, or chained cross-reference",
+      "standard": true,
+      "triggered": true,
+      "defect_ids": [
+        "DEFECT-STRUCT-XREF-001"
+      ]
+    },
+    {
+      "gate_id": "GATE-DEPTH",
+      "description": "third-level heading",
+      "standard": true,
+      "triggered": false,
+      "defect_ids": []
+    },
+    {
+      "gate_id": "GATE-CLUTTER",
+      "description": "systematic named-entity, example, or citation clutter",
+      "standard": true,
+      "triggered": true,
+      "defect_ids": [
+        "DEFECT-STRUCT-SUBDIVISION-001"
+      ]
+    },
+    {
+      "gate_id": "GATE-GROUNDING",
+      "description": "critical or major unresolved grounding",
+      "standard": true,
+      "triggered": false,
+      "defect_ids": []
+    },
+    {
+      "gate_id": "GATE-UNINSPECTABLE",
+      "description": "more than 1% of in-scope locator assignments uninspectable without a frozen alternative tolerance",
+      "standard": true,
+      "triggered": false,
+      "defect_ids": []
+    },
+    {
+      "gate_id": "GATE-SOURCE-SPAN",
+      "description": "wrong source span",
+      "standard": true,
+      "triggered": false,
+      "defect_ids": []
+    },
+    {
+      "gate_id": "GATE-STRUCTURE",
+      "description": "structurally invalid or incomplete output",
+      "standard": true,
+      "triggered": false,
+      "defect_ids": []
+    }
+  ],
+  "defect_counts": {
+    "minor": 4
+  },
+  "comparison_key": {
+    "source_sha256": "5f89aa2592218983c594278bfd86cc1e4b74be1dd6dd8aac5c2610a48fa34047",
+    "benchmark_sha256": "558980b374ca4b162b12f2726e237319b170f9e8b7014f71ad7c2171e9e98983",
+    "judgment_policy_sha256": "06e879c589d8e86b04ebaf3f637d307b2fb5cbeb7bda4f71c63e97e57381730d",
+    "page_map_sha256": "452602deebdae19f8e35c589f2ff2a7a0b9fc955d268b14f760391b0043e9653",
+    "chunk_manifest_sha256": "5fc5450386114fdeb19838f54d3f1662c3d6dec81d4729c73f4f7ec0cb341a6f",
+    "inclusion_policy": "Frozen current-V8 source scope and candidate-blind benchmark.",
+    "audit_mode": "full",
+    "uncertainty_policy": "Record uncertainty explicitly; adjudicate every critical, major, and uncertain item; exclude uninspectable locators from precision denominators and disclose them.",
+    "rubric_version": "subject-index-rubric-v8",
+    "dimension_calculation_profile": "subject-index-dimension-calculation-v5"
+  },
+  "limitations": [
+    "Page 123 continues the October procession, its flour wagons, and bread imagery, but does not itself identify the crowd specifically as market women.",
+    "Page 191 treats the Prussian advance, front-line panic, and France's wartime crisis, but it does not identify an Austrian role on this page.",
+    "Page 192 treats French volunteering and the battle of Valmy against Prussian forces; Austria is not part of the action described on this page.",
+    "Page 180 places Robespierre in the war narrative but records only his criticism of Dumouriez's showy liberty-cap display.",
+    "Page 223 discusses price rises and supply disruption for sugar, soap, coffee, candles, and West Indian commodities, but calls them basic commodities rather than luxury goods.",
+    "Page 389 refers generally to victorious peace treaties before the legislature; the Peace of Amiens is named on page 390.",
+    "Page 370 ends with Barras's name but postpones every informative statement about him until page 371.",
+    "Page 387 substantively asks how bishops would be appointed and describes government designation, but does not state clerical election on this page.",
+    "Page 387 discusses future episcopal selection by state appointment, not an election of clergy on that page.",
+    "Page 387 describes the two rival episcopal bodies and the settlement problem but does not yet identify refractory priests explicitly.",
+    "Page 417 completes the cross-page statement that the French example reinforced patriotism in long-united states such as the Dutch Republic.",
+    "Page 420 reports that Théroigne de Méricourt was suspected of spying for “the emperor”; in the 1792 setting this refers to Francis II.",
+    "Page 413 treats the Revolution’s effects on Italian city-republics and begins the broader discussion of French remaking of Europe continued on page 414.",
+    "The supported October Days locator on page 123 was not accepted as a realistic lookup route to the distinct thematic claim that Paris became the Revolution's self-appointed guardian.",
+    "Page 126 is retrieved through the broader supported heading 'municipal authorities'; this was accepted as a realistic route to elected commune government, although the heading does not name communes explicitly.",
+    "The page-130 seigneurialism route was accepted as access to aristocratic resistance, but it does not itself connect that treatment to noble emigration, so the synthesized reader task remains only partially successful.",
+    "The full interpretation is distributed between Committee-of-Public-Safety and Law-of-14-Frimaire routes rather than one consolidated Revolutionary Government route.",
+    "Page 258 is reachable through Nantes, Carrier, and provincial-Terror routes rather than the Vendée-suppression subdivision itself.",
+    "The page-263 governing treatment is reachable through the Committee's dechristianization-policy subdivision, a narrower route than the frozen leadership-and-power subject.",
+    "A black-market entry reaches page 269, but it is too indirect to count as access to the frozen controlled-economy interpretation; that boundary judgment is medium confidence.",
+    "Desmoulins and moderate-newspaper entries reach page 269, but neither is an adequate first route to the frozen Danton-and-Indulgents subject.",
+    "Page 263 is reached through the Committee's dechristianization-policy subdivision rather than an explicit liberty-of-cults route.",
+    "The exact Defenders heading conflates the Irish agrarian Defenders with the French Defenders of the One and Indivisible Republic; broader Ireland and United Irishmen paths still retrieve page 341.",
+    "The expected pages are reachable under narrower component headings, but whether that fragmented route is realistic for the benchmark-level synthesis requires a borderline access judgment.",
+    "The expected pages are reachable under narrower component headings, but whether that fragmented route is realistic for the benchmark-level synthesis requires a borderline access judgment.",
+    "The expected pages are reachable under narrower component headings, but whether that fragmented route is realistic for the benchmark-level synthesis requires a borderline access judgment."
+  ],
+  "overall_percentage": 89.38,
+  "structure_locator_review": {
+    "schema_version": "subject-index-structure-locator-review-v1",
+    "artifact_path": "scoring/structure-locator-review.v1.json",
+    "sha256": "d679d474b6bcf4e3f03a1eeb2b9f9cf193d723a9cb9c69d1184f2009902a44ed",
+    "review_sha256": "a68f9b85c6c4972d2574505a5cf3f769ce3aa1c58934f90e4f0230e7e663f183",
+    "summary": {
+      "locator_bearing_path_count": 1876,
+      "long_string_review_trigger_count": 126,
+      "long_range_review_trigger_count": 4,
+      "review_required_path_ids": [],
+      "derivation_failed_path_ids": [],
+      "removed_historical_defect_ids": [],
+      "retained_historical_defect_ids": [
+        "DEFECT-STRUCT-SUBDIVISION-001"
+      ]
+    }
+  },
+  "locator_fit_compatibility": {
+    "rule": "F-COMPAT-LEGACY-CODE-SEVERITY-ONLY-V1",
+    "conflict_rule": "F-COMPAT-LEGACY-FIT-CONFLICT-TO-SUPPLEMENT-V1",
+    "classifications": [],
+    "preflight_group_counts": {
+      "deterministically_compatible": 5338,
+      "unresolved_complete_path_fit": 0,
+      "invalid_or_contradictory_state": 0
+    },
+    "unresolved_reason_counts_before_supplement": {},
+    "unresolved_records_before_supplement": [],
+    "unresolved_before_supplement": 0,
+    "unresolved_after_supplement": 0,
+    "historical_defects_rewritten": false,
+    "classifier_precedence_applied": false,
+    "aggregate_score_exposed_during_preflight": false,
+    "prose_inference_used": false
+  }
+}
