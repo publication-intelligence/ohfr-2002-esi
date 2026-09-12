@@ -1,6 +1,6 @@
 # V8 canonical web projection
 
-This directory is the deterministic, public-safe data source for rebuilding the customer-facing evaluation page. The completed V8 result remains authoritative; this package adds the complete display collections and a separately identified representation-adjusted view.
+This directory is the deterministic, public-safe data source for rebuilding the customer-facing evaluation page. The completed V12/V10 V8 result and report remain authoritative; this package adds the complete display collections and a separately identified representation-adjusted view.
 
 ## View policy
 
@@ -13,12 +13,12 @@ This directory is the deterministic, public-safe data source for rebuilding the 
 
 - `projection.v1.json` — view selection, both scorecards, gates/readiness, correction outcomes, item summaries, provenance, and collection bindings.
 - `data/correction-overlay.v1.json` — all 14 affected node/path/record IDs, complete delivered and corrected heading paths, all 18 character substitutions, causal classifications, and adjusted item outcomes.
-- `data/index-records.v1.json` — all 1,904 records in delivered order, full hierarchy, displayed and atomic locator mappings, page labels, cross-references, and item assessments/popovers.
+- `data/index-records.v1.json` — all 1,904 records in delivered order, full hierarchy, displayed and atomic locator mappings, page labels, cross-references, causal heading-access findings, and item assessments/popovers.
 - `data/source-subjects.v1.json` — all 638 source-subject assessments and reader tasks, with 1,569 expected-treatment page records.
 - `data/density.v1.json` — all 17 named chapter/intellectual-unit measurements and canonical fit judgments.
 - `projection.schema.json` and `collection.schema.json` — Draft 2020-12 validation contracts.
 
-Every generated JSON artifact has a canonical-JSON self-hash. `projection.v1.json` also records the byte hash of each collection and all source-artifact hashes used for the projection.
+Every generated JSON artifact has a canonical-JSON self-hash. `projection.v1.json` also records the byte hash of each collection and all source-artifact hashes used for the projection, including the current causal-provenance structure V6 and item-assessment V7 artifacts.
 
 ## Regenerate
 
