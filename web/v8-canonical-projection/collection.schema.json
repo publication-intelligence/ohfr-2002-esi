@@ -1,0 +1,118 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://publication-intelligence.example/schemas/ohfr-v8-web-collection-v1.json",
+  "title": "OHFR V8 projected collection",
+  "oneOf": [
+    { "$ref": "#/$defs/standardCollection" },
+    { "$ref": "#/$defs/correctionOverlay" }
+  ],
+  "$defs": {
+    "hash": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
+    },
+    "standardCollection": {
+      "type": "object",
+      "required": [
+        "schema_version",
+        "collection_kind",
+        "source_order",
+        "count",
+        "items",
+        "collection_sha256"
+      ],
+      "properties": {
+        "schema_version": { "const": "ohfr-v8-web-collection-v1" },
+        "collection_kind": {
+          "enum": ["index_records", "source_subjects", "density"]
+        },
+        "source_order": { "type": "string", "minLength": 1 },
+        "count": { "type": "integer", "minimum": 1 },
+        "items": { "type": "array", "minItems": 1 },
+        "collection_sha256": { "$ref": "#/$defs/hash" }
+      }
+    },
+    "correctionOverlay": {
+      "type": "object",
+      "required": [
+        "schema_version",
+        "evaluation_id",
+        "overlay_role",
+        "causal_classification",
+        "affected_heading_count",
+        "affected_node_ids",
+        "character_replacement_count",
+        "headings",
+        "character_replacements",
+        "adjusted_item_changes",
+        "cross_reference_resolution",
+        "defect_outcomes",
+        "provenance",
+        "overlay_sha256"
+      ],
+      "properties": {
+        "schema_version": {
+          "const": "ohfr-v8-representation-correction-overlay-v1"
+        },
+        "affected_heading_count": { "const": 14 },
+        "affected_node_ids": {
+          "type": "array",
+          "minItems": 14,
+          "maxItems": 14,
+          "items": { "type": "string", "pattern": "^NODE-[A-F0-9]+$" },
+          "uniqueItems": true
+        },
+        "character_replacement_count": { "const": 18 },
+        "headings": { "type": "array", "minItems": 14, "maxItems": 14 },
+        "character_replacements": {
+          "type": "array",
+          "minItems": 18,
+          "maxItems": 18,
+          "items": {
+            "type": "object",
+            "required": [
+              "issue_id",
+              "record_id",
+              "path_id",
+              "node_id",
+              "character_index",
+              "delivered_character",
+              "corrected_character",
+              "delivered_code_point",
+              "corrected_code_point"
+            ]
+          }
+        },
+        "adjusted_item_changes": {
+          "type": "object",
+          "required": [
+            "heading_nodes",
+            "locators",
+            "paths",
+            "cross_references",
+            "source_subjects"
+          ]
+        },
+        "cross_reference_resolution": {
+          "type": "object",
+          "required": [
+            "item_id",
+            "observed_target_resolution",
+            "adjusted_target_resolution",
+            "observed_judgment",
+            "adjusted_judgment",
+            "remaining_unresolved_reference",
+            "cross_reference_gate_triggered_after_correction"
+          ],
+          "properties": {
+            "item_id": { "const": "XREF-9A63B6DC42BB" },
+            "observed_judgment": { "const": "partially_supported" },
+            "adjusted_judgment": { "const": "supported" },
+            "cross_reference_gate_triggered_after_correction": { "const": true }
+          }
+        },
+        "overlay_sha256": { "$ref": "#/$defs/hash" }
+      }
+    }
+  }
+}

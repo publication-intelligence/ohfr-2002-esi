@@ -1,0 +1,2432 @@
+{
+  "adjusted_item_changes": {
+    "cross_references": [
+      {
+        "adjusted_grade": {
+          "band": "excellent",
+          "color_token": "grade_excellent",
+          "rating": 5.0,
+          "score": 100.0,
+          "status": "passes"
+        },
+        "adjusted_judgment": "supported",
+        "adjusted_popover": {
+          "confidence": "high",
+          "factors": [
+            {
+              "adjusted_status": "resolved",
+              "explanation": "Correcting ‘lev2e en masse’ to ‘levée en masse’ creates an exact displayed target for the delivered see-also reference.",
+              "factor_id": "target_resolution",
+              "observed_status": "unresolved"
+            }
+          ],
+          "grade": {
+            "band": "excellent",
+            "color_token": "grade_excellent",
+            "rating": 5.0,
+            "score": 100.0,
+            "status": "passes"
+          },
+          "grade_scope": "one_cross_reference_relationship",
+          "navigation": {
+            "source_path_id": "PATH-03DED732138C",
+            "target_path_id": "PATH-26704D6AB01B"
+          },
+          "summary": "Correcting ‘lev2e en masse’ to ‘levée en masse’ creates an exact displayed target for the delivered see-also reference.",
+          "title": "Adjusted see also levée en masse"
+        },
+        "adjusted_target_resolution": {
+          "status": "resolved",
+          "target_node_ids": [
+            "NODE-1233C7E79FAA"
+          ],
+          "target_path_ids": [
+            "PATH-26704D6AB01B"
+          ]
+        },
+        "causal_classification": "representation_only",
+        "explanation": "Correcting ‘lev2e en masse’ to ‘levée en masse’ creates an exact displayed target for the delivered see-also reference.",
+        "grade_delta": 50.0,
+        "item_id": "XREF-9A63B6DC42BB",
+        "item_type": "cross_reference",
+        "observed_grade": {
+          "band": "poor",
+          "color_token": "grade_poor",
+          "rating": 2.5,
+          "score": 50.0,
+          "status": "fails"
+        },
+        "observed_judgment": "partially_supported",
+        "observed_target_resolution": {
+          "status": "unresolved",
+          "target_path_ids": []
+        },
+        "record_id": "REC-E40EFF5E7D3E",
+        "source_node_id": "NODE-5C19CC7E2872",
+        "source_path_id": "PATH-03DED732138C",
+        "target_display": "levée en masse"
+      }
+    ],
+    "heading_nodes": [
+      {
+        "adjusted_grade": {
+          "band": "excellent",
+          "color_token": "grade_excellent",
+          "rating": 4.75,
+          "score": 95.0,
+          "status": "passes"
+        },
+        "adjusted_popover": {
+          "confidence": "high",
+          "factors": [
+            {
+              "adjusted_score": 85.0,
+              "adjusted_status": "minor_issues",
+              "component_id": "heading_access_architecture",
+              "observed_score": 55.0,
+              "observed_status": "major_issues"
+            },
+            {
+              "adjusted_score": 100.0,
+              "adjusted_status": "passes",
+              "component_id": "mechanics_consistency",
+              "observed_score": 85.0,
+              "observed_status": "minor_issues"
+            }
+          ],
+          "grade": {
+            "band": "excellent",
+            "color_token": "grade_excellent",
+            "rating": 4.75,
+            "score": 95.0,
+            "status": "passes"
+          },
+          "grade_scope": "heading_wording_and_structural_role",
+          "navigation": {
+            "node_id": "NODE-1233C7E79FAA",
+            "path_id": "PATH-26704D6AB01B"
+          },
+          "summary": "Confirmed representation effects are removed from the V8 component grades; any independent V8 consequence is retained.",
+          "title": "levée en masse"
+        },
+        "causal_classification": "mixed",
+        "component_changes": [
+          {
+            "adjusted_score": 85.0,
+            "adjusted_status": "minor_issues",
+            "component_id": "heading_access_architecture",
+            "observed_score": 55.0,
+            "observed_status": "major_issues"
+          },
+          {
+            "adjusted_score": 100.0,
+            "adjusted_status": "passes",
+            "component_id": "mechanics_consistency",
+            "observed_score": 85.0,
+            "observed_status": "minor_issues"
+          }
+        ],
+        "corrected_heading_path": [
+          "levée en masse"
+        ],
+        "delivered_heading_path": [
+          "lev2e en masse"
+        ],
+        "grade_delta": 15.0,
+        "item_id": "NODE-1233C7E79FAA",
+        "item_type": "heading_node",
+        "observed_grade": {
+          "band": "strong",
+          "color_token": "grade_strong",
+          "rating": 4.0,
+          "score": 80.0,
+          "status": "passes_with_issues"
+        },
+        "path_id": "PATH-26704D6AB01B",
+        "record_id": "REC-84B3662B92FA",
+        "retained_independent_consequence": true
+      },
+      {
+        "adjusted_grade": {
+          "band": "excellent",
+          "color_token": "grade_excellent",
+          "rating": 5.0,
+          "score": 100.0,
+          "status": "passes"
+        },
+        "adjusted_popover": {
+          "confidence": "high",
+          "factors": [
+            {
+              "adjusted_score": 100.0,
+              "adjusted_status": "passes",
+              "component_id": "mechanics_consistency",
+              "observed_score": 85.0,
+              "observed_status": "minor_issues"
+            }
+          ],
+          "grade": {
+            "band": "excellent",
+            "color_token": "grade_excellent",
+            "rating": 5.0,
+            "score": 100.0,
+            "status": "passes"
+          },
+          "grade_scope": "heading_wording_and_structural_role",
+          "navigation": {
+            "node_id": "NODE-1641E4FD4B44",
+            "path_id": "PATH-320C019F35EE"
+          },
+          "summary": "Confirmed representation effects are removed from the V8 component grades; any independent V8 consequence is retained.",
+          "title": "land — tax (contribution foncière)"
+        },
+        "causal_classification": "representation_only",
+        "component_changes": [
+          {
+            "adjusted_score": 100.0,
+            "adjusted_status": "passes",
+            "component_id": "mechanics_consistency",
+            "observed_score": 85.0,
+            "observed_status": "minor_issues"
+          }
+        ],
+        "corrected_heading_path": [
+          "land",
+          "tax (contribution foncière)"
+        ],
+        "delivered_heading_path": [
+          "land",
+          "tax (contribution fonci2re)"
+        ],
+        "grade_delta": 5.0,
+        "item_id": "NODE-1641E4FD4B44",
+        "item_type": "heading_node",
+        "observed_grade": {
+          "band": "excellent",
+          "color_token": "grade_excellent",
+          "rating": 4.75,
+          "score": 95.0,
+          "status": "passes"
+        },
+        "path_id": "PATH-320C019F35EE",
+        "record_id": "REC-A49FE0BD5868",
+        "retained_independent_consequence": false
+      },
+      {
+        "adjusted_grade": {
+          "band": "excellent",
+          "color_token": "grade_excellent",
+          "rating": 5.0,
+          "score": 100.0,
+          "status": "passes"
+        },
+        "adjusted_popover": {
+          "confidence": "high",
+          "factors": [
+            {
+              "adjusted_score": 100.0,
+              "adjusted_status": "passes",
+              "component_id": "mechanics_consistency",
+              "observed_score": 85.0,
+              "observed_status": "minor_issues"
+            }
+          ],
+          "grade": {
+            "band": "excellent",
+            "color_token": "grade_excellent",
+            "rating": 5.0,
+            "score": 100.0,
+            "status": "passes"
+          },
+          "grade_scope": "heading_wording_and_structural_role",
+          "navigation": {
+            "node_id": "NODE-2424A4C28F25",
+            "path_id": "PATH-28BAF49F54CE"
+          },
+          "summary": "Confirmed representation effects are removed from the V8 component grades; any independent V8 consequence is retained.",
+          "title": "La Rouërie, Armand Taffin, Marquis de (1751–93)"
+        },
+        "causal_classification": "representation_only",
+        "component_changes": [
+          {
+            "adjusted_score": 100.0,
+            "adjusted_status": "passes",
+            "component_id": "mechanics_consistency",
+            "observed_score": 85.0,
+            "observed_status": "minor_issues"
+          }
+        ],
+        "corrected_heading_path": [
+          "La Rouërie, Armand Taffin, Marquis de (1751–93)"
+        ],
+        "delivered_heading_path": [
+          "La Rou2rie, Armand Taffin, Marquis de (1751–93)"
+        ],
+        "grade_delta": 5.0,
+        "item_id": "NODE-2424A4C28F25",
+        "item_type": "heading_node",
+        "observed_grade": {
+          "band": "excellent",
+          "color_token": "grade_excellent",
+          "rating": 4.75,
+          "score": 95.0,
+          "status": "passes"
+        },
+        "path_id": "PATH-28BAF49F54CE",
+        "record_id": "REC-31CEA0DD3C7E",
+        "retained_independent_consequence": false
+      },
+      {
+        "adjusted_grade": {
+          "band": "excellent",
+          "color_token": "grade_excellent",
+          "rating": 5.0,
+          "score": 100.0,
+          "status": "passes"
+        },
+        "adjusted_popover": {
+          "confidence": "high",
+          "factors": [
+            {
+              "adjusted_score": 100.0,
+              "adjusted_status": "passes",
+              "component_id": "mechanics_consistency",
+              "observed_score": 85.0,
+              "observed_status": "minor_issues"
+            }
+          ],
+          "grade": {
+            "band": "excellent",
+            "color_token": "grade_excellent",
+            "rating": 5.0,
+            "score": 100.0,
+            "status": "passes"
+          },
+          "grade_scope": "heading_wording_and_structural_role",
+          "navigation": {
+            "node_id": "NODE-33047D522FEE",
+            "path_id": "PATH-0952BF551C1F"
+          },
+          "summary": "Confirmed representation effects are removed from the V8 component grades; any independent V8 consequence is retained.",
+          "title": "Lamballe, Marie-Thérèse Louise, Princess de (1749–92)"
+        },
+        "causal_classification": "representation_only",
+        "component_changes": [
+          {
+            "adjusted_score": 100.0,
+            "adjusted_status": "passes",
+            "component_id": "mechanics_consistency",
+            "observed_score": 85.0,
+            "observed_status": "minor_issues"
+          }
+        ],
+        "corrected_heading_path": [
+          "Lamballe, Marie-Thérèse Louise, Princess de (1749–92)"
+        ],
+        "delivered_heading_path": [
+          "Lamballe, Marie-Th2r2se Louise, Princess de (1749–92)"
+        ],
+        "grade_delta": 5.0,
+        "item_id": "NODE-33047D522FEE",
+        "item_type": "heading_node",
+        "observed_grade": {
+          "band": "excellent",
+          "color_token": "grade_excellent",
+          "rating": 4.75,
+          "score": 95.0,
+          "status": "passes"
+        },
+        "path_id": "PATH-0952BF551C1F",
+        "record_id": "REC-7B8CCA519734",
+        "retained_independent_consequence": false
+      },
+      {
+        "adjusted_grade": {
+          "band": "excellent",
+          "color_token": "grade_excellent",
+          "rating": 5.0,
+          "score": 100.0,
+          "status": "passes"
+        },
+        "adjusted_popover": {
+          "confidence": "high",
+          "factors": [
+            {
+              "adjusted_score": 100.0,
+              "adjusted_status": "passes",
+              "component_id": "mechanics_consistency",
+              "observed_score": 85.0,
+              "observed_status": "minor_issues"
+            }
+          ],
+          "grade": {
+            "band": "excellent",
+            "color_token": "grade_excellent",
+            "rating": 5.0,
+            "score": 100.0,
+            "status": "passes"
+          },
+          "grade_scope": "heading_wording_and_structural_role",
+          "navigation": {
+            "node_id": "NODE-367FC46D5C72",
+            "path_id": "PATH-6F44DE485426"
+          },
+          "summary": "Confirmed representation effects are removed from the V8 component grades; any independent V8 consequence is retained.",
+          "title": "Leblanc de Castillon, Jean François André (d.1719)"
+        },
+        "causal_classification": "representation_only",
+        "component_changes": [
+          {
+            "adjusted_score": 100.0,
+            "adjusted_status": "passes",
+            "component_id": "mechanics_consistency",
+            "observed_score": 85.0,
+            "observed_status": "minor_issues"
+          }
+        ],
+        "corrected_heading_path": [
+          "Leblanc de Castillon, Jean François André (d.1719)"
+        ],
+        "delivered_heading_path": [
+          "Leblanc de Castillon, Jean Fran3ois Andr2 (d.1719)"
+        ],
+        "grade_delta": 5.0,
+        "item_id": "NODE-367FC46D5C72",
+        "item_type": "heading_node",
+        "observed_grade": {
+          "band": "excellent",
+          "color_token": "grade_excellent",
+          "rating": 4.75,
+          "score": 95.0,
+          "status": "passes"
+        },
+        "path_id": "PATH-6F44DE485426",
+        "record_id": "REC-E56EB2303F34",
+        "retained_independent_consequence": false
+      },
+      {
+        "adjusted_grade": {
+          "band": "excellent",
+          "color_token": "grade_excellent",
+          "rating": 5.0,
+          "score": 100.0,
+          "status": "passes"
+        },
+        "adjusted_popover": {
+          "confidence": "high",
+          "factors": [
+            {
+              "adjusted_score": 100.0,
+              "adjusted_status": "passes",
+              "component_id": "heading_access_architecture",
+              "observed_score": 85.0,
+              "observed_status": "minor_issues"
+            }
+          ],
+          "grade": {
+            "band": "excellent",
+            "color_token": "grade_excellent",
+            "rating": 5.0,
+            "score": 100.0,
+            "status": "passes"
+          },
+          "grade_scope": "heading_wording_and_structural_role",
+          "navigation": {
+            "node_id": "NODE-5C19CC7E2872",
+            "path_id": "PATH-03DED732138C",
+            "reference_id": "XREF-9A63B6DC42BB"
+          },
+          "summary": "The corrected levée-en-masse target resolves, removing the V8 cross-reference access penalty from this source heading.",
+          "title": "conscription — Swiss"
+        },
+        "causal_classification": "downstream_cross_reference_resolution",
+        "component_changes": [
+          {
+            "adjusted_score": 100.0,
+            "adjusted_status": "passes",
+            "component_id": "heading_access_architecture",
+            "observed_score": 85.0,
+            "observed_status": "minor_issues"
+          }
+        ],
+        "corrected_heading_path": [
+          "conscription",
+          "Swiss"
+        ],
+        "delivered_heading_path": [
+          "conscription",
+          "Swiss"
+        ],
+        "grade_delta": 5.0,
+        "item_id": "NODE-5C19CC7E2872",
+        "item_type": "heading_node",
+        "observed_grade": {
+          "band": "excellent",
+          "color_token": "grade_excellent",
+          "rating": 4.75,
+          "score": 95.0,
+          "status": "passes"
+        },
+        "path_id": "PATH-03DED732138C",
+        "record_id": "REC-E40EFF5E7D3E",
+        "retained_independent_consequence": false
+      },
+      {
+        "adjusted_grade": {
+          "band": "excellent",
+          "color_token": "grade_excellent",
+          "rating": 5.0,
+          "score": 100.0,
+          "status": "passes"
+        },
+        "adjusted_popover": {
+          "confidence": "high",
+          "factors": [
+            {
+              "adjusted_score": 100.0,
+              "adjusted_status": "passes",
+              "component_id": "mechanics_consistency",
+              "observed_score": 85.0,
+              "observed_status": "minor_issues"
+            }
+          ],
+          "grade": {
+            "band": "excellent",
+            "color_token": "grade_excellent",
+            "rating": 5.0,
+            "score": 100.0,
+            "status": "passes"
+          },
+          "grade_scope": "heading_wording_and_structural_role",
+          "navigation": {
+            "node_id": "NODE-680872D8E4EF",
+            "path_id": "PATH-134A4F68D537"
+          },
+          "summary": "Confirmed representation effects are removed from the V8 component grades; any independent V8 consequence is retained.",
+          "title": "Laws of Ventôse"
+        },
+        "causal_classification": "representation_only",
+        "component_changes": [
+          {
+            "adjusted_score": 100.0,
+            "adjusted_status": "passes",
+            "component_id": "mechanics_consistency",
+            "observed_score": 85.0,
+            "observed_status": "minor_issues"
+          }
+        ],
+        "corrected_heading_path": [
+          "Laws of Ventôse"
+        ],
+        "delivered_heading_path": [
+          "Laws of Vent2se"
+        ],
+        "grade_delta": 5.0,
+        "item_id": "NODE-680872D8E4EF",
+        "item_type": "heading_node",
+        "observed_grade": {
+          "band": "excellent",
+          "color_token": "grade_excellent",
+          "rating": 4.75,
+          "score": 95.0,
+          "status": "passes"
+        },
+        "path_id": "PATH-134A4F68D537",
+        "record_id": "REC-FA0B7648D294",
+        "retained_independent_consequence": false
+      },
+      {
+        "adjusted_grade": {
+          "band": "excellent",
+          "color_token": "grade_excellent",
+          "rating": 5.0,
+          "score": 100.0,
+          "status": "passes"
+        },
+        "adjusted_popover": {
+          "confidence": "high",
+          "factors": [
+            {
+              "adjusted_score": 100.0,
+              "adjusted_status": "passes",
+              "component_id": "heading_access_architecture",
+              "observed_score": 85.0,
+              "observed_status": "minor_issues"
+            },
+            {
+              "adjusted_score": 100.0,
+              "adjusted_status": "passes",
+              "component_id": "mechanics_consistency",
+              "observed_score": 85.0,
+              "observed_status": "minor_issues"
+            }
+          ],
+          "grade": {
+            "band": "excellent",
+            "color_token": "grade_excellent",
+            "rating": 5.0,
+            "score": 100.0,
+            "status": "passes"
+          },
+          "grade_scope": "heading_wording_and_structural_role",
+          "navigation": {
+            "node_id": "NODE-7F548C32E062",
+            "path_id": "PATH-23E79C486535"
+          },
+          "summary": "Confirmed representation effects are removed from the V8 component grades; any independent V8 consequence is retained.",
+          "title": "Liège, principality of"
+        },
+        "causal_classification": "representation_only",
+        "component_changes": [
+          {
+            "adjusted_score": 100.0,
+            "adjusted_status": "passes",
+            "component_id": "heading_access_architecture",
+            "observed_score": 85.0,
+            "observed_status": "minor_issues"
+          },
+          {
+            "adjusted_score": 100.0,
+            "adjusted_status": "passes",
+            "component_id": "mechanics_consistency",
+            "observed_score": 85.0,
+            "observed_status": "minor_issues"
+          }
+        ],
+        "corrected_heading_path": [
+          "Liège, principality of"
+        ],
+        "delivered_heading_path": [
+          "Li2ge, principality of"
+        ],
+        "grade_delta": 10.0,
+        "item_id": "NODE-7F548C32E062",
+        "item_type": "heading_node",
+        "observed_grade": {
+          "band": "excellent",
+          "color_token": "grade_excellent",
+          "rating": 4.5,
+          "score": 90.0,
+          "status": "passes"
+        },
+        "path_id": "PATH-23E79C486535",
+        "record_id": "REC-F88D42BE046D",
+        "retained_independent_consequence": false
+      },
+      {
+        "adjusted_grade": {
+          "band": "excellent",
+          "color_token": "grade_excellent",
+          "rating": 5.0,
+          "score": 100.0,
+          "status": "passes"
+        },
+        "adjusted_popover": {
+          "confidence": "high",
+          "factors": [
+            {
+              "adjusted_score": 100.0,
+              "adjusted_status": "passes",
+              "component_id": "heading_access_architecture",
+              "observed_score": 85.0,
+              "observed_status": "minor_issues"
+            },
+            {
+              "adjusted_score": 100.0,
+              "adjusted_status": "passes",
+              "component_id": "mechanics_consistency",
+              "observed_score": 85.0,
+              "observed_status": "minor_issues"
+            }
+          ],
+          "grade": {
+            "band": "excellent",
+            "color_token": "grade_excellent",
+            "rating": 5.0,
+            "score": 100.0,
+            "status": "passes"
+          },
+          "grade_scope": "heading_wording_and_structural_role",
+          "navigation": {
+            "node_id": "NODE-811B50B6DF90",
+            "path_id": "PATH-69F2A871B0D7"
+          },
+          "summary": "Confirmed representation effects are removed from the V8 component grades; any independent V8 consequence is retained.",
+          "title": "Lamoignon, Chrétien François de (1735–1832)"
+        },
+        "causal_classification": "representation_only",
+        "component_changes": [
+          {
+            "adjusted_score": 100.0,
+            "adjusted_status": "passes",
+            "component_id": "heading_access_architecture",
+            "observed_score": 85.0,
+            "observed_status": "minor_issues"
+          },
+          {
+            "adjusted_score": 100.0,
+            "adjusted_status": "passes",
+            "component_id": "mechanics_consistency",
+            "observed_score": 85.0,
+            "observed_status": "minor_issues"
+          }
+        ],
+        "corrected_heading_path": [
+          "Lamoignon, Chrétien François de (1735–1832)"
+        ],
+        "delivered_heading_path": [
+          "Lamoignon, Chr2tien Fran3ois de (1735–1832)"
+        ],
+        "grade_delta": 10.0,
+        "item_id": "NODE-811B50B6DF90",
+        "item_type": "heading_node",
+        "observed_grade": {
+          "band": "excellent",
+          "color_token": "grade_excellent",
+          "rating": 4.5,
+          "score": 90.0,
+          "status": "passes"
+        },
+        "path_id": "PATH-69F2A871B0D7",
+        "record_id": "REC-4FE7095978AB",
+        "retained_independent_consequence": false
+      },
+      {
+        "adjusted_grade": {
+          "band": "excellent",
+          "color_token": "grade_excellent",
+          "rating": 5.0,
+          "score": 100.0,
+          "status": "passes"
+        },
+        "adjusted_popover": {
+          "confidence": "high",
+          "factors": [
+            {
+              "adjusted_score": 100.0,
+              "adjusted_status": "passes",
+              "component_id": "mechanics_consistency",
+              "observed_score": 85.0,
+              "observed_status": "minor_issues"
+            }
+          ],
+          "grade": {
+            "band": "excellent",
+            "color_token": "grade_excellent",
+            "rating": 5.0,
+            "score": 100.0,
+            "status": "passes"
+          },
+          "grade_scope": "heading_wording_and_structural_role",
+          "navigation": {
+            "node_id": "NODE-84D205EE3593",
+            "path_id": "PATH-850FC51A197A"
+          },
+          "summary": "Confirmed representation effects are removed from the V8 component grades; any independent V8 consequence is retained.",
+          "title": "Legislative Assembly — anti-émigré attitude of"
+        },
+        "causal_classification": "representation_only",
+        "component_changes": [
+          {
+            "adjusted_score": 100.0,
+            "adjusted_status": "passes",
+            "component_id": "mechanics_consistency",
+            "observed_score": 85.0,
+            "observed_status": "minor_issues"
+          }
+        ],
+        "corrected_heading_path": [
+          "Legislative Assembly",
+          "anti-émigré attitude of"
+        ],
+        "delivered_heading_path": [
+          "Legislative Assembly",
+          "anti-2migr2 attitude of"
+        ],
+        "grade_delta": 5.0,
+        "item_id": "NODE-84D205EE3593",
+        "item_type": "heading_node",
+        "observed_grade": {
+          "band": "excellent",
+          "color_token": "grade_excellent",
+          "rating": 4.75,
+          "score": 95.0,
+          "status": "passes"
+        },
+        "path_id": "PATH-850FC51A197A",
+        "record_id": "REC-5F3F84D9250A",
+        "retained_independent_consequence": false
+      },
+      {
+        "adjusted_grade": {
+          "band": "excellent",
+          "color_token": "grade_excellent",
+          "rating": 5.0,
+          "score": 100.0,
+          "status": "passes"
+        },
+        "adjusted_popover": {
+          "confidence": "high",
+          "factors": [
+            {
+              "adjusted_score": 100.0,
+              "adjusted_status": "passes",
+              "component_id": "mechanics_consistency",
+              "observed_score": 85.0,
+              "observed_status": "minor_issues"
+            }
+          ],
+          "grade": {
+            "band": "excellent",
+            "color_token": "grade_excellent",
+            "rating": 5.0,
+            "score": 100.0,
+            "status": "passes"
+          },
+          "grade_scope": "heading_wording_and_structural_role",
+          "navigation": {
+            "node_id": "NODE-894E2872B253",
+            "path_id": "PATH-9CDA44DF8C5C"
+          },
+          "summary": "Confirmed representation effects are removed from the V8 component grades; any independent V8 consequence is retained.",
+          "title": "Lally-Tollendal, Trophime-Gérard de (1751–1830)"
+        },
+        "causal_classification": "representation_only",
+        "component_changes": [
+          {
+            "adjusted_score": 100.0,
+            "adjusted_status": "passes",
+            "component_id": "mechanics_consistency",
+            "observed_score": 85.0,
+            "observed_status": "minor_issues"
+          }
+        ],
+        "corrected_heading_path": [
+          "Lally-Tollendal, Trophime-Gérard de (1751–1830)"
+        ],
+        "delivered_heading_path": [
+          "Lally-Tollendal, Trophime-G2rard de (1751–1830)"
+        ],
+        "grade_delta": 5.0,
+        "item_id": "NODE-894E2872B253",
+        "item_type": "heading_node",
+        "observed_grade": {
+          "band": "excellent",
+          "color_token": "grade_excellent",
+          "rating": 4.75,
+          "score": 95.0,
+          "status": "passes"
+        },
+        "path_id": "PATH-9CDA44DF8C5C",
+        "record_id": "REC-ABA0A8CE70F5",
+        "retained_independent_consequence": false
+      },
+      {
+        "adjusted_grade": {
+          "band": "excellent",
+          "color_token": "grade_excellent",
+          "rating": 5.0,
+          "score": 100.0,
+          "status": "passes"
+        },
+        "adjusted_popover": {
+          "confidence": "high",
+          "factors": [
+            {
+              "adjusted_score": 100.0,
+              "adjusted_status": "passes",
+              "component_id": "heading_access_architecture",
+              "observed_score": 85.0,
+              "observed_status": "minor_issues"
+            },
+            {
+              "adjusted_score": 100.0,
+              "adjusted_status": "passes",
+              "component_id": "mechanics_consistency",
+              "observed_score": 85.0,
+              "observed_status": "minor_issues"
+            }
+          ],
+          "grade": {
+            "band": "excellent",
+            "color_token": "grade_excellent",
+            "rating": 5.0,
+            "score": 100.0,
+            "status": "passes"
+          },
+          "grade_scope": "heading_wording_and_structural_role",
+          "navigation": {
+            "node_id": "NODE-A137505DA3E5",
+            "path_id": "PATH-BD392515A6B1"
+          },
+          "summary": "Confirmed representation effects are removed from the V8 component grades; any independent V8 consequence is retained.",
+          "title": "Le Chapelier, Isaac René Guy (1754–94)"
+        },
+        "causal_classification": "representation_only",
+        "component_changes": [
+          {
+            "adjusted_score": 100.0,
+            "adjusted_status": "passes",
+            "component_id": "heading_access_architecture",
+            "observed_score": 85.0,
+            "observed_status": "minor_issues"
+          },
+          {
+            "adjusted_score": 100.0,
+            "adjusted_status": "passes",
+            "component_id": "mechanics_consistency",
+            "observed_score": 85.0,
+            "observed_status": "minor_issues"
+          }
+        ],
+        "corrected_heading_path": [
+          "Le Chapelier, Isaac René Guy (1754–94)"
+        ],
+        "delivered_heading_path": [
+          "Le Chapelier, Isaac Ren2 Guy (1754–94)"
+        ],
+        "grade_delta": 10.0,
+        "item_id": "NODE-A137505DA3E5",
+        "item_type": "heading_node",
+        "observed_grade": {
+          "band": "excellent",
+          "color_token": "grade_excellent",
+          "rating": 4.5,
+          "score": 90.0,
+          "status": "passes"
+        },
+        "path_id": "PATH-BD392515A6B1",
+        "record_id": "REC-CAAFBE1B9229",
+        "retained_independent_consequence": false
+      },
+      {
+        "adjusted_grade": {
+          "band": "excellent",
+          "color_token": "grade_excellent",
+          "rating": 5.0,
+          "score": 100.0,
+          "status": "passes"
+        },
+        "adjusted_popover": {
+          "confidence": "high",
+          "factors": [
+            {
+              "adjusted_score": 100.0,
+              "adjusted_status": "passes",
+              "component_id": "heading_access_architecture",
+              "observed_score": 85.0,
+              "observed_status": "minor_issues"
+            },
+            {
+              "adjusted_score": 100.0,
+              "adjusted_status": "passes",
+              "component_id": "mechanics_consistency",
+              "observed_score": 85.0,
+              "observed_status": "minor_issues"
+            }
+          ],
+          "grade": {
+            "band": "excellent",
+            "color_token": "grade_excellent",
+            "rating": 5.0,
+            "score": 100.0,
+            "status": "passes"
+          },
+          "grade_scope": "heading_wording_and_structural_role",
+          "navigation": {
+            "node_id": "NODE-A86D09652F29",
+            "path_id": "PATH-D0B7294DE13F"
+          },
+          "summary": "Confirmed representation effects are removed from the V8 component grades; any independent V8 consequence is retained.",
+          "title": "Le Mercier de la Rivière, Pierre Paul (1720–92)"
+        },
+        "causal_classification": "representation_only",
+        "component_changes": [
+          {
+            "adjusted_score": 100.0,
+            "adjusted_status": "passes",
+            "component_id": "heading_access_architecture",
+            "observed_score": 85.0,
+            "observed_status": "minor_issues"
+          },
+          {
+            "adjusted_score": 100.0,
+            "adjusted_status": "passes",
+            "component_id": "mechanics_consistency",
+            "observed_score": 85.0,
+            "observed_status": "minor_issues"
+          }
+        ],
+        "corrected_heading_path": [
+          "Le Mercier de la Rivière, Pierre Paul (1720–92)"
+        ],
+        "delivered_heading_path": [
+          "Le Mercier de la Rivi2re, Pierre Paul (1720–92)"
+        ],
+        "grade_delta": 10.0,
+        "item_id": "NODE-A86D09652F29",
+        "item_type": "heading_node",
+        "observed_grade": {
+          "band": "excellent",
+          "color_token": "grade_excellent",
+          "rating": 4.5,
+          "score": 90.0,
+          "status": "passes"
+        },
+        "path_id": "PATH-D0B7294DE13F",
+        "record_id": "REC-F43FB78C1BE2",
+        "retained_independent_consequence": false
+      },
+      {
+        "adjusted_grade": {
+          "band": "excellent",
+          "color_token": "grade_excellent",
+          "rating": 5.0,
+          "score": 100.0,
+          "status": "passes"
+        },
+        "adjusted_popover": {
+          "confidence": "high",
+          "factors": [
+            {
+              "adjusted_score": 100.0,
+              "adjusted_status": "passes",
+              "component_id": "mechanics_consistency",
+              "observed_score": 85.0,
+              "observed_status": "minor_issues"
+            }
+          ],
+          "grade": {
+            "band": "excellent",
+            "color_token": "grade_excellent",
+            "rating": 5.0,
+            "score": 100.0,
+            "status": "passes"
+          },
+          "grade_scope": "heading_wording_and_structural_role",
+          "navigation": {
+            "node_id": "NODE-DD7675F9AF8F",
+            "path_id": "PATH-177D900D56B3"
+          },
+          "summary": "Confirmed representation effects are removed from the V8 component grades; any independent V8 consequence is retained.",
+          "title": "Letourneur, Louis François (1751–1817)"
+        },
+        "causal_classification": "representation_only",
+        "component_changes": [
+          {
+            "adjusted_score": 100.0,
+            "adjusted_status": "passes",
+            "component_id": "mechanics_consistency",
+            "observed_score": 85.0,
+            "observed_status": "minor_issues"
+          }
+        ],
+        "corrected_heading_path": [
+          "Letourneur, Louis François (1751–1817)"
+        ],
+        "delivered_heading_path": [
+          "Letourneur, Louis Fran3ois (1751–1817)"
+        ],
+        "grade_delta": 5.0,
+        "item_id": "NODE-DD7675F9AF8F",
+        "item_type": "heading_node",
+        "observed_grade": {
+          "band": "excellent",
+          "color_token": "grade_excellent",
+          "rating": 4.75,
+          "score": 95.0,
+          "status": "passes"
+        },
+        "path_id": "PATH-177D900D56B3",
+        "record_id": "REC-AA629DE7A6FE",
+        "retained_independent_consequence": false
+      },
+      {
+        "adjusted_grade": {
+          "band": "excellent",
+          "color_token": "grade_excellent",
+          "rating": 5.0,
+          "score": 100.0,
+          "status": "passes"
+        },
+        "adjusted_popover": {
+          "confidence": "high",
+          "factors": [
+            {
+              "adjusted_score": 100.0,
+              "adjusted_status": "passes",
+              "component_id": "mechanics_consistency",
+              "observed_score": 85.0,
+              "observed_status": "minor_issues"
+            }
+          ],
+          "grade": {
+            "band": "excellent",
+            "color_token": "grade_excellent",
+            "rating": 5.0,
+            "score": 100.0,
+            "status": "passes"
+          },
+          "grade_scope": "heading_wording_and_structural_role",
+          "navigation": {
+            "node_id": "NODE-E9AB8D11D630",
+            "path_id": "PATH-613918CA9569"
+          },
+          "summary": "Confirmed representation effects are removed from the V8 component grades; any independent V8 consequence is retained.",
+          "title": "Leclerc, Jean Théophile Victoire (b.1771)"
+        },
+        "causal_classification": "representation_only",
+        "component_changes": [
+          {
+            "adjusted_score": 100.0,
+            "adjusted_status": "passes",
+            "component_id": "mechanics_consistency",
+            "observed_score": 85.0,
+            "observed_status": "minor_issues"
+          }
+        ],
+        "corrected_heading_path": [
+          "Leclerc, Jean Théophile Victoire (b.1771)"
+        ],
+        "delivered_heading_path": [
+          "Leclerc, Jean Th2ophile Victoire (b.1771)"
+        ],
+        "grade_delta": 5.0,
+        "item_id": "NODE-E9AB8D11D630",
+        "item_type": "heading_node",
+        "observed_grade": {
+          "band": "excellent",
+          "color_token": "grade_excellent",
+          "rating": 4.75,
+          "score": 95.0,
+          "status": "passes"
+        },
+        "path_id": "PATH-613918CA9569",
+        "record_id": "REC-A0E73D1E8BEB",
+        "retained_independent_consequence": false
+      }
+    ],
+    "locators": [
+      {
+        "adjusted_complete_path_fit": "exact_fit",
+        "adjusted_dimension_reliability_credit": "1",
+        "adjusted_grade": {
+          "band": "mixed",
+          "color_token": "grade_mixed",
+          "rating": 3.5,
+          "score": 70.0,
+          "status": "needs_review"
+        },
+        "adjusted_judgment": "supported",
+        "adjusted_popover": {
+          "confidence": "high",
+          "factors": [
+            {
+              "adjusted_status": "exact_fit",
+              "explanation": "The page treatment is unchanged; correcting the corrupted heading makes complete-path fit exact and the locator keepable.",
+              "factor_id": "complete_path_fit",
+              "observed_status": "material_partial_fit"
+            }
+          ],
+          "grade": {
+            "band": "mixed",
+            "color_token": "grade_mixed",
+            "rating": 3.5,
+            "score": 70.0,
+            "status": "needs_review"
+          },
+          "grade_scope": "one_complete_heading_path_and_source_page_assignment",
+          "navigation": {
+            "locator_id": "LOC-045BF26CDB87",
+            "path_id": "PATH-23E79C486535"
+          },
+          "summary": "The page treatment is unchanged; correcting the corrupted heading makes complete-path fit exact and the locator keepable.",
+          "title": "Adjusted locator 197"
+        },
+        "causal_classification": "representation_only",
+        "explanation": "The page treatment is unchanged; correcting the corrupted heading makes complete-path fit exact and the locator keepable.",
+        "grade_delta": 0.0,
+        "item_id": "LOC-045BF26CDB87",
+        "item_type": "locator",
+        "observed_complete_path_fit": "material_partial_fit",
+        "observed_dimension_reliability_credit": "0",
+        "observed_grade": {
+          "band": "mixed",
+          "color_token": "grade_mixed",
+          "rating": 3.5,
+          "score": 70,
+          "status": "needs_review"
+        },
+        "observed_judgment": "partially_supported",
+        "path_id": "PATH-23E79C486535",
+        "retained_page_treatment": "mixed"
+      },
+      {
+        "adjusted_complete_path_fit": "exact_fit",
+        "adjusted_dimension_reliability_credit": "1",
+        "adjusted_grade": {
+          "band": "mixed",
+          "color_token": "grade_mixed",
+          "rating": 3.5,
+          "score": 70.0,
+          "status": "needs_review"
+        },
+        "adjusted_judgment": "supported",
+        "adjusted_popover": {
+          "confidence": "high",
+          "factors": [
+            {
+              "adjusted_status": "exact_fit",
+              "explanation": "The page treatment is unchanged; correcting the corrupted heading makes complete-path fit exact and the locator keepable.",
+              "factor_id": "complete_path_fit",
+              "observed_status": "material_partial_fit"
+            }
+          ],
+          "grade": {
+            "band": "mixed",
+            "color_token": "grade_mixed",
+            "rating": 3.5,
+            "score": 70.0,
+            "status": "needs_review"
+          },
+          "grade_scope": "one_complete_heading_path_and_source_page_assignment",
+          "navigation": {
+            "locator_id": "LOC-064E74EE09A5",
+            "path_id": "PATH-D0B7294DE13F"
+          },
+          "summary": "The page treatment is unchanged; correcting the corrupted heading makes complete-path fit exact and the locator keepable.",
+          "title": "Adjusted locator 57"
+        },
+        "causal_classification": "representation_only",
+        "explanation": "The page treatment is unchanged; correcting the corrupted heading makes complete-path fit exact and the locator keepable.",
+        "grade_delta": 0.0,
+        "item_id": "LOC-064E74EE09A5",
+        "item_type": "locator",
+        "observed_complete_path_fit": "material_partial_fit",
+        "observed_dimension_reliability_credit": "0",
+        "observed_grade": {
+          "band": "mixed",
+          "color_token": "grade_mixed",
+          "rating": 3.5,
+          "score": 70,
+          "status": "needs_review"
+        },
+        "observed_judgment": "partially_supported",
+        "path_id": "PATH-D0B7294DE13F",
+        "retained_page_treatment": "mixed"
+      },
+      {
+        "adjusted_complete_path_fit": "exact_fit",
+        "adjusted_dimension_reliability_credit": "1",
+        "adjusted_grade": {
+          "band": "excellent",
+          "color_token": "grade_excellent",
+          "rating": 5.0,
+          "score": 100.0,
+          "status": "passes"
+        },
+        "adjusted_judgment": "supported",
+        "adjusted_popover": {
+          "confidence": "high",
+          "factors": [
+            {
+              "adjusted_status": "exact_fit",
+              "explanation": "The page treatment is unchanged; correcting the corrupted heading makes complete-path fit exact and the locator keepable.",
+              "factor_id": "complete_path_fit",
+              "observed_status": "material_partial_fit"
+            }
+          ],
+          "grade": {
+            "band": "excellent",
+            "color_token": "grade_excellent",
+            "rating": 5.0,
+            "score": 100.0,
+            "status": "passes"
+          },
+          "grade_scope": "one_complete_heading_path_and_source_page_assignment",
+          "navigation": {
+            "locator_id": "LOC-5B0AF00BE559",
+            "path_id": "PATH-BD392515A6B1"
+          },
+          "summary": "The page treatment is unchanged; correcting the corrupted heading makes complete-path fit exact and the locator keepable.",
+          "title": "Adjusted locator 149"
+        },
+        "causal_classification": "representation_only",
+        "explanation": "The page treatment is unchanged; correcting the corrupted heading makes complete-path fit exact and the locator keepable.",
+        "grade_delta": 30.0,
+        "item_id": "LOC-5B0AF00BE559",
+        "item_type": "locator",
+        "observed_complete_path_fit": "material_partial_fit",
+        "observed_dimension_reliability_credit": "0",
+        "observed_grade": {
+          "band": "mixed",
+          "color_token": "grade_mixed",
+          "rating": 3.5,
+          "score": 70,
+          "status": "needs_review"
+        },
+        "observed_judgment": "partially_supported",
+        "path_id": "PATH-BD392515A6B1",
+        "retained_page_treatment": "substantive"
+      },
+      {
+        "adjusted_complete_path_fit": "exact_fit",
+        "adjusted_dimension_reliability_credit": "1",
+        "adjusted_grade": {
+          "band": "mixed",
+          "color_token": "grade_mixed",
+          "rating": 3.5,
+          "score": 70.0,
+          "status": "needs_review"
+        },
+        "adjusted_judgment": "supported",
+        "adjusted_popover": {
+          "confidence": "high",
+          "factors": [
+            {
+              "adjusted_status": "exact_fit",
+              "explanation": "The page treatment is unchanged; correcting the corrupted heading makes complete-path fit exact and the locator keepable.",
+              "factor_id": "complete_path_fit",
+              "observed_status": "material_partial_fit"
+            }
+          ],
+          "grade": {
+            "band": "mixed",
+            "color_token": "grade_mixed",
+            "rating": 3.5,
+            "score": 70.0,
+            "status": "needs_review"
+          },
+          "grade_scope": "one_complete_heading_path_and_source_page_assignment",
+          "navigation": {
+            "locator_id": "LOC-6608CA7EE24C",
+            "path_id": "PATH-69F2A871B0D7"
+          },
+          "summary": "The page treatment is unchanged; correcting the corrupted heading makes complete-path fit exact and the locator keepable.",
+          "title": "Adjusted locator 93"
+        },
+        "causal_classification": "representation_only",
+        "explanation": "The page treatment is unchanged; correcting the corrupted heading makes complete-path fit exact and the locator keepable.",
+        "grade_delta": 0.0,
+        "item_id": "LOC-6608CA7EE24C",
+        "item_type": "locator",
+        "observed_complete_path_fit": "material_partial_fit",
+        "observed_dimension_reliability_credit": "0",
+        "observed_grade": {
+          "band": "mixed",
+          "color_token": "grade_mixed",
+          "rating": 3.5,
+          "score": 70,
+          "status": "needs_review"
+        },
+        "observed_judgment": "partially_supported",
+        "path_id": "PATH-69F2A871B0D7",
+        "retained_page_treatment": "mixed"
+      },
+      {
+        "adjusted_complete_path_fit": "exact_fit",
+        "adjusted_dimension_reliability_credit": "1",
+        "adjusted_grade": {
+          "band": "excellent",
+          "color_token": "grade_excellent",
+          "rating": 5.0,
+          "score": 100.0,
+          "status": "passes"
+        },
+        "adjusted_judgment": "supported",
+        "adjusted_popover": {
+          "confidence": "high",
+          "factors": [
+            {
+              "adjusted_status": "exact_fit",
+              "explanation": "The page treatment is unchanged; correcting the corrupted heading makes complete-path fit exact and the locator keepable.",
+              "factor_id": "complete_path_fit",
+              "observed_status": "material_partial_fit"
+            }
+          ],
+          "grade": {
+            "band": "excellent",
+            "color_token": "grade_excellent",
+            "rating": 5.0,
+            "score": 100.0,
+            "status": "passes"
+          },
+          "grade_scope": "one_complete_heading_path_and_source_page_assignment",
+          "navigation": {
+            "locator_id": "LOC-8828EB8E587A",
+            "path_id": "PATH-26704D6AB01B"
+          },
+          "summary": "The page treatment is unchanged; correcting the corrupted heading makes complete-path fit exact and the locator keepable.",
+          "title": "Adjusted locator 205"
+        },
+        "causal_classification": "representation_only",
+        "explanation": "The page treatment is unchanged; correcting the corrupted heading makes complete-path fit exact and the locator keepable.",
+        "grade_delta": 30.0,
+        "item_id": "LOC-8828EB8E587A",
+        "item_type": "locator",
+        "observed_complete_path_fit": "material_partial_fit",
+        "observed_dimension_reliability_credit": "0",
+        "observed_grade": {
+          "band": "mixed",
+          "color_token": "grade_mixed",
+          "rating": 3.5,
+          "score": 70,
+          "status": "needs_review"
+        },
+        "observed_judgment": "partially_supported",
+        "path_id": "PATH-26704D6AB01B",
+        "retained_page_treatment": "substantive"
+      },
+      {
+        "adjusted_complete_path_fit": "exact_fit",
+        "adjusted_dimension_reliability_credit": "1",
+        "adjusted_grade": {
+          "band": "excellent",
+          "color_token": "grade_excellent",
+          "rating": 5.0,
+          "score": 100.0,
+          "status": "passes"
+        },
+        "adjusted_judgment": "supported",
+        "adjusted_popover": {
+          "confidence": "high",
+          "factors": [
+            {
+              "adjusted_status": "exact_fit",
+              "explanation": "The page treatment is unchanged; correcting the corrupted heading makes complete-path fit exact and the locator keepable.",
+              "factor_id": "complete_path_fit",
+              "observed_status": "material_partial_fit"
+            }
+          ],
+          "grade": {
+            "band": "excellent",
+            "color_token": "grade_excellent",
+            "rating": 5.0,
+            "score": 100.0,
+            "status": "passes"
+          },
+          "grade_scope": "one_complete_heading_path_and_source_page_assignment",
+          "navigation": {
+            "locator_id": "LOC-901E1C6D282D",
+            "path_id": "PATH-26704D6AB01B"
+          },
+          "summary": "The page treatment is unchanged; correcting the corrupted heading makes complete-path fit exact and the locator keepable.",
+          "title": "Adjusted locator 204"
+        },
+        "causal_classification": "representation_only",
+        "explanation": "The page treatment is unchanged; correcting the corrupted heading makes complete-path fit exact and the locator keepable.",
+        "grade_delta": 30.0,
+        "item_id": "LOC-901E1C6D282D",
+        "item_type": "locator",
+        "observed_complete_path_fit": "material_partial_fit",
+        "observed_dimension_reliability_credit": "0",
+        "observed_grade": {
+          "band": "mixed",
+          "color_token": "grade_mixed",
+          "rating": 3.5,
+          "score": 70,
+          "status": "needs_review"
+        },
+        "observed_judgment": "partially_supported",
+        "path_id": "PATH-26704D6AB01B",
+        "retained_page_treatment": "substantive"
+      },
+      {
+        "adjusted_complete_path_fit": "exact_fit",
+        "adjusted_dimension_reliability_credit": "1",
+        "adjusted_grade": {
+          "band": "mixed",
+          "color_token": "grade_mixed",
+          "rating": 3.5,
+          "score": 70.0,
+          "status": "needs_review"
+        },
+        "adjusted_judgment": "supported",
+        "adjusted_popover": {
+          "confidence": "high",
+          "factors": [
+            {
+              "adjusted_status": "exact_fit",
+              "explanation": "The page treatment is unchanged; correcting the corrupted heading makes complete-path fit exact and the locator keepable.",
+              "factor_id": "complete_path_fit",
+              "observed_status": "material_partial_fit"
+            }
+          ],
+          "grade": {
+            "band": "mixed",
+            "color_token": "grade_mixed",
+            "rating": 3.5,
+            "score": 70.0,
+            "status": "needs_review"
+          },
+          "grade_scope": "one_complete_heading_path_and_source_page_assignment",
+          "navigation": {
+            "locator_id": "LOC-C75001C54495",
+            "path_id": "PATH-69F2A871B0D7"
+          },
+          "summary": "The page treatment is unchanged; correcting the corrupted heading makes complete-path fit exact and the locator keepable.",
+          "title": "Adjusted locator 89"
+        },
+        "causal_classification": "representation_only",
+        "explanation": "The page treatment is unchanged; correcting the corrupted heading makes complete-path fit exact and the locator keepable.",
+        "grade_delta": 0.0,
+        "item_id": "LOC-C75001C54495",
+        "item_type": "locator",
+        "observed_complete_path_fit": "material_partial_fit",
+        "observed_dimension_reliability_credit": "0",
+        "observed_grade": {
+          "band": "mixed",
+          "color_token": "grade_mixed",
+          "rating": 3.5,
+          "score": 70,
+          "status": "needs_review"
+        },
+        "observed_judgment": "partially_supported",
+        "path_id": "PATH-69F2A871B0D7",
+        "retained_page_treatment": "mixed"
+      },
+      {
+        "adjusted_complete_path_fit": "exact_fit",
+        "adjusted_dimension_reliability_credit": "1",
+        "adjusted_grade": {
+          "band": "excellent",
+          "color_token": "grade_excellent",
+          "rating": 5.0,
+          "score": 100.0,
+          "status": "passes"
+        },
+        "adjusted_judgment": "supported",
+        "adjusted_popover": {
+          "confidence": "high",
+          "factors": [
+            {
+              "adjusted_status": "exact_fit",
+              "explanation": "The page treatment is unchanged; correcting the corrupted heading makes complete-path fit exact and the locator keepable.",
+              "factor_id": "complete_path_fit",
+              "observed_status": "material_partial_fit"
+            }
+          ],
+          "grade": {
+            "band": "excellent",
+            "color_token": "grade_excellent",
+            "rating": 5.0,
+            "score": 100.0,
+            "status": "passes"
+          },
+          "grade_scope": "one_complete_heading_path_and_source_page_assignment",
+          "navigation": {
+            "locator_id": "LOC-E077EECB8B85",
+            "path_id": "PATH-BD392515A6B1"
+          },
+          "summary": "The page treatment is unchanged; correcting the corrupted heading makes complete-path fit exact and the locator keepable.",
+          "title": "Adjusted locator 105"
+        },
+        "causal_classification": "representation_only",
+        "explanation": "The page treatment is unchanged; correcting the corrupted heading makes complete-path fit exact and the locator keepable.",
+        "grade_delta": 30.0,
+        "item_id": "LOC-E077EECB8B85",
+        "item_type": "locator",
+        "observed_complete_path_fit": "material_partial_fit",
+        "observed_dimension_reliability_credit": "0",
+        "observed_grade": {
+          "band": "mixed",
+          "color_token": "grade_mixed",
+          "rating": 3.5,
+          "score": 70,
+          "status": "needs_review"
+        },
+        "observed_judgment": "partially_supported",
+        "path_id": "PATH-BD392515A6B1",
+        "retained_page_treatment": "substantive"
+      },
+      {
+        "adjusted_complete_path_fit": "exact_fit",
+        "adjusted_dimension_reliability_credit": "1",
+        "adjusted_grade": {
+          "band": "mixed",
+          "color_token": "grade_mixed",
+          "rating": 3.5,
+          "score": 70.0,
+          "status": "needs_review"
+        },
+        "adjusted_judgment": "supported",
+        "adjusted_popover": {
+          "confidence": "high",
+          "factors": [
+            {
+              "adjusted_status": "exact_fit",
+              "explanation": "The page treatment is unchanged; correcting the corrupted heading makes complete-path fit exact and the locator keepable.",
+              "factor_id": "complete_path_fit",
+              "observed_status": "material_partial_fit"
+            }
+          ],
+          "grade": {
+            "band": "mixed",
+            "color_token": "grade_mixed",
+            "rating": 3.5,
+            "score": 70.0,
+            "status": "needs_review"
+          },
+          "grade_scope": "one_complete_heading_path_and_source_page_assignment",
+          "navigation": {
+            "locator_id": "LOC-ECC2B4FD3222",
+            "path_id": "PATH-26704D6AB01B"
+          },
+          "summary": "The page treatment is unchanged; correcting the corrupted heading makes complete-path fit exact and the locator keepable.",
+          "title": "Adjusted locator 207"
+        },
+        "causal_classification": "representation_only",
+        "explanation": "The page treatment is unchanged; correcting the corrupted heading makes complete-path fit exact and the locator keepable.",
+        "grade_delta": 0.0,
+        "item_id": "LOC-ECC2B4FD3222",
+        "item_type": "locator",
+        "observed_complete_path_fit": "material_partial_fit",
+        "observed_dimension_reliability_credit": "0",
+        "observed_grade": {
+          "band": "mixed",
+          "color_token": "grade_mixed",
+          "rating": 3.5,
+          "score": 70,
+          "status": "needs_review"
+        },
+        "observed_judgment": "partially_supported",
+        "path_id": "PATH-26704D6AB01B",
+        "retained_page_treatment": "mixed"
+      }
+    ],
+    "paths": [
+      {
+        "corrected_terminal_heading": "La Rouërie, Armand Taffin, Marquis de (1751–93)",
+        "delivered_terminal_heading": "La Rou2rie, Armand Taffin, Marquis de (1751–93)",
+        "grade_status": "unchanged_not_measured",
+        "item_id": "PATH-28BAF49F54CE",
+        "item_type": "path",
+        "node_id": "NODE-2424A4C28F25",
+        "record_id": "REC-31CEA0DD3C7E"
+      },
+      {
+        "corrected_terminal_heading": "Lally-Tollendal, Trophime-Gérard de (1751–1830)",
+        "delivered_terminal_heading": "Lally-Tollendal, Trophime-G2rard de (1751–1830)",
+        "grade_status": "unchanged_not_measured",
+        "item_id": "PATH-9CDA44DF8C5C",
+        "item_type": "path",
+        "node_id": "NODE-894E2872B253",
+        "record_id": "REC-ABA0A8CE70F5"
+      },
+      {
+        "corrected_terminal_heading": "Lamballe, Marie-Thérèse Louise, Princess de (1749–92)",
+        "delivered_terminal_heading": "Lamballe, Marie-Th2r2se Louise, Princess de (1749–92)",
+        "grade_status": "unchanged_not_measured",
+        "item_id": "PATH-0952BF551C1F",
+        "item_type": "path",
+        "node_id": "NODE-33047D522FEE",
+        "record_id": "REC-7B8CCA519734"
+      },
+      {
+        "corrected_terminal_heading": "Lamoignon, Chrétien François de (1735–1832)",
+        "delivered_terminal_heading": "Lamoignon, Chr2tien Fran3ois de (1735–1832)",
+        "grade_status": "unchanged_not_measured",
+        "item_id": "PATH-69F2A871B0D7",
+        "item_type": "path",
+        "node_id": "NODE-811B50B6DF90",
+        "record_id": "REC-4FE7095978AB"
+      },
+      {
+        "corrected_terminal_heading": "tax (contribution foncière)",
+        "delivered_terminal_heading": "tax (contribution fonci2re)",
+        "grade_status": "unchanged_not_measured",
+        "item_id": "PATH-320C019F35EE",
+        "item_type": "path",
+        "node_id": "NODE-1641E4FD4B44",
+        "record_id": "REC-A49FE0BD5868"
+      },
+      {
+        "corrected_terminal_heading": "Laws of Ventôse",
+        "delivered_terminal_heading": "Laws of Vent2se",
+        "grade_status": "unchanged_not_measured",
+        "item_id": "PATH-134A4F68D537",
+        "item_type": "path",
+        "node_id": "NODE-680872D8E4EF",
+        "record_id": "REC-FA0B7648D294"
+      },
+      {
+        "corrected_terminal_heading": "Le Chapelier, Isaac René Guy (1754–94)",
+        "delivered_terminal_heading": "Le Chapelier, Isaac Ren2 Guy (1754–94)",
+        "grade_status": "unchanged_not_measured",
+        "item_id": "PATH-BD392515A6B1",
+        "item_type": "path",
+        "node_id": "NODE-A137505DA3E5",
+        "record_id": "REC-CAAFBE1B9229"
+      },
+      {
+        "corrected_terminal_heading": "Le Mercier de la Rivière, Pierre Paul (1720–92)",
+        "delivered_terminal_heading": "Le Mercier de la Rivi2re, Pierre Paul (1720–92)",
+        "grade_status": "unchanged_not_measured",
+        "item_id": "PATH-D0B7294DE13F",
+        "item_type": "path",
+        "node_id": "NODE-A86D09652F29",
+        "record_id": "REC-F43FB78C1BE2"
+      },
+      {
+        "corrected_terminal_heading": "Leblanc de Castillon, Jean François André (d.1719)",
+        "delivered_terminal_heading": "Leblanc de Castillon, Jean Fran3ois Andr2 (d.1719)",
+        "grade_status": "unchanged_not_measured",
+        "item_id": "PATH-6F44DE485426",
+        "item_type": "path",
+        "node_id": "NODE-367FC46D5C72",
+        "record_id": "REC-E56EB2303F34"
+      },
+      {
+        "corrected_terminal_heading": "Leclerc, Jean Théophile Victoire (b.1771)",
+        "delivered_terminal_heading": "Leclerc, Jean Th2ophile Victoire (b.1771)",
+        "grade_status": "unchanged_not_measured",
+        "item_id": "PATH-613918CA9569",
+        "item_type": "path",
+        "node_id": "NODE-E9AB8D11D630",
+        "record_id": "REC-A0E73D1E8BEB"
+      },
+      {
+        "corrected_terminal_heading": "anti-émigré attitude of",
+        "delivered_terminal_heading": "anti-2migr2 attitude of",
+        "grade_status": "unchanged_not_measured",
+        "item_id": "PATH-850FC51A197A",
+        "item_type": "path",
+        "node_id": "NODE-84D205EE3593",
+        "record_id": "REC-5F3F84D9250A"
+      },
+      {
+        "corrected_terminal_heading": "Letourneur, Louis François (1751–1817)",
+        "delivered_terminal_heading": "Letourneur, Louis Fran3ois (1751–1817)",
+        "grade_status": "unchanged_not_measured",
+        "item_id": "PATH-177D900D56B3",
+        "item_type": "path",
+        "node_id": "NODE-DD7675F9AF8F",
+        "record_id": "REC-AA629DE7A6FE"
+      },
+      {
+        "corrected_terminal_heading": "levée en masse",
+        "delivered_terminal_heading": "lev2e en masse",
+        "grade_status": "unchanged_not_measured",
+        "item_id": "PATH-26704D6AB01B",
+        "item_type": "path",
+        "node_id": "NODE-1233C7E79FAA",
+        "record_id": "REC-84B3662B92FA"
+      },
+      {
+        "corrected_terminal_heading": "Liège, principality of",
+        "delivered_terminal_heading": "Li2ge, principality of",
+        "grade_status": "unchanged_not_measured",
+        "item_id": "PATH-23E79C486535",
+        "item_type": "path",
+        "node_id": "NODE-7F548C32E062",
+        "record_id": "REC-F88D42BE046D"
+      }
+    ],
+    "source_subjects": []
+  },
+  "adjustment_rules": [
+    {
+      "applies_to": "the 14 terminal heading nodes in DEFECT-STRUCT-MECHANICS-001",
+      "effect": "Replace the confirmed digit-for-accent characters and change only the V8 mechanics component from minor_issues/85 to passes/100.",
+      "rule_id": "V8-REP-HEADING-MECHANICS"
+    },
+    {
+      "applies_to": "locators on corrected paths whose V8 complete-path-fit rationale explicitly attributes material_partial_fit to corruption or malformed display text",
+      "effect": "Change complete-path fit to exact_fit and the keep rating credit to 1; retain the V8 page-treatment category and score.",
+      "rule_id": "V8-REP-LOCATOR-FIT"
+    },
+    {
+      "applies_to": "XREF-9A63B6DC42BB",
+      "effect": "Resolve the target to PATH-26704D6AB01B / NODE-1233C7E79FAA and change the relationship judgment to supported; leave XREF-6E6F54660707 unresolved.",
+      "rule_id": "V8-REP-XREF-RESOLUTION"
+    },
+    {
+      "applies_to": "heading-access components with representation-caused locator-fit or cross-reference friction",
+      "effect": "Remove only the demonstrated representation-caused penalty; retain independent V8 access consequences, including minor_issues/85 for levée en masse.",
+      "rule_id": "V8-REP-ACCESS-CONSEQUENCE"
+    },
+    {
+      "applies_to": "all 14 corrected V8 paths",
+      "effect": "Correct the displayed path string; V8 path grades remain not_measured.",
+      "rule_id": "V8-REP-PATH-DISPLAY-ONLY"
+    }
+  ],
+  "affected_heading_count": 14,
+  "affected_node_ids": [
+    "NODE-1233C7E79FAA",
+    "NODE-1641E4FD4B44",
+    "NODE-2424A4C28F25",
+    "NODE-33047D522FEE",
+    "NODE-367FC46D5C72",
+    "NODE-680872D8E4EF",
+    "NODE-7F548C32E062",
+    "NODE-811B50B6DF90",
+    "NODE-84D205EE3593",
+    "NODE-894E2872B253",
+    "NODE-A137505DA3E5",
+    "NODE-A86D09652F29",
+    "NODE-DD7675F9AF8F",
+    "NODE-E9AB8D11D630"
+  ],
+  "causal_classification": "confirmed_representation_only_digit_for_accent_substitution",
+  "character_replacement_count": 18,
+  "character_replacements": [
+    {
+      "causal_classification": "representation_only",
+      "character_index": 7,
+      "corrected_character": "ë",
+      "corrected_code_point": "U+00EB",
+      "correction_category": "digit_for_accent_substitution",
+      "delivered_character": "2",
+      "delivered_code_point": "U+0032",
+      "issue_id": "FID-TEXT-001",
+      "node_id": "NODE-2424A4C28F25",
+      "path_id": "PATH-28BAF49F54CE",
+      "record_id": "REC-31CEA0DD3C7E"
+    },
+    {
+      "causal_classification": "representation_only",
+      "character_index": 28,
+      "corrected_character": "é",
+      "corrected_code_point": "U+00E9",
+      "correction_category": "digit_for_accent_substitution",
+      "delivered_character": "2",
+      "delivered_code_point": "U+0032",
+      "issue_id": "FID-TEXT-002",
+      "node_id": "NODE-894E2872B253",
+      "path_id": "PATH-9CDA44DF8C5C",
+      "record_id": "REC-ABA0A8CE70F5"
+    },
+    {
+      "causal_classification": "representation_only",
+      "character_index": 19,
+      "corrected_character": "é",
+      "corrected_code_point": "U+00E9",
+      "correction_category": "digit_for_accent_substitution",
+      "delivered_character": "2",
+      "delivered_code_point": "U+0032",
+      "issue_id": "FID-TEXT-003",
+      "node_id": "NODE-33047D522FEE",
+      "path_id": "PATH-0952BF551C1F",
+      "record_id": "REC-7B8CCA519734"
+    },
+    {
+      "causal_classification": "representation_only",
+      "character_index": 21,
+      "corrected_character": "è",
+      "corrected_code_point": "U+00E8",
+      "correction_category": "digit_for_accent_substitution",
+      "delivered_character": "2",
+      "delivered_code_point": "U+0032",
+      "issue_id": "FID-TEXT-003",
+      "node_id": "NODE-33047D522FEE",
+      "path_id": "PATH-0952BF551C1F",
+      "record_id": "REC-7B8CCA519734"
+    },
+    {
+      "causal_classification": "representation_only",
+      "character_index": 15,
+      "corrected_character": "é",
+      "corrected_code_point": "U+00E9",
+      "correction_category": "digit_for_accent_substitution",
+      "delivered_character": "2",
+      "delivered_code_point": "U+0032",
+      "issue_id": "FID-TEXT-004",
+      "node_id": "NODE-811B50B6DF90",
+      "path_id": "PATH-69F2A871B0D7",
+      "record_id": "REC-4FE7095978AB"
+    },
+    {
+      "causal_classification": "representation_only",
+      "character_index": 25,
+      "corrected_character": "ç",
+      "corrected_code_point": "U+00E7",
+      "correction_category": "digit_for_accent_substitution",
+      "delivered_character": "3",
+      "delivered_code_point": "U+0033",
+      "issue_id": "FID-TEXT-004",
+      "node_id": "NODE-811B50B6DF90",
+      "path_id": "PATH-69F2A871B0D7",
+      "record_id": "REC-4FE7095978AB"
+    },
+    {
+      "causal_classification": "representation_only",
+      "character_index": 24,
+      "corrected_character": "è",
+      "corrected_code_point": "U+00E8",
+      "correction_category": "digit_for_accent_substitution",
+      "delivered_character": "2",
+      "delivered_code_point": "U+0032",
+      "issue_id": "FID-TEXT-005",
+      "node_id": "NODE-1641E4FD4B44",
+      "path_id": "PATH-320C019F35EE",
+      "record_id": "REC-A49FE0BD5868"
+    },
+    {
+      "causal_classification": "representation_only",
+      "character_index": 13,
+      "corrected_character": "ô",
+      "corrected_code_point": "U+00F4",
+      "correction_category": "digit_for_accent_substitution",
+      "delivered_character": "2",
+      "delivered_code_point": "U+0032",
+      "issue_id": "FID-TEXT-006",
+      "node_id": "NODE-680872D8E4EF",
+      "path_id": "PATH-134A4F68D537",
+      "record_id": "REC-FA0B7648D294"
+    },
+    {
+      "causal_classification": "representation_only",
+      "character_index": 24,
+      "corrected_character": "é",
+      "corrected_code_point": "U+00E9",
+      "correction_category": "digit_for_accent_substitution",
+      "delivered_character": "2",
+      "delivered_code_point": "U+0032",
+      "issue_id": "FID-TEXT-007",
+      "node_id": "NODE-A137505DA3E5",
+      "path_id": "PATH-BD392515A6B1",
+      "record_id": "REC-CAAFBE1B9229"
+    },
+    {
+      "causal_classification": "representation_only",
+      "character_index": 22,
+      "corrected_character": "è",
+      "corrected_code_point": "U+00E8",
+      "correction_category": "digit_for_accent_substitution",
+      "delivered_character": "2",
+      "delivered_code_point": "U+0032",
+      "issue_id": "FID-TEXT-008",
+      "node_id": "NODE-A86D09652F29",
+      "path_id": "PATH-D0B7294DE13F",
+      "record_id": "REC-F43FB78C1BE2"
+    },
+    {
+      "causal_classification": "representation_only",
+      "character_index": 32,
+      "corrected_character": "ç",
+      "corrected_code_point": "U+00E7",
+      "correction_category": "digit_for_accent_substitution",
+      "delivered_character": "3",
+      "delivered_code_point": "U+0033",
+      "issue_id": "FID-TEXT-009",
+      "node_id": "NODE-367FC46D5C72",
+      "path_id": "PATH-6F44DE485426",
+      "record_id": "REC-E56EB2303F34"
+    },
+    {
+      "causal_classification": "representation_only",
+      "character_index": 41,
+      "corrected_character": "é",
+      "corrected_code_point": "U+00E9",
+      "correction_category": "digit_for_accent_substitution",
+      "delivered_character": "2",
+      "delivered_code_point": "U+0032",
+      "issue_id": "FID-TEXT-009",
+      "node_id": "NODE-367FC46D5C72",
+      "path_id": "PATH-6F44DE485426",
+      "record_id": "REC-E56EB2303F34"
+    },
+    {
+      "causal_classification": "representation_only",
+      "character_index": 17,
+      "corrected_character": "é",
+      "corrected_code_point": "U+00E9",
+      "correction_category": "digit_for_accent_substitution",
+      "delivered_character": "2",
+      "delivered_code_point": "U+0032",
+      "issue_id": "FID-TEXT-010",
+      "node_id": "NODE-E9AB8D11D630",
+      "path_id": "PATH-613918CA9569",
+      "record_id": "REC-A0E73D1E8BEB"
+    },
+    {
+      "causal_classification": "representation_only",
+      "character_index": 6,
+      "corrected_character": "é",
+      "corrected_code_point": "U+00E9",
+      "correction_category": "digit_for_accent_substitution",
+      "delivered_character": "2",
+      "delivered_code_point": "U+0032",
+      "issue_id": "FID-TEXT-011",
+      "node_id": "NODE-84D205EE3593",
+      "path_id": "PATH-850FC51A197A",
+      "record_id": "REC-5F3F84D9250A"
+    },
+    {
+      "causal_classification": "representation_only",
+      "character_index": 11,
+      "corrected_character": "é",
+      "corrected_code_point": "U+00E9",
+      "correction_category": "digit_for_accent_substitution",
+      "delivered_character": "2",
+      "delivered_code_point": "U+0032",
+      "issue_id": "FID-TEXT-011",
+      "node_id": "NODE-84D205EE3593",
+      "path_id": "PATH-850FC51A197A",
+      "record_id": "REC-5F3F84D9250A"
+    },
+    {
+      "causal_classification": "representation_only",
+      "character_index": 23,
+      "corrected_character": "ç",
+      "corrected_code_point": "U+00E7",
+      "correction_category": "digit_for_accent_substitution",
+      "delivered_character": "3",
+      "delivered_code_point": "U+0033",
+      "issue_id": "FID-TEXT-012",
+      "node_id": "NODE-DD7675F9AF8F",
+      "path_id": "PATH-177D900D56B3",
+      "record_id": "REC-AA629DE7A6FE"
+    },
+    {
+      "causal_classification": "representation_only",
+      "character_index": 4,
+      "corrected_character": "é",
+      "corrected_code_point": "U+00E9",
+      "correction_category": "digit_for_accent_substitution",
+      "delivered_character": "2",
+      "delivered_code_point": "U+0032",
+      "issue_id": "FID-TEXT-013",
+      "node_id": "NODE-1233C7E79FAA",
+      "path_id": "PATH-26704D6AB01B",
+      "record_id": "REC-84B3662B92FA"
+    },
+    {
+      "causal_classification": "representation_only",
+      "character_index": 3,
+      "corrected_character": "è",
+      "corrected_code_point": "U+00E8",
+      "correction_category": "digit_for_accent_substitution",
+      "delivered_character": "2",
+      "delivered_code_point": "U+0032",
+      "issue_id": "FID-TEXT-014",
+      "node_id": "NODE-7F548C32E062",
+      "path_id": "PATH-23E79C486535",
+      "record_id": "REC-F88D42BE046D"
+    }
+  ],
+  "cross_reference_resolution": {
+    "adjusted_grade": {
+      "band": "excellent",
+      "color_token": "grade_excellent",
+      "rating": 5.0,
+      "score": 100.0,
+      "status": "passes"
+    },
+    "adjusted_judgment": "supported",
+    "adjusted_popover": {
+      "confidence": "high",
+      "factors": [
+        {
+          "adjusted_status": "resolved",
+          "explanation": "Correcting ‘lev2e en masse’ to ‘levée en masse’ creates an exact displayed target for the delivered see-also reference.",
+          "factor_id": "target_resolution",
+          "observed_status": "unresolved"
+        }
+      ],
+      "grade": {
+        "band": "excellent",
+        "color_token": "grade_excellent",
+        "rating": 5.0,
+        "score": 100.0,
+        "status": "passes"
+      },
+      "grade_scope": "one_cross_reference_relationship",
+      "navigation": {
+        "source_path_id": "PATH-03DED732138C",
+        "target_path_id": "PATH-26704D6AB01B"
+      },
+      "summary": "Correcting ‘lev2e en masse’ to ‘levée en masse’ creates an exact displayed target for the delivered see-also reference.",
+      "title": "Adjusted see also levée en masse"
+    },
+    "adjusted_target_resolution": {
+      "status": "resolved",
+      "target_node_ids": [
+        "NODE-1233C7E79FAA"
+      ],
+      "target_path_ids": [
+        "PATH-26704D6AB01B"
+      ]
+    },
+    "causal_classification": "representation_only",
+    "cross_reference_gate_triggered_after_correction": true,
+    "explanation": "Correcting ‘lev2e en masse’ to ‘levée en masse’ creates an exact displayed target for the delivered see-also reference.",
+    "grade_delta": 50.0,
+    "item_id": "XREF-9A63B6DC42BB",
+    "item_type": "cross_reference",
+    "observed_grade": {
+      "band": "poor",
+      "color_token": "grade_poor",
+      "rating": 2.5,
+      "score": 50.0,
+      "status": "fails"
+    },
+    "observed_judgment": "partially_supported",
+    "observed_target_resolution": {
+      "status": "unresolved",
+      "target_path_ids": []
+    },
+    "record_id": "REC-E40EFF5E7D3E",
+    "remaining_unresolved_reference": {
+      "judgment": "unsupported",
+      "reference_id": "XREF-6E6F54660707",
+      "target_display": "individual regiments"
+    },
+    "source_node_id": "NODE-5C19CC7E2872",
+    "source_path_id": "PATH-03DED732138C",
+    "target_display": "levée en masse"
+  },
+  "defect_outcomes": [
+    {
+      "adjusted_affected_count": 0,
+      "adjusted_status": "removed_by_confirmed_representation_correction",
+      "defect_id": "DEFECT-STRUCT-MECHANICS-001",
+      "observed_affected_count": 14
+    },
+    {
+      "adjusted_affected_count": 1,
+      "adjusted_status": "retained_for_other_unresolved_reference",
+      "defect_id": "DEFECT-STRUCT-XREF-001",
+      "observed_affected_count": 2,
+      "removed_item_ids": [
+        "XREF-9A63B6DC42BB"
+      ],
+      "retained_item_ids": [
+        "XREF-6E6F54660707"
+      ]
+    }
+  ],
+  "evaluation_id": "ohfr-2002-original-published-index-v8",
+  "headings": [
+    {
+      "as_delivered_heading_path": [
+        "La Rou2rie, Armand Taffin, Marquis de (1751–93)"
+      ],
+      "as_delivered_terminal_heading": "La Rou2rie, Armand Taffin, Marquis de (1751–93)",
+      "causal_classification": "representation_only",
+      "confidence": "high",
+      "corrected_heading_path": [
+        "La Rouërie, Armand Taffin, Marquis de (1751–93)"
+      ],
+      "corrected_terminal_heading": "La Rouërie, Armand Taffin, Marquis de (1751–93)",
+      "correction_category": "digit_for_accent_substitution",
+      "issue_id": "FID-TEXT-001",
+      "node_id": "NODE-2424A4C28F25",
+      "path_id": "PATH-28BAF49F54CE",
+      "path_node_ids": [
+        "NODE-2424A4C28F25"
+      ],
+      "record_id": "REC-31CEA0DD3C7E",
+      "replacement_count": 1
+    },
+    {
+      "as_delivered_heading_path": [
+        "Lally-Tollendal, Trophime-G2rard de (1751–1830)"
+      ],
+      "as_delivered_terminal_heading": "Lally-Tollendal, Trophime-G2rard de (1751–1830)",
+      "causal_classification": "representation_only",
+      "confidence": "high",
+      "corrected_heading_path": [
+        "Lally-Tollendal, Trophime-Gérard de (1751–1830)"
+      ],
+      "corrected_terminal_heading": "Lally-Tollendal, Trophime-Gérard de (1751–1830)",
+      "correction_category": "digit_for_accent_substitution",
+      "issue_id": "FID-TEXT-002",
+      "node_id": "NODE-894E2872B253",
+      "path_id": "PATH-9CDA44DF8C5C",
+      "path_node_ids": [
+        "NODE-894E2872B253"
+      ],
+      "record_id": "REC-ABA0A8CE70F5",
+      "replacement_count": 1
+    },
+    {
+      "as_delivered_heading_path": [
+        "Lamballe, Marie-Th2r2se Louise, Princess de (1749–92)"
+      ],
+      "as_delivered_terminal_heading": "Lamballe, Marie-Th2r2se Louise, Princess de (1749–92)",
+      "causal_classification": "representation_only",
+      "confidence": "high",
+      "corrected_heading_path": [
+        "Lamballe, Marie-Thérèse Louise, Princess de (1749–92)"
+      ],
+      "corrected_terminal_heading": "Lamballe, Marie-Thérèse Louise, Princess de (1749–92)",
+      "correction_category": "digit_for_accent_substitution",
+      "issue_id": "FID-TEXT-003",
+      "node_id": "NODE-33047D522FEE",
+      "path_id": "PATH-0952BF551C1F",
+      "path_node_ids": [
+        "NODE-33047D522FEE"
+      ],
+      "record_id": "REC-7B8CCA519734",
+      "replacement_count": 2
+    },
+    {
+      "as_delivered_heading_path": [
+        "Lamoignon, Chr2tien Fran3ois de (1735–1832)"
+      ],
+      "as_delivered_terminal_heading": "Lamoignon, Chr2tien Fran3ois de (1735–1832)",
+      "causal_classification": "representation_only",
+      "confidence": "high",
+      "corrected_heading_path": [
+        "Lamoignon, Chrétien François de (1735–1832)"
+      ],
+      "corrected_terminal_heading": "Lamoignon, Chrétien François de (1735–1832)",
+      "correction_category": "digit_for_accent_substitution",
+      "issue_id": "FID-TEXT-004",
+      "node_id": "NODE-811B50B6DF90",
+      "path_id": "PATH-69F2A871B0D7",
+      "path_node_ids": [
+        "NODE-811B50B6DF90"
+      ],
+      "record_id": "REC-4FE7095978AB",
+      "replacement_count": 2
+    },
+    {
+      "as_delivered_heading_path": [
+        "land",
+        "tax (contribution fonci2re)"
+      ],
+      "as_delivered_terminal_heading": "tax (contribution fonci2re)",
+      "causal_classification": "representation_only",
+      "confidence": "high",
+      "corrected_heading_path": [
+        "land",
+        "tax (contribution foncière)"
+      ],
+      "corrected_terminal_heading": "tax (contribution foncière)",
+      "correction_category": "digit_for_accent_substitution",
+      "issue_id": "FID-TEXT-005",
+      "node_id": "NODE-1641E4FD4B44",
+      "path_id": "PATH-320C019F35EE",
+      "path_node_ids": [
+        "NODE-CBEEEBD3AB0B",
+        "NODE-1641E4FD4B44"
+      ],
+      "record_id": "REC-A49FE0BD5868",
+      "replacement_count": 1
+    },
+    {
+      "as_delivered_heading_path": [
+        "Laws of Vent2se"
+      ],
+      "as_delivered_terminal_heading": "Laws of Vent2se",
+      "causal_classification": "representation_only",
+      "confidence": "high",
+      "corrected_heading_path": [
+        "Laws of Ventôse"
+      ],
+      "corrected_terminal_heading": "Laws of Ventôse",
+      "correction_category": "digit_for_accent_substitution",
+      "issue_id": "FID-TEXT-006",
+      "node_id": "NODE-680872D8E4EF",
+      "path_id": "PATH-134A4F68D537",
+      "path_node_ids": [
+        "NODE-680872D8E4EF"
+      ],
+      "record_id": "REC-FA0B7648D294",
+      "replacement_count": 1
+    },
+    {
+      "as_delivered_heading_path": [
+        "Le Chapelier, Isaac Ren2 Guy (1754–94)"
+      ],
+      "as_delivered_terminal_heading": "Le Chapelier, Isaac Ren2 Guy (1754–94)",
+      "causal_classification": "representation_only",
+      "confidence": "high",
+      "corrected_heading_path": [
+        "Le Chapelier, Isaac René Guy (1754–94)"
+      ],
+      "corrected_terminal_heading": "Le Chapelier, Isaac René Guy (1754–94)",
+      "correction_category": "digit_for_accent_substitution",
+      "issue_id": "FID-TEXT-007",
+      "node_id": "NODE-A137505DA3E5",
+      "path_id": "PATH-BD392515A6B1",
+      "path_node_ids": [
+        "NODE-A137505DA3E5"
+      ],
+      "record_id": "REC-CAAFBE1B9229",
+      "replacement_count": 1
+    },
+    {
+      "as_delivered_heading_path": [
+        "Le Mercier de la Rivi2re, Pierre Paul (1720–92)"
+      ],
+      "as_delivered_terminal_heading": "Le Mercier de la Rivi2re, Pierre Paul (1720–92)",
+      "causal_classification": "representation_only",
+      "confidence": "high",
+      "corrected_heading_path": [
+        "Le Mercier de la Rivière, Pierre Paul (1720–92)"
+      ],
+      "corrected_terminal_heading": "Le Mercier de la Rivière, Pierre Paul (1720–92)",
+      "correction_category": "digit_for_accent_substitution",
+      "issue_id": "FID-TEXT-008",
+      "node_id": "NODE-A86D09652F29",
+      "path_id": "PATH-D0B7294DE13F",
+      "path_node_ids": [
+        "NODE-A86D09652F29"
+      ],
+      "record_id": "REC-F43FB78C1BE2",
+      "replacement_count": 1
+    },
+    {
+      "as_delivered_heading_path": [
+        "Leblanc de Castillon, Jean Fran3ois Andr2 (d.1719)"
+      ],
+      "as_delivered_terminal_heading": "Leblanc de Castillon, Jean Fran3ois Andr2 (d.1719)",
+      "causal_classification": "representation_only",
+      "confidence": "high",
+      "corrected_heading_path": [
+        "Leblanc de Castillon, Jean François André (d.1719)"
+      ],
+      "corrected_terminal_heading": "Leblanc de Castillon, Jean François André (d.1719)",
+      "correction_category": "digit_for_accent_substitution",
+      "issue_id": "FID-TEXT-009",
+      "node_id": "NODE-367FC46D5C72",
+      "path_id": "PATH-6F44DE485426",
+      "path_node_ids": [
+        "NODE-367FC46D5C72"
+      ],
+      "record_id": "REC-E56EB2303F34",
+      "replacement_count": 2
+    },
+    {
+      "as_delivered_heading_path": [
+        "Leclerc, Jean Th2ophile Victoire (b.1771)"
+      ],
+      "as_delivered_terminal_heading": "Leclerc, Jean Th2ophile Victoire (b.1771)",
+      "causal_classification": "representation_only",
+      "confidence": "high",
+      "corrected_heading_path": [
+        "Leclerc, Jean Théophile Victoire (b.1771)"
+      ],
+      "corrected_terminal_heading": "Leclerc, Jean Théophile Victoire (b.1771)",
+      "correction_category": "digit_for_accent_substitution",
+      "issue_id": "FID-TEXT-010",
+      "node_id": "NODE-E9AB8D11D630",
+      "path_id": "PATH-613918CA9569",
+      "path_node_ids": [
+        "NODE-E9AB8D11D630"
+      ],
+      "record_id": "REC-A0E73D1E8BEB",
+      "replacement_count": 1
+    },
+    {
+      "as_delivered_heading_path": [
+        "Legislative Assembly",
+        "anti-2migr2 attitude of"
+      ],
+      "as_delivered_terminal_heading": "anti-2migr2 attitude of",
+      "causal_classification": "representation_only",
+      "confidence": "high",
+      "corrected_heading_path": [
+        "Legislative Assembly",
+        "anti-émigré attitude of"
+      ],
+      "corrected_terminal_heading": "anti-émigré attitude of",
+      "correction_category": "digit_for_accent_substitution",
+      "issue_id": "FID-TEXT-011",
+      "node_id": "NODE-84D205EE3593",
+      "path_id": "PATH-850FC51A197A",
+      "path_node_ids": [
+        "NODE-C3068C3AAF4E",
+        "NODE-84D205EE3593"
+      ],
+      "record_id": "REC-5F3F84D9250A",
+      "replacement_count": 2
+    },
+    {
+      "as_delivered_heading_path": [
+        "Letourneur, Louis Fran3ois (1751–1817)"
+      ],
+      "as_delivered_terminal_heading": "Letourneur, Louis Fran3ois (1751–1817)",
+      "causal_classification": "representation_only",
+      "confidence": "high",
+      "corrected_heading_path": [
+        "Letourneur, Louis François (1751–1817)"
+      ],
+      "corrected_terminal_heading": "Letourneur, Louis François (1751–1817)",
+      "correction_category": "digit_for_accent_substitution",
+      "issue_id": "FID-TEXT-012",
+      "node_id": "NODE-DD7675F9AF8F",
+      "path_id": "PATH-177D900D56B3",
+      "path_node_ids": [
+        "NODE-DD7675F9AF8F"
+      ],
+      "record_id": "REC-AA629DE7A6FE",
+      "replacement_count": 1
+    },
+    {
+      "as_delivered_heading_path": [
+        "lev2e en masse"
+      ],
+      "as_delivered_terminal_heading": "lev2e en masse",
+      "causal_classification": "representation_only",
+      "confidence": "high",
+      "corrected_heading_path": [
+        "levée en masse"
+      ],
+      "corrected_terminal_heading": "levée en masse",
+      "correction_category": "digit_for_accent_substitution",
+      "issue_id": "FID-TEXT-013",
+      "node_id": "NODE-1233C7E79FAA",
+      "path_id": "PATH-26704D6AB01B",
+      "path_node_ids": [
+        "NODE-1233C7E79FAA"
+      ],
+      "record_id": "REC-84B3662B92FA",
+      "replacement_count": 1
+    },
+    {
+      "as_delivered_heading_path": [
+        "Li2ge, principality of"
+      ],
+      "as_delivered_terminal_heading": "Li2ge, principality of",
+      "causal_classification": "representation_only",
+      "confidence": "high",
+      "corrected_heading_path": [
+        "Liège, principality of"
+      ],
+      "corrected_terminal_heading": "Liège, principality of",
+      "correction_category": "digit_for_accent_substitution",
+      "issue_id": "FID-TEXT-014",
+      "node_id": "NODE-7F548C32E062",
+      "path_id": "PATH-23E79C486535",
+      "path_node_ids": [
+        "NODE-7F548C32E062"
+      ],
+      "record_id": "REC-F88D42BE046D",
+      "replacement_count": 1
+    }
+  ],
+  "overlay_role": "display_only_counterfactual_bound_to_canonical_v8",
+  "overlay_sha256": "ad049fc4764afa0c8fa2592cdc131258eee5fcc2d8ae28d31365b72296dbbd76",
+  "provenance": {
+    "applicability_check": "The V8 DEFECT-STRUCT-MECHANICS-001 affected-item set exactly equals the 14 corrected terminal-node IDs, and every delivered terminal heading matches the V8 candidate record.",
+    "character_audit_artifact": {
+      "artifact_path": "candidate/representation-adjustment/character-fidelity-audit.v1.json",
+      "availability": "public_committed",
+      "sha256": "bee81248c0361684f723bb11c4568ee7786c2866b00544645da0c48b8e7ec7ec"
+    },
+    "character_audit_sha256": "8b3d5a61eac44291be2e5495b965e11aa848bc4951ab265f39cefd2074924d85",
+    "correction_ledger_artifact": {
+      "artifact_path": "candidate/representation-adjustment/correction-causal-ledger.v1.json",
+      "availability": "public_committed",
+      "sha256": "1b06021fd4d2185094780da97bfbefbfe17eaf59ae849cbbc277e7f1bc99f20b"
+    },
+    "correction_ledger_sha256": "1629dbd966eadac307b2ec1c662e3684a38a18339495c6bd80f7aef6a97122e7",
+    "v8_item_assessment_artifact": {
+      "artifact_path": "scoring/item-assessments.v6.json",
+      "availability": "restricted_local_build_input_not_committed_under_candidate/v8",
+      "sha256": "a74ce5b9344ee7768ff9a062f1eec1cf944b97b05e3acaf03298219f93a8b54d"
+    },
+    "v8_structure_artifact": {
+      "artifact_path": "structure/structure-audit.v5.json",
+      "availability": "restricted_local_build_input_not_committed_under_candidate/v8",
+      "sha256": "ffe13170172d360aa6db6fc1dac7e24a65d353a1d062f1142f99666db1fee556"
+    },
+    "version_bridge": "The public correction audit predates the V8 evaluation ID. This overlay re-applies only its confirmed digit-for-accent facts to the matching V8 candidate/node identities, then derives item outcomes from V8 assessments and V8 item-grading rules."
+  },
+  "schema_version": "ohfr-v8-representation-correction-overlay-v1"
+}

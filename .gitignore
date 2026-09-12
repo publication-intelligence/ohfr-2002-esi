@@ -4,3 +4,4 @@ candidates/
 exports/
 staging/
 workers/
+__pycache__/
