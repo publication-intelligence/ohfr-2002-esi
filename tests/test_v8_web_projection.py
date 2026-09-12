@@ -40,8 +40,8 @@ class V8WebProjectionTests(unittest.TestCase):
         self.assertAlmostEqual(4.992778361344538, views[1]["scorecard"][-1]["rating"])
         self.assertTrue(all(row["formula_id"].startswith("subject-index-dimension-calculation-v5:") for row in views[0]["scorecard"]))
         source_paths = {row["artifact_path"] for row in self.projection["provenance"]["source_artifacts"]}
-        self.assertIn("candidate/v8/evaluation-result.v11.json", source_paths)
-        self.assertIn("candidate/v8/web-report.v9.json", source_paths)
+        self.assertIn("candidate/v8/evaluation-result.v12.json", source_paths)
+        self.assertIn("candidate/v8/web-report.v10.json", source_paths)
         self.assertTrue(views[1]["readiness_equal_to_observed"])
         self.assertEqual("not_publication_ready", views[1]["readiness"]["status"])
 
@@ -100,6 +100,19 @@ class V8WebProjectionTests(unittest.TestCase):
         self.assertEqual("unresolved", references["XREF-9A63B6DC42BB"]["observed_resolution"]["status"])
         self.assertEqual("resolved", references["XREF-9A63B6DC42BB"]["adjusted_resolution"]["status"])
         self.assertEqual("unresolved", references["XREF-6E6F54660707"]["adjusted_resolution"]["status"])
+
+    def test_heading_access_causal_provenance_is_complete(self) -> None:
+        records = load("data/index-records.v1.json")
+        assessments = [row["heading_assessment"] for row in records["items"]]
+        adverse = [row for row in assessments if row["heading_access_status"] in {"minor_issues", "major_issues", "fails"}]
+        findings = [finding for row in assessments for finding in row["heading_access_causal_findings"]]
+        self.assertEqual(224, len(adverse))
+        self.assertTrue(all(row["heading_access_causal_findings"] for row in adverse))
+        self.assertEqual(256, len(findings))
+        self.assertEqual(
+            {"benchmark_access": 203, "heading_fit": 48, "confirmed_subdivision_architecture": 3, "cross_reference": 2},
+            {kind: sum(finding["kind"] == kind for finding in findings) for kind in {finding["kind"] for finding in findings}},
+        )
 
     def test_source_tasks_treatments_and_named_density_rows_are_complete(self) -> None:
         subjects = load("data/source-subjects.v1.json")

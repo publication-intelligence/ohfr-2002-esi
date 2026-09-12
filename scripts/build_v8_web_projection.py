@@ -28,18 +28,17 @@ CORRUPTION_PATTERN = re.compile(r"corrupt|malformed", re.IGNORECASE)
 DETAIL_PATHS = {
     "candidate": "candidates/oxford-history-french-revolution-2002-original-published-index/candidate-index.draft.v2.json",
     "inventory": "candidates/oxford-history-french-revolution-2002-original-published-index/item-inventory.draft.v2.json",
-    "items": "scoring/item-assessments.v6.json",
-    "calculation": "scoring/dimension-calculations.v5.json",
-    "projection_metadata": "scoring/projection-metadata.v1.json",
-    "structure": "structure/structure-audit.v5.json",
+    "items": "scoring/causal-percentage-native/item-assessments.v7.json",
+    "calculation": "scoring/causal-percentage-native/dimension-calculations.v6.json",
+    "projection_metadata": "scoring/causal-percentage-native/projection-metadata.v2.json",
+    "structure": "structure/structure-audit.v6.json",
     "benchmark": "source/source-benchmark.v2.json",
     "chunk_manifest": "source/chunk-manifest.json",
 }
 
 PUBLIC_PATHS = {
-    "result": "candidate/v8/evaluation-result.v11.json",
-    "web_report": "candidate/v8/web-report.v9.json",
-    "historical_result": "candidate/v8/evaluation-result.v10.json",
+    "result": "candidate/v8/evaluation-result.v12.json",
+    "web_report": "candidate/v8/web-report.v10.json",
     "correction_ledger": "candidate/representation-adjustment/correction-causal-ledger.v1.json",
     "character_audit": "candidate/representation-adjustment/character-fidelity-audit.v1.json",
 }
@@ -47,10 +46,10 @@ PUBLIC_PATHS = {
 LOGICAL_DETAIL_PATHS = {
     "candidate": "candidates/<candidate-id>/candidate-index.v2.json",
     "inventory": "candidates/<candidate-id>/item-inventory.v2.json",
-    "items": "scoring/item-assessments.v6.json",
-    "calculation": "scoring/dimension-calculations.v5.json",
-    "projection_metadata": "scoring/projection-metadata.v1.json",
-    "structure": "structure/structure-audit.v5.json",
+    "items": "scoring/item-assessments.v7.json",
+    "calculation": "scoring/dimension-calculations.v6.json",
+    "projection_metadata": "scoring/projection-metadata.v2.json",
+    "structure": "structure/structure-audit.v6.json",
     "benchmark": "source/source-benchmark.v2.json",
     "chunk_manifest": "source/chunk-manifest.json",
 }
@@ -906,14 +905,6 @@ def source_binding(path: str, file_path: Path, **extra: Any) -> dict[str, Any]:
     return {"artifact_path": path, "sha256": sha256_file(file_path), **extra}
 
 
-def declared_binding(reference: Mapping[str, Any]) -> dict[str, Any]:
-    return {
-        "artifact_path": reference["artifact_path"],
-        "sha256": reference["sha256"],
-        "availability": "restricted_current_v8_artifact_not_committed",
-    }
-
-
 def decimal_text(value: Decimal) -> str:
     return format(value, "f")
 
@@ -929,17 +920,13 @@ def build_projection(
 
     result = public["result"]
     web = public["web_report"]
-    historical_result = public["historical_result"]
-    require(result["schema_version"] == "subject-index-evaluation-result-v11", "V8 result required")
-    require(web["schema_version"] == "subject-index-web-report-v9", "V8 web report required")
+    require(result["schema_version"] == "subject-index-evaluation-result-v12", "V8 result required")
+    require(web["schema_version"] == "subject-index-web-report-v10", "V8 web report required")
     require(result["evaluation_id"] == detail["items"]["evaluation_id"], "Evaluation identity mismatch")
     require(result["overall_percentage"] == 89.38, "Unexpected canonical V8 score")
     require(web["score_views"]["views"][0]["score"] == result["overall_percentage"], "V8 score mismatch")
     require(web["score_views"]["adjustment_status"] == "none", "Canonical V8 source must expose no prior adjustment")
-    require(
-        result["item_assessments"]["summary"] == historical_result["item_assessments"]["summary"],
-        "Current and frozen detail item summaries differ",
-    )
+    require(result["item_assessments"]["summary"] == detail["items"]["summary"], "Current detail item summary mismatch")
 
     for key, result_field in (
         ("items", "item_assessments"),
@@ -948,8 +935,8 @@ def build_projection(
         ("projection_metadata", "projection_metadata"),
     ):
         require(
-            sha256_file(detail_files[key]) == historical_result[result_field]["sha256"],
-            f"Frozen V8 detail binding mismatch for {key}",
+            sha256_file(detail_files[key]) == result[result_field]["sha256"],
+            f"Current V8 detail binding mismatch for {key}",
         )
     require(
         detail["benchmark"]["benchmark_sha256"] == result["provenance"]["benchmark_sha256"],
@@ -972,9 +959,6 @@ def build_projection(
             path,
             availability="restricted_local_build_input_not_committed_under_candidate/v8",
         )
-    bindings["current_calculation"] = declared_binding(result["dimension_calculations"])
-    bindings["current_items"] = declared_binding(result["item_assessments"])
-    bindings["current_projection_metadata"] = declared_binding(result["projection_metadata"])
 
     overlay = build_correction_overlay(
         public["correction_ledger"],
@@ -1085,7 +1069,7 @@ def build_projection(
                     "scorecard": observed_scorecard,
                     "critical_gates": gates,
                     "readiness": readiness,
-                    "provenance_artifacts": [bindings["result"], bindings["web_report"], bindings["current_calculation"]],
+                    "provenance_artifacts": [bindings["result"], bindings["web_report"], bindings["calculation"]],
                 },
                 {
                     "view_id": "representation_adjusted",
@@ -1111,7 +1095,7 @@ def build_projection(
                         "cross_reference_counts": {"supported": 15, "partially_supported": 0, "unsupported": 1},
                         "mechanics_defect_affected_headings": 0,
                     },
-                    "provenance_artifacts": [bindings["result"], bindings["current_calculation"], bindings["structure"], bindings["items"], bindings["correction_ledger"], bindings["character_audit"]],
+                    "provenance_artifacts": [bindings["result"], bindings["calculation"], bindings["structure"], bindings["items"], bindings["correction_ledger"], bindings["character_audit"]],
                 },
             ],
         },
@@ -1195,7 +1179,7 @@ def build_projection(
         "limitations": [
             "The representation-adjusted view is a deterministic counterfactual projection, not a replacement for the canonical as-delivered V8 result.",
             "Restricted detailed artifacts are used only as validated local build inputs; their public hashes are retained, but the files themselves remain uncommitted.",
-            "Frozen V8 detail artifacts remain the collection source only where their published item summary is identical to the percentage-native result.",
+            "Current V8 causal-provenance artifacts supply the detailed collection source and are hash-bound to the public result.",
             "The representation corrections are presentation-only under the percentage-native V8 report and do not create a separately recalculated score.",
             "Aggregate scores are taken from the authoritative V8 calculation and are not reconstructed by averaging item grades.",
         ],

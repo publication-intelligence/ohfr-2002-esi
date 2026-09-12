@@ -2401,7 +2401,7 @@
     }
   ],
   "overlay_role": "display_only_counterfactual_bound_to_canonical_v8",
-  "overlay_sha256": "ad049fc4764afa0c8fa2592cdc131258eee5fcc2d8ae28d31365b72296dbbd76",
+  "overlay_sha256": "552fd1c6ae0e018304fb8add008b673d5cc0a86c25513bc3fa21a25d3d902f63",
   "provenance": {
     "applicability_check": "The V8 DEFECT-STRUCT-MECHANICS-001 affected-item set exactly equals the 14 corrected terminal-node IDs, and every delivered terminal heading matches the V8 candidate record.",
     "character_audit_artifact": {
@@ -2417,14 +2417,14 @@
     },
     "correction_ledger_sha256": "1629dbd966eadac307b2ec1c662e3684a38a18339495c6bd80f7aef6a97122e7",
     "v8_item_assessment_artifact": {
-      "artifact_path": "scoring/item-assessments.v6.json",
+      "artifact_path": "scoring/item-assessments.v7.json",
       "availability": "restricted_local_build_input_not_committed_under_candidate/v8",
-      "sha256": "a74ce5b9344ee7768ff9a062f1eec1cf944b97b05e3acaf03298219f93a8b54d"
+      "sha256": "d85e21c0a1e4c285a8707d7d4bfa0cbc1066df482f3f74ede6498132cf8e82db"
     },
     "v8_structure_artifact": {
-      "artifact_path": "structure/structure-audit.v5.json",
+      "artifact_path": "structure/structure-audit.v6.json",
       "availability": "restricted_local_build_input_not_committed_under_candidate/v8",
-      "sha256": "ffe13170172d360aa6db6fc1dac7e24a65d353a1d062f1142f99666db1fee556"
+      "sha256": "be6cae9872e7d3b9105c4465cadf18e54b230aab900de1d5c8628c3e1bc2aa33"
     },
     "version_bridge": "The public correction audit predates the V8 evaluation ID. This overlay re-applies only its confirmed digit-for-accent facts to the matching V8 candidate/node identities, then derives item outcomes from V8 assessments and V8 item-grading rules."
   },

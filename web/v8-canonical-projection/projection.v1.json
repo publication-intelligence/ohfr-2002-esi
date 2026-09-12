@@ -3,16 +3,16 @@
     {
       "artifact_path": "data/correction-overlay.v1.json",
       "collection_id": "correction_overlay",
-      "content_sha256": "ad049fc4764afa0c8fa2592cdc131258eee5fcc2d8ae28d31365b72296dbbd76",
+      "content_sha256": "552fd1c6ae0e018304fb8add008b673d5cc0a86c25513bc3fa21a25d3d902f63",
       "count": 14,
-      "file_sha256": "b80a3e3e7d049293ccf72237535cf415e2c705ef025060b3a019701993f1d1ea"
+      "file_sha256": "75a23b010cc54f7df945e491e71a6423d85f6919a8429c8946ebf126c3e828ad"
     },
     {
       "artifact_path": "data/index-records.v1.json",
       "collection_id": "index_records",
-      "content_sha256": "40681443c3392370d9c7c01907a72baff4420163c2130c02772190da35179549",
+      "content_sha256": "c56454c499d0b85978877983df651d1f86447df72bbb277f6028291e810be42f",
       "count": 1904,
-      "file_sha256": "91451a3d7c632c7ae2663e76316387fa2819a085bd61babb075cafb7a4af01da"
+      "file_sha256": "cb78a0f528a3c7753870d2906ebd8f4a8a7f576e2e91bed85a1d7559f2ab9d28"
     },
     {
       "artifact_path": "data/source-subjects.v1.json",
@@ -233,21 +233,21 @@
   "limitations": [
     "The representation-adjusted view is a deterministic counterfactual projection, not a replacement for the canonical as-delivered V8 result.",
     "Restricted detailed artifacts are used only as validated local build inputs; their public hashes are retained, but the files themselves remain uncommitted.",
-    "Frozen V8 detail artifacts remain the collection source only where their published item summary is identical to the percentage-native result.",
+    "Current V8 causal-provenance artifacts supply the detailed collection source and are hash-bound to the public result.",
     "The representation corrections are presentation-only under the percentage-native V8 report and do not create a separately recalculated score.",
     "Aggregate scores are taken from the authoritative V8 calculation and are not reconstructed by averaging item grades."
   ],
-  "projection_id": "OHFR-V8-WEB-BBC65AD133C4",
+  "projection_id": "OHFR-V8-WEB-B7909CA7E772",
   "projection_role": "deterministic_public_safe_display_projection",
-  "projection_sha256": "995c6419c2b1fb3e57994f368a388ac9bfd9ccdfa0d8298920eda79d2e3c52dd",
+  "projection_sha256": "2c3dd5bffbb789f12da23ce4a44b3f6d8e86b4f1a7d4e759f58d53f434fddb94",
   "provenance": {
     "benchmark_sha256": "558980b374ca4b162b12f2726e237319b170f9e8b7014f71ad7c2171e9e98983",
-    "calculation_sha256": "b67af2f8f467eaaace1edfbb4bd5ec083b8e072c22a3d13ee3c7b3a4d404a3d6",
-    "correction_overlay_sha256": "ad049fc4764afa0c8fa2592cdc131258eee5fcc2d8ae28d31365b72296dbbd76",
+    "calculation_sha256": "03f3e0f8c03b69187fc8db0595b495b0a3b3e4575ee1863c14585e488c0a8811",
+    "correction_overlay_sha256": "552fd1c6ae0e018304fb8add008b673d5cc0a86c25513bc3fa21a25d3d902f63",
     "dimension_calculation_profile": "subject-index-dimension-calculation-v5",
     "judgment_policy_sha256": "06e879c589d8e86b04ebaf3f637d307b2fb5cbeb7bda4f71c63e97e57381730d",
     "missing_access_audit_set_sha256": "d54b3d5db5d166f9844f9ffde9d639b44454ee8ae041dda1a29e140503f25014",
-    "projection_metadata_sha256": "43abd7032c4a712c50b79710604103b7987baa1076ba11286ee19ec8797bd7ab",
+    "projection_metadata_sha256": "7da16acd1bc19e599194f36dfd421d7007a23c72ea54ee61b40ff9a87e18148f",
     "rubric_version": "subject-index-rubric-v8",
     "source_artifacts": [
       {
@@ -256,9 +256,9 @@
         "sha256": "f58fae3d56c427fcac8771d8ca4181f98a9d496096e35ea1d130e200567a816c"
       },
       {
-        "artifact_path": "scoring/dimension-calculations.v5.json",
+        "artifact_path": "scoring/dimension-calculations.v6.json",
         "availability": "restricted_local_build_input_not_committed_under_candidate/v8",
-        "sha256": "1c50553269054eb6a84b9f987c578a8a48cdbc7f76e8661c72e43bfed9008a2a"
+        "sha256": "b501b297ad212c956c4db3de734b93735e2ec8d3fa0071802f43fba01d87fa79"
       },
       {
         "artifact_path": "candidates/<candidate-id>/candidate-index.v2.json",
@@ -281,34 +281,14 @@
         "sha256": "1b06021fd4d2185094780da97bfbefbfe17eaf59ae849cbbc277e7f1bc99f20b"
       },
       {
-        "artifact_path": "scoring/dimension-calculations.v6.json",
-        "availability": "restricted_current_v8_artifact_not_committed",
-        "sha256": "164ebdd391eb91a72415f9df399291530ffd828ee455e18c2c37f12c1fcd519c"
-      },
-      {
-        "artifact_path": "scoring/item-assessments.percentage-native.v6.json",
-        "availability": "restricted_current_v8_artifact_not_committed",
-        "sha256": "dd9ff55a6934c3ba816261b3d2111f77a1ac01558fed7121221294e561948757"
-      },
-      {
-        "artifact_path": "scoring/projection-metadata.percentage-native.v1.json",
-        "availability": "restricted_current_v8_artifact_not_committed",
-        "sha256": "43409bb751e01df02f4ed872d1ad9930c272d50ec66a80a0970855f812376989"
-      },
-      {
-        "artifact_path": "candidate/v8/evaluation-result.v10.json",
-        "availability": "public_committed",
-        "sha256": "34dcdf109b3ef991ff8f18690f8f3f5ebd835bf0e25214804d6666fcad6716f3"
-      },
-      {
         "artifact_path": "candidates/<candidate-id>/item-inventory.v2.json",
         "availability": "restricted_local_build_input_not_committed_under_candidate/v8",
         "sha256": "3e9c2b20d49486398bd57bfa31f5d1da1743498b47d0b9e46e42f096b56b9934"
       },
       {
-        "artifact_path": "scoring/item-assessments.v6.json",
+        "artifact_path": "scoring/item-assessments.v7.json",
         "availability": "restricted_local_build_input_not_committed_under_candidate/v8",
-        "sha256": "a74ce5b9344ee7768ff9a062f1eec1cf944b97b05e3acaf03298219f93a8b54d"
+        "sha256": "d85e21c0a1e4c285a8707d7d4bfa0cbc1066df482f3f74ede6498132cf8e82db"
       },
       {
         "artifact_path": "candidates/<candidate-id>/missing-access-audits/missing-access-audit.CHUNK-001.v1.json",
@@ -396,24 +376,24 @@
         "sha256": "938e072e5e6e113d3220c7bd83144f69999ca4c7a8df32f30160200a4c8b4474"
       },
       {
-        "artifact_path": "scoring/projection-metadata.v1.json",
+        "artifact_path": "scoring/projection-metadata.v2.json",
         "availability": "restricted_local_build_input_not_committed_under_candidate/v8",
-        "sha256": "69a2673585de69f4fa534f1e0658e4b496cc13af317142a968d3e526c3039461"
+        "sha256": "ccae204b345eb7acf1ac91e43ee89e0cd02fa62401c4a0d8a3fd3a1bf503de46"
       },
       {
-        "artifact_path": "candidate/v8/evaluation-result.v11.json",
+        "artifact_path": "candidate/v8/evaluation-result.v12.json",
         "availability": "public_committed",
-        "sha256": "02aaddc254f85b10cb3c20bbbaa7bc54631e8f70ea71e7e43c107e5a1a1a2200"
+        "sha256": "0cac4c5f3e1143e1ee13a14ac2e4fda6ef293225f03edbcb722520bb01e2af4e"
       },
       {
-        "artifact_path": "structure/structure-audit.v5.json",
+        "artifact_path": "structure/structure-audit.v6.json",
         "availability": "restricted_local_build_input_not_committed_under_candidate/v8",
-        "sha256": "ffe13170172d360aa6db6fc1dac7e24a65d353a1d062f1142f99666db1fee556"
+        "sha256": "be6cae9872e7d3b9105c4465cadf18e54b230aab900de1d5c8628c3e1bc2aa33"
       },
       {
-        "artifact_path": "candidate/v8/web-report.v9.json",
+        "artifact_path": "candidate/v8/web-report.v10.json",
         "availability": "public_committed",
-        "sha256": "88d2e894dc0446264e8bbccaa2e124bc5c8618b0544e0c9f24cd7375b3534c4f"
+        "sha256": "6bda1fbd8d23a52cc1eff6a068b51840f60734b753aacaef9b0a68787a7794a1"
       }
     ],
     "source_sha256": "5f89aa2592218983c594278bfd86cc1e4b74be1dd6dd8aac5c2610a48fa34047"
@@ -537,19 +517,19 @@
         "maximum": 100,
         "provenance_artifacts": [
           {
-            "artifact_path": "candidate/v8/evaluation-result.v11.json",
+            "artifact_path": "candidate/v8/evaluation-result.v12.json",
             "availability": "public_committed",
-            "sha256": "02aaddc254f85b10cb3c20bbbaa7bc54631e8f70ea71e7e43c107e5a1a1a2200"
+            "sha256": "0cac4c5f3e1143e1ee13a14ac2e4fda6ef293225f03edbcb722520bb01e2af4e"
           },
           {
-            "artifact_path": "candidate/v8/web-report.v9.json",
+            "artifact_path": "candidate/v8/web-report.v10.json",
             "availability": "public_committed",
-            "sha256": "88d2e894dc0446264e8bbccaa2e124bc5c8618b0544e0c9f24cd7375b3534c4f"
+            "sha256": "6bda1fbd8d23a52cc1eff6a068b51840f60734b753aacaef9b0a68787a7794a1"
           },
           {
             "artifact_path": "scoring/dimension-calculations.v6.json",
-            "availability": "restricted_current_v8_artifact_not_committed",
-            "sha256": "164ebdd391eb91a72415f9df399291530ffd828ee455e18c2c37f12c1fcd519c"
+            "availability": "restricted_local_build_input_not_committed_under_candidate/v8",
+            "sha256": "b501b297ad212c956c4db3de734b93735e2ec8d3fa0071802f43fba01d87fa79"
           }
         ],
         "readiness": {
@@ -733,24 +713,24 @@
         "maximum": 100,
         "provenance_artifacts": [
           {
-            "artifact_path": "candidate/v8/evaluation-result.v11.json",
+            "artifact_path": "candidate/v8/evaluation-result.v12.json",
             "availability": "public_committed",
-            "sha256": "02aaddc254f85b10cb3c20bbbaa7bc54631e8f70ea71e7e43c107e5a1a1a2200"
+            "sha256": "0cac4c5f3e1143e1ee13a14ac2e4fda6ef293225f03edbcb722520bb01e2af4e"
           },
           {
             "artifact_path": "scoring/dimension-calculations.v6.json",
-            "availability": "restricted_current_v8_artifact_not_committed",
-            "sha256": "164ebdd391eb91a72415f9df399291530ffd828ee455e18c2c37f12c1fcd519c"
+            "availability": "restricted_local_build_input_not_committed_under_candidate/v8",
+            "sha256": "b501b297ad212c956c4db3de734b93735e2ec8d3fa0071802f43fba01d87fa79"
           },
           {
-            "artifact_path": "structure/structure-audit.v5.json",
+            "artifact_path": "structure/structure-audit.v6.json",
             "availability": "restricted_local_build_input_not_committed_under_candidate/v8",
-            "sha256": "ffe13170172d360aa6db6fc1dac7e24a65d353a1d062f1142f99666db1fee556"
+            "sha256": "be6cae9872e7d3b9105c4465cadf18e54b230aab900de1d5c8628c3e1bc2aa33"
           },
           {
-            "artifact_path": "scoring/item-assessments.v6.json",
+            "artifact_path": "scoring/item-assessments.v7.json",
             "availability": "restricted_local_build_input_not_committed_under_candidate/v8",
-            "sha256": "a74ce5b9344ee7768ff9a062f1eec1cf944b97b05e3acaf03298219f93a8b54d"
+            "sha256": "d85e21c0a1e4c285a8707d7d4bfa0cbc1066df482f3f74ede6498132cf8e82db"
           },
           {
             "artifact_path": "candidate/representation-adjustment/correction-causal-ledger.v1.json",
