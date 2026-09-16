@@ -1,0 +1,34 @@
+{
+  "schema_version": "ohfr-v8.2-regression-results-v1",
+  "repository_tests": {
+    "passed": 17,
+    "failed": 0,
+    "command": "python -m unittest discover -s tests -p 'test_*.py'",
+    "log_sha256": "6feb0fb06855d2d7eaf6cbd3fc19c6f6077abbf2891c61fd073f39e1fabb34ed"
+  },
+  "methodology_release": {
+    "commit": "c11c6ccb16000fe79646af16b7be01f6cbeeac78",
+    "installation_receipt_sha256": "f7d0b2bd830dfbca7b1e8c4f79c6320e2c7a945d075342807d24d6f9f7cd1204",
+    "installed_files_independently_compared_to_merged_git": 111,
+    "validation": {
+      "installed_methodology_tests": {
+        "passed": 180,
+        "failed": 0,
+        "skipped": 0
+      },
+      "utility_tests": {
+        "passed": 20,
+        "failed": 0,
+        "skipped": 0
+      },
+      "focused_uncertainty_scope_tests": 10,
+      "focused_migration_tests": 8,
+      "focused_wrong_destination_tests": 12,
+      "schemas_and_local_references": 49,
+      "compile": "passed",
+      "skill_validation": "passed",
+      "git_diff_check": "passed",
+      "github_ci": "both PR #50 validate checks passed"
+    }
+  }
+}

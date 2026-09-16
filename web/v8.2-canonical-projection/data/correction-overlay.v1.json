@@ -2401,7 +2401,7 @@
     }
   ],
   "overlay_role": "display_only_counterfactual_bound_to_canonical_v8",
-  "overlay_sha256": "973849ad1632e290c4fe22966d4ececbbd57b739e2ee572e55aa121c79176882",
+  "overlay_sha256": "2ce3cfb3eeb674339cd1c5f79d419a565f560703a04b597b23c8dd87f7477645",
   "provenance": {
     "applicability_check": "The V8 DEFECT-STRUCT-MECHANICS-001 affected-item set exactly equals the 14 corrected terminal-node IDs, and every delivered terminal heading matches the V8 candidate record.",
     "character_audit_artifact": {
@@ -2419,12 +2419,12 @@
     "v8_item_assessment_artifact": {
       "artifact_path": "scoring/v8.2/item-assessments.v7.json",
       "availability": "restricted_local_build_input_not_committed_under_candidate/v8",
-      "sha256": "531e997b9223766328a0cb5eb685b536835f4f4c29d3ed540428594907f963ff"
+      "sha256": "a156f51cde8f6da15e6b09e9d816e71be2c50caa8c212a9321543c30d5d8c9a9"
     },
     "v8_structure_artifact": {
       "artifact_path": "structure/structure-audit.v8.2.v6.json",
       "availability": "restricted_local_build_input_not_committed_under_candidate/v8",
-      "sha256": "8d5c9aa53b4b63306121b23395127855b0b2719667fb4229d50b05c3800d367b"
+      "sha256": "75e48ca7fd784c084cc820d5fae4b9b2bde9a0ce9e57c3226e8a7dbdb8443e9d"
     },
     "version_bridge": "The public correction audit predates the V8 evaluation ID. This overlay re-applies only its confirmed digit-for-accent facts to the matching V8 candidate/node identities, then derives item outcomes from V8 assessments and V8 item-grading rules. V8.1 reuses the same item judgments and correction facts; only the current item artifact binding and excluded minor cross-reference gate consequence change. V8.2 retains the confirmed correction facts; the remaining individual-regiments reference has no valid destination and now directly blocks publication. Current item and structure bindings are updated."
   },

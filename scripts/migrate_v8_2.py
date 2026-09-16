@@ -9,10 +9,42 @@ import sys
 from pathlib import Path
 from migrate_v8_1 import ROOT, read, sha, write, command
 
-RELEASE = 'adeb69171a3278893e8b7ebb3c664ee5bd428efe'
+RELEASE = 'c11c6ccb16000fe79646af16b7be01f6cbeeac78'
 BASE = ROOT / 'staging/v8.1/evaluation'
 TARGET = ROOT / 'staging/v8.2/evaluation'
 PUBLIC = ROOT / 'candidate/v8.2'
+
+
+def reviewed_uncertainty_scopes(structure):
+    # Explicit mapping after reviewing all 26 frozen summaries and affected IDs.
+    # Unknown future records require review rather than a legacy-kind heuristic.
+    locators = {
+        'AC2896EED86C', '74D3E6FF1760', 'C0CFFDC75062', '85E43F84BFB1',
+        '003F71762571', '07D39DBEB6CD', 'B69459B168C4', '1D03ABE81781',
+        '9217D7991F28', '8935B2B37159', '923ACF3DDFBB', '21C27B76EE6C',
+        'B6E7290BF6C4',
+    }
+    subjects = {'0175', '0179', '0182', '0372', '0376', '0379', '0385',
+                '0395', '0403', '0557', '0568', '0587', '0591'}
+    expected = {'UNCERTAINTY-LOC-' + item for item in locators} | {'UNCERTAINTY-SUBJ-' + item for item in subjects}
+    assert {r['uncertainty_id'] for r in structure['uncertainties']} == expected
+    scopes = []
+    for record in structure['uncertainties']:
+        identity = record['uncertainty_id']
+        atomic = identity in {'UNCERTAINTY-LOC-' + item for item in locators}
+        target = identity.removeprefix('UNCERTAINTY-')
+        assert target in record['affected_item_ids'] and record['evidence_ids']
+        scopes.append({
+            'uncertainty_id': identity,
+            'scope': 'locator_support' if atomic else 'benchmark_access',
+            'target_ids': [target], 'evidence_ids': record['evidence_ids'],
+            'rationale': (
+                'The preserved finding addresses complete-heading support at this named locator destination. Its heading path is contextual; the finding does not assert uncertainty about every sibling locator.'
+                if atomic else
+                'The preserved finding addresses whether the delivered routes satisfy this benchmark subject or reader task. It does not assert uncertainty about the correctness of every locator on those routes.'
+            ),
+        })
+    return scopes
 
 
 def prepare(skill):
@@ -63,6 +95,7 @@ def prepare(skill):
             'resolved_path_ids': [] if broken else ['PATH-26704D6AB01B'],
             'evidence_ids': ['EVID-FROZEN-' + row['reference_id']], 'rationale': row['summary'],
         }
+    structure['uncertainty_gate_scopes'] = reviewed_uncertainty_scopes(structure)
     structure_path = TARGET / 'structure/structure-audit.v8.2.v6.json'
     write(structure_path, structure)
     reopened = ('define_policy', 'structure_audit', 'scoring', 'web_report')
@@ -77,13 +110,14 @@ def prepare(skill):
     write(TARGET / 'evaluation-state.json', state)
     ledger = {
         'schema_version': 'ohfr-targeted-v8.2-migration-ledger-v1', 'methodology_commit': RELEASE,
-        'installation_receipt_sha256': sha(skill / 'installation-receipt.json'), 'migrated_at': stamp,
+        'installation_receipt_sha256': sha(skill / 'installation-receipt.json'), 'intermediate_checkpoint': {'methodology_commit': 'adeb69171a3278893e8b7ebb3c664ee5bd428efe', 'public_commit': '994be0d', 'private_archive_sha256': '68406fe12f19eabacaf95cb04211ec597659f101bb5bff01225cdd4df78d6d4e'}, 'migrated_at': stamp,
         'baseline': {'public_commit': '5b56924', 'score': '89.38', 'canonical_state_sha256': sha(BASE / 'evaluation-state.json'), 'recovery_disclosure': 'validation/v8.1-private-recovery.json'},
         'policy_build_input_sha256': sha(inp_path), 'policy_file_sha256': sha(policy_path), 'policy_sha256': policy['policy_sha256'],
         'original_policy_freeze': old['freeze'], 'migration_freeze': policy['freeze'],
         'reused_without_rerun': stages,
-        'changes': ['Apply released V8.2 direct wrong-destination gates and native retrospective migration provenance.', 'Remove obsolete project-specific policy_profile.migration metadata; preserve it in the exact V8.1 archive.', 'Update content-policy profile labels only; scope, audience, audit design, density, scoring weights and judgments are preserved.', 'Encode the two existing reference exceptions as confirmed no destination and defective but identifiable destination, using exact delivered reference labels and frozen audit evidence.', 'Re-register structure, score and report using the installed producer; update correction-overlay artifact bindings and remaining broken-reference gate consequence.'],
+        'changes': ['Apply released V8.2 direct wrong-destination gates and native retrospective migration provenance.', 'Remove obsolete project-specific policy_profile.migration metadata; preserve it in the exact V8.1 archive.', 'Update content-policy profile labels only; scope, audience, audit design, density, scoring weights and judgments are preserved.', 'Encode the two existing reference exceptions as confirmed no destination and defective but identifiable destination, using exact delivered reference labels and frozen audit evidence.', 'Add explicit gate-applicability scopes to 13 atomic locator uncertainties and 13 benchmark-access uncertainties; preserve every original uncertainty record unchanged.', 'Re-register structure, score and report using the installed producer; update correction-overlay artifact bindings and remaining broken-reference gate consequence.'],
         'resolution_evidence_mapping': [{'evidence_id': 'EVID-FROZEN-' + r['reference_id'], 'source_artifact_sha256': sha(BASE / 'structure/structure-audit.v6.json'), 'reference_id': r['reference_id'], 'original_evidence_ids': r['evidence_ids'], 'basis': 'Stable identifier assigned to an existing frozen finding; no new judgment.'} for r in structure['cross_reference_judgments']],
+        'uncertainty_scope_supplement': structure['uncertainty_gate_scopes'],
         'structure_target_resolutions': [{'reference_id': r['reference_id'], **r['target_resolution']} for r in structure['cross_reference_judgments']],
         'baseline_archive_inventory': [{'path': str(p.relative_to(BASE)), 'sha256': sha(p)} for p in sorted(BASE.rglob('*')) if p.is_file()],
         'prior_state_records_preserved_in_baseline': [{'path': a['path'], 'sha256': a['sha256']} for a in removed],

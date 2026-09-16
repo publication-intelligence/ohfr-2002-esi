@@ -79,11 +79,18 @@ def main():
         assert {k: v for k, v in before_items.items() if k != 'evidence_identity'} == {k: v for k, v in after_items.items() if k != 'evidence_identity'}
         structure = read(TARGET / 'structure/structure-audit.v8.2.v6.json')
         stripped = copy.deepcopy(structure)
+        scopes = stripped.pop('uncertainty_gate_scopes')
+        assert scopes == ledger['uncertainty_scope_supplement']
+        assert len(scopes) == 26
+        assert sum(r['scope'] == 'locator_support' for r in scopes) == 13
+        assert sum(r['scope'] == 'benchmark_access' for r in scopes) == 13
         for row in stripped['cross_reference_judgments']:
             row.pop('target_resolution')
         assert stripped == read(BASE / 'structure/structure-audit.v6.json')
         # Every direct locator gate is traceable to an unchanged finalized audit row.
         rows = {r['locator_id']: r for p in TARGET.glob('candidates/*/locator-audits/*.json') for r in read(p).get('judgments', [])}
+        frozen_wrong_ids = {r['locator_id'] for r in rows.values() if r['judgment'] == 'unsupported' and r['complete_path_fit'] == 'no_fit'}
+        assert set(gates['GATE-WRONG-LOCATOR']['affected_evidence_ids']) == frozen_wrong_ids
         for item in gates['GATE-WRONG-LOCATOR']['direct_destination_evidence']:
             audit = rows[item['locator_id']]
             assert all(audit[k] == v for k, v in item.items())

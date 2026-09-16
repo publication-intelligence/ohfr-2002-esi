@@ -1,23 +1,28 @@
 {
   "schema_version": "ohfr-targeted-v8.2-migration-ledger-v1",
-  "methodology_commit": "adeb69171a3278893e8b7ebb3c664ee5bd428efe",
-  "installation_receipt_sha256": "77f27d2142de8be509faf94a6f8159a3913bad14f6fa96afc1a06bb11dbfd987",
-  "migrated_at": "2026-09-16T17:18:28Z",
+  "methodology_commit": "c11c6ccb16000fe79646af16b7be01f6cbeeac78",
+  "installation_receipt_sha256": "f7d0b2bd830dfbca7b1e8c4f79c6320e2c7a945d075342807d24d6f9f7cd1204",
+  "intermediate_checkpoint": {
+    "methodology_commit": "adeb69171a3278893e8b7ebb3c664ee5bd428efe",
+    "public_commit": "994be0d",
+    "private_archive_sha256": "68406fe12f19eabacaf95cb04211ec597659f101bb5bff01225cdd4df78d6d4e"
+  },
+  "migrated_at": "2026-09-16T17:42:49Z",
   "baseline": {
     "public_commit": "5b56924",
     "score": "89.38",
     "canonical_state_sha256": "c806437cea841440c5d7026183402d4fe5a80e4e23fa67010449448fcc0a871a",
     "recovery_disclosure": "validation/v8.1-private-recovery.json"
   },
-  "policy_build_input_sha256": "e8f01da7106727b1a9ecb2c16b875e23adc3f71fc8be5ed0c0010121abee7828",
-  "policy_file_sha256": "99e79b5926a6aeda24cb8b0c21ff110e53599bbc4530e949457933fb43f3c511",
-  "policy_sha256": "7d1157fbca6f2f9c8b108ce54eacee4a52103a9a54a481caedc582bb47086321",
+  "policy_build_input_sha256": "1847550493ac91f7375797305c78415ad8aa866e2356a1820cafbba12233f3ef",
+  "policy_file_sha256": "7c9320dcde3faa27ff492615234b835709b0ed173faa9f7444ef817ce4162e24",
+  "policy_sha256": "543bd48d7f41eb1826de9ce030c6391dec7fb1255071d683b530adc39e679114",
   "original_policy_freeze": {
     "frozen_at": "2026-09-09T13:34:36Z",
     "candidate_seen": false
   },
   "migration_freeze": {
-    "frozen_at": "2026-09-16T17:18:28Z",
+    "frozen_at": "2026-09-16T17:42:49Z",
     "candidate_seen": true
   },
   "reused_without_rerun": [
@@ -36,7 +41,336 @@
     "Remove obsolete project-specific policy_profile.migration metadata; preserve it in the exact V8.1 archive.",
     "Update content-policy profile labels only; scope, audience, audit design, density, scoring weights and judgments are preserved.",
     "Encode the two existing reference exceptions as confirmed no destination and defective but identifiable destination, using exact delivered reference labels and frozen audit evidence.",
+    "Add explicit gate-applicability scopes to 13 atomic locator uncertainties and 13 benchmark-access uncertainties; preserve every original uncertainty record unchanged.",
     "Re-register structure, score and report using the installed producer; update correction-overlay artifact bindings and remaining broken-reference gate consequence."
+  ],
+  "resolution_evidence_mapping": [
+    {
+      "evidence_id": "EVID-FROZEN-XREF-6E6F54660707",
+      "source_artifact_sha256": "be6cae9872e7d3b9105c4465cadf18e54b230aab900de1d5c8628c3e1bc2aa33",
+      "reference_id": "XREF-6E6F54660707",
+      "original_evidence_ids": [
+        "XREF-6E6F54660707",
+        "PATH-E561A4D4B454",
+        "LOC-EDE94A56F03E"
+      ],
+      "basis": "Stable identifier assigned to an existing frozen finding; no new judgment."
+    },
+    {
+      "evidence_id": "EVID-FROZEN-XREF-9A63B6DC42BB",
+      "source_artifact_sha256": "be6cae9872e7d3b9105c4465cadf18e54b230aab900de1d5c8628c3e1bc2aa33",
+      "reference_id": "XREF-9A63B6DC42BB",
+      "original_evidence_ids": [
+        "XREF-9A63B6DC42BB",
+        "PATH-03DED732138C",
+        "LOC-72CFE2361C6A"
+      ],
+      "basis": "Stable identifier assigned to an existing frozen finding; no new judgment."
+    }
+  ],
+  "uncertainty_scope_supplement": [
+    {
+      "uncertainty_id": "UNCERTAINTY-LOC-AC2896EED86C",
+      "scope": "locator_support",
+      "target_ids": [
+        "LOC-AC2896EED86C"
+      ],
+      "evidence_ids": [
+        "EVID-CHUNK-005-P123-AC2896EED86C"
+      ],
+      "rationale": "The preserved finding addresses complete-heading support at this named locator destination. Its heading path is contextual; the finding does not assert uncertainty about every sibling locator."
+    },
+    {
+      "uncertainty_id": "UNCERTAINTY-LOC-74D3E6FF1760",
+      "scope": "locator_support",
+      "target_ids": [
+        "LOC-74D3E6FF1760"
+      ],
+      "evidence_ids": [
+        "EVID-CHUNK-008-74D3E6FF1760"
+      ],
+      "rationale": "The preserved finding addresses complete-heading support at this named locator destination. Its heading path is contextual; the finding does not assert uncertainty about every sibling locator."
+    },
+    {
+      "uncertainty_id": "UNCERTAINTY-LOC-C0CFFDC75062",
+      "scope": "locator_support",
+      "target_ids": [
+        "LOC-C0CFFDC75062"
+      ],
+      "evidence_ids": [
+        "EVID-CHUNK-008-C0CFFDC75062"
+      ],
+      "rationale": "The preserved finding addresses complete-heading support at this named locator destination. Its heading path is contextual; the finding does not assert uncertainty about every sibling locator."
+    },
+    {
+      "uncertainty_id": "UNCERTAINTY-LOC-85E43F84BFB1",
+      "scope": "locator_support",
+      "target_ids": [
+        "LOC-85E43F84BFB1"
+      ],
+      "evidence_ids": [
+        "EVID-CHUNK-008-85E43F84BFB1"
+      ],
+      "rationale": "The preserved finding addresses complete-heading support at this named locator destination. Its heading path is contextual; the finding does not assert uncertainty about every sibling locator."
+    },
+    {
+      "uncertainty_id": "UNCERTAINTY-LOC-003F71762571",
+      "scope": "locator_support",
+      "target_ids": [
+        "LOC-003F71762571"
+      ],
+      "evidence_ids": [
+        "EVID-003F71762571"
+      ],
+      "rationale": "The preserved finding addresses complete-heading support at this named locator destination. Its heading path is contextual; the finding does not assert uncertainty about every sibling locator."
+    },
+    {
+      "uncertainty_id": "UNCERTAINTY-LOC-07D39DBEB6CD",
+      "scope": "locator_support",
+      "target_ids": [
+        "LOC-07D39DBEB6CD"
+      ],
+      "evidence_ids": [
+        "EVID-07D39DBEB6CD"
+      ],
+      "rationale": "The preserved finding addresses complete-heading support at this named locator destination. Its heading path is contextual; the finding does not assert uncertainty about every sibling locator."
+    },
+    {
+      "uncertainty_id": "UNCERTAINTY-LOC-B69459B168C4",
+      "scope": "locator_support",
+      "target_ids": [
+        "LOC-B69459B168C4"
+      ],
+      "evidence_ids": [
+        "EVID-B69459B168C4"
+      ],
+      "rationale": "The preserved finding addresses complete-heading support at this named locator destination. Its heading path is contextual; the finding does not assert uncertainty about every sibling locator."
+    },
+    {
+      "uncertainty_id": "UNCERTAINTY-LOC-1D03ABE81781",
+      "scope": "locator_support",
+      "target_ids": [
+        "LOC-1D03ABE81781"
+      ],
+      "evidence_ids": [
+        "EVID-1D03ABE81781"
+      ],
+      "rationale": "The preserved finding addresses complete-heading support at this named locator destination. Its heading path is contextual; the finding does not assert uncertainty about every sibling locator."
+    },
+    {
+      "uncertainty_id": "UNCERTAINTY-LOC-9217D7991F28",
+      "scope": "locator_support",
+      "target_ids": [
+        "LOC-9217D7991F28"
+      ],
+      "evidence_ids": [
+        "EVID-9217D7991F28"
+      ],
+      "rationale": "The preserved finding addresses complete-heading support at this named locator destination. Its heading path is contextual; the finding does not assert uncertainty about every sibling locator."
+    },
+    {
+      "uncertainty_id": "UNCERTAINTY-LOC-8935B2B37159",
+      "scope": "locator_support",
+      "target_ids": [
+        "LOC-8935B2B37159"
+      ],
+      "evidence_ids": [
+        "EVID-8935B2B37159"
+      ],
+      "rationale": "The preserved finding addresses complete-heading support at this named locator destination. Its heading path is contextual; the finding does not assert uncertainty about every sibling locator."
+    },
+    {
+      "uncertainty_id": "UNCERTAINTY-LOC-923ACF3DDFBB",
+      "scope": "locator_support",
+      "target_ids": [
+        "LOC-923ACF3DDFBB"
+      ],
+      "evidence_ids": [
+        "EVID-CHUNK-017-LOC-923ACF3DDFBB"
+      ],
+      "rationale": "The preserved finding addresses complete-heading support at this named locator destination. Its heading path is contextual; the finding does not assert uncertainty about every sibling locator."
+    },
+    {
+      "uncertainty_id": "UNCERTAINTY-LOC-21C27B76EE6C",
+      "scope": "locator_support",
+      "target_ids": [
+        "LOC-21C27B76EE6C"
+      ],
+      "evidence_ids": [
+        "EVID-CHUNK-017-LOC-21C27B76EE6C"
+      ],
+      "rationale": "The preserved finding addresses complete-heading support at this named locator destination. Its heading path is contextual; the finding does not assert uncertainty about every sibling locator."
+    },
+    {
+      "uncertainty_id": "UNCERTAINTY-LOC-B6E7290BF6C4",
+      "scope": "locator_support",
+      "target_ids": [
+        "LOC-B6E7290BF6C4"
+      ],
+      "evidence_ids": [
+        "EVID-CHUNK-017-LOC-B6E7290BF6C4"
+      ],
+      "rationale": "The preserved finding addresses complete-heading support at this named locator destination. Its heading path is contextual; the finding does not assert uncertainty about every sibling locator."
+    },
+    {
+      "uncertainty_id": "UNCERTAINTY-SUBJ-0175",
+      "scope": "benchmark_access",
+      "target_ids": [
+        "SUBJ-0175"
+      ],
+      "evidence_ids": [
+        "EVID-0175-001"
+      ],
+      "rationale": "The preserved finding addresses whether the delivered routes satisfy this benchmark subject or reader task. It does not assert uncertainty about the correctness of every locator on those routes."
+    },
+    {
+      "uncertainty_id": "UNCERTAINTY-SUBJ-0179",
+      "scope": "benchmark_access",
+      "target_ids": [
+        "SUBJ-0179"
+      ],
+      "evidence_ids": [
+        "EVID-0179-001",
+        "EVID-0179-002",
+        "EVID-0179-003"
+      ],
+      "rationale": "The preserved finding addresses whether the delivered routes satisfy this benchmark subject or reader task. It does not assert uncertainty about the correctness of every locator on those routes."
+    },
+    {
+      "uncertainty_id": "UNCERTAINTY-SUBJ-0182",
+      "scope": "benchmark_access",
+      "target_ids": [
+        "SUBJ-0182"
+      ],
+      "evidence_ids": [
+        "EVID-0182-001",
+        "EVID-0182-002"
+      ],
+      "rationale": "The preserved finding addresses whether the delivered routes satisfy this benchmark subject or reader task. It does not assert uncertainty about the correctness of every locator on those routes."
+    },
+    {
+      "uncertainty_id": "UNCERTAINTY-SUBJ-0372",
+      "scope": "benchmark_access",
+      "target_ids": [
+        "SUBJ-0372"
+      ],
+      "evidence_ids": [
+        "EVID-0372-001"
+      ],
+      "rationale": "The preserved finding addresses whether the delivered routes satisfy this benchmark subject or reader task. It does not assert uncertainty about the correctness of every locator on those routes."
+    },
+    {
+      "uncertainty_id": "UNCERTAINTY-SUBJ-0376",
+      "scope": "benchmark_access",
+      "target_ids": [
+        "SUBJ-0376"
+      ],
+      "evidence_ids": [
+        "EVID-0376-001"
+      ],
+      "rationale": "The preserved finding addresses whether the delivered routes satisfy this benchmark subject or reader task. It does not assert uncertainty about the correctness of every locator on those routes."
+    },
+    {
+      "uncertainty_id": "UNCERTAINTY-SUBJ-0379",
+      "scope": "benchmark_access",
+      "target_ids": [
+        "SUBJ-0379"
+      ],
+      "evidence_ids": [
+        "EVID-0379-001"
+      ],
+      "rationale": "The preserved finding addresses whether the delivered routes satisfy this benchmark subject or reader task. It does not assert uncertainty about the correctness of every locator on those routes."
+    },
+    {
+      "uncertainty_id": "UNCERTAINTY-SUBJ-0385",
+      "scope": "benchmark_access",
+      "target_ids": [
+        "SUBJ-0385"
+      ],
+      "evidence_ids": [
+        "EVID-0385-001"
+      ],
+      "rationale": "The preserved finding addresses whether the delivered routes satisfy this benchmark subject or reader task. It does not assert uncertainty about the correctness of every locator on those routes."
+    },
+    {
+      "uncertainty_id": "UNCERTAINTY-SUBJ-0395",
+      "scope": "benchmark_access",
+      "target_ids": [
+        "SUBJ-0395"
+      ],
+      "evidence_ids": [
+        "EVID-0395-001"
+      ],
+      "rationale": "The preserved finding addresses whether the delivered routes satisfy this benchmark subject or reader task. It does not assert uncertainty about the correctness of every locator on those routes."
+    },
+    {
+      "uncertainty_id": "UNCERTAINTY-SUBJ-0403",
+      "scope": "benchmark_access",
+      "target_ids": [
+        "SUBJ-0403"
+      ],
+      "evidence_ids": [
+        "EVID-0403-001"
+      ],
+      "rationale": "The preserved finding addresses whether the delivered routes satisfy this benchmark subject or reader task. It does not assert uncertainty about the correctness of every locator on those routes."
+    },
+    {
+      "uncertainty_id": "UNCERTAINTY-SUBJ-0557",
+      "scope": "benchmark_access",
+      "target_ids": [
+        "SUBJ-0557"
+      ],
+      "evidence_ids": [
+        "EVID-0557-001",
+        "EVID-CHUNK-015-08CE266B2F59"
+      ],
+      "rationale": "The preserved finding addresses whether the delivered routes satisfy this benchmark subject or reader task. It does not assert uncertainty about the correctness of every locator on those routes."
+    },
+    {
+      "uncertainty_id": "UNCERTAINTY-SUBJ-0568",
+      "scope": "benchmark_access",
+      "target_ids": [
+        "SUBJ-0568"
+      ],
+      "evidence_ids": [
+        "EVID-0568-001",
+        "EVID-0568-002",
+        "EVID-0568-003",
+        "EVID-0568-004",
+        "EVID-BD3F22718C3D",
+        "EVID-900515ABE11C",
+        "EVID-7FF4FEE57332"
+      ],
+      "rationale": "The preserved finding addresses whether the delivered routes satisfy this benchmark subject or reader task. It does not assert uncertainty about the correctness of every locator on those routes."
+    },
+    {
+      "uncertainty_id": "UNCERTAINTY-SUBJ-0587",
+      "scope": "benchmark_access",
+      "target_ids": [
+        "SUBJ-0587"
+      ],
+      "evidence_ids": [
+        "EVID-0587-001",
+        "EVID-0587-002",
+        "EVID-32D593CCE83B",
+        "EVID-900515ABE11C"
+      ],
+      "rationale": "The preserved finding addresses whether the delivered routes satisfy this benchmark subject or reader task. It does not assert uncertainty about the correctness of every locator on those routes."
+    },
+    {
+      "uncertainty_id": "UNCERTAINTY-SUBJ-0591",
+      "scope": "benchmark_access",
+      "target_ids": [
+        "SUBJ-0591"
+      ],
+      "evidence_ids": [
+        "EVID-0591-001",
+        "EVID-0591-002",
+        "EVID-FCC56A5FEFEC",
+        "EVID-4B0FB5015C3A"
+      ],
+      "rationale": "The preserved finding addresses whether the delivered routes satisfy this benchmark subject or reader task. It does not assert uncertainty about the correctness of every locator on those routes."
+    }
   ],
   "structure_target_resolutions": [
     {
@@ -748,30 +1082,6 @@
       "sha256": "4e7edef895ef0a19544bfa5782ba5d767a35a3929232782fecc285a5ee413aa9"
     }
   ],
-  "resolution_evidence_mapping": [
-    {
-      "evidence_id": "EVID-FROZEN-XREF-6E6F54660707",
-      "source_artifact_sha256": "be6cae9872e7d3b9105c4465cadf18e54b230aab900de1d5c8628c3e1bc2aa33",
-      "reference_id": "XREF-6E6F54660707",
-      "original_evidence_ids": [
-        "XREF-6E6F54660707",
-        "PATH-E561A4D4B454",
-        "LOC-EDE94A56F03E"
-      ],
-      "basis": "Stable identifier assigned to an existing frozen finding; no new judgment."
-    },
-    {
-      "evidence_id": "EVID-FROZEN-XREF-9A63B6DC42BB",
-      "source_artifact_sha256": "be6cae9872e7d3b9105c4465cadf18e54b230aab900de1d5c8628c3e1bc2aa33",
-      "reference_id": "XREF-9A63B6DC42BB",
-      "original_evidence_ids": [
-        "XREF-9A63B6DC42BB",
-        "PATH-03DED732138C",
-        "LOC-72CFE2361C6A"
-      ],
-      "basis": "Stable identifier assigned to an existing frozen finding; no new judgment."
-    }
-  ],
   "score_comparison": {
     "original": 89.38,
     "revised": 89.38
@@ -828,6 +1138,7 @@
       "triggered": true,
       "defect_ids": [],
       "affected_evidence_ids": [
+        "LOC-01D58B93A387",
         "LOC-07A4CC9CF8E2",
         "LOC-0A3777CEF8BB",
         "LOC-0B5AE6EEE5A4",
@@ -843,6 +1154,7 @@
         "LOC-2E3B8AD6FB89",
         "LOC-312BC8E9C6B8",
         "LOC-3E647F586C2F",
+        "LOC-3EAD8CF938BA",
         "LOC-4CD7F3B97A15",
         "LOC-4F8779BDE059",
         "LOC-53959BBA04E4",
@@ -870,13 +1182,16 @@
         "LOC-9EAF33C53A04",
         "LOC-A06A77444DBD",
         "LOC-A37C51D0A785",
+        "LOC-A51F18ACD25C",
         "LOC-A5F3D4213BF0",
         "LOC-A6F7F12DEE54",
         "LOC-B0C52F6288F0",
+        "LOC-B26207D5AD3D",
         "LOC-B57004FD3588",
         "LOC-B66D3AB7C226",
         "LOC-BBEBFACE3C97",
         "LOC-C273BA432AE5",
+        "LOC-C29B048D0D49",
         "LOC-C43DAB94F6E0",
         "LOC-C4F6CAA977E7",
         "LOC-C52014C1FDAF",
@@ -886,9 +1201,11 @@
         "LOC-E0E648FAC69D",
         "LOC-E6E965E2EE2F",
         "LOC-E761D3AB9073",
+        "LOC-E8029DC786A5",
         "LOC-E8BF6AC30553",
         "LOC-EC4F8F4733D7",
         "LOC-EEB2313A58BA",
+        "LOC-F61C15B5BB31",
         "LOC-F9791D7E1167",
         "LOC-FBE3A4B1DEC8",
         "LOC-FC045985F7EF",
@@ -898,6 +1215,23 @@
       "systemic_groups": [],
       "consequence_evidence": [],
       "direct_destination_evidence": [
+        {
+          "locator_id": "LOC-01D58B93A387",
+          "path_id": "PATH-A083E4CA0CF4",
+          "complete_heading_path": [
+            "seigneurialism"
+          ],
+          "document_page": 129,
+          "source_page_label": "129",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-CHUNK-005-P129-01D58B93A387"
+          ]
+        },
         {
           "locator_id": "LOC-07A4CC9CF8E2",
           "path_id": "PATH-AC444CE6F16A",
@@ -1155,6 +1489,23 @@
           "confidence": "high",
           "evidence_ids": [
             "EVID-CHUNK-009-3E647F586C2F"
+          ]
+        },
+        {
+          "locator_id": "LOC-3EAD8CF938BA",
+          "path_id": "PATH-667AA5ED00F2",
+          "complete_heading_path": [
+            "Francis II, Emperor (1768-1835)"
+          ],
+          "document_page": 349,
+          "source_page_label": "349",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-CHUNK-015-3EAD8CF938BA"
           ]
         },
         {
@@ -1623,6 +1974,23 @@
           ]
         },
         {
+          "locator_id": "LOC-A51F18ACD25C",
+          "path_id": "PATH-667AA5ED00F2",
+          "complete_heading_path": [
+            "Francis II, Emperor (1768-1835)"
+          ],
+          "document_page": 351,
+          "source_page_label": "351",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-CHUNK-015-A51F18ACD25C"
+          ]
+        },
+        {
           "locator_id": "LOC-A5F3D4213BF0",
           "path_id": "PATH-7DABAF35010C",
           "complete_heading_path": [
@@ -1671,6 +2039,24 @@
           "confidence": "high",
           "evidence_ids": [
             "EVID-CHUNK-002-0112"
+          ]
+        },
+        {
+          "locator_id": "LOC-B26207D5AD3D",
+          "path_id": "PATH-8125A4936EFA",
+          "complete_heading_path": [
+            "Austria",
+            "war with France"
+          ],
+          "document_page": 88,
+          "source_page_label": "88",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-CHUNK004-B26207D5AD3D"
           ]
         },
         {
@@ -1741,6 +2127,23 @@
           "confidence": "high",
           "evidence_ids": [
             "EVID-C273BA432AE5-P267"
+          ]
+        },
+        {
+          "locator_id": "LOC-C29B048D0D49",
+          "path_id": "PATH-2BFCFED9D789",
+          "complete_heading_path": [
+            "paper money"
+          ],
+          "document_page": 332,
+          "source_page_label": "332",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-CHUNK-014-C29B048D0D49"
           ]
         },
         {
@@ -1901,6 +2304,23 @@
           ]
         },
         {
+          "locator_id": "LOC-E8029DC786A5",
+          "path_id": "PATH-E5BB43AFD121",
+          "complete_heading_path": [
+            "Dutch Republic"
+          ],
+          "document_page": 201,
+          "source_page_label": "201",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-CHUNK-009-E8029DC786A5"
+          ]
+        },
+        {
           "locator_id": "LOC-E8BF6AC30553",
           "path_id": "PATH-491C8BD96EE3",
           "complete_heading_path": [
@@ -1951,6 +2371,24 @@
           "confidence": "high",
           "evidence_ids": [
             "EVID-CHUNK-012-EEB2313A58BA"
+          ]
+        },
+        {
+          "locator_id": "LOC-F61C15B5BB31",
+          "path_id": "PATH-06963E9E12AC",
+          "complete_heading_path": [
+            "elections",
+            "clerical"
+          ],
+          "document_page": 140,
+          "source_page_label": "140",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-F61C15B5BB31"
           ]
         },
         {
@@ -2072,147 +2510,7 @@
       {
         "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
         "affected_item_ids": [
-          "LOC-0155A645D38F"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-01C963F25F27"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-01D58B93A387"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-030EFF87FA40"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-04D02FC7DCBA"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-053473F95DFA"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-07AC63A1ED66"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
           "LOC-07D39DBEB6CD"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-07FB72EF7464"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-08CE266B2F59"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-0986BB976A0C"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-0A3FAEC842FF"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-0C278BED73AD"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-0C3FF8AAEA66"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-0EA6CE2494AE"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-101A3C89130D"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-10C06C24CEED"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-1697273A2014"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-1793D6B61C9E"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-1BA01E12C01F"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-1CCD33E5BDA2"
         ],
         "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
       },
@@ -2226,525 +2524,7 @@
       {
         "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
         "affected_item_ids": [
-          "LOC-1E0A77D8458E"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-1E1742188EEA"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-1E1A4689CF99"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-1F45BD133B12"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
           "LOC-21C27B76EE6C"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-26964C682211"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-28059A912750"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-298753163C2E"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-2A4F7D3556AD"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-2B6F398FA40C"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-2C3912C71073"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-2DA5D881B6B4"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-31191143602C"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-318BF676AF93"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-3204FB70FEA4"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-32365D915052"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-3252EEFA0B75"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-32D593CCE83B"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-33B4AD54BF9C"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-3605A18F469E"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-3690C1C9258B"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-38C2F0B71DCB"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-392B765237B8"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-39F9D0154D31"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-3EAD8CF938BA"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-3F4F508187BD"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-3F69252ACA6A"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-3FB5790B603C"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-407BB05D8CDB"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-410856C37F0F"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-422751EDC9E2"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-4243E607F9E2"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-42706BDA4974"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-42F99B12F877"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-431F2C5D6EED"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-43D2355A616D"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-44B02CDB16A6"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-4663D07330E4"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-46D408806211"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-4712F4DCCAD4"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-4788BD7F3D16"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-47DF15BB9F73"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-488B2CBA4034"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-49FADEF49879"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-4B0FB5015C3A"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-51668F5F29ED"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-51905A097AFB"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-53766AEF1543"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-541EDACC2FDF"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-57089BA41D34"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-58CDAF28B9DB"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-5974A285E037"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-5A73C4DB7F04"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-5CB571C083B4"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-5DD44F3D865D"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-603D804E239F"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-61F58E62C14A"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-620600A5E76C"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-623A33630F12"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-642A806BD904"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-686E881E52D4"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-68AF791A0A0F"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-695E86C443F6"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-6A12B1048565"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-6A584CD31CEE"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-6A7FBE3A554B"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-6BCBCB6DDCDF"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-6C8ADBEC6102"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-6CAA263011C5"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-6F6D1AD39E84"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-702F62A16706"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-70AF691B5DDC"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-73F91AE4DD42"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-745A69C9EA4A"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-74CE413F85AF"
         ],
         "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
       },
@@ -2758,118 +2538,6 @@
       {
         "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
         "affected_item_ids": [
-          "LOC-75966F2787AF"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-77D6D13D129A"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-782B1B048C95"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-79BF05D6D9DA"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-79FFC8D41663"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-7B7741C02691"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-7C9F57CF35D8"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-7CD52948C00E"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-7D862EE4BB79"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-7F25B12869F9"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-7FF4FEE57332"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-811D9C29309C"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-817E981C1823"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-83040B4491BD"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-83C16DD458D8"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-8589B3209588"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
           "LOC-85E43F84BFB1"
         ],
         "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
@@ -2877,98 +2545,7 @@
       {
         "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
         "affected_item_ids": [
-          "LOC-866878E0CE47"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-866AE6B79640"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-888CB0D1BF65"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-88D44166D46C"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
           "LOC-8935B2B37159"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-89B834A117CB"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-89C05E1E2F35"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-8BC6EDBD3BD3"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-8BE4CE0E89EB"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-8CB112D38CD4"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-8FDA6492D35C"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-8FE2E376239E"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-900515ABE11C"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-910A47DBC695"
         ],
         "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
       },
@@ -2989,280 +2566,7 @@
       {
         "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
         "affected_item_ids": [
-          "LOC-93F49061D84D"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-9424FF8CE2A8"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-947EC5530BA8"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-948DE7ED8715"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-9492EE19D07D"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-95513258FBDC"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-95EEA2389E4F"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-961A0B0AE7EF"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-97583990B8D8"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-988A71E9403C"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-99EAEBA4F398"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-9A347AD6052A"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-9BB182C4C998"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-9CE7E08D76DC"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-9CFE863927FD"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-9E2580BA638F"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-9ED443FFF487"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-A1566B3DA9A3"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-A221818260E7"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-A4C747D56D1F"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-A4CCD133BDA2"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-A51F18ACD25C"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-A691774682D3"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-A750ECE56107"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-A7840AFD1DC6"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-A8109422DAD1"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-A911196EB010"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-AA5DE94D10B8"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
           "LOC-AC2896EED86C"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-ACB3631648AD"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-AEC92B14133E"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-AFA058E03B9A"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-B14C3897D9C8"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-B1A1D8C7E098"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-B26207D5AD3D"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-B32DA2DEAC1A"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-B3B3EE039B7C"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-B3EB16DA507E"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-B43A36BC2765"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-B59F6D855ABB"
         ],
         "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
       },
@@ -3283,532 +2587,7 @@
       {
         "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
         "affected_item_ids": [
-          "LOC-B871FDF9FDE7"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-B87B728D64EC"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-B9D14BA430A5"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-BA4DCE78D0A5"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-BADAAA2BAC31"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-BBBF134B1201"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-BC2357484C31"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-BD3F22718C3D"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-BDBD6A2408F1"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-BF6BFE7AFDF0"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
           "LOC-C0CFFDC75062"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-C13834B852AC"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-C153AFB31A50"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-C2712E363F06"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-C29B048D0D49"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-C332F34315D9"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-C399267A37B6"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-C3C9248C8F0B"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-C49DEB8D00B2"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-C4F3359237D6"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-C581BA88EB58"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-C6B04012231A"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-C8A9ABF53B45"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-C8FB4FD02D09"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-C96A042E7EBC"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-C97DBF7CCFF0"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-CD4A79BD1AB1"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-CDD845A9FDCB"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-CE7C49D3926F"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-CE9903D05473"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-CF4709D590C0"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-CFF3FEBA2B12"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-D15B0E5D7033"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-D2538793D482"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-D3544DC7843E"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-D3C605F973FB"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-D3DC492CC427"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-D52B69DC8F55"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-D536C6714E0A"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-D5A7AD8EABB2"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-D624C385D7F2"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-D708630689B7"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-D8600BDBEA38"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-D930EBF71039"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-DA3F93332DAB"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-DB40FF6582B9"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-DB58A33E3A48"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-DD9B4BB47384"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-E074AE7297B9"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-E12089B7A320"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-E3FC595B9E5F"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-E75C4C7E8565"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-E75D5749D81D"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-E8029DC786A5"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-E813B295A8EB"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-E87899DAE1A3"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-EAF6E17B6905"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-EB63FDE71F82"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-EBB124C49AF4"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-ED5BB4E90CA1"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-F18E0031C1A8"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-F3B3F195B7DB"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-F50AAE65F0BA"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-F601D1003A6C"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-F61C15B5BB31"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-F711322DD9A5"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-F90D0BD0B58A"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-F986954ACBB3"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-FC539B2E62D0"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-FCC56A5FEFEC"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-FD697B5E7A33"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-FE908AF84D59"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-FF0A35A4957A"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-FF3B29BCC8C3"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-FF3C3B919914"
-        ],
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "affected_item_ids": [
-          "LOC-FFF9472D0D03"
         ],
         "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
       }
@@ -3830,147 +2609,7 @@
       },
       {
         "affected_item_ids": [
-          "LOC-0155A645D38F"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-01C963F25F27"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-01D58B93A387"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-030EFF87FA40"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-04D02FC7DCBA"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-053473F95DFA"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-07AC63A1ED66"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
           "LOC-07D39DBEB6CD"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-07FB72EF7464"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-08CE266B2F59"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-0986BB976A0C"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-0A3FAEC842FF"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-0C278BED73AD"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-0C3FF8AAEA66"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-0EA6CE2494AE"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-101A3C89130D"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-10C06C24CEED"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-1697273A2014"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-1793D6B61C9E"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-1BA01E12C01F"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-1CCD33E5BDA2"
         ],
         "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
         "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
@@ -3984,525 +2623,7 @@
       },
       {
         "affected_item_ids": [
-          "LOC-1E0A77D8458E"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-1E1742188EEA"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-1E1A4689CF99"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-1F45BD133B12"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
           "LOC-21C27B76EE6C"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-26964C682211"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-28059A912750"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-298753163C2E"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-2A4F7D3556AD"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-2B6F398FA40C"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-2C3912C71073"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-2DA5D881B6B4"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-31191143602C"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-318BF676AF93"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-3204FB70FEA4"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-32365D915052"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-3252EEFA0B75"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-32D593CCE83B"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-33B4AD54BF9C"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-3605A18F469E"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-3690C1C9258B"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-38C2F0B71DCB"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-392B765237B8"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-39F9D0154D31"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-3EAD8CF938BA"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-3F4F508187BD"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-3F69252ACA6A"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-3FB5790B603C"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-407BB05D8CDB"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-410856C37F0F"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-422751EDC9E2"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-4243E607F9E2"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-42706BDA4974"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-42F99B12F877"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-431F2C5D6EED"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-43D2355A616D"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-44B02CDB16A6"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-4663D07330E4"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-46D408806211"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-4712F4DCCAD4"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-4788BD7F3D16"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-47DF15BB9F73"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-488B2CBA4034"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-49FADEF49879"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-4B0FB5015C3A"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-51668F5F29ED"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-51905A097AFB"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-53766AEF1543"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-541EDACC2FDF"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-57089BA41D34"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-58CDAF28B9DB"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-5974A285E037"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-5A73C4DB7F04"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-5CB571C083B4"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-5DD44F3D865D"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-603D804E239F"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-61F58E62C14A"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-620600A5E76C"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-623A33630F12"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-642A806BD904"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-686E881E52D4"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-68AF791A0A0F"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-695E86C443F6"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-6A12B1048565"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-6A584CD31CEE"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-6A7FBE3A554B"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-6BCBCB6DDCDF"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-6C8ADBEC6102"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-6CAA263011C5"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-6F6D1AD39E84"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-702F62A16706"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-70AF691B5DDC"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-73F91AE4DD42"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-745A69C9EA4A"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-74CE413F85AF"
         ],
         "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
         "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
@@ -4516,118 +2637,6 @@
       },
       {
         "affected_item_ids": [
-          "LOC-75966F2787AF"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-77D6D13D129A"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-782B1B048C95"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-79BF05D6D9DA"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-79FFC8D41663"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-7B7741C02691"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-7C9F57CF35D8"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-7CD52948C00E"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-7D862EE4BB79"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-7F25B12869F9"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-7FF4FEE57332"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-811D9C29309C"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-817E981C1823"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-83040B4491BD"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-83C16DD458D8"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-8589B3209588"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
           "LOC-85E43F84BFB1"
         ],
         "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
@@ -4635,98 +2644,7 @@
       },
       {
         "affected_item_ids": [
-          "LOC-866878E0CE47"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-866AE6B79640"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-888CB0D1BF65"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-88D44166D46C"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
           "LOC-8935B2B37159"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-89B834A117CB"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-89C05E1E2F35"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-8BC6EDBD3BD3"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-8BE4CE0E89EB"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-8CB112D38CD4"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-8FDA6492D35C"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-8FE2E376239E"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-900515ABE11C"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-910A47DBC695"
         ],
         "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
         "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
@@ -4747,280 +2665,7 @@
       },
       {
         "affected_item_ids": [
-          "LOC-93F49061D84D"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-9424FF8CE2A8"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-947EC5530BA8"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-948DE7ED8715"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-9492EE19D07D"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-95513258FBDC"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-95EEA2389E4F"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-961A0B0AE7EF"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-97583990B8D8"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-988A71E9403C"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-99EAEBA4F398"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-9A347AD6052A"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-9BB182C4C998"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-9CE7E08D76DC"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-9CFE863927FD"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-9E2580BA638F"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-9ED443FFF487"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-A1566B3DA9A3"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-A221818260E7"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-A4C747D56D1F"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-A4CCD133BDA2"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-A51F18ACD25C"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-A691774682D3"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-A750ECE56107"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-A7840AFD1DC6"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-A8109422DAD1"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-A911196EB010"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-AA5DE94D10B8"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
           "LOC-AC2896EED86C"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-ACB3631648AD"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-AEC92B14133E"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-AFA058E03B9A"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-B14C3897D9C8"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-B1A1D8C7E098"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-B26207D5AD3D"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-B32DA2DEAC1A"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-B3B3EE039B7C"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-B3EB16DA507E"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-B43A36BC2765"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-B59F6D855ABB"
         ],
         "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
         "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
@@ -5041,532 +2686,7 @@
       },
       {
         "affected_item_ids": [
-          "LOC-B871FDF9FDE7"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-B87B728D64EC"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-B9D14BA430A5"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-BA4DCE78D0A5"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-BADAAA2BAC31"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-BBBF134B1201"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-BC2357484C31"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-BD3F22718C3D"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-BDBD6A2408F1"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-BF6BFE7AFDF0"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
           "LOC-C0CFFDC75062"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-C13834B852AC"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-C153AFB31A50"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-C2712E363F06"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-C29B048D0D49"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-C332F34315D9"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-C399267A37B6"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-C3C9248C8F0B"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-C49DEB8D00B2"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-C4F3359237D6"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-C581BA88EB58"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-C6B04012231A"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-C8A9ABF53B45"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-C8FB4FD02D09"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-C96A042E7EBC"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-C97DBF7CCFF0"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-CD4A79BD1AB1"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-CDD845A9FDCB"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-CE7C49D3926F"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-CE9903D05473"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-CF4709D590C0"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-CFF3FEBA2B12"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-D15B0E5D7033"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-D2538793D482"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-D3544DC7843E"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-D3C605F973FB"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-D3DC492CC427"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-D52B69DC8F55"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-D536C6714E0A"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-D5A7AD8EABB2"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-D624C385D7F2"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-D708630689B7"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-D8600BDBEA38"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-D930EBF71039"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-DA3F93332DAB"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-DB40FF6582B9"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-DB58A33E3A48"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-DD9B4BB47384"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-E074AE7297B9"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-E12089B7A320"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-E3FC595B9E5F"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-E75C4C7E8565"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-E75D5749D81D"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-E8029DC786A5"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-E813B295A8EB"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-E87899DAE1A3"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-EAF6E17B6905"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-EB63FDE71F82"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-EBB124C49AF4"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-ED5BB4E90CA1"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-F18E0031C1A8"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-F3B3F195B7DB"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-F50AAE65F0BA"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-F601D1003A6C"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-F61C15B5BB31"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-F711322DD9A5"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-F90D0BD0B58A"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-F986954ACBB3"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-FC539B2E62D0"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-FCC56A5FEFEC"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-FD697B5E7A33"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-FE908AF84D59"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-FF0A35A4957A"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-FF3B29BCC8C3"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-FF3C3B919914"
-        ],
-        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
-        "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
-      },
-      {
-        "affected_item_ids": [
-          "LOC-FFF9472D0D03"
         ],
         "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
         "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
@@ -5581,15 +2701,15 @@
   "public_artifact_hashes": [
     {
       "path": "candidate/v8.2/evaluation-result.v12.json",
-      "sha256": "29df738870029215c4b2eb7693c187e4c0007f10fa5bfb447ab51a7440aef8b7"
+      "sha256": "80f16b550b12710093f273d6dd263350732227d0380eced5fc2ae3f12d385b51"
     },
     {
       "path": "candidate/v8.2/web-report.v10.json",
-      "sha256": "cf412564233c1a4e29ea642fdfabb02738d4d46da81cee81419677c32d3acd44"
+      "sha256": "b891c3f8339ebc5b02bc85b38c78204d8aa8b21d910b92a8699714075012a7e3"
     },
     {
       "path": "web/v8.2-canonical-projection/data/correction-overlay.v1.json",
-      "sha256": "272ad715b1b287598cb92607c44c71e0445e2888e9c8cae2bdf581a33f69abb2"
+      "sha256": "caf8a33a6afd64f62b1aa76f12a751c6d3b9662b74a8c07f56da6a35f2c1f253"
     },
     {
       "path": "web/v8.2-canonical-projection/data/density.v1.json",
@@ -5605,41 +2725,41 @@
     },
     {
       "path": "web/v8.2-canonical-projection/projection.v1.json",
-      "sha256": "9a30a25d6f952e44d6f83d14b0b6276cfdc792e7e4595b39a318cf148bf093b4"
+      "sha256": "91d596dce0a95e6fa9443a09583878b8792af83c1169075ca0c7c9db933e5948"
     }
   ],
   "changed_private_artifacts": [
     {
       "path": "corrections/correction-overlay.v8.2.v1.json",
-      "sha256": "272ad715b1b287598cb92607c44c71e0445e2888e9c8cae2bdf581a33f69abb2"
+      "sha256": "caf8a33a6afd64f62b1aa76f12a751c6d3b9662b74a8c07f56da6a35f2c1f253"
     },
     {
       "path": "migration/policy-build-input.v8.2.json",
-      "sha256": "e8f01da7106727b1a9ecb2c16b875e23adc3f71fc8be5ed0c0010121abee7828"
+      "sha256": "1847550493ac91f7375797305c78415ad8aa866e2356a1820cafbba12233f3ef"
     },
     {
       "path": "scoring/v8.2/dimension-calculation-input.v2.json",
-      "sha256": "f4afd5b9ec354cee8b89a82960ae72f1ce529e05854d5ff9e88f0c23934a66ff"
+      "sha256": "2d7164295de9ec7a551251d7157d26b94d12ae8a760fefba99814dc6a7aa2793"
     },
     {
       "path": "scoring/v8.2/dimension-calculations.v6.json",
-      "sha256": "683cfb6a9972e75494313fe6316a32dc5ee8c22477a4e3f070a5290a51eb7f63"
+      "sha256": "037f9be5fc62c8f5113971a294bae40a0b1ff421e63fa4680d89e3e1c1694a1a"
     },
     {
       "path": "scoring/v8.2/evaluation-result.v12.json",
-      "sha256": "29df738870029215c4b2eb7693c187e4c0007f10fa5bfb447ab51a7440aef8b7"
+      "sha256": "80f16b550b12710093f273d6dd263350732227d0380eced5fc2ae3f12d385b51"
     },
     {
       "path": "scoring/v8.2/item-assessments.v7.json",
-      "sha256": "531e997b9223766328a0cb5eb685b536835f4f4c29d3ed540428594907f963ff"
+      "sha256": "a156f51cde8f6da15e6b09e9d816e71be2c50caa8c212a9321543c30d5d8c9a9"
     },
     {
       "path": "scoring/v8.2/projection-metadata.v2.json",
-      "sha256": "af4b82352c2b1946aba06ad1a5be4cd15bdaa0571b0983d968013f0d15e3b867"
+      "sha256": "3a279442cbd6f875a606bc56df43b578f718fe0a5b9f368bb95ad37cf7e91707"
     },
     {
       "path": "scoring/v8.2/v8-canonical-projection/data/correction-overlay.v1.json",
-      "sha256": "272ad715b1b287598cb92607c44c71e0445e2888e9c8cae2bdf581a33f69abb2"
+      "sha256": "caf8a33a6afd64f62b1aa76f12a751c6d3b9662b74a8c07f56da6a35f2c1f253"
     },
     {
       "path": "scoring/v8.2/v8-canonical-projection/data/density.v1.json",
@@ -5655,19 +2775,19 @@
     },
     {
       "path": "scoring/v8.2/v8-canonical-projection/projection.v1.json",
-      "sha256": "9a30a25d6f952e44d6f83d14b0b6276cfdc792e7e4595b39a318cf148bf093b4"
+      "sha256": "91d596dce0a95e6fa9443a09583878b8792af83c1169075ca0c7c9db933e5948"
     },
     {
       "path": "scoring/v8.2/web-report.v10.json",
-      "sha256": "cf412564233c1a4e29ea642fdfabb02738d4d46da81cee81419677c32d3acd44"
+      "sha256": "b891c3f8339ebc5b02bc85b38c78204d8aa8b21d910b92a8699714075012a7e3"
     },
     {
       "path": "source/evaluation-policy.v8.2.json",
-      "sha256": "99e79b5926a6aeda24cb8b0c21ff110e53599bbc4530e949457933fb43f3c511"
+      "sha256": "7c9320dcde3faa27ff492615234b835709b0ed173faa9f7444ef817ce4162e24"
     },
     {
       "path": "structure/structure-audit.v8.2.v6.json",
-      "sha256": "8d5c9aa53b4b63306121b23395127855b0b2719667fb4229d50b05c3800d367b"
+      "sha256": "75e48ca7fd784c084cc820d5fae4b9b2bde9a0ce9e57c3226e8a7dbdb8443e9d"
     }
   ]
 }

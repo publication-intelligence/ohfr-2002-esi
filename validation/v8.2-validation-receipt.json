@@ -1,9 +1,9 @@
 {
   "schema_version": "ohfr-targeted-v8.2-validation-receipt-v1",
   "ok": true,
-  "methodology_commit": "adeb69171a3278893e8b7ebb3c664ee5bd428efe",
-  "ledger_sha256": "a60973864b0dc9bfb53945b0354ebde01ad019dc7b97e63cdbf6751b02d9f19f",
-  "canonical_state_sha256": "6ba966eba5e207effb4bac4ca2aa07a821b81c23ff98a40ba5fcf29924ab5890",
+  "methodology_commit": "c11c6ccb16000fe79646af16b7be01f6cbeeac78",
+  "ledger_sha256": "f9fd756893921395c11dedf60c37843dc2cd28813022eddddfe5acac710b523a",
+  "canonical_state_sha256": "ad0231e3053c4e674ea94f58ab89fb7152af0319b94e3a0e7dc04c7717354a5e",
   "checks": [
     "result/report schemas",
     "complete bundle hashes, joins and public safety",
