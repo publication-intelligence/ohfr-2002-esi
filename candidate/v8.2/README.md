@@ -1,5 +1,7 @@
 # Published Oxford index: V8.2 migration
 
+**Comparison hold:** this evaluation and IndexPDF use a different frozen benchmark from IndexerLabs and Indexia. The V8.2 migration is preserved, but PRs and the bundle cutover remain on hold pending a common-benchmark plan. See the [investigation](../../docs/benchmark-comparability.md).
+
 The overall score remains **89.38/100**. Every numeric dimension component, denominator, deduction, cap evaluation and weighted contribution is identical to the frozen V8.1 result. The evaluation remains valid. Confirmed wholly wrong locator destinations and a delivered cross-reference with no valid destination now block publication directly.
 
 The final release is methodology `c11c6ccb16000fe79646af16b7be01f6cbeeac78` (PR #50, following merged PRs #48 and #49). Two publication-gate categories trigger: **72 wholly wrong locator destinations** and **one cross-reference with no valid destination**. Publication readiness is **not publication ready**. Thirteen explicitly uncertain locator findings remain separate assessment gaps; evaluation validity remains valid.
