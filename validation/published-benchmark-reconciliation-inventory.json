@@ -1,6 +1,6 @@
 {
   "schema_version": "ohfr-published-benchmark-reconciliation-inventory-v1",
-  "status": "preparation_only_pending_supported_retrospective_benchmark_migration",
+  "status": "preparation_only_pending_source_comparison_and_benchmark_selection",
   "canonical_state_mutated": false,
   "target_benchmark_imported": false,
   "audit_transfer_approved": false,
@@ -13,16 +13,6 @@
     "preserved_git_commit": "4dfb8a545eac6282d1956e01576f1d790b528c1a",
     "archive_sha256": "95f2f5523d68dc54a2d50c12377bab6076177840a6dc60c2693378c8285103ad",
     "archive_members": 171
-  },
-  "target_release": {
-    "repository": "publication-intelligence/ohfr-2002-esi-benchmark",
-    "freeze_commit": "98dbffd0ca171b5b7db76dbe1b2b5d5265ccacab",
-    "path": "source/source-benchmark.v3.json",
-    "canonical_sha256": "b925797fcab50b2008ad5974590e323f772e5ea7013efa84ce7606007439aeb3",
-    "file_sha256": "34a399cda8ca9f1b07b9fa0ddad36ac4f5073ef12d8b12df42fb023818508b27",
-    "subjects": 1366,
-    "reader_tasks": 1026,
-    "expected_treatments": 3210
   },
   "candidate": {
     "candidate_sha256": "1d43fe7fb158b352393c6e2f14843aae9ae23ccfca1f61c6783307432b0a9d09",
@@ -1457,10 +1447,29 @@
     }
   ],
   "limits": [
+    "All replacement and rebinding dispositions are conditional on a final benchmark choice after candidate-blind source comparison; incumbent v3 is not selected authority. If native is retained unchanged, replacement work may not be necessary.",
     "This is a read-only preparation inventory, not a second canonical state.",
     "No benchmark, audit, scoring input, result, report or private baseline was altered.",
     "Absence of old IDs alone is not proof of semantic independence; reuse must be confirmed through supported migration and retained evidence.",
     "The 89.38 historical score is not an invariant or target after changing benchmark.",
     "Preserve candidate visibility and historical review/freeze; do not claim fresh candidate-blind review."
-  ]
+  ],
+  "benchmark_selection_status": "undecided",
+  "migration_authorized": false,
+  "selection_options": [
+    "incumbent_v3",
+    "native",
+    "reviewed_v4"
+  ],
+  "incumbent_release": {
+    "repository": "publication-intelligence/ohfr-2002-esi-benchmark",
+    "freeze_commit": "98dbffd0ca171b5b7db76dbe1b2b5d5265ccacab",
+    "path": "source/source-benchmark.v3.json",
+    "canonical_sha256": "b925797fcab50b2008ad5974590e323f772e5ea7013efa84ce7606007439aeb3",
+    "file_sha256": "34a399cda8ca9f1b07b9fa0ddad36ac4f5073ef12d8b12df42fb023818508b27",
+    "subjects": 1366,
+    "reader_tasks": 1026,
+    "expected_treatments": 3210,
+    "selected_as_target": false
+  }
 }
