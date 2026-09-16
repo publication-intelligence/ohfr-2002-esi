@@ -1,0 +1,108 @@
+{
+  "schema_version": "ohfr-published-index-private-recovery-v1",
+  "status": "verified",
+  "methodology_commit": "25fa3983f4980ad6a168610e08b128def11258b2",
+  "original_public_commit": "d216ffee2ac05c85209c3ba71752bdde16076c57",
+  "original_files_verified": 141,
+  "all_recovered_artifacts_match": true,
+  "recovered_artifacts": [
+    {
+      "path": "corrections/correction-overlay.v1.json",
+      "expected_sha256": "7734d0ee8afb24d6d24465d013687e02ea43b527e518dc0e150ba2450204e159",
+      "actual_sha256": "7734d0ee8afb24d6d24465d013687e02ea43b527e518dc0e150ba2450204e159",
+      "matches": true
+    },
+    {
+      "path": "scoring/v8.1/dimension-calculation-input.v2.json",
+      "expected_sha256": "d7792d702c467104a29af0fdeea84754eb7897f4366eefdc2136d5a59896faee",
+      "actual_sha256": "d7792d702c467104a29af0fdeea84754eb7897f4366eefdc2136d5a59896faee",
+      "matches": true
+    },
+    {
+      "path": "scoring/v8.1/dimension-calculations.v6.json",
+      "expected_sha256": "47cd541bb1aeed0b27df7b43e53f3868147837c9a04279e4c39eab4452e9c897",
+      "actual_sha256": "47cd541bb1aeed0b27df7b43e53f3868147837c9a04279e4c39eab4452e9c897",
+      "matches": true
+    },
+    {
+      "path": "scoring/v8.1/evaluation-result.v12.json",
+      "expected_sha256": "e1ae0c51e62a0f62a221b8c6196c2d9e66a7058e7037c62f63aba5178fd641f9",
+      "actual_sha256": "e1ae0c51e62a0f62a221b8c6196c2d9e66a7058e7037c62f63aba5178fd641f9",
+      "matches": true
+    },
+    {
+      "path": "scoring/v8.1/item-assessments.v7.json",
+      "expected_sha256": "eb0a7d6223e91351e46487d96685a3805b8c1f53945001018bab7c0ab52d94c2",
+      "actual_sha256": "eb0a7d6223e91351e46487d96685a3805b8c1f53945001018bab7c0ab52d94c2",
+      "matches": true
+    },
+    {
+      "path": "scoring/v8.1/projection-metadata.v2.json",
+      "expected_sha256": "ac9b9606377d928a195e26a30dbe6b8918cc96058edf4ab90b325b5fdb3da378",
+      "actual_sha256": "ac9b9606377d928a195e26a30dbe6b8918cc96058edf4ab90b325b5fdb3da378",
+      "matches": true
+    },
+    {
+      "path": "scoring/v8.1/v8-canonical-projection/data/correction-overlay.v1.json",
+      "expected_sha256": "7734d0ee8afb24d6d24465d013687e02ea43b527e518dc0e150ba2450204e159",
+      "actual_sha256": "7734d0ee8afb24d6d24465d013687e02ea43b527e518dc0e150ba2450204e159",
+      "matches": true
+    },
+    {
+      "path": "scoring/v8.1/v8-canonical-projection/data/density.v1.json",
+      "expected_sha256": "347d18892f21a23cf15c979d0bb4be58b2674c6a9e548aaedfdefa143209cb8d",
+      "actual_sha256": "347d18892f21a23cf15c979d0bb4be58b2674c6a9e548aaedfdefa143209cb8d",
+      "matches": true
+    },
+    {
+      "path": "scoring/v8.1/v8-canonical-projection/data/index-records.v1.json",
+      "expected_sha256": "e052e8e3f0795fc336adaa312bfff8068cc77f0c00daee5f6534d61114bbf1f9",
+      "actual_sha256": "e052e8e3f0795fc336adaa312bfff8068cc77f0c00daee5f6534d61114bbf1f9",
+      "matches": true
+    },
+    {
+      "path": "scoring/v8.1/v8-canonical-projection/data/source-subjects.v1.json",
+      "expected_sha256": "ba0e62ae7e325f40b62a01e9e8e4f928e3ab2054a8c44ed0d0062172ccc71b6a",
+      "actual_sha256": "ba0e62ae7e325f40b62a01e9e8e4f928e3ab2054a8c44ed0d0062172ccc71b6a",
+      "matches": true
+    },
+    {
+      "path": "scoring/v8.1/v8-canonical-projection/projection.v1.json",
+      "expected_sha256": "0c04df8c1590ee6394a0cac2fc2302f2a927972b3f4085626940f5fe66b89a1e",
+      "actual_sha256": "0c04df8c1590ee6394a0cac2fc2302f2a927972b3f4085626940f5fe66b89a1e",
+      "matches": true
+    },
+    {
+      "path": "scoring/v8.1/web-report.v10.json",
+      "expected_sha256": "8ffed30ca6fcda5d09bac63994495a46e942e49b820f7f2790bc71411005abfe",
+      "actual_sha256": "8ffed30ca6fcda5d09bac63994495a46e942e49b820f7f2790bc71411005abfe",
+      "matches": true
+    },
+    {
+      "path": "source/evaluation-policy.v8.1.json",
+      "expected_sha256": "bd578b4f8a869fa2562a390cb8c5dff8e98fa8d09ee782d792a0856697c02df2",
+      "actual_sha256": "bd578b4f8a869fa2562a390cb8c5dff8e98fa8d09ee782d792a0856697c02df2",
+      "matches": true
+    }
+  ],
+  "archives": [
+    {
+      "path": "original-v8-complete.zip",
+      "sha256": "e39ec14c24343600303769a50e49c388d8a386ec36ce661f1b164d0a29b3d2ad",
+      "member_count": 141
+    },
+    {
+      "path": "recovered-v8.1-complete.zip",
+      "sha256": "3fd526fe951e8dc079c55bb77874b68b81d32bfba4ac45ce2b6e6b9d96828886",
+      "member_count": 155
+    }
+  ],
+  "recovered_state_sha256": "c806437cea841440c5d7026183402d4fe5a80e4e23fa67010449448fcc0a871a",
+  "previous_state_sha256": "0c8d488140c317c87d51ab204df5f8c61970e6ccabed948435f5e022e097c3d5",
+  "state_note": "Canonical state reconstructed by registered commands with current registration timestamps; not claimed byte-identical to the unavailable previous state. Historical policy migration timestamp is replayed from the published ledger.",
+  "state_validation_warnings": [
+    "Artifact bytes changed since registration: source/chunks/source-chunk-inventory.json"
+  ],
+  "durable_location": "Saved project: staging/v8.1/handoff/",
+  "validation_receipt_sha256": "f0df1f1922c7a63b4fe286d726822ff1499d61c195c406fe00e73af0e7782d45"
+}
