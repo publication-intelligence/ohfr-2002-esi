@@ -1,0 +1,32 @@
+{
+  "schema_version": "ohfr-regression-results-v1",
+  "methodology_commit": "25fa3983f4980ad6a168610e08b128def11258b2",
+  "runs": [
+    {
+      "suite": "consequence_policy",
+      "command": "python -m unittest discover -s SKILL/tests -p test_consequence_policy.py -v",
+      "passed": 19,
+      "duration_seconds": 0.021,
+      "status": "passed",
+      "run_log_sha256": "88f30b555e89d678637e13bd4a85649dedbcc82f735880cfc57d41266328b132"
+    },
+    {
+      "suite": "full_methodology",
+      "command": "python -m unittest discover -s SKILL/tests",
+      "passed": 150,
+      "duration_seconds": 43.721,
+      "status": "passed",
+      "run_log_sha256": "d28e0de5e7b25bd5f7f214d81a9bf11ce9a577dd03c9f569cefce05dc77d0285"
+    },
+    {
+      "suite": "repository_legacy_projections",
+      "command": "python -m unittest discover -s tests -v",
+      "passed": 17,
+      "duration_seconds": 13.454,
+      "status": "passed",
+      "run_log_sha256": "60db785e80b7e77c4747d5bd2b62f934b977d957156831d347951476e743a4a3"
+    }
+  ],
+  "runtime": "Dependency-complete methodology virtual environment with jsonschema, referencing and pypdf.",
+  "prior_attempts": "System Python lacked pypdf/referencing; bundled Python lacked jsonschema. These were environment failures; all suites passed in the dependency-complete environment."
+}

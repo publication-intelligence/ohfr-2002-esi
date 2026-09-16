@@ -1,0 +1,58 @@
+{
+  "schema_version": "ohfr-targeted-v8.1-validation-receipt-v1",
+  "ok": true,
+  "current_canonical_state_sha256": "0c8d488140c317c87d51ab204df5f8c61970e6ccabed948435f5e022e097c3d5",
+  "checks": [
+    "current result/report schemas",
+    "complete public bundle schemas, self-hashes, joins and safety",
+    "public artifact byte hashes",
+    "scorecard and readiness parity",
+    "correction overlay facts and revised minor-gate consequence",
+    "102 yellow partial-fit signals",
+    "complete ceiling tooltips and non-binding label",
+    "original archive preservation",
+    "37 exact original calculation inputs and unchanged audit bytes",
+    "canonical state and completed registered stages",
+    "current preflight validity",
+    "exact deterministic calculation reproduction",
+    "all diagnostic item records unchanged",
+    "result and full projection private provenance bindings",
+    "weighted arithmetic"
+  ],
+  "warnings": [
+    "Artifact bytes changed since registration: source/chunks/source-chunk-inventory.json"
+  ],
+  "ledger_sha256": "4e7edef895ef0a19544bfa5782ba5d767a35a3929232782fecc285a5ee413aa9",
+  "methodology_commit": "25fa3983f4980ad6a168610e08b128def11258b2",
+  "regression_results": {
+    "path": "validation/v8.1-regression-results.json",
+    "sha256": "cc77b04830d5a6166850ad1c3a946883b6af2953d93014f3938e2144e7b338ce",
+    "runs": [
+      {
+        "suite": "consequence_policy",
+        "command": "python -m unittest discover -s SKILL/tests -p test_consequence_policy.py -v",
+        "passed": 19,
+        "duration_seconds": 0.021,
+        "status": "passed",
+        "run_log_sha256": "88f30b555e89d678637e13bd4a85649dedbcc82f735880cfc57d41266328b132"
+      },
+      {
+        "suite": "full_methodology",
+        "command": "python -m unittest discover -s SKILL/tests",
+        "passed": 150,
+        "duration_seconds": 43.721,
+        "status": "passed",
+        "run_log_sha256": "d28e0de5e7b25bd5f7f214d81a9bf11ce9a577dd03c9f569cefce05dc77d0285"
+      },
+      {
+        "suite": "repository_legacy_projections",
+        "command": "python -m unittest discover -s tests -v",
+        "passed": 17,
+        "duration_seconds": 13.454,
+        "status": "passed",
+        "run_log_sha256": "60db785e80b7e77c4747d5bd2b62f934b977d957156831d347951476e743a4a3"
+      }
+    ]
+  },
+  "runtime_note": "Dependency-complete methodology validation environment used. Earlier system/bundled Python attempts failed dependency imports; complete reruns passed."
+}
