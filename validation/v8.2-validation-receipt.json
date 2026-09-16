@@ -1,0 +1,26 @@
+{
+  "schema_version": "ohfr-targeted-v8.2-validation-receipt-v1",
+  "ok": true,
+  "methodology_commit": "adeb69171a3278893e8b7ebb3c664ee5bd428efe",
+  "ledger_sha256": "a60973864b0dc9bfb53945b0354ebde01ad019dc7b97e63cdbf6751b02d9f19f",
+  "canonical_state_sha256": "6ba966eba5e207effb4bac4ca2aa07a821b81c23ff98a40ba5fcf29924ab5890",
+  "checks": [
+    "result/report schemas",
+    "complete bundle hashes, joins and public safety",
+    "unchanged score and validity",
+    "direct gate and readiness parity",
+    "confirmed correction overlay preserved",
+    "exact frozen baseline archive",
+    "all original calculation input bytes preserved",
+    "all numeric components and caps invariant",
+    "canonical state and completed stages",
+    "native retrospective provenance",
+    "deterministic calculation reproduction",
+    "unchanged diagnostic items and structure judgments",
+    "direct gate evidence traced to original audit rows",
+    "private report/projection provenance bindings"
+  ],
+  "warnings": [
+    "Artifact bytes changed since registration: source/chunks/source-chunk-inventory.json"
+  ]
+}

@@ -1,0 +1,3908 @@
+{
+  "collections": [
+    {
+      "artifact_path": "data/correction-overlay.v1.json",
+      "collection_id": "correction_overlay",
+      "content_sha256": "973849ad1632e290c4fe22966d4ececbbd57b739e2ee572e55aa121c79176882",
+      "count": 14,
+      "file_sha256": "272ad715b1b287598cb92607c44c71e0445e2888e9c8cae2bdf581a33f69abb2"
+    },
+    {
+      "artifact_path": "data/index-records.v1.json",
+      "collection_id": "index_records",
+      "content_sha256": "8a2c80c04321a612fa12e197ef13cdaad6bfcd9d3cdefab539e0cf1a4df135f1",
+      "count": 1904,
+      "file_sha256": "e052e8e3f0795fc336adaa312bfff8068cc77f0c00daee5f6534d61114bbf1f9"
+    },
+    {
+      "artifact_path": "data/source-subjects.v1.json",
+      "collection_id": "source_subjects",
+      "content_sha256": "250ed791cb21193c4575db8cc90f28e6262fb096c2d3a0e27e60fe2f1545bdb6",
+      "count": 638,
+      "file_sha256": "ba0e62ae7e325f40b62a01e9e8e4f928e3ab2054a8c44ed0d0062172ccc71b6a"
+    },
+    {
+      "artifact_path": "data/density.v1.json",
+      "collection_id": "density",
+      "content_sha256": "7ad075fd79d26443fed7e2cfb0e74c4a828f6a40e5cfbe60d95df1cf658eb61a",
+      "count": 17,
+      "file_sha256": "347d18892f21a23cf15c979d0bb4be58b2674c6a9e548aaedfdefa143209cb8d"
+    }
+  ],
+  "correction_outcomes": {
+    "adjusted_minor_defect_count": 3,
+    "affected_headings": 14,
+    "character_replacements": 18,
+    "corrected_cross_reference_id": "XREF-9A63B6DC42BB",
+    "cross_reference_gate_unchanged": true,
+    "observed_minor_defect_count": 4,
+    "readiness_unchanged": true,
+    "remaining_unresolved_cross_reference_id": "XREF-6E6F54660707"
+  },
+  "density_denominator": {
+    "indexable_source_words": 195346,
+    "unit": "words"
+  },
+  "evaluation_id": "ohfr-2002-original-published-index-v8",
+  "item_summaries": {
+    "observed": {
+      "cross_references": {
+        "bands": {
+          "excellent": 14,
+          "mixed": 0,
+          "not_measured": 0,
+          "poor": 2,
+          "strong": 0,
+          "weak": 0
+        },
+        "graded": 16,
+        "not_measured": 0,
+        "total": 16
+      },
+      "heading_nodes": {
+        "bands": {
+          "excellent": 1795,
+          "mixed": 7,
+          "not_measured": 0,
+          "poor": 0,
+          "strong": 96,
+          "weak": 6
+        },
+        "graded": 1904,
+        "not_measured": 0,
+        "total": 1904
+      },
+      "locator_utility_tiers": {
+        "diagnostic_credit": {
+          "0": 72,
+          "0.15": 22,
+          "0.25": 18,
+          "0.35": 1,
+          "0.7": 1708,
+          "1": 3517
+        },
+        "fit": {
+          "exact_fit": 5141,
+          "material_mismatch": 1,
+          "material_partial_fit": 102,
+          "no_fit": 72,
+          "severe_mismatch": 22
+        },
+        "rating_credit": {
+          "0": 215,
+          "1": 5123
+        },
+        "treatment": {
+          "absent": 72,
+          "mixed": 1682,
+          "substantive": 3560,
+          "weak_presence": 24
+        }
+      },
+      "locators": {
+        "bands": {
+          "excellent": 3517,
+          "mixed": 1708,
+          "not_measured": 0,
+          "poor": 113,
+          "strong": 0,
+          "weak": 0
+        },
+        "graded": 5338,
+        "not_measured": 0,
+        "total": 5338
+      },
+      "paths": {
+        "bands": {
+          "excellent": 0,
+          "mixed": 0,
+          "not_measured": 1904,
+          "poor": 0,
+          "strong": 0,
+          "weak": 0
+        },
+        "graded": 0,
+        "not_measured": 1904,
+        "total": 1904
+      },
+      "source_subjects": {
+        "bands": {
+          "excellent": 491,
+          "mixed": 0,
+          "not_measured": 0,
+          "poor": 147,
+          "strong": 0,
+          "weak": 0
+        },
+        "graded": 638,
+        "not_measured": 0,
+        "total": 638
+      }
+    }
+  },
+  "limitations": [
+    "Page 123 continues the October procession, its flour wagons, and bread imagery, but does not itself identify the crowd specifically as market women.",
+    "Page 191 treats the Prussian advance, front-line panic, and France's wartime crisis, but it does not identify an Austrian role on this page.",
+    "Page 192 treats French volunteering and the battle of Valmy against Prussian forces; Austria is not part of the action described on this page.",
+    "Page 180 places Robespierre in the war narrative but records only his criticism of Dumouriez's showy liberty-cap display.",
+    "Page 223 discusses price rises and supply disruption for sugar, soap, coffee, candles, and West Indian commodities, but calls them basic commodities rather than luxury goods.",
+    "Page 389 refers generally to victorious peace treaties before the legislature; the Peace of Amiens is named on page 390.",
+    "Page 370 ends with Barras's name but postpones every informative statement about him until page 371.",
+    "Page 387 substantively asks how bishops would be appointed and describes government designation, but does not state clerical election on this page.",
+    "Page 387 discusses future episcopal selection by state appointment, not an election of clergy on that page.",
+    "Page 387 describes the two rival episcopal bodies and the settlement problem but does not yet identify refractory priests explicitly.",
+    "Page 417 completes the cross-page statement that the French example reinforced patriotism in long-united states such as the Dutch Republic.",
+    "Page 420 reports that Théroigne de Méricourt was suspected of spying for “the emperor”; in the 1792 setting this refers to Francis II.",
+    "Page 413 treats the Revolution’s effects on Italian city-republics and begins the broader discussion of French remaking of Europe continued on page 414.",
+    "The supported October Days locator on page 123 was not accepted as a realistic lookup route to the distinct thematic claim that Paris became the Revolution's self-appointed guardian.",
+    "Page 126 is retrieved through the broader supported heading 'municipal authorities'; this was accepted as a realistic route to elected commune government, although the heading does not name communes explicitly.",
+    "The page-130 seigneurialism route was accepted as access to aristocratic resistance, but it does not itself connect that treatment to noble emigration, so the synthesized reader task remains only partially successful.",
+    "The full interpretation is distributed between Committee-of-Public-Safety and Law-of-14-Frimaire routes rather than one consolidated Revolutionary Government route.",
+    "Page 258 is reachable through Nantes, Carrier, and provincial-Terror routes rather than the Vendée-suppression subdivision itself.",
+    "The page-263 governing treatment is reachable through the Committee's dechristianization-policy subdivision, a narrower route than the frozen leadership-and-power subject.",
+    "A black-market entry reaches page 269, but it is too indirect to count as access to the frozen controlled-economy interpretation; that boundary judgment is medium confidence.",
+    "Desmoulins and moderate-newspaper entries reach page 269, but neither is an adequate first route to the frozen Danton-and-Indulgents subject.",
+    "Page 263 is reached through the Committee's dechristianization-policy subdivision rather than an explicit liberty-of-cults route.",
+    "The exact Defenders heading conflates the Irish agrarian Defenders with the French Defenders of the One and Indivisible Republic; broader Ireland and United Irishmen paths still retrieve page 341.",
+    "The expected pages are reachable under narrower component headings, but whether that fragmented route is realistic for the benchmark-level synthesis requires a borderline access judgment.",
+    "Aggregate scores come from the authoritative V8 calculation, not reconstructed item grades.",
+    "Source excerpts and private layout evidence are excluded.",
+    "Exact percentage and weighted-contribution strings are authoritative; numeric rating and points aliases exist only for the established generic website adapter."
+  ],
+  "projection_id": "OHFR-V8-WEB-D5F59242D2D0",
+  "projection_role": "deterministic_public_safe_display_projection",
+  "projection_sha256": "faccdc55e5666180e4c9fb3837b2b6c88b5c79e19d741e74860b343d2a9275ae",
+  "provenance": {
+    "benchmark_sha256": "558980b374ca4b162b12f2726e237319b170f9e8b7014f71ad7c2171e9e98983",
+    "calculation_sha256": "fbf81d6677657d4f6fae5f09e52edd834c6dfa0a05f896b1baa78c4e3591b91b",
+    "correction_overlay_sha256": "973849ad1632e290c4fe22966d4ececbbd57b739e2ee572e55aa121c79176882",
+    "dimension_calculation_profile": "subject-index-dimension-calculation-v7",
+    "judgment_policy_sha256": "7d1157fbca6f2f9c8b108ce54eacee4a52103a9a54a481caedc582bb47086321",
+    "missing_access_audit_set_sha256": "d54b3d5db5d166f9844f9ffde9d639b44454ee8ae041dda1a29e140503f25014",
+    "projection_metadata_sha256": "493537ab576f4b36ab7446d1dd2b9781e2dbfe2235b7771988a773c97a9b6ad8",
+    "rubric_version": "subject-index-rubric-v8.2",
+    "source_artifacts": [
+      {
+        "artifact_path": "candidates/oxford-history-french-revolution-2002-original-published-index/candidate-index.draft.v2.json",
+        "availability": "canonical_registered_input",
+        "schema_version": "candidate-index-v2",
+        "sha256": "7b29d7716339038848e2b1b0ec17220ae1867cb95941f0f06a84488cd486ed79"
+      },
+      {
+        "artifact_path": "candidates/oxford-history-french-revolution-2002-original-published-index/item-inventory.draft.v2.json",
+        "availability": "canonical_registered_input",
+        "schema_version": "subject-index-item-inventory-v2",
+        "sha256": "3e9c2b20d49486398bd57bfa31f5d1da1743498b47d0b9e46e42f096b56b9934"
+      },
+      {
+        "artifact_path": "candidates/oxford-history-french-revolution-2002-original-published-index/missing-access-audits/missing-access-audit.CHUNK-001.v1.json",
+        "availability": "canonical_registered_input",
+        "schema_version": "missing-access-audit-v1",
+        "sha256": "0bf1614ecd1af0e54b14d96eb72b25cd34621f0c4590991ce95065e929b3c3af"
+      },
+      {
+        "artifact_path": "candidates/oxford-history-french-revolution-2002-original-published-index/missing-access-audits/missing-access-audit.CHUNK-002.v1.json",
+        "availability": "canonical_registered_input",
+        "schema_version": "missing-access-audit-v1",
+        "sha256": "6ecdd8fddc881f789d87d979d6a6b8bae446d6676679b83a369f70ba68bc76e2"
+      },
+      {
+        "artifact_path": "candidates/oxford-history-french-revolution-2002-original-published-index/missing-access-audits/missing-access-audit.CHUNK-003.v1.json",
+        "availability": "canonical_registered_input",
+        "schema_version": "missing-access-audit-v1",
+        "sha256": "37ca7f31723d53f28aff42c072bd03e87e844ccc1ccdf194df85519de130c870"
+      },
+      {
+        "artifact_path": "candidates/oxford-history-french-revolution-2002-original-published-index/missing-access-audits/missing-access-audit.CHUNK-004.v1.json",
+        "availability": "canonical_registered_input",
+        "schema_version": "missing-access-audit-v1",
+        "sha256": "464ada6ecfc5e607760aa5a630f9be65d77471f28496384e32a5feee951c6259"
+      },
+      {
+        "artifact_path": "candidates/oxford-history-french-revolution-2002-original-published-index/missing-access-audits/missing-access-audit.CHUNK-005.v1.json",
+        "availability": "canonical_registered_input",
+        "schema_version": "missing-access-audit-v1",
+        "sha256": "29e1a93086ea579432bce115be3e99b4f3451aa6ae804446c4a03f573de4de67"
+      },
+      {
+        "artifact_path": "candidates/oxford-history-french-revolution-2002-original-published-index/missing-access-audits/missing-access-audit.CHUNK-006.v1.json",
+        "availability": "canonical_registered_input",
+        "schema_version": "missing-access-audit-v1",
+        "sha256": "b537756a124d9d8a459aac0b294c9efbebf0b019ce50b3f9a36928929bd5f726"
+      },
+      {
+        "artifact_path": "candidates/oxford-history-french-revolution-2002-original-published-index/missing-access-audits/missing-access-audit.CHUNK-007.v1.json",
+        "availability": "canonical_registered_input",
+        "schema_version": "missing-access-audit-v1",
+        "sha256": "ef776b93b152e720c3bcb64647304b6cb1d5e4b23767978b0ca672351493f691"
+      },
+      {
+        "artifact_path": "candidates/oxford-history-french-revolution-2002-original-published-index/missing-access-audits/missing-access-audit.CHUNK-008.v1.json",
+        "availability": "canonical_registered_input",
+        "schema_version": "missing-access-audit-v1",
+        "sha256": "a084492915fa9a641871195b99aec630941f6d8f4bd7a47e9c631d4ef1ee3501"
+      },
+      {
+        "artifact_path": "candidates/oxford-history-french-revolution-2002-original-published-index/missing-access-audits/missing-access-audit.CHUNK-009.v1.json",
+        "availability": "canonical_registered_input",
+        "schema_version": "missing-access-audit-v1",
+        "sha256": "773df831d73abdc6ba12e0e0feb83973d4e16609096333a77ee84d07ea3a4aec"
+      },
+      {
+        "artifact_path": "candidates/oxford-history-french-revolution-2002-original-published-index/missing-access-audits/missing-access-audit.CHUNK-010.v1.json",
+        "availability": "canonical_registered_input",
+        "schema_version": "missing-access-audit-v1",
+        "sha256": "41ce3cef105fa3373522034274e4c2a35396eb1e502ff2e2035402b4dc0c7f87"
+      },
+      {
+        "artifact_path": "candidates/oxford-history-french-revolution-2002-original-published-index/missing-access-audits/missing-access-audit.CHUNK-011.v1.json",
+        "availability": "canonical_registered_input",
+        "schema_version": "missing-access-audit-v1",
+        "sha256": "0dfb83d6469ef50d640e9b7de0405e8fc8678a99ec02ecdb75cf6cc788dc2ea2"
+      },
+      {
+        "artifact_path": "candidates/oxford-history-french-revolution-2002-original-published-index/missing-access-audits/missing-access-audit.CHUNK-012.v1.json",
+        "availability": "canonical_registered_input",
+        "schema_version": "missing-access-audit-v1",
+        "sha256": "568c0c5874e5223f10b13a5385984a4dd55fd852e8ceec6abfc7912360321dbf"
+      },
+      {
+        "artifact_path": "candidates/oxford-history-french-revolution-2002-original-published-index/missing-access-audits/missing-access-audit.CHUNK-013.v1.json",
+        "availability": "canonical_registered_input",
+        "schema_version": "missing-access-audit-v1",
+        "sha256": "8af840d5d953bda9d3f83b9fcb090f80cc870ae5f2873ef23bb611ced5498a5b"
+      },
+      {
+        "artifact_path": "candidates/oxford-history-french-revolution-2002-original-published-index/missing-access-audits/missing-access-audit.CHUNK-014.v1.json",
+        "availability": "canonical_registered_input",
+        "schema_version": "missing-access-audit-v1",
+        "sha256": "952dc924ff4129818729b7362cccc1bd413ee0dd7ceb90475591db15f2784a77"
+      },
+      {
+        "artifact_path": "candidates/oxford-history-french-revolution-2002-original-published-index/missing-access-audits/missing-access-audit.CHUNK-015.v1.json",
+        "availability": "canonical_registered_input",
+        "schema_version": "missing-access-audit-v1",
+        "sha256": "da67d539fedfc8d0f47a2a6cacdaf748d6f94e51ca3d09ebc89312eccfb80cec"
+      },
+      {
+        "artifact_path": "candidates/oxford-history-french-revolution-2002-original-published-index/missing-access-audits/missing-access-audit.CHUNK-016.v1.json",
+        "availability": "canonical_registered_input",
+        "schema_version": "missing-access-audit-v1",
+        "sha256": "c54e3f6400e0cafb54dc323c1eed36f4ff3f0fc3001be3f798232c884f5fa099"
+      },
+      {
+        "artifact_path": "candidates/oxford-history-french-revolution-2002-original-published-index/missing-access-audits/missing-access-audit.CHUNK-017.v1.json",
+        "availability": "canonical_registered_input",
+        "schema_version": "missing-access-audit-v1",
+        "sha256": "938e072e5e6e113d3220c7bd83144f69999ca4c7a8df32f30160200a4c8b4474"
+      },
+      {
+        "artifact_path": "corrections/correction-overlay.v8.2.v1.json",
+        "availability": "canonical_registered_input",
+        "schema_version": "ohfr-v8-representation-correction-overlay-v1",
+        "sha256": "272ad715b1b287598cb92607c44c71e0445e2888e9c8cae2bdf581a33f69abb2"
+      },
+      {
+        "artifact_path": "scoring/v8.2/dimension-calculations.v6.json",
+        "availability": "canonical_registered_input",
+        "schema_version": "subject-index-dimension-calculations-v6",
+        "sha256": "683cfb6a9972e75494313fe6316a32dc5ee8c22477a4e3f070a5290a51eb7f63"
+      },
+      {
+        "artifact_path": "scoring/v8.2/evaluation-result.v12.json",
+        "availability": "canonical_registered_input",
+        "schema_version": "subject-index-evaluation-result-v12",
+        "sha256": "29df738870029215c4b2eb7693c187e4c0007f10fa5bfb447ab51a7440aef8b7"
+      },
+      {
+        "artifact_path": "scoring/v8.2/item-assessments.v7.json",
+        "availability": "canonical_registered_input",
+        "schema_version": "subject-index-item-assessments-v7",
+        "sha256": "531e997b9223766328a0cb5eb685b536835f4f4c29d3ed540428594907f963ff"
+      },
+      {
+        "artifact_path": "scoring/v8.2/web-report.v10.json",
+        "availability": "canonical_registered_input",
+        "schema_version": "subject-index-web-report-v10",
+        "sha256": "cf412564233c1a4e29ea642fdfabb02738d4d46da81cee81419677c32d3acd44"
+      },
+      {
+        "artifact_path": "source/chunk-manifest.json",
+        "availability": "canonical_registered_input",
+        "schema_version": "chunk-manifest-v1",
+        "sha256": "5287f421e1e7be03444c2681beb1e1d63d5d103a96ab770565e32411956ce396"
+      },
+      {
+        "artifact_path": "source/source-benchmark.v2.json",
+        "availability": "canonical_registered_input",
+        "schema_version": "source-subject-benchmark-v2",
+        "sha256": "f58fae3d56c427fcac8771d8ca4181f98a9d496096e35ea1d130e200567a816c"
+      },
+      {
+        "artifact_path": "structure/structure-audit.v8.2.v6.json",
+        "availability": "canonical_registered_input",
+        "schema_version": "structure-audit-v6",
+        "sha256": "8d5c9aa53b4b63306121b23395127855b0b2719667fb4229d50b05c3800d367b"
+      }
+    ],
+    "source_sha256": "5f89aa2592218983c594278bfd86cc1e4b74be1dd6dd8aac5c2610a48fa34047"
+  },
+  "public_safety": {
+    "absolute_paths_included": false,
+    "private_layout_evidence_included": false,
+    "restricted_files_included": false,
+    "source_excerpts_included": false,
+    "source_subject_summaries_are_synthesized_not_quoted": true
+  },
+  "review_signals": [
+    {
+      "affected_evidence_ids": [
+        "LOC-003F71762571",
+        "LOC-008139FA2BC7",
+        "LOC-03965E612F0F",
+        "LOC-044290DBBA7F",
+        "LOC-045BF26CDB87",
+        "LOC-0599C7020FC3",
+        "LOC-064E74EE09A5",
+        "LOC-07C19A8E6712",
+        "LOC-07D39DBEB6CD",
+        "LOC-0992C8AEFF8F",
+        "LOC-0B580D3C90A8",
+        "LOC-0B91A2BFB976",
+        "LOC-0E04C379CB41",
+        "LOC-10CB3E8E93CB",
+        "LOC-1D03ABE81781",
+        "LOC-1D793C49C50E",
+        "LOC-1E53E8658922",
+        "LOC-1EE9A725B231",
+        "LOC-29AD5C72B1BD",
+        "LOC-2DA800BD7738",
+        "LOC-2FB6734ED8EA",
+        "LOC-317488B25A6B",
+        "LOC-3252EEFA0B75",
+        "LOC-3556C7E139CF",
+        "LOC-3D6DC633B34A",
+        "LOC-3F4319E5F33C",
+        "LOC-403B1097CD36",
+        "LOC-407B35E267F6",
+        "LOC-458A263F7F94",
+        "LOC-5158D1F92ABA",
+        "LOC-51905A097AFB",
+        "LOC-5265ADB33180",
+        "LOC-52ABF4F7BC86",
+        "LOC-557B0C5564B6",
+        "LOC-5B0AF00BE559",
+        "LOC-5B80AD70B78C",
+        "LOC-6161D27AF7DE",
+        "LOC-6608CA7EE24C",
+        "LOC-66BA1BA6FC11",
+        "LOC-6B6C00037719",
+        "LOC-6C3131470F47",
+        "LOC-70E9B597AF65",
+        "LOC-72F15852C0AC",
+        "LOC-74D3E6FF1760",
+        "LOC-77C669B392D5",
+        "LOC-7A73F7823A57",
+        "LOC-7C47860A4B29",
+        "LOC-7CF81085CF57",
+        "LOC-7E9FE0CB8EF7",
+        "LOC-81D1B964462A",
+        "LOC-85E43F84BFB1",
+        "LOC-8828EB8E587A",
+        "LOC-8935B2B37159",
+        "LOC-8FD0332C3585",
+        "LOC-901E1C6D282D",
+        "LOC-9217D7991F28",
+        "LOC-940CA86558F7",
+        "LOC-94170198CC9F",
+        "LOC-999C9168EAEC",
+        "LOC-9B599DFDF135",
+        "LOC-9F59C81DDFFA",
+        "LOC-9F7033287BAF",
+        "LOC-A37FE40F4398",
+        "LOC-AA8243BE4489",
+        "LOC-AAB4A87CCC4A",
+        "LOC-AB537F69F9F6",
+        "LOC-AC2896EED86C",
+        "LOC-AC5BF7E2E325",
+        "LOC-AE9E3CC62509",
+        "LOC-B31929356294",
+        "LOC-B3A892B6E376",
+        "LOC-B4A44F7CDDB8",
+        "LOC-B685D3F8FEE2",
+        "LOC-BB498F1D4870",
+        "LOC-BF7BF514B717",
+        "LOC-C0CFFDC75062",
+        "LOC-C5E7EE5275AA",
+        "LOC-C75001C54495",
+        "LOC-C77753200BAC",
+        "LOC-C97570509503",
+        "LOC-CADEC1A04803",
+        "LOC-D01DB7D48587",
+        "LOC-D14D79FF628B",
+        "LOC-D17181AC55E5",
+        "LOC-D1FF7F6B340A",
+        "LOC-D59B9EBADF64",
+        "LOC-D938F34518DB",
+        "LOC-DBF5B94C25F2",
+        "LOC-E077EECB8B85",
+        "LOC-E25109013C79",
+        "LOC-E2CA9519BB8E",
+        "LOC-E4E09172278B",
+        "LOC-E6C5637091C4",
+        "LOC-EADA05986518",
+        "LOC-EC17515C9AEE",
+        "LOC-ECC2B4FD3222",
+        "LOC-F1E08595D1DD",
+        "LOC-F43F663A1294",
+        "LOC-F8F5E48950B6",
+        "LOC-FDA65E34343A",
+        "LOC-FF63257EFE64",
+        "LOC-FFF84BC8EA27"
+      ],
+      "color": "yellow",
+      "count": 102,
+      "individually_caps_or_gates": false,
+      "reason": "Partial fits retain ordinary diagnostic and rating consequences; no cap or gate.",
+      "signal_id": "REVIEW-PARTIAL-FIT"
+    }
+  ],
+  "schema_version": "ohfr-v8-canonical-web-projection-v1",
+  "score_views": {
+    "canonical_source_adjustment_status": "none",
+    "projection_adjustment_status": "confirmed_representation_adjustment_applied",
+    "total_delta": 0,
+    "views": [
+      {
+        "critical_gates": [
+          {
+            "affected_evidence_ids": [],
+            "consequence_evidence": [],
+            "defect_ids": [],
+            "description": "Major/critical misleading or blocking delivered fabricated, nonexistent, or out-of-scope locator with severe mismatch/no fit",
+            "direct_destination_evidence": [],
+            "gate_id": "GATE-SCOPE-LOCATOR",
+            "qualifying_locator_evidence": [],
+            "standard": true,
+            "systemic_groups": [],
+            "threshold": "Major/critical misleading or blocking delivered fabricated, nonexistent, or out-of-scope locator with severe mismatch/no fit",
+            "threshold_reason": "No qualifying evidence crosses this threshold.",
+            "triggered": false
+          },
+          {
+            "affected_evidence_ids": [],
+            "consequence_evidence": [],
+            "defect_ids": [],
+            "description": "Delivered severe/no-fit locator pattern: >=10 distinct items, >=5% of denominator, >=2 sections spanning >=25% of source or structure",
+            "direct_destination_evidence": [],
+            "gate_id": "GATE-SYSTEMIC-UNSUPPORTED",
+            "qualifying_locator_evidence": [],
+            "standard": true,
+            "systemic_groups": [],
+            "threshold": "10 distinct items, >=5% of one denominator, >=2 sections and >=25% source/structural spread",
+            "threshold_reason": "No qualifying evidence crosses this threshold.",
+            "triggered": false
+          },
+          {
+            "affected_evidence_ids": [],
+            "consequence_evidence": [],
+            "defect_ids": [],
+            "description": "Critical central omission or major omission demonstrably destroying high-priority access",
+            "direct_destination_evidence": [],
+            "gate_id": "GATE-CENTRAL-OMISSION",
+            "qualifying_locator_evidence": [],
+            "standard": true,
+            "systemic_groups": [],
+            "threshold": "Critical central omission or major omission demonstrably destroying high-priority access",
+            "threshold_reason": "No qualifying evidence crosses this threshold.",
+            "triggered": false
+          },
+          {
+            "affected_evidence_ids": [],
+            "consequence_evidence": [],
+            "defect_ids": [],
+            "description": "Major/critical materially misleading reversal or misrepresentation of source stance or relationship",
+            "direct_destination_evidence": [],
+            "gate_id": "GATE-STANCE",
+            "qualifying_locator_evidence": [],
+            "standard": true,
+            "systemic_groups": [],
+            "threshold": "Major/critical materially misleading reversal or misrepresentation of source stance or relationship",
+            "threshold_reason": "No qualifying evidence crosses this threshold.",
+            "triggered": false
+          },
+          {
+            "affected_evidence_ids": [],
+            "consequence_evidence": [],
+            "defect_ids": [],
+            "description": "Major/critical misleading or blocking compound heading supported by delivered severe-mismatch/no-fit locator evidence",
+            "direct_destination_evidence": [],
+            "gate_id": "GATE-COMPOUND",
+            "qualifying_locator_evidence": [],
+            "standard": true,
+            "systemic_groups": [],
+            "threshold": "Major/critical misleading or blocking compound heading supported by delivered severe-mismatch/no-fit locator evidence",
+            "threshold_reason": "No qualifying evidence crosses this threshold.",
+            "triggered": false
+          },
+          {
+            "affected_evidence_ids": [],
+            "consequence_evidence": [],
+            "defect_ids": [],
+            "description": "Major/critical delivered substitutive see blocks warranted substantive access",
+            "direct_destination_evidence": [],
+            "gate_id": "GATE-SEE-SUBSTITUTION",
+            "qualifying_locator_evidence": [],
+            "standard": true,
+            "systemic_groups": [],
+            "threshold": "Major/critical delivered substitutive see blocks warranted substantive access",
+            "threshold_reason": "No qualifying evidence crosses this threshold.",
+            "triggered": false
+          },
+          {
+            "affected_evidence_ids": [],
+            "consequence_evidence": [],
+            "defect_ids": [],
+            "description": "Delivered broken reference with major/critical blocking or misleading consequence, or frozen systemic threshold; missing warranted routes excluded",
+            "direct_destination_evidence": [],
+            "gate_id": "GATE-CROSS-REFERENCE",
+            "qualifying_locator_evidence": [],
+            "standard": true,
+            "systemic_groups": [],
+            "threshold": "Delivered broken reference with major/critical blocking or misleading consequence, or frozen systemic threshold; missing warranted routes excluded",
+            "threshold_reason": "No qualifying evidence crosses this threshold.",
+            "triggered": false
+          },
+          {
+            "affected_evidence_ids": [],
+            "consequence_evidence": [],
+            "defect_ids": [],
+            "description": "One clutter root cause: >=10 distinct items, >=5% of applicable population, >=2 sections spanning >=25% of source or structure",
+            "direct_destination_evidence": [],
+            "gate_id": "GATE-CLUTTER",
+            "qualifying_locator_evidence": [],
+            "standard": true,
+            "systemic_groups": [],
+            "threshold": "10 distinct items, >=5% of one denominator, >=2 sections and >=25% source/structural spread",
+            "threshold_reason": "No qualifying evidence crosses this threshold.",
+            "triggered": false
+          },
+          {
+            "affected_evidence_ids": [],
+            "consequence_evidence": [],
+            "defect_ids": [],
+            "description": "Major/critical delivered severe-mismatch/no-fit locator materially misleads or blocks; stance, compound, and invalid destination gates own their specific evidence",
+            "direct_destination_evidence": [],
+            "gate_id": "GATE-GROUNDING",
+            "qualifying_locator_evidence": [],
+            "standard": true,
+            "systemic_groups": [],
+            "threshold": "Major/critical delivered severe-mismatch/no-fit locator materially misleads or blocks; stance, compound, and invalid destination gates own their specific evidence",
+            "threshold_reason": "No qualifying evidence crosses this threshold.",
+            "triggered": false
+          },
+          {
+            "affected_evidence_ids": [],
+            "consequence_evidence": [],
+            "defect_ids": [],
+            "description": "True candidate-output structural failure: critical representation/mechanical corruption, or empty, incomplete, unparseable candidate output",
+            "direct_destination_evidence": [],
+            "gate_id": "GATE-STRUCTURE",
+            "qualifying_locator_evidence": [],
+            "standard": true,
+            "systemic_groups": [],
+            "threshold": "True candidate-output structural failure: critical representation/mechanical corruption, or empty, incomplete, unparseable candidate output",
+            "threshold_reason": "No qualifying evidence crosses this threshold.",
+            "triggered": false
+          },
+          {
+            "affected_evidence_ids": [
+              "LOC-07A4CC9CF8E2",
+              "LOC-0A3777CEF8BB",
+              "LOC-0B5AE6EEE5A4",
+              "LOC-10B912216828",
+              "LOC-10E205739DD1",
+              "LOC-11F229652FAF",
+              "LOC-145AAAB05500",
+              "LOC-153703C7BF5D",
+              "LOC-1A9E9F6C9B4A",
+              "LOC-1FAD4979FB8A",
+              "LOC-2161067AD390",
+              "LOC-272356A26778",
+              "LOC-2E3B8AD6FB89",
+              "LOC-312BC8E9C6B8",
+              "LOC-3E647F586C2F",
+              "LOC-4CD7F3B97A15",
+              "LOC-4F8779BDE059",
+              "LOC-53959BBA04E4",
+              "LOC-55A33806E289",
+              "LOC-5DFD6A555619",
+              "LOC-66587825D814",
+              "LOC-69ED2E8F1700",
+              "LOC-6B1A8F5DAB1D",
+              "LOC-6F2C8755A88A",
+              "LOC-752D67D91E3E",
+              "LOC-757EE1FC9C68",
+              "LOC-75A15AB48DBB",
+              "LOC-7BFDF9C874D5",
+              "LOC-8020164CF145",
+              "LOC-816D3A517518",
+              "LOC-86960B2713B7",
+              "LOC-8702FDD33D7D",
+              "LOC-873429D48B63",
+              "LOC-88AC7DF26586",
+              "LOC-8AA942F0409A",
+              "LOC-938D3A27E0EF",
+              "LOC-956320533A37",
+              "LOC-98413282C7FF",
+              "LOC-9DBEFF386492",
+              "LOC-9EAF33C53A04",
+              "LOC-A06A77444DBD",
+              "LOC-A37C51D0A785",
+              "LOC-A5F3D4213BF0",
+              "LOC-A6F7F12DEE54",
+              "LOC-B0C52F6288F0",
+              "LOC-B57004FD3588",
+              "LOC-B66D3AB7C226",
+              "LOC-BBEBFACE3C97",
+              "LOC-C273BA432AE5",
+              "LOC-C43DAB94F6E0",
+              "LOC-C4F6CAA977E7",
+              "LOC-C52014C1FDAF",
+              "LOC-D808750AE746",
+              "LOC-D831B6E5FC6F",
+              "LOC-D8CF805EB9FF",
+              "LOC-E0E648FAC69D",
+              "LOC-E6E965E2EE2F",
+              "LOC-E761D3AB9073",
+              "LOC-E8BF6AC30553",
+              "LOC-EC4F8F4733D7",
+              "LOC-EEB2313A58BA",
+              "LOC-F9791D7E1167",
+              "LOC-FBE3A4B1DEC8",
+              "LOC-FC045985F7EF",
+              "LOC-FC967107966B"
+            ],
+            "consequence_evidence": [],
+            "defect_ids": [],
+            "description": "Any confirmed delivered unsupported no-fit locator; no count, rate, or separate defect threshold",
+            "direct_destination_evidence": [
+              {
+                "complete_heading_path": [
+                  "Germany"
+                ],
+                "complete_path_fit": "no_fit",
+                "confidence": "high",
+                "document_page": 367,
+                "evidence_ids": [
+                  "EVID-CHUNK-015-07A4CC9CF8E2"
+                ],
+                "judgment": "unsupported",
+                "locator_id": "LOC-07A4CC9CF8E2",
+                "path_id": "PATH-AC444CE6F16A",
+                "source_page_label": "367",
+                "source_scope_status": "indexable",
+                "treatment_class": "absent"
+              },
+              {
+                "complete_heading_path": [
+                  "Calonne, Charles Alexandre de (1734-1802)"
+                ],
+                "complete_path_fit": "no_fit",
+                "confidence": "high",
+                "document_page": 67,
+                "evidence_ids": [
+                  "EVID-CHUNK003-P067-0A3777CEF8BB"
+                ],
+                "judgment": "unsupported",
+                "locator_id": "LOC-0A3777CEF8BB",
+                "path_id": "PATH-F5597A3AA659",
+                "source_page_label": "67",
+                "source_scope_status": "indexable",
+                "treatment_class": "absent"
+              },
+              {
+                "complete_heading_path": [
+                  "Diderot, Denis (1713-84)"
+                ],
+                "complete_path_fit": "no_fit",
+                "confidence": "high",
+                "document_page": 59,
+                "evidence_ids": [
+                  "EVID-CHUNK-002-0059"
+                ],
+                "judgment": "unsupported",
+                "locator_id": "LOC-0B5AE6EEE5A4",
+                "path_id": "PATH-36307D4C9900",
+                "source_page_label": "59",
+                "source_scope_status": "indexable",
+                "treatment_class": "absent"
+              },
+              {
+                "complete_heading_path": [
+                  "White Terror"
+                ],
+                "complete_path_fit": "no_fit",
+                "confidence": "high",
+                "document_page": 326,
+                "evidence_ids": [
+                  "EVID-CHUNK-014-10B912216828"
+                ],
+                "judgment": "unsupported",
+                "locator_id": "LOC-10B912216828",
+                "path_id": "PATH-A0C6A0B20B3E",
+                "source_page_label": "326",
+                "source_scope_status": "indexable",
+                "treatment_class": "absent"
+              },
+              {
+                "complete_heading_path": [
+                  "intendants"
+                ],
+                "complete_path_fit": "no_fit",
+                "confidence": "high",
+                "document_page": 67,
+                "evidence_ids": [
+                  "EVID-CHUNK003-P067-10E205739DD1"
+                ],
+                "judgment": "unsupported",
+                "locator_id": "LOC-10E205739DD1",
+                "path_id": "PATH-30E850E1F5C7",
+                "source_page_label": "67",
+                "source_scope_status": "indexable",
+                "treatment_class": "absent"
+              },
+              {
+                "complete_heading_path": [
+                  "Ronsin, Henri (1752-94)"
+                ],
+                "complete_path_fit": "no_fit",
+                "confidence": "high",
+                "document_page": 267,
+                "evidence_ids": [
+                  "EVID-11F229652FAF-P267"
+                ],
+                "judgment": "unsupported",
+                "locator_id": "LOC-11F229652FAF",
+                "path_id": "PATH-B271BA48EF60",
+                "source_page_label": "267",
+                "source_scope_status": "indexable",
+                "treatment_class": "absent"
+              },
+              {
+                "complete_heading_path": [
+                  "Mounier, Jean-Joseph (1758-1806)"
+                ],
+                "complete_path_fit": "no_fit",
+                "confidence": "high",
+                "document_page": 129,
+                "evidence_ids": [
+                  "EVID-CHUNK-005-P129-145AAAB05500"
+                ],
+                "judgment": "unsupported",
+                "locator_id": "LOC-145AAAB05500",
+                "path_id": "PATH-048D2A20C0A8",
+                "source_page_label": "129",
+                "source_scope_status": "indexable",
+                "treatment_class": "absent"
+              },
+              {
+                "complete_heading_path": [
+                  "Maria Antoinette, queen (1755-93)",
+                  "secret 'Austrian Committee'"
+                ],
+                "complete_path_fit": "no_fit",
+                "confidence": "high",
+                "document_page": 178,
+                "evidence_ids": [
+                  "EVID-CHUNK-008-153703C7BF5D"
+                ],
+                "judgment": "unsupported",
+                "locator_id": "LOC-153703C7BF5D",
+                "path_id": "PATH-BDAD277E4FB9",
+                "source_page_label": "178",
+                "source_scope_status": "indexable",
+                "treatment_class": "absent"
+              },
+              {
+                "complete_heading_path": [
+                  "Danton, Georges-Jacques (1759-94)",
+                  "election to Convention"
+                ],
+                "complete_path_fit": "no_fit",
+                "confidence": "high",
+                "document_page": 192,
+                "evidence_ids": [
+                  "EVID-CHUNK-008-1A9E9F6C9B4A"
+                ],
+                "judgment": "unsupported",
+                "locator_id": "LOC-1A9E9F6C9B4A",
+                "path_id": "PATH-B23A09974001",
+                "source_page_label": "192",
+                "source_scope_status": "indexable",
+                "treatment_class": "absent"
+              },
+              {
+                "complete_heading_path": [
+                  "Necker, Jacques (1732-1804)",
+                  "loans raised by"
+                ],
+                "complete_path_fit": "no_fit",
+                "confidence": "high",
+                "document_page": 66,
+                "evidence_ids": [
+                  "EVID-CHUNK003-P066-1FAD4979FB8A"
+                ],
+                "judgment": "unsupported",
+                "locator_id": "LOC-1FAD4979FB8A",
+                "path_id": "PATH-749370EF568D",
+                "source_page_label": "66",
+                "source_scope_status": "indexable",
+                "treatment_class": "absent"
+              },
+              {
+                "complete_heading_path": [
+                  "anti-clericalism"
+                ],
+                "complete_path_fit": "no_fit",
+                "confidence": "high",
+                "document_page": 93,
+                "evidence_ids": [
+                  "EVID-CHUNK004-2161067AD390"
+                ],
+                "judgment": "unsupported",
+                "locator_id": "LOC-2161067AD390",
+                "path_id": "PATH-085850AB249C",
+                "source_page_label": "93",
+                "source_scope_status": "indexable",
+                "treatment_class": "absent"
+              },
+              {
+                "complete_heading_path": [
+                  "remonstrances"
+                ],
+                "complete_path_fit": "no_fit",
+                "confidence": "high",
+                "document_page": 36,
+                "evidence_ids": [
+                  "EVID-272356A26778"
+                ],
+                "judgment": "unsupported",
+                "locator_id": "LOC-272356A26778",
+                "path_id": "PATH-441265595FC7",
+                "source_page_label": "36",
+                "source_scope_status": "indexable",
+                "treatment_class": "absent"
+              },
+              {
+                "complete_heading_path": [
+                  "Condé, Louis Joseph de Bourbon, Prince de (1736-1818)"
+                ],
+                "complete_path_fit": "no_fit",
+                "confidence": "high",
+                "document_page": 199,
+                "evidence_ids": [
+                  "EVID-CHUNK-009-2E3B8AD6FB89"
+                ],
+                "judgment": "unsupported",
+                "locator_id": "LOC-2E3B8AD6FB89",
+                "path_id": "PATH-DAB9453D1C0D",
+                "source_page_label": "199",
+                "source_scope_status": "indexable",
+                "treatment_class": "absent"
+              },
+              {
+                "complete_heading_path": [
+                  "Dorset, John Frederick Sackville, Duke of (1745-99)"
+                ],
+                "complete_path_fit": "no_fit",
+                "confidence": "high",
+                "document_page": 89,
+                "evidence_ids": [
+                  "EVID-CHUNK004-312BC8E9C6B8"
+                ],
+                "judgment": "unsupported",
+                "locator_id": "LOC-312BC8E9C6B8",
+                "path_id": "PATH-BF035DB433DF",
+                "source_page_label": "89",
+                "source_scope_status": "indexable",
+                "treatment_class": "absent"
+              },
+              {
+                "complete_heading_path": [
+                  "émigrés",
+                  "fighting alongside British"
+                ],
+                "complete_path_fit": "no_fit",
+                "confidence": "high",
+                "document_page": 211,
+                "evidence_ids": [
+                  "EVID-CHUNK-009-3E647F586C2F"
+                ],
+                "judgment": "unsupported",
+                "locator_id": "LOC-3E647F586C2F",
+                "path_id": "PATH-77AC314700F6",
+                "source_page_label": "211",
+                "source_scope_status": "indexable",
+                "treatment_class": "absent"
+              },
+              {
+                "complete_heading_path": [
+                  "Brittany"
+                ],
+                "complete_path_fit": "no_fit",
+                "confidence": "high",
+                "document_page": 245,
+                "evidence_ids": [
+                  "EVID-4CD7F3B97A15"
+                ],
+                "judgment": "unsupported",
+                "locator_id": "LOC-4CD7F3B97A15",
+                "path_id": "PATH-9FBD8438AF5E",
+                "source_page_label": "245",
+                "source_scope_status": "indexable",
+                "treatment_class": "absent"
+              },
+              {
+                "complete_heading_path": [
+                  "Treilhard, Jean Baptiste (1742-1810)"
+                ],
+                "complete_path_fit": "no_fit",
+                "confidence": "high",
+                "document_page": 227,
+                "evidence_ids": [
+                  "EVID-4F8779BDE059"
+                ],
+                "judgment": "unsupported",
+                "locator_id": "LOC-4F8779BDE059",
+                "path_id": "PATH-2FC331E65122",
+                "source_page_label": "227",
+                "source_scope_status": "indexable",
+                "treatment_class": "absent"
+              },
+              {
+                "complete_heading_path": [
+                  "taxation",
+                  "silver-mark"
+                ],
+                "complete_path_fit": "no_fit",
+                "confidence": "high",
+                "document_page": 154,
+                "evidence_ids": [
+                  "EVID-53959BBA04E4"
+                ],
+                "judgment": "unsupported",
+                "locator_id": "LOC-53959BBA04E4",
+                "path_id": "PATH-2F4A4A7B507A",
+                "source_page_label": "154",
+                "source_scope_status": "indexable",
+                "treatment_class": "absent"
+              },
+              {
+                "complete_heading_path": [
+                  "Belgium"
+                ],
+                "complete_path_fit": "no_fit",
+                "confidence": "high",
+                "document_page": 185,
+                "evidence_ids": [
+                  "EVID-CHUNK-008-55A33806E289"
+                ],
+                "judgment": "unsupported",
+                "locator_id": "LOC-55A33806E289",
+                "path_id": "PATH-CCC8DE4629C8",
+                "source_page_label": "185",
+                "source_scope_status": "indexable",
+                "treatment_class": "absent"
+              },
+              {
+                "complete_heading_path": [
+                  "Jourdan, Jean-Baptiste (1762-1833)"
+                ],
+                "complete_path_fit": "no_fit",
+                "confidence": "high",
+                "document_page": 385,
+                "evidence_ids": [
+                  "EVID-5DFD6A555619"
+                ],
+                "judgment": "unsupported",
+                "locator_id": "LOC-5DFD6A555619",
+                "path_id": "PATH-0B659203C1CA",
+                "source_page_label": "385",
+                "source_scope_status": "indexable",
+                "treatment_class": "absent"
+              },
+              {
+                "complete_heading_path": [
+                  "Paris basin"
+                ],
+                "complete_path_fit": "no_fit",
+                "confidence": "high",
+                "document_page": 4,
+                "evidence_ids": [
+                  "EVID-66587825D814"
+                ],
+                "judgment": "unsupported",
+                "locator_id": "LOC-66587825D814",
+                "path_id": "PATH-B892093C3EFD",
+                "source_page_label": "4",
+                "source_scope_status": "indexable",
+                "treatment_class": "absent"
+              },
+              {
+                "complete_heading_path": [
+                  "Babeuf, François-Noël (Gracchus) (1760-97)"
+                ],
+                "complete_path_fit": "no_fit",
+                "confidence": "high",
+                "document_page": 338,
+                "evidence_ids": [
+                  "EVID-CHUNK-014-69ED2E8F1700"
+                ],
+                "judgment": "unsupported",
+                "locator_id": "LOC-69ED2E8F1700",
+                "path_id": "PATH-33C6B51DC018",
+                "source_page_label": "338",
+                "source_scope_status": "indexable",
+                "treatment_class": "absent"
+              },
+              {
+                "complete_heading_path": [
+                  "financiers"
+                ],
+                "complete_path_fit": "no_fit",
+                "confidence": "high",
+                "document_page": 42,
+                "evidence_ids": [
+                  "EVID-6B1A8F5DAB1D"
+                ],
+                "judgment": "unsupported",
+                "locator_id": "LOC-6B1A8F5DAB1D",
+                "path_id": "PATH-08B4289C8F3F",
+                "source_page_label": "42",
+                "source_scope_status": "indexable",
+                "treatment_class": "absent"
+              },
+              {
+                "complete_heading_path": [
+                  "Billaud-Varenne, Jean Nicolas (1756-1819)"
+                ],
+                "complete_path_fit": "no_fit",
+                "confidence": "high",
+                "document_page": 282,
+                "evidence_ids": [
+                  "EVID-CHUNK-012-6F2C8755A88A"
+                ],
+                "judgment": "unsupported",
+                "locator_id": "LOC-6F2C8755A88A",
+                "path_id": "PATH-E8336842FB82",
+                "source_page_label": "282",
+                "source_scope_status": "indexable",
+                "treatment_class": "absent"
+              },
+              {
+                "complete_heading_path": [
+                  "Merlin de Douai, Philippe Auguste (1754-1838)"
+                ],
+                "complete_path_fit": "no_fit",
+                "confidence": "high",
+                "document_page": 370,
+                "evidence_ids": [
+                  "EVID-752D67D91E3E"
+                ],
+                "judgment": "unsupported",
+                "locator_id": "LOC-752D67D91E3E",
+                "path_id": "PATH-11BB4DA29049",
+                "source_page_label": "370",
+                "source_scope_status": "indexable",
+                "treatment_class": "absent"
+              },
+              {
+                "complete_heading_path": [
+                  "Pyrenees"
+                ],
+                "complete_path_fit": "no_fit",
+                "confidence": "high",
+                "document_page": 144,
+                "evidence_ids": [
+                  "EVID-757EE1FC9C68"
+                ],
+                "judgment": "unsupported",
+                "locator_id": "LOC-757EE1FC9C68",
+                "path_id": "PATH-78E2B3D9E0D8",
+                "source_page_label": "144",
+                "source_scope_status": "indexable",
+                "treatment_class": "absent"
+              },
+              {
+                "complete_heading_path": [
+                  "Malouet, Pierre Victor (1740-1814)"
+                ],
+                "complete_path_fit": "no_fit",
+                "confidence": "high",
+                "document_page": 327,
+                "evidence_ids": [
+                  "EVID-CHUNK-014-75A15AB48DBB"
+                ],
+                "judgment": "unsupported",
+                "locator_id": "LOC-75A15AB48DBB",
+                "path_id": "PATH-2AE98113357B",
+                "source_page_label": "327",
+                "source_scope_status": "indexable",
+                "treatment_class": "absent"
+              },
+              {
+                "complete_heading_path": [
+                  "Loménie de Brienne, Étienne Charles, archbishop of Toulouse (1727-4)"
+                ],
+                "complete_path_fit": "no_fit",
+                "confidence": "high",
+                "document_page": 36,
+                "evidence_ids": [
+                  "EVID-7BFDF9C874D5"
+                ],
+                "judgment": "unsupported",
+                "locator_id": "LOC-7BFDF9C874D5",
+                "path_id": "PATH-A5E9E1CAC7E9",
+                "source_page_label": "36",
+                "source_scope_status": "indexable",
+                "treatment_class": "absent"
+              },
+              {
+                "complete_heading_path": [
+                  "nobility",
+                  "armed forces"
+                ],
+                "complete_path_fit": "no_fit",
+                "confidence": "high",
+                "document_page": 33,
+                "evidence_ids": [
+                  "EVID-8020164CF145"
+                ],
+                "judgment": "unsupported",
+                "locator_id": "LOC-8020164CF145",
+                "path_id": "PATH-215D0A32DAD7",
+                "source_page_label": "33",
+                "source_scope_status": "indexable",
+                "treatment_class": "absent"
+              },
+              {
+                "complete_heading_path": [
+                  "journalism",
+                  "Jacobin"
+                ],
+                "complete_path_fit": "no_fit",
+                "confidence": "high",
+                "document_page": 236,
+                "evidence_ids": [
+                  "EVID-816D3A517518"
+                ],
+                "judgment": "unsupported",
+                "locator_id": "LOC-816D3A517518",
+                "path_id": "PATH-6A4202D7490A",
+                "source_page_label": "236",
+                "source_scope_status": "indexable",
+                "treatment_class": "absent"
+              },
+              {
+                "complete_heading_path": [
+                  "Invalides"
+                ],
+                "complete_path_fit": "no_fit",
+                "confidence": "high",
+                "document_page": 109,
+                "evidence_ids": [
+                  "EVID-CHUNK004-86960B2713B7"
+                ],
+                "judgment": "unsupported",
+                "locator_id": "LOC-86960B2713B7",
+                "path_id": "PATH-DF1D76326734",
+                "source_page_label": "109",
+                "source_scope_status": "indexable",
+                "treatment_class": "absent"
+              },
+              {
+                "complete_heading_path": [
+                  "Neerwinden, battle of (1793)"
+                ],
+                "complete_path_fit": "no_fit",
+                "confidence": "high",
+                "document_page": 201,
+                "evidence_ids": [
+                  "EVID-CHUNK-009-8702FDD33D7D"
+                ],
+                "judgment": "unsupported",
+                "locator_id": "LOC-8702FDD33D7D",
+                "path_id": "PATH-E31FE154C045",
+                "source_page_label": "201",
+                "source_scope_status": "indexable",
+                "treatment_class": "absent"
+              },
+              {
+                "complete_heading_path": [
+                  "lev2e en masse"
+                ],
+                "complete_path_fit": "no_fit",
+                "confidence": "high",
+                "document_page": 270,
+                "evidence_ids": [
+                  "EVID-873429D48B63-P270"
+                ],
+                "judgment": "unsupported",
+                "locator_id": "LOC-873429D48B63",
+                "path_id": "PATH-26704D6AB01B",
+                "source_page_label": "270",
+                "source_scope_status": "indexable",
+                "treatment_class": "absent"
+              },
+              {
+                "complete_heading_path": [
+                  "Carnot, Lazare (1753-1823)"
+                ],
+                "complete_path_fit": "no_fit",
+                "confidence": "high",
+                "document_page": 329,
+                "evidence_ids": [
+                  "EVID-CHUNK-014-88AC7DF26586"
+                ],
+                "judgment": "unsupported",
+                "locator_id": "LOC-88AC7DF26586",
+                "path_id": "PATH-80810BD7161F",
+                "source_page_label": "329",
+                "source_scope_status": "indexable",
+                "treatment_class": "absent"
+              },
+              {
+                "complete_heading_path": [
+                  "David, Jacques Louis (1748-1825)"
+                ],
+                "complete_path_fit": "no_fit",
+                "confidence": "high",
+                "document_page": 282,
+                "evidence_ids": [
+                  "EVID-CHUNK-012-8AA942F0409A"
+                ],
+                "judgment": "unsupported",
+                "locator_id": "LOC-8AA942F0409A",
+                "path_id": "PATH-087E35DA55DE",
+                "source_page_label": "282",
+                "source_scope_status": "indexable",
+                "treatment_class": "absent"
+              },
+              {
+                "complete_heading_path": [
+                  "grain"
+                ],
+                "complete_path_fit": "no_fit",
+                "confidence": "high",
+                "document_page": 9,
+                "evidence_ids": [
+                  "EVID-938D3A27E0EF"
+                ],
+                "judgment": "unsupported",
+                "locator_id": "LOC-938D3A27E0EF",
+                "path_id": "PATH-B5F92DA10F43",
+                "source_page_label": "9",
+                "source_scope_status": "indexable",
+                "treatment_class": "absent"
+              },
+              {
+                "complete_heading_path": [
+                  "Tone, Theobald Wolfe (1763-98)"
+                ],
+                "complete_path_fit": "no_fit",
+                "confidence": "high",
+                "document_page": 344,
+                "evidence_ids": [
+                  "EVID-CHUNK-015-956320533A37"
+                ],
+                "judgment": "unsupported",
+                "locator_id": "LOC-956320533A37",
+                "path_id": "PATH-CC03D52ED5BD",
+                "source_page_label": "344",
+                "source_scope_status": "indexable",
+                "treatment_class": "absent"
+              },
+              {
+                "complete_heading_path": [
+                  "cahiers (grievance-lists)",
+                  "noble"
+                ],
+                "complete_path_fit": "no_fit",
+                "confidence": "high",
+                "document_page": 99,
+                "evidence_ids": [
+                  "EVID-CHUNK004-98413282C7FF"
+                ],
+                "judgment": "unsupported",
+                "locator_id": "LOC-98413282C7FF",
+                "path_id": "PATH-09678B2F47B1",
+                "source_page_label": "99",
+                "source_scope_status": "indexable",
+                "treatment_class": "absent"
+              },
+              {
+                "complete_heading_path": [
+                  "Duport, Adrien Jean François (1759-98)"
+                ],
+                "complete_path_fit": "no_fit",
+                "confidence": "high",
+                "document_page": 210,
+                "evidence_ids": [
+                  "EVID-CHUNK-009-9DBEFF386492"
+                ],
+                "judgment": "unsupported",
+                "locator_id": "LOC-9DBEFF386492",
+                "path_id": "PATH-34CA79D09839",
+                "source_page_label": "210",
+                "source_scope_status": "indexable",
+                "treatment_class": "absent"
+              },
+              {
+                "complete_heading_path": [
+                  "parlements, provincial",
+                  "legislative role of"
+                ],
+                "complete_path_fit": "no_fit",
+                "confidence": "high",
+                "document_page": 36,
+                "evidence_ids": [
+                  "EVID-9EAF33C53A04"
+                ],
+                "judgment": "unsupported",
+                "locator_id": "LOC-9EAF33C53A04",
+                "path_id": "PATH-BEEDEA7A290C",
+                "source_page_label": "36",
+                "source_scope_status": "indexable",
+                "treatment_class": "absent"
+              },
+              {
+                "complete_heading_path": [
+                  "Javogues, Claude (1759-96)"
+                ],
+                "complete_path_fit": "no_fit",
+                "confidence": "high",
+                "document_page": 268,
+                "evidence_ids": [
+                  "EVID-A06A77444DBD-P268"
+                ],
+                "judgment": "unsupported",
+                "locator_id": "LOC-A06A77444DBD",
+                "path_id": "PATH-9D170734A05C",
+                "source_page_label": "268",
+                "source_scope_status": "indexable",
+                "treatment_class": "absent"
+              },
+              {
+                "complete_heading_path": [
+                  "colonies",
+                  "seized by British"
+                ],
+                "complete_path_fit": "no_fit",
+                "confidence": "high",
+                "document_page": 203,
+                "evidence_ids": [
+                  "EVID-CHUNK-009-A37C51D0A785"
+                ],
+                "judgment": "unsupported",
+                "locator_id": "LOC-A37C51D0A785",
+                "path_id": "PATH-DFA351825E65",
+                "source_page_label": "203",
+                "source_scope_status": "indexable",
+                "treatment_class": "absent"
+              },
+              {
+                "complete_heading_path": [
+                  "Desmoulins, Camille (1760-94)"
+                ],
+                "complete_path_fit": "no_fit",
+                "confidence": "high",
+                "document_page": 127,
+                "evidence_ids": [
+                  "EVID-CHUNK-005-P127-A5F3D4213BF0"
+                ],
+                "judgment": "unsupported",
+                "locator_id": "LOC-A5F3D4213BF0",
+                "path_id": "PATH-7DABAF35010C",
+                "source_page_label": "127",
+                "source_scope_status": "indexable",
+                "treatment_class": "absent"
+              },
+              {
+                "complete_heading_path": [
+                  "Alba"
+                ],
+                "complete_path_fit": "no_fit",
+                "confidence": "high",
+                "document_page": 346,
+                "evidence_ids": [
+                  "EVID-CHUNK-015-A6F7F12DEE54"
+                ],
+                "judgment": "unsupported",
+                "locator_id": "LOC-A6F7F12DEE54",
+                "path_id": "PATH-AFC3F288D041",
+                "source_page_label": "346",
+                "source_scope_status": "indexable",
+                "treatment_class": "absent"
+              },
+              {
+                "complete_heading_path": [
+                  "journalism"
+                ],
+                "complete_path_fit": "no_fit",
+                "confidence": "high",
+                "document_page": 54,
+                "evidence_ids": [
+                  "EVID-CHUNK-002-0112"
+                ],
+                "judgment": "unsupported",
+                "locator_id": "LOC-B0C52F6288F0",
+                "path_id": "PATH-98113ED43C16",
+                "source_page_label": "54",
+                "source_scope_status": "indexable",
+                "treatment_class": "absent"
+              },
+              {
+                "complete_heading_path": [
+                  "Bourbons",
+                  "Naples"
+                ],
+                "complete_path_fit": "no_fit",
+                "confidence": "high",
+                "document_page": 379,
+                "evidence_ids": [
+                  "EVID-B57004FD3588"
+                ],
+                "judgment": "unsupported",
+                "locator_id": "LOC-B57004FD3588",
+                "path_id": "PATH-1CD81EBAAF48",
+                "source_page_label": "379",
+                "source_scope_status": "indexable",
+                "treatment_class": "absent"
+              },
+              {
+                "complete_heading_path": [
+                  "Vendée revolt"
+                ],
+                "complete_path_fit": "no_fit",
+                "confidence": "high",
+                "document_page": 234,
+                "evidence_ids": [
+                  "EVID-B66D3AB7C226"
+                ],
+                "judgment": "unsupported",
+                "locator_id": "LOC-B66D3AB7C226",
+                "path_id": "PATH-147035609EC4",
+                "source_page_label": "234",
+                "source_scope_status": "indexable",
+                "treatment_class": "absent"
+              },
+              {
+                "complete_heading_path": [
+                  "Convention",
+                  "purge of Girondins"
+                ],
+                "complete_path_fit": "no_fit",
+                "confidence": "high",
+                "document_page": 246,
+                "evidence_ids": [
+                  "EVID-BBEBFACE3C97"
+                ],
+                "judgment": "unsupported",
+                "locator_id": "LOC-BBEBFACE3C97",
+                "path_id": "PATH-247E37189898",
+                "source_page_label": "246",
+                "source_scope_status": "indexable",
+                "treatment_class": "absent"
+              },
+              {
+                "complete_heading_path": [
+                  "Fabre d'Eglantine (1750-94)"
+                ],
+                "complete_path_fit": "no_fit",
+                "confidence": "high",
+                "document_page": 267,
+                "evidence_ids": [
+                  "EVID-C273BA432AE5-P267"
+                ],
+                "judgment": "unsupported",
+                "locator_id": "LOC-C273BA432AE5",
+                "path_id": "PATH-D1445E84C87E",
+                "source_page_label": "267",
+                "source_scope_status": "indexable",
+                "treatment_class": "absent"
+              },
+              {
+                "complete_heading_path": [
+                  "Louis XVI, king (1754-93)",
+                  "loans"
+                ],
+                "complete_path_fit": "no_fit",
+                "confidence": "high",
+                "document_page": 73,
+                "evidence_ids": [
+                  "EVID-CHUNK003-P073-C43DAB94F6E0"
+                ],
+                "judgment": "unsupported",
+                "locator_id": "LOC-C43DAB94F6E0",
+                "path_id": "PATH-57051C686C0E",
+                "source_page_label": "73",
+                "source_scope_status": "indexable",
+                "treatment_class": "absent"
+              },
+              {
+                "complete_heading_path": [
+                  "Brittany",
+                  "counter-revolution"
+                ],
+                "complete_path_fit": "no_fit",
+                "confidence": "high",
+                "document_page": 310,
+                "evidence_ids": [
+                  "EVID-CHUNK-013-C4F6CAA977E7"
+                ],
+                "judgment": "unsupported",
+                "locator_id": "LOC-C4F6CAA977E7",
+                "path_id": "PATH-4ADDBCB02556",
+                "source_page_label": "310",
+                "source_scope_status": "indexable",
+                "treatment_class": "absent"
+              },
+              {
+                "complete_heading_path": [
+                  "Orléans, Louis Philippe Joseph, Duke d' (1747-93)"
+                ],
+                "complete_path_fit": "no_fit",
+                "confidence": "high",
+                "document_page": 327,
+                "evidence_ids": [
+                  "EVID-CHUNK-014-C52014C1FDAF"
+                ],
+                "judgment": "unsupported",
+                "locator_id": "LOC-C52014C1FDAF",
+                "path_id": "PATH-DED3EDE9926B",
+                "source_page_label": "327",
+                "source_scope_status": "indexable",
+                "treatment_class": "absent"
+              },
+              {
+                "complete_heading_path": [
+                  "silver-mark taxation"
+                ],
+                "complete_path_fit": "no_fit",
+                "confidence": "high",
+                "document_page": 154,
+                "evidence_ids": [
+                  "EVID-D808750AE746"
+                ],
+                "judgment": "unsupported",
+                "locator_id": "LOC-D808750AE746",
+                "path_id": "PATH-873DDF1A161B",
+                "source_page_label": "154",
+                "source_scope_status": "indexable",
+                "treatment_class": "absent"
+              },
+              {
+                "complete_heading_path": [
+                  "Montagnards",
+                  "purge of Girondins from Convention"
+                ],
+                "complete_path_fit": "no_fit",
+                "confidence": "high",
+                "document_page": 246,
+                "evidence_ids": [
+                  "EVID-D831B6E5FC6F"
+                ],
+                "judgment": "unsupported",
+                "locator_id": "LOC-D831B6E5FC6F",
+                "path_id": "PATH-2F05387FC026",
+                "source_page_label": "246",
+                "source_scope_status": "indexable",
+                "treatment_class": "absent"
+              },
+              {
+                "complete_heading_path": [
+                  "enragés (the rabids)"
+                ],
+                "complete_path_fit": "no_fit",
+                "confidence": "high",
+                "document_page": 246,
+                "evidence_ids": [
+                  "EVID-D8CF805EB9FF"
+                ],
+                "judgment": "unsupported",
+                "locator_id": "LOC-D8CF805EB9FF",
+                "path_id": "PATH-4B40E9C6EC0B",
+                "source_page_label": "246",
+                "source_scope_status": "indexable",
+                "treatment_class": "absent"
+              },
+              {
+                "complete_heading_path": [
+                  "Babeuf, François-Noël (Gracchus) (1760-97)"
+                ],
+                "complete_path_fit": "no_fit",
+                "confidence": "high",
+                "document_page": 335,
+                "evidence_ids": [
+                  "EVID-CHUNK-014-E0E648FAC69D"
+                ],
+                "judgment": "unsupported",
+                "locator_id": "LOC-E0E648FAC69D",
+                "path_id": "PATH-33C6B51DC018",
+                "source_page_label": "335",
+                "source_scope_status": "indexable",
+                "treatment_class": "absent"
+              },
+              {
+                "complete_heading_path": [
+                  "Marseilles",
+                  "riots against the levy"
+                ],
+                "complete_path_fit": "no_fit",
+                "confidence": "high",
+                "document_page": 229,
+                "evidence_ids": [
+                  "EVID-E6E965E2EE2F"
+                ],
+                "judgment": "unsupported",
+                "locator_id": "LOC-E6E965E2EE2F",
+                "path_id": "PATH-F0C01E195058",
+                "source_page_label": "229",
+                "source_scope_status": "indexable",
+                "treatment_class": "absent"
+              },
+              {
+                "complete_heading_path": [
+                  "Reubell, Jean François (1747-1807)"
+                ],
+                "complete_path_fit": "no_fit",
+                "confidence": "high",
+                "document_page": 354,
+                "evidence_ids": [
+                  "EVID-CHUNK-015-E761D3AB9073"
+                ],
+                "judgment": "unsupported",
+                "locator_id": "LOC-E761D3AB9073",
+                "path_id": "PATH-47B1A64943F3",
+                "source_page_label": "354",
+                "source_scope_status": "indexable",
+                "treatment_class": "absent"
+              },
+              {
+                "complete_heading_path": [
+                  "Directory",
+                  "composition of"
+                ],
+                "complete_path_fit": "no_fit",
+                "confidence": "high",
+                "document_page": 320,
+                "evidence_ids": [
+                  "EVID-CHUNK-014-E8BF6AC30553"
+                ],
+                "judgment": "unsupported",
+                "locator_id": "LOC-E8BF6AC30553",
+                "path_id": "PATH-491C8BD96EE3",
+                "source_page_label": "320",
+                "source_scope_status": "indexable",
+                "treatment_class": "absent"
+              },
+              {
+                "complete_heading_path": [
+                  "Paris",
+                  "purge of Girondins from the Convention"
+                ],
+                "complete_path_fit": "no_fit",
+                "confidence": "high",
+                "document_page": 246,
+                "evidence_ids": [
+                  "EVID-EC4F8F4733D7"
+                ],
+                "judgment": "unsupported",
+                "locator_id": "LOC-EC4F8F4733D7",
+                "path_id": "PATH-DA6783242A43",
+                "source_page_label": "246",
+                "source_scope_status": "indexable",
+                "treatment_class": "absent"
+              },
+              {
+                "complete_heading_path": [
+                  "Vadier, Marc Guillaume Alexis (1736-1828)"
+                ],
+                "complete_path_fit": "no_fit",
+                "confidence": "high",
+                "document_page": 282,
+                "evidence_ids": [
+                  "EVID-CHUNK-012-EEB2313A58BA"
+                ],
+                "judgment": "unsupported",
+                "locator_id": "LOC-EEB2313A58BA",
+                "path_id": "PATH-FBD71C9622B8",
+                "source_page_label": "282",
+                "source_scope_status": "indexable",
+                "treatment_class": "absent"
+              },
+              {
+                "complete_heading_path": [
+                  "Toulouse"
+                ],
+                "complete_path_fit": "no_fit",
+                "confidence": "high",
+                "document_page": 372,
+                "evidence_ids": [
+                  "EVID-F9791D7E1167"
+                ],
+                "judgment": "unsupported",
+                "locator_id": "LOC-F9791D7E1167",
+                "path_id": "PATH-2A291F2A758C",
+                "source_page_label": "372",
+                "source_scope_status": "indexable",
+                "treatment_class": "absent"
+              },
+              {
+                "complete_heading_path": [
+                  "pamphleteering"
+                ],
+                "complete_path_fit": "no_fit",
+                "confidence": "high",
+                "document_page": 79,
+                "evidence_ids": [
+                  "EVID-CHUNK003-P079-FBE3A4B1DEC8"
+                ],
+                "judgment": "unsupported",
+                "locator_id": "LOC-FBE3A4B1DEC8",
+                "path_id": "PATH-56D7447AB323",
+                "source_page_label": "79",
+                "source_scope_status": "indexable",
+                "treatment_class": "absent"
+              },
+              {
+                "complete_heading_path": [
+                  "Jourdan, Jean-Baptiste (1762-1833)"
+                ],
+                "complete_path_fit": "no_fit",
+                "confidence": "high",
+                "document_page": 367,
+                "evidence_ids": [
+                  "EVID-CHUNK-015-FC045985F7EF"
+                ],
+                "judgment": "unsupported",
+                "locator_id": "LOC-FC045985F7EF",
+                "path_id": "PATH-0B659203C1CA",
+                "source_page_label": "367",
+                "source_scope_status": "indexable",
+                "treatment_class": "absent"
+              },
+              {
+                "complete_heading_path": [
+                  "Paris",
+                  "church closures"
+                ],
+                "complete_path_fit": "no_fit",
+                "confidence": "high",
+                "document_page": 263,
+                "evidence_ids": [
+                  "EVID-FC967107966B-P263"
+                ],
+                "judgment": "unsupported",
+                "locator_id": "LOC-FC967107966B",
+                "path_id": "PATH-EEFC8F0A6948",
+                "source_page_label": "263",
+                "source_scope_status": "indexable",
+                "treatment_class": "absent"
+              }
+            ],
+            "gate_id": "GATE-WRONG-LOCATOR",
+            "qualifying_locator_evidence": [],
+            "standard": true,
+            "systemic_groups": [],
+            "threshold": "Any confirmed delivered unsupported no-fit locator; no count, rate, or separate defect threshold",
+            "threshold_reason": "Confirmed delivered destination failure from finalized audit evidence; one item is sufficient, independent of severity, defect records, rates, or spread.",
+            "triggered": true
+          },
+          {
+            "affected_evidence_ids": [
+              "XREF-6E6F54660707"
+            ],
+            "consequence_evidence": [],
+            "defect_ids": [],
+            "description": "Any confirmed delivered see or see-also reference with no valid destination; no count, rate, or separate defect threshold",
+            "direct_destination_evidence": [
+              {
+                "confidence": "high",
+                "evidence_ids": [
+                  "EVID-FROZEN-XREF-6E6F54660707",
+                  "LOC-EDE94A56F03E",
+                  "PATH-E561A4D4B454",
+                  "XREF-6E6F54660707"
+                ],
+                "judgment": "unsupported",
+                "reference_id": "XREF-6E6F54660707",
+                "reference_type": "see also",
+                "resolved_path_ids": [],
+                "target_display": "individual regiments",
+                "target_resolution": "no_valid_destination"
+              }
+            ],
+            "gate_id": "GATE-BROKEN-REFERENCE",
+            "qualifying_locator_evidence": [],
+            "standard": true,
+            "systemic_groups": [],
+            "threshold": "Any confirmed delivered see or see-also reference with no valid destination; no count, rate, or separate defect threshold",
+            "threshold_reason": "Confirmed delivered destination failure from finalized audit evidence; one item is sufficient, independent of severity, defect records, rates, or spread.",
+            "triggered": true
+          }
+        ],
+        "dimension_denominators": [
+          {
+            "components": [
+              {
+                "applicable": 638,
+                "component_id": "priority_weighted_subject_access",
+                "defined_zero_rule": null,
+                "excluded": 0,
+                "exclusion_reasons": {},
+                "genuinely_inapplicable": false,
+                "measured": 638,
+                "measurement_coverage": "1",
+                "not_measured": 0,
+                "original": 638,
+                "provisionally_scoreable": true,
+                "small_denominator_exception": false,
+                "uninspectable": 0,
+                "zero_due_to_non_attempt": false
+              }
+            ],
+            "dimension_id": "meaningful_coverage"
+          },
+          {
+            "components": [
+              {
+                "applicable": 5266,
+                "component_id": "substantive_selectivity",
+                "defined_zero_rule": null,
+                "excluded": 72,
+                "exclusion_reasons": {
+                  "absent_owned_by_reliability": 72
+                },
+                "genuinely_inapplicable": false,
+                "measured": 5266,
+                "measurement_coverage": "1",
+                "not_measured": 0,
+                "original": 5338,
+                "provisionally_scoreable": true,
+                "small_denominator_exception": false,
+                "uninspectable": 0,
+                "zero_due_to_non_attempt": false
+              },
+              {
+                "applicable": 1,
+                "component_id": "density_fit",
+                "defined_zero_rule": null,
+                "excluded": 0,
+                "exclusion_reasons": {},
+                "genuinely_inapplicable": false,
+                "measured": 1,
+                "measurement_coverage": "1",
+                "not_measured": 0,
+                "original": 1,
+                "provisionally_scoreable": true,
+                "small_denominator_exception": false,
+                "uninspectable": 0,
+                "zero_due_to_non_attempt": false
+              }
+            ],
+            "dimension_id": "editorial_selectivity"
+          },
+          {
+            "components": [
+              {
+                "applicable": 1904,
+                "component_id": "conceptual_stance_nodes",
+                "defined_zero_rule": null,
+                "excluded": 0,
+                "exclusion_reasons": {},
+                "genuinely_inapplicable": false,
+                "measured": 1904,
+                "measurement_coverage": "1",
+                "not_measured": 0,
+                "original": 1904,
+                "provisionally_scoreable": true,
+                "small_denominator_exception": false,
+                "uninspectable": 0,
+                "zero_due_to_non_attempt": false
+              }
+            ],
+            "dimension_id": "conceptual_stance_fidelity"
+          },
+          {
+            "components": [
+              {
+                "applicable": 5338,
+                "component_id": "keep_precision",
+                "defined_zero_rule": null,
+                "excluded": 0,
+                "exclusion_reasons": {},
+                "genuinely_inapplicable": false,
+                "measured": 5338,
+                "measurement_coverage": "1",
+                "not_measured": 0,
+                "original": 5338,
+                "provisionally_scoreable": true,
+                "small_denominator_exception": false,
+                "uninspectable": 0,
+                "zero_due_to_non_attempt": false
+              },
+              {
+                "applicable": 1569,
+                "component_id": "expected_treatment_recall",
+                "defined_zero_rule": null,
+                "excluded": 0,
+                "exclusion_reasons": {},
+                "genuinely_inapplicable": false,
+                "measured": 1569,
+                "measurement_coverage": "1",
+                "not_measured": 0,
+                "original": 1569,
+                "provisionally_scoreable": true,
+                "small_denominator_exception": false,
+                "uninspectable": 0,
+                "zero_due_to_non_attempt": false
+              }
+            ],
+            "dimension_id": "page_reference_reliability"
+          },
+          {
+            "components": [
+              {
+                "applicable": 621,
+                "component_id": "coverage_conditioned_reader_tasks",
+                "defined_zero_rule": null,
+                "excluded": 17,
+                "exclusion_reasons": {
+                  "excluded_due_to_missing_access": 17
+                },
+                "genuinely_inapplicable": false,
+                "measured": 621,
+                "measurement_coverage": "1",
+                "not_measured": 0,
+                "original": 638,
+                "provisionally_scoreable": true,
+                "small_denominator_exception": false,
+                "uninspectable": 0,
+                "zero_due_to_non_attempt": false
+              },
+              {
+                "applicable": 1904,
+                "component_id": "heading_access_architecture",
+                "defined_zero_rule": null,
+                "excluded": 0,
+                "exclusion_reasons": {},
+                "genuinely_inapplicable": false,
+                "measured": 1904,
+                "measurement_coverage": "1",
+                "not_measured": 0,
+                "original": 1904,
+                "provisionally_scoreable": true,
+                "small_denominator_exception": false,
+                "uninspectable": 0,
+                "zero_due_to_non_attempt": false
+              },
+              {
+                "applicable": 16,
+                "component_id": "cross_reference_validity",
+                "defined_zero_rule": null,
+                "excluded": 0,
+                "exclusion_reasons": {},
+                "genuinely_inapplicable": false,
+                "measured": 16,
+                "measurement_coverage": "1",
+                "not_measured": 0,
+                "original": 16,
+                "provisionally_scoreable": true,
+                "small_denominator_exception": false,
+                "uninspectable": 0,
+                "zero_due_to_non_attempt": false
+              }
+            ],
+            "dimension_id": "findability_navigation"
+          },
+          {
+            "components": [
+              {
+                "applicable": 1904,
+                "component_id": "mechanics_nodes",
+                "defined_zero_rule": null,
+                "excluded": 0,
+                "exclusion_reasons": {},
+                "genuinely_inapplicable": false,
+                "measured": 1904,
+                "measurement_coverage": "1",
+                "not_measured": 0,
+                "original": 1904,
+                "provisionally_scoreable": true,
+                "small_denominator_exception": false,
+                "uninspectable": 0,
+                "zero_due_to_non_attempt": false
+              }
+            ],
+            "dimension_id": "mechanics_consistency"
+          }
+        ],
+        "label": "Canonical as delivered",
+        "maximum": 100,
+        "provenance_artifacts": [
+          {
+            "artifact_path": "scoring/v8.2/evaluation-result.v12.json",
+            "availability": "canonical_registered_input",
+            "schema_version": "subject-index-evaluation-result-v12",
+            "sha256": "29df738870029215c4b2eb7693c187e4c0007f10fa5bfb447ab51a7440aef8b7"
+          },
+          {
+            "artifact_path": "scoring/v8.2/web-report.v10.json",
+            "availability": "canonical_registered_input",
+            "schema_version": "subject-index-web-report-v10",
+            "sha256": "cf412564233c1a4e29ea642fdfabb02738d4d46da81cee81419677c32d3acd44"
+          },
+          {
+            "artifact_path": "scoring/v8.2/dimension-calculations.v6.json",
+            "availability": "canonical_registered_input",
+            "schema_version": "subject-index-dimension-calculations-v6",
+            "sha256": "683cfb6a9972e75494313fe6316a32dc5ee8c22477a4e3f070a5290a51eb7f63"
+          }
+        ],
+        "readiness": {
+          "assessment_blockers": [
+            {
+              "affected_item_ids": [
+                "LOC-003F71762571"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-0155A645D38F"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-01C963F25F27"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-01D58B93A387"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-030EFF87FA40"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-04D02FC7DCBA"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-053473F95DFA"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-07AC63A1ED66"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-07D39DBEB6CD"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-07FB72EF7464"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-08CE266B2F59"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-0986BB976A0C"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-0A3FAEC842FF"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-0C278BED73AD"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-0C3FF8AAEA66"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-0EA6CE2494AE"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-101A3C89130D"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-10C06C24CEED"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-1697273A2014"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-1793D6B61C9E"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-1BA01E12C01F"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-1CCD33E5BDA2"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-1D03ABE81781"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-1E0A77D8458E"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-1E1742188EEA"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-1E1A4689CF99"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-1F45BD133B12"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-21C27B76EE6C"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-26964C682211"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-28059A912750"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-298753163C2E"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-2A4F7D3556AD"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-2B6F398FA40C"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-2C3912C71073"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-2DA5D881B6B4"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-31191143602C"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-318BF676AF93"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-3204FB70FEA4"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-32365D915052"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-3252EEFA0B75"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-32D593CCE83B"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-33B4AD54BF9C"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-3605A18F469E"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-3690C1C9258B"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-38C2F0B71DCB"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-392B765237B8"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-39F9D0154D31"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-3EAD8CF938BA"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-3F4F508187BD"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-3F69252ACA6A"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-3FB5790B603C"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-407BB05D8CDB"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-410856C37F0F"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-422751EDC9E2"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-4243E607F9E2"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-42706BDA4974"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-42F99B12F877"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-431F2C5D6EED"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-43D2355A616D"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-44B02CDB16A6"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-4663D07330E4"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-46D408806211"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-4712F4DCCAD4"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-4788BD7F3D16"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-47DF15BB9F73"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-488B2CBA4034"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-49FADEF49879"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-4B0FB5015C3A"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-51668F5F29ED"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-51905A097AFB"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-53766AEF1543"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-541EDACC2FDF"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-57089BA41D34"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-58CDAF28B9DB"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-5974A285E037"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-5A73C4DB7F04"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-5CB571C083B4"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-5DD44F3D865D"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-603D804E239F"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-61F58E62C14A"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-620600A5E76C"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-623A33630F12"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-642A806BD904"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-686E881E52D4"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-68AF791A0A0F"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-695E86C443F6"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-6A12B1048565"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-6A584CD31CEE"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-6A7FBE3A554B"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-6BCBCB6DDCDF"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-6C8ADBEC6102"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-6CAA263011C5"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-6F6D1AD39E84"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-702F62A16706"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-70AF691B5DDC"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-73F91AE4DD42"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-745A69C9EA4A"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-74CE413F85AF"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-74D3E6FF1760"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-75966F2787AF"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-77D6D13D129A"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-782B1B048C95"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-79BF05D6D9DA"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-79FFC8D41663"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-7B7741C02691"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-7C9F57CF35D8"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-7CD52948C00E"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-7D862EE4BB79"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-7F25B12869F9"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-7FF4FEE57332"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-811D9C29309C"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-817E981C1823"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-83040B4491BD"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-83C16DD458D8"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-8589B3209588"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-85E43F84BFB1"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-866878E0CE47"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-866AE6B79640"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-888CB0D1BF65"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-88D44166D46C"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-8935B2B37159"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-89B834A117CB"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-89C05E1E2F35"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-8BC6EDBD3BD3"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-8BE4CE0E89EB"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-8CB112D38CD4"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-8FDA6492D35C"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-8FE2E376239E"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-900515ABE11C"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-910A47DBC695"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-9217D7991F28"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-923ACF3DDFBB"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-93F49061D84D"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-9424FF8CE2A8"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-947EC5530BA8"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-948DE7ED8715"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-9492EE19D07D"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-95513258FBDC"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-95EEA2389E4F"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-961A0B0AE7EF"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-97583990B8D8"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-988A71E9403C"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-99EAEBA4F398"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-9A347AD6052A"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-9BB182C4C998"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-9CE7E08D76DC"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-9CFE863927FD"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-9E2580BA638F"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-9ED443FFF487"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-A1566B3DA9A3"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-A221818260E7"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-A4C747D56D1F"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-A4CCD133BDA2"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-A51F18ACD25C"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-A691774682D3"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-A750ECE56107"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-A7840AFD1DC6"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-A8109422DAD1"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-A911196EB010"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-AA5DE94D10B8"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-AC2896EED86C"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-ACB3631648AD"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-AEC92B14133E"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-AFA058E03B9A"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-B14C3897D9C8"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-B1A1D8C7E098"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-B26207D5AD3D"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-B32DA2DEAC1A"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-B3B3EE039B7C"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-B3EB16DA507E"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-B43A36BC2765"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-B59F6D855ABB"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-B69459B168C4"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-B6E7290BF6C4"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-B871FDF9FDE7"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-B87B728D64EC"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-B9D14BA430A5"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-BA4DCE78D0A5"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-BADAAA2BAC31"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-BBBF134B1201"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-BC2357484C31"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-BD3F22718C3D"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-BDBD6A2408F1"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-BF6BFE7AFDF0"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-C0CFFDC75062"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-C13834B852AC"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-C153AFB31A50"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-C2712E363F06"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-C29B048D0D49"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-C332F34315D9"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-C399267A37B6"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-C3C9248C8F0B"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-C49DEB8D00B2"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-C4F3359237D6"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-C581BA88EB58"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-C6B04012231A"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-C8A9ABF53B45"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-C8FB4FD02D09"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-C96A042E7EBC"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-C97DBF7CCFF0"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-CD4A79BD1AB1"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-CDD845A9FDCB"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-CE7C49D3926F"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-CE9903D05473"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-CF4709D590C0"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-CFF3FEBA2B12"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-D15B0E5D7033"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-D2538793D482"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-D3544DC7843E"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-D3C605F973FB"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-D3DC492CC427"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-D52B69DC8F55"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-D536C6714E0A"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-D5A7AD8EABB2"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-D624C385D7F2"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-D708630689B7"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-D8600BDBEA38"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-D930EBF71039"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-DA3F93332DAB"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-DB40FF6582B9"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-DB58A33E3A48"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-DD9B4BB47384"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-E074AE7297B9"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-E12089B7A320"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-E3FC595B9E5F"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-E75C4C7E8565"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-E75D5749D81D"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-E8029DC786A5"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-E813B295A8EB"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-E87899DAE1A3"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-EAF6E17B6905"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-EB63FDE71F82"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-EBB124C49AF4"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-ED5BB4E90CA1"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-F18E0031C1A8"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-F3B3F195B7DB"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-F50AAE65F0BA"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-F601D1003A6C"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-F61C15B5BB31"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-F711322DD9A5"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-F90D0BD0B58A"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-F986954ACBB3"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-FC539B2E62D0"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-FCC56A5FEFEC"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-FD697B5E7A33"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-FE908AF84D59"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-FF0A35A4957A"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-FF3B29BCC8C3"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-FF3C3B919914"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            },
+            {
+              "affected_item_ids": [
+                "LOC-FFF9472D0D03"
+              ],
+              "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+              "reason": "Locator support is uncertain or uninspectable; no candidate-quality gate is inferred."
+            }
+          ],
+          "status": "not_publication_ready",
+          "triggered_gate_ids": [
+            "GATE-WRONG-LOCATOR",
+            "GATE-BROKEN-REFERENCE"
+          ]
+        },
+        "role": "authoritative_primary_observation",
+        "score": 89.38,
+        "scorecard": [
+          {
+            "awarded_points": 17.385185185185186,
+            "dimension_id": "meaningful_coverage",
+            "dimension_percentage": "86.92592592592592592592592593",
+            "formula_id": "subject-index-dimension-calculation-v7:meaningful_coverage",
+            "maximum_points": 20,
+            "rating": 4.3462962962962965,
+            "weight": 20,
+            "weighted_contribution": "17.38518518518518518518518519"
+          },
+          {
+            "awarded_points": 11.523986275908138,
+            "dimension_id": "editorial_selectivity",
+            "dimension_percentage": "76.82657517272091852117083307",
+            "formula_id": "subject-index-dimension-calculation-v7:editorial_selectivity",
+            "maximum_points": 15,
+            "rating": 3.8413287586360463,
+            "weight": 15,
+            "weighted_contribution": "11.52398627590813777817562496"
+          },
+          {
+            "awarded_points": 14.862920168067227,
+            "dimension_id": "conceptual_stance_fidelity",
+            "dimension_percentage": "99.08613445378151260504201681",
+            "formula_id": "subject-index-dimension-calculation-v7:conceptual_stance_fidelity",
+            "maximum_points": 15,
+            "rating": 4.954306722689076,
+            "weight": 15,
+            "weighted_contribution": "14.86292016806722689075630252"
+          },
+          {
+            "awarded_points": 22.5,
+            "dimension_id": "page_reference_reliability",
+            "dimension_percentage": "90",
+            "formula_id": "subject-index-dimension-calculation-v7:page_reference_reliability",
+            "maximum_points": 25,
+            "rating": 4.5,
+            "weight": 25,
+            "weighted_contribution": "22.5"
+          },
+          {
+            "awarded_points": 18.117804114399384,
+            "dimension_id": "findability_navigation",
+            "dimension_percentage": "90.58902057199691470791215037",
+            "formula_id": "subject-index-dimension-calculation-v7:findability_navigation",
+            "maximum_points": 20,
+            "rating": 4.529451028599846,
+            "weight": 20,
+            "weighted_contribution": "18.11780411439938294158243007"
+          },
+          {
+            "awarded_points": 4.992778361344538,
+            "dimension_id": "mechanics_consistency",
+            "dimension_percentage": "99.8555672268907563025210084",
+            "formula_id": "subject-index-dimension-calculation-v7:mechanics_consistency",
+            "maximum_points": 5,
+            "rating": 4.992778361344538,
+            "weight": 5,
+            "weighted_contribution": "4.99277836134453781512605042"
+          }
+        ],
+        "view_id": "canonical_as_delivered",
+        "view_kind": "observed"
+      }
+    ]
+  },
+  "view_selection": {
+    "authoritative_view_id": "canonical_as_delivered",
+    "default_display_view_id": "canonical_as_delivered",
+    "display_view_rationale": "The canonical as-delivered result is authoritative.",
+    "primary_view_id": "canonical_as_delivered"
+  }
+}
