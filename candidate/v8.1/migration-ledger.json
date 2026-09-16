@@ -1,0 +1,1640 @@
+{
+  "schema_version": "ohfr-targeted-v8.1-migration-ledger-v1",
+  "evaluation_id": "ohfr-2002-original-published-index-v8",
+  "migration_frozen_at": "2026-09-16T16:12:00Z",
+  "original_public_git_commit": "7da416b",
+  "methodology_commit": "25fa3983f4980ad6a168610e08b128def11258b2",
+  "original_private_archive": "staging/v8.1/original",
+  "current_private_evaluation": "staging/v8.1/evaluation",
+  "original_identities": {
+    "policy_profile": "subject-index-standard-policy-v8",
+    "policy_sha256": "06e879c589d8e86b04ebaf3f637d307b2fb5cbeb7bda4f71c63e97e57381730d",
+    "rubric": "subject-index-rubric-v8",
+    "calculation_profile": "subject-index-dimension-calculation-v5"
+  },
+  "revised_identities": {
+    "policy_profile": "subject-index-standard-policy-v8.1",
+    "policy_sha256": "4c6f9f149f2e6738b0bed2a1478d06d75c4654e06f213f7de8a13b9ad9fad548",
+    "rubric": "subject-index-rubric-v8.1",
+    "calculation_profile": "subject-index-dimension-calculation-v6"
+  },
+  "exact_original_calculation_inputs": [
+    {
+      "role": "policy",
+      "path": "source/evaluation-policy.v4.json",
+      "sha256": "835112b6b8fc820d14ba1489f7940a72f71bd7913fe9e690ea789b9fab34843b"
+    },
+    {
+      "role": "locator_audit[0]",
+      "path": "candidates/oxford-history-french-revolution-2002-original-published-index/locator-audits/locator-audit.CHUNK-001.v2.json",
+      "sha256": "1e34012edd42e4cb932d283718961254aaa95c1e598cfc049f61183cf44abc2a"
+    },
+    {
+      "role": "locator_audit[1]",
+      "path": "candidates/oxford-history-french-revolution-2002-original-published-index/locator-audits/locator-audit.CHUNK-002.v2.json",
+      "sha256": "5b5c885f2d9a4e9967e0e9c7b81b7c5e3bf77d5ce52df0b392aa39e4308e52df"
+    },
+    {
+      "role": "locator_audit[2]",
+      "path": "candidates/oxford-history-french-revolution-2002-original-published-index/locator-audits/locator-audit.CHUNK-003.v2.json",
+      "sha256": "c83987bc15d9ce585c5ead946a0a7eadf37a938502580029262816f5968752a9"
+    },
+    {
+      "role": "locator_audit[3]",
+      "path": "candidates/oxford-history-french-revolution-2002-original-published-index/locator-audits/locator-audit.CHUNK-004.v2.json",
+      "sha256": "e05671ce584f75e05c31c62c9db0f8f7c90a9ec964b964e29120a117cfe78043"
+    },
+    {
+      "role": "locator_audit[4]",
+      "path": "candidates/oxford-history-french-revolution-2002-original-published-index/locator-audits/locator-audit.CHUNK-005.v2.json",
+      "sha256": "0d916d2436c76a9ac35532db0de49b755f11a320b67fcd22a44e2369feb18461"
+    },
+    {
+      "role": "locator_audit[5]",
+      "path": "candidates/oxford-history-french-revolution-2002-original-published-index/locator-audits/locator-audit.CHUNK-006.v2.json",
+      "sha256": "57f76581195e320337b59b3653c59c4b3527ae87e1fb04a1117ef9722f182d66"
+    },
+    {
+      "role": "locator_audit[6]",
+      "path": "candidates/oxford-history-french-revolution-2002-original-published-index/locator-audits/locator-audit.CHUNK-007.v2.json",
+      "sha256": "f955f065a261c27c7cec282138eb8c7b44ff261a6a5d79015e8dfd4fd5c772d1"
+    },
+    {
+      "role": "locator_audit[7]",
+      "path": "candidates/oxford-history-french-revolution-2002-original-published-index/locator-audits/locator-audit.CHUNK-008.v2.json",
+      "sha256": "4d780e8bedb6aaff062822792699ac1681cea5b175d0cf49c6a608f96d19058a"
+    },
+    {
+      "role": "locator_audit[8]",
+      "path": "candidates/oxford-history-french-revolution-2002-original-published-index/locator-audits/locator-audit.CHUNK-009.v2.json",
+      "sha256": "0050ede147313c7f41da56502277e887e27282eadf59470b3a73ed79dcef93ee"
+    },
+    {
+      "role": "locator_audit[9]",
+      "path": "candidates/oxford-history-french-revolution-2002-original-published-index/locator-audits/locator-audit.CHUNK-010.v2.json",
+      "sha256": "fee5924922716f86c9b4516660fd3038cdb23ba7ffd26791a734e5b13f7a6138"
+    },
+    {
+      "role": "locator_audit[10]",
+      "path": "candidates/oxford-history-french-revolution-2002-original-published-index/locator-audits/locator-audit.CHUNK-011.v2.json",
+      "sha256": "cdbf774d129b785150a73b8a75ffe85671c3d0b2b0546fe19152b13324c0b61e"
+    },
+    {
+      "role": "locator_audit[11]",
+      "path": "candidates/oxford-history-french-revolution-2002-original-published-index/locator-audits/locator-audit.CHUNK-012.v2.json",
+      "sha256": "d3fac89cd2eb9b6dd7787036d244240df505c9bd6aad12ed6f6688c39309fba8"
+    },
+    {
+      "role": "locator_audit[12]",
+      "path": "candidates/oxford-history-french-revolution-2002-original-published-index/locator-audits/locator-audit.CHUNK-013.v2.json",
+      "sha256": "98654689f3dfafb1260b57e178a6c13cce22507cc6fa4eb6e965f630488362ef"
+    },
+    {
+      "role": "locator_audit[13]",
+      "path": "candidates/oxford-history-french-revolution-2002-original-published-index/locator-audits/locator-audit.CHUNK-014.v2.json",
+      "sha256": "eff394bdeb4a71bcab510ce8eaaab08ea6c0a554d420f2b5bca7e025aa2edefc"
+    },
+    {
+      "role": "locator_audit[14]",
+      "path": "candidates/oxford-history-french-revolution-2002-original-published-index/locator-audits/locator-audit.CHUNK-015.v2.json",
+      "sha256": "d5d11689aa978a2d9c5d3080123c0279f8406a4ddadd149a64c39545dfd17a8b"
+    },
+    {
+      "role": "locator_audit[15]",
+      "path": "candidates/oxford-history-french-revolution-2002-original-published-index/locator-audits/locator-audit.CHUNK-016.v2.json",
+      "sha256": "f4ae774aac8ad063a45d1a22593b171b140c49159c4fbbf31b571272a92fc54c"
+    },
+    {
+      "role": "locator_audit[16]",
+      "path": "candidates/oxford-history-french-revolution-2002-original-published-index/locator-audits/locator-audit.CHUNK-017.v2.json",
+      "sha256": "ccb0089fcf196677d16fc451989c035d1574c65c6a5c0f0e236a4eb0643ee428"
+    },
+    {
+      "role": "missing_access_audit[0]",
+      "path": "candidates/oxford-history-french-revolution-2002-original-published-index/missing-access-audits/missing-access-audit.CHUNK-001.v1.json",
+      "sha256": "0bf1614ecd1af0e54b14d96eb72b25cd34621f0c4590991ce95065e929b3c3af"
+    },
+    {
+      "role": "missing_access_audit[1]",
+      "path": "candidates/oxford-history-french-revolution-2002-original-published-index/missing-access-audits/missing-access-audit.CHUNK-002.v1.json",
+      "sha256": "6ecdd8fddc881f789d87d979d6a6b8bae446d6676679b83a369f70ba68bc76e2"
+    },
+    {
+      "role": "missing_access_audit[2]",
+      "path": "candidates/oxford-history-french-revolution-2002-original-published-index/missing-access-audits/missing-access-audit.CHUNK-003.v1.json",
+      "sha256": "37ca7f31723d53f28aff42c072bd03e87e844ccc1ccdf194df85519de130c870"
+    },
+    {
+      "role": "missing_access_audit[3]",
+      "path": "candidates/oxford-history-french-revolution-2002-original-published-index/missing-access-audits/missing-access-audit.CHUNK-004.v1.json",
+      "sha256": "464ada6ecfc5e607760aa5a630f9be65d77471f28496384e32a5feee951c6259"
+    },
+    {
+      "role": "missing_access_audit[4]",
+      "path": "candidates/oxford-history-french-revolution-2002-original-published-index/missing-access-audits/missing-access-audit.CHUNK-005.v1.json",
+      "sha256": "29e1a93086ea579432bce115be3e99b4f3451aa6ae804446c4a03f573de4de67"
+    },
+    {
+      "role": "missing_access_audit[5]",
+      "path": "candidates/oxford-history-french-revolution-2002-original-published-index/missing-access-audits/missing-access-audit.CHUNK-006.v1.json",
+      "sha256": "b537756a124d9d8a459aac0b294c9efbebf0b019ce50b3f9a36928929bd5f726"
+    },
+    {
+      "role": "missing_access_audit[6]",
+      "path": "candidates/oxford-history-french-revolution-2002-original-published-index/missing-access-audits/missing-access-audit.CHUNK-007.v1.json",
+      "sha256": "ef776b93b152e720c3bcb64647304b6cb1d5e4b23767978b0ca672351493f691"
+    },
+    {
+      "role": "missing_access_audit[7]",
+      "path": "candidates/oxford-history-french-revolution-2002-original-published-index/missing-access-audits/missing-access-audit.CHUNK-008.v1.json",
+      "sha256": "a084492915fa9a641871195b99aec630941f6d8f4bd7a47e9c631d4ef1ee3501"
+    },
+    {
+      "role": "missing_access_audit[8]",
+      "path": "candidates/oxford-history-french-revolution-2002-original-published-index/missing-access-audits/missing-access-audit.CHUNK-009.v1.json",
+      "sha256": "773df831d73abdc6ba12e0e0feb83973d4e16609096333a77ee84d07ea3a4aec"
+    },
+    {
+      "role": "missing_access_audit[9]",
+      "path": "candidates/oxford-history-french-revolution-2002-original-published-index/missing-access-audits/missing-access-audit.CHUNK-010.v1.json",
+      "sha256": "41ce3cef105fa3373522034274e4c2a35396eb1e502ff2e2035402b4dc0c7f87"
+    },
+    {
+      "role": "missing_access_audit[10]",
+      "path": "candidates/oxford-history-french-revolution-2002-original-published-index/missing-access-audits/missing-access-audit.CHUNK-011.v1.json",
+      "sha256": "0dfb83d6469ef50d640e9b7de0405e8fc8678a99ec02ecdb75cf6cc788dc2ea2"
+    },
+    {
+      "role": "missing_access_audit[11]",
+      "path": "candidates/oxford-history-french-revolution-2002-original-published-index/missing-access-audits/missing-access-audit.CHUNK-012.v1.json",
+      "sha256": "568c0c5874e5223f10b13a5385984a4dd55fd852e8ceec6abfc7912360321dbf"
+    },
+    {
+      "role": "missing_access_audit[12]",
+      "path": "candidates/oxford-history-french-revolution-2002-original-published-index/missing-access-audits/missing-access-audit.CHUNK-013.v1.json",
+      "sha256": "8af840d5d953bda9d3f83b9fcb090f80cc870ae5f2873ef23bb611ced5498a5b"
+    },
+    {
+      "role": "missing_access_audit[13]",
+      "path": "candidates/oxford-history-french-revolution-2002-original-published-index/missing-access-audits/missing-access-audit.CHUNK-014.v1.json",
+      "sha256": "952dc924ff4129818729b7362cccc1bd413ee0dd7ceb90475591db15f2784a77"
+    },
+    {
+      "role": "missing_access_audit[14]",
+      "path": "candidates/oxford-history-french-revolution-2002-original-published-index/missing-access-audits/missing-access-audit.CHUNK-015.v1.json",
+      "sha256": "da67d539fedfc8d0f47a2a6cacdaf748d6f94e51ca3d09ebc89312eccfb80cec"
+    },
+    {
+      "role": "missing_access_audit[15]",
+      "path": "candidates/oxford-history-french-revolution-2002-original-published-index/missing-access-audits/missing-access-audit.CHUNK-016.v1.json",
+      "sha256": "c54e3f6400e0cafb54dc323c1eed36f4ff3f0fc3001be3f798232c884f5fa099"
+    },
+    {
+      "role": "missing_access_audit[16]",
+      "path": "candidates/oxford-history-french-revolution-2002-original-published-index/missing-access-audits/missing-access-audit.CHUNK-017.v1.json",
+      "sha256": "938e072e5e6e113d3220c7bd83144f69999ca4c7a8df32f30160200a4c8b4474"
+    },
+    {
+      "role": "structure_audit",
+      "path": "structure/structure-audit.v6.json",
+      "sha256": "be6cae9872e7d3b9105c4465cadf18e54b230aab900de1d5c8628c3e1bc2aa33"
+    },
+    {
+      "role": "chunk_manifest",
+      "path": "source/chunk-manifest.json",
+      "sha256": "5287f421e1e7be03444c2681beb1e1d63d5d103a96ab770565e32411956ce396"
+    }
+  ],
+  "reused_without_rerun": [
+    "source mapping and source scope",
+    "candidate-blind discovery, synthesis and independent benchmark review",
+    "benchmark content and original policy binding",
+    "candidate normalization and inventory",
+    "all 17 locator audits",
+    "all 17 missing-access audits",
+    "structure judgments, defects, denominators and causal findings",
+    "confirmed character correction facts"
+  ],
+  "benchmark_release": {
+    "file_sha256": "f58fae3d56c427fcac8771d8ca4181f98a9d496096e35ea1d130e200567a816c",
+    "benchmark_sha256": "558980b374ca4b162b12f2726e237319b170f9e8b7014f71ad7c2171e9e98983",
+    "original_policy_sha256": "06e879c589d8e86b04ebaf3f637d307b2fb5cbeb7bda4f71c63e97e57381730d",
+    "freeze": {
+      "frozen_at": "2026-09-09T12:09:43-05:00",
+      "synthesis_pass_complete": true,
+      "page_coverage_complete": true,
+      "review_mode": "full",
+      "review_recommendation": "approve_revised",
+      "candidate_blindness": "preserved",
+      "methodology_commit": "3ae8ba52ead12fb654507ccbd805ca80840188d2",
+      "source_reconnected_sha256": "5f89aa2592218983c594278bfd86cc1e4b74be1dd6dd8aac5c2610a48fa34047"
+    },
+    "review_file_sha256": "1427248ed809aeb829dac8deba3cfc6b932e90732132904318a17778b953e1c0",
+    "new_review_or_approval_claimed": false
+  },
+  "mechanical_changes": [
+    "Freeze a separate V8.1 policy, preserving scope/audience/audit/density values; historical freeze is explicitly distinguished from migration freeze.",
+    "Update canonical scoring identities and policy artifact binding.",
+    "Reopen only structure registration, scoring and reporting, retaining old completed state and outputs in the original archive.",
+    "Register exact published structure V6 bytes in place of the stale state V5 selection; no structure judgment changes.",
+    "Recalculate and rebuild through installed registered score/build-report commands. Audit and benchmark policy provenance remain original because no rebinding is required by current validators.",
+    "Reuse the confirmed correction overlay; change its excluded minor cross-reference gate Boolean and current item-assessment artifact binding, then recompute its self-hash.",
+    "Publish new V8.1 result/report and the installed producer canonical projection with all four collections; retain the original V8 bundle and its two-view display adapter unchanged. The current producer uses one authoritative score view with the confirmed correction overlay; no separate adjusted score is invented.",
+    "Original state points to calculation-profile-v4 and structure V5; the published final artifacts identify calculation-profile-v5 and structure V6. Exact published hashes, not stale state identities, define the comparison baseline."
+  ],
+  "removed_current_state_records_preserved_in_original_archive": [
+    {
+      "path": "scoring/dimension-calculation-input.v2.json",
+      "sha256": "8750199596d2f1576ba52dd71a08da1334eddedab5d5c3d33a27672019ff6c94"
+    },
+    {
+      "path": "scoring/dimension-calculations.v5.json",
+      "sha256": "1c50553269054eb6a84b9f987c578a8a48cdbc7f76e8661c72e43bfed9008a2a"
+    },
+    {
+      "path": "scoring/evaluation-result.v10.json",
+      "sha256": "34dcdf109b3ef991ff8f18690f8f3f5ebd835bf0e25214804d6666fcad6716f3"
+    },
+    {
+      "path": "scoring/item-assessments.v6.json",
+      "sha256": "a74ce5b9344ee7768ff9a062f1eec1cf944b97b05e3acaf03298219f93a8b54d"
+    },
+    {
+      "path": "scoring/projection-metadata.v1.json",
+      "sha256": "69a2673585de69f4fa534f1e0658e4b496cc13af317142a968d3e526c3039461"
+    },
+    {
+      "path": "scoring/web-report.v8.json",
+      "sha256": "b01bf343d961189ed1b126b8a22054c7ea4f4ca3779f4e6f7b253bad90b10219"
+    },
+    {
+      "path": "source/evaluation-policy.v4.json",
+      "sha256": "835112b6b8fc820d14ba1489f7940a72f71bd7913fe9e690ea789b9fab34843b"
+    },
+    {
+      "path": "structure/structure-audit.v5.json",
+      "sha256": "ffe13170172d360aa6db6fc1dac7e24a65d353a1d062f1142f99666db1fee556"
+    }
+  ],
+  "original_archive_inventory": [
+    {
+      "path": ".evaluation.lock",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "bundle-metadata.json",
+      "sha256": "780060bae22495e6471ecd4a403ecdc1050668274964b67e7f89fa9db4d6863f"
+    },
+    {
+      "path": "candidate/restricted/Original_Oxford.pdf",
+      "sha256": "1d43fe7fb158b352393c6e2f14843aae9ae23ccfca1f61c6783307432b0a9d09"
+    },
+    {
+      "path": "candidates/oxford-history-french-revolution-2002-original-published-index/candidate-index.draft.v2.json",
+      "sha256": "7b29d7716339038848e2b1b0ec17220ae1867cb95941f0f06a84488cd486ed79"
+    },
+    {
+      "path": "candidates/oxford-history-french-revolution-2002-original-published-index/candidate-layout-extraction.v1.json",
+      "sha256": "5536225ed4520098e78581c9fbf1bc728e21ea5c4967d62047cc56d3bbd003cf"
+    },
+    {
+      "path": "candidates/oxford-history-french-revolution-2002-original-published-index/candidate-ref.json",
+      "sha256": "914a56812ef85721c330d37cf2f59230ea5ac7a0c645ce19d5e99dac6cee2fd7"
+    },
+    {
+      "path": "candidates/oxford-history-french-revolution-2002-original-published-index/item-inventory.draft.v2.json",
+      "sha256": "3e9c2b20d49486398bd57bfa31f5d1da1743498b47d0b9e46e42f096b56b9934"
+    },
+    {
+      "path": "candidates/oxford-history-french-revolution-2002-original-published-index/layout-profile.json",
+      "sha256": "eae9451fe0b223a70e67332915d959223487a5c53ec451ef06cb26e14efa40fd"
+    },
+    {
+      "path": "candidates/oxford-history-french-revolution-2002-original-published-index/locator-audits/locator-audit.CHUNK-001.v2.json",
+      "sha256": "1e34012edd42e4cb932d283718961254aaa95c1e598cfc049f61183cf44abc2a"
+    },
+    {
+      "path": "candidates/oxford-history-french-revolution-2002-original-published-index/locator-audits/locator-audit.CHUNK-002.v2.json",
+      "sha256": "5b5c885f2d9a4e9967e0e9c7b81b7c5e3bf77d5ce52df0b392aa39e4308e52df"
+    },
+    {
+      "path": "candidates/oxford-history-french-revolution-2002-original-published-index/locator-audits/locator-audit.CHUNK-003.v2.json",
+      "sha256": "c83987bc15d9ce585c5ead946a0a7eadf37a938502580029262816f5968752a9"
+    },
+    {
+      "path": "candidates/oxford-history-french-revolution-2002-original-published-index/locator-audits/locator-audit.CHUNK-004.v2.json",
+      "sha256": "e05671ce584f75e05c31c62c9db0f8f7c90a9ec964b964e29120a117cfe78043"
+    },
+    {
+      "path": "candidates/oxford-history-french-revolution-2002-original-published-index/locator-audits/locator-audit.CHUNK-005.v2.json",
+      "sha256": "0d916d2436c76a9ac35532db0de49b755f11a320b67fcd22a44e2369feb18461"
+    },
+    {
+      "path": "candidates/oxford-history-french-revolution-2002-original-published-index/locator-audits/locator-audit.CHUNK-006.v2.json",
+      "sha256": "57f76581195e320337b59b3653c59c4b3527ae87e1fb04a1117ef9722f182d66"
+    },
+    {
+      "path": "candidates/oxford-history-french-revolution-2002-original-published-index/locator-audits/locator-audit.CHUNK-007.v2.json",
+      "sha256": "f955f065a261c27c7cec282138eb8c7b44ff261a6a5d79015e8dfd4fd5c772d1"
+    },
+    {
+      "path": "candidates/oxford-history-french-revolution-2002-original-published-index/locator-audits/locator-audit.CHUNK-008.v2.json",
+      "sha256": "4d780e8bedb6aaff062822792699ac1681cea5b175d0cf49c6a608f96d19058a"
+    },
+    {
+      "path": "candidates/oxford-history-french-revolution-2002-original-published-index/locator-audits/locator-audit.CHUNK-009.v2.json",
+      "sha256": "0050ede147313c7f41da56502277e887e27282eadf59470b3a73ed79dcef93ee"
+    },
+    {
+      "path": "candidates/oxford-history-french-revolution-2002-original-published-index/locator-audits/locator-audit.CHUNK-010.v2.json",
+      "sha256": "fee5924922716f86c9b4516660fd3038cdb23ba7ffd26791a734e5b13f7a6138"
+    },
+    {
+      "path": "candidates/oxford-history-french-revolution-2002-original-published-index/locator-audits/locator-audit.CHUNK-011.v2.json",
+      "sha256": "cdbf774d129b785150a73b8a75ffe85671c3d0b2b0546fe19152b13324c0b61e"
+    },
+    {
+      "path": "candidates/oxford-history-french-revolution-2002-original-published-index/locator-audits/locator-audit.CHUNK-012.v2.json",
+      "sha256": "d3fac89cd2eb9b6dd7787036d244240df505c9bd6aad12ed6f6688c39309fba8"
+    },
+    {
+      "path": "candidates/oxford-history-french-revolution-2002-original-published-index/locator-audits/locator-audit.CHUNK-013.v2.json",
+      "sha256": "98654689f3dfafb1260b57e178a6c13cce22507cc6fa4eb6e965f630488362ef"
+    },
+    {
+      "path": "candidates/oxford-history-french-revolution-2002-original-published-index/locator-audits/locator-audit.CHUNK-014.v2.json",
+      "sha256": "eff394bdeb4a71bcab510ce8eaaab08ea6c0a554d420f2b5bca7e025aa2edefc"
+    },
+    {
+      "path": "candidates/oxford-history-french-revolution-2002-original-published-index/locator-audits/locator-audit.CHUNK-015.v2.json",
+      "sha256": "d5d11689aa978a2d9c5d3080123c0279f8406a4ddadd149a64c39545dfd17a8b"
+    },
+    {
+      "path": "candidates/oxford-history-french-revolution-2002-original-published-index/locator-audits/locator-audit.CHUNK-016.v2.json",
+      "sha256": "f4ae774aac8ad063a45d1a22593b171b140c49159c4fbbf31b571272a92fc54c"
+    },
+    {
+      "path": "candidates/oxford-history-french-revolution-2002-original-published-index/locator-audits/locator-audit.CHUNK-017.v2.json",
+      "sha256": "ccb0089fcf196677d16fc451989c035d1574c65c6a5c0f0e236a4eb0643ee428"
+    },
+    {
+      "path": "candidates/oxford-history-french-revolution-2002-original-published-index/locator-packets/candidate-locator-CHUNK-001.json",
+      "sha256": "15b1df8e2c41ff96890ac5e3588ebbbc621237818fcc78bc07c0ad8546c05212"
+    },
+    {
+      "path": "candidates/oxford-history-french-revolution-2002-original-published-index/locator-packets/candidate-locator-CHUNK-002.json",
+      "sha256": "bc73b46eb7ff944c79691e7f64f6c36c2f1aeb6579c88464a02c2922781281a9"
+    },
+    {
+      "path": "candidates/oxford-history-french-revolution-2002-original-published-index/locator-packets/candidate-locator-CHUNK-003.json",
+      "sha256": "427a4754784e4d45560837cd2172bb125c16ce80b8d007e526f4562f5ebf8b2c"
+    },
+    {
+      "path": "candidates/oxford-history-french-revolution-2002-original-published-index/locator-packets/candidate-locator-CHUNK-004.json",
+      "sha256": "82be1f59a1fb0f553cef01f2696ad022063f4f88bc86158fdc4d40592fca10a2"
+    },
+    {
+      "path": "candidates/oxford-history-french-revolution-2002-original-published-index/locator-packets/candidate-locator-CHUNK-005.json",
+      "sha256": "51a6808236571b957895e4962ca812e0f202c29ed28f1df8706e842d4e5b04f9"
+    },
+    {
+      "path": "candidates/oxford-history-french-revolution-2002-original-published-index/locator-packets/candidate-locator-CHUNK-006.json",
+      "sha256": "ed4501ade728c780c56893afcc9e6aab622ebe8752a157d7e430d691a747d6e5"
+    },
+    {
+      "path": "candidates/oxford-history-french-revolution-2002-original-published-index/locator-packets/candidate-locator-CHUNK-007.json",
+      "sha256": "209aad79a77b204d38873a62111c3ed2783640be2cff0c1baef6ab5048f24988"
+    },
+    {
+      "path": "candidates/oxford-history-french-revolution-2002-original-published-index/locator-packets/candidate-locator-CHUNK-008.json",
+      "sha256": "5dd58a4e9960d7637a5842df1b1019ac5084d68695af342ab312014022a661f5"
+    },
+    {
+      "path": "candidates/oxford-history-french-revolution-2002-original-published-index/locator-packets/candidate-locator-CHUNK-009.json",
+      "sha256": "c586d0b37a954ffcc2bf321dbcb7b7250aa93f4841c8409ad4b88b49b9cc7840"
+    },
+    {
+      "path": "candidates/oxford-history-french-revolution-2002-original-published-index/locator-packets/candidate-locator-CHUNK-010.json",
+      "sha256": "aaabd78b5d65bbc58a9add4024deba9d188f5cbf4f050dd3379eb2344f73568b"
+    },
+    {
+      "path": "candidates/oxford-history-french-revolution-2002-original-published-index/locator-packets/candidate-locator-CHUNK-011.json",
+      "sha256": "eed94135010e07c650627e0912e54e0df592335e7aa643ef3df961c7e5780bb7"
+    },
+    {
+      "path": "candidates/oxford-history-french-revolution-2002-original-published-index/locator-packets/candidate-locator-CHUNK-012.json",
+      "sha256": "724654f35a969ec71debf14853fc215da0acb21f4be1320e43ae13cd0dcb2709"
+    },
+    {
+      "path": "candidates/oxford-history-french-revolution-2002-original-published-index/locator-packets/candidate-locator-CHUNK-013.json",
+      "sha256": "736f3000827784c8556c46940e7673a5049e1217cd4a82d6f2967c6049092031"
+    },
+    {
+      "path": "candidates/oxford-history-french-revolution-2002-original-published-index/locator-packets/candidate-locator-CHUNK-014.json",
+      "sha256": "3421b750bc01801c5afa968b0657813c10eeab18cb842666f5d015a89552ccfb"
+    },
+    {
+      "path": "candidates/oxford-history-french-revolution-2002-original-published-index/locator-packets/candidate-locator-CHUNK-015.json",
+      "sha256": "8d7dd7e2b24cd3e758db4beec3fdab108f430642a481e09e7b72a6d0ab8e8816"
+    },
+    {
+      "path": "candidates/oxford-history-french-revolution-2002-original-published-index/locator-packets/candidate-locator-CHUNK-016.json",
+      "sha256": "f2043c1bd7714d9e016b90ca877daaf166d3d0ff97ff625bb00f624a25cc84fb"
+    },
+    {
+      "path": "candidates/oxford-history-french-revolution-2002-original-published-index/locator-packets/candidate-locator-CHUNK-017.json",
+      "sha256": "a0084e293860e8942b08f92b175105cf7c2587a8741644a850eb37083c793f85"
+    },
+    {
+      "path": "candidates/oxford-history-french-revolution-2002-original-published-index/locator-packets/candidate-locator-routing-exceptions.json",
+      "sha256": "0605d1f1c1285db9ec1a4d46e366406a425b13e1be21d63859dcd61f1ee464f1"
+    },
+    {
+      "path": "candidates/oxford-history-french-revolution-2002-original-published-index/missing-access-audits/missing-access-audit.CHUNK-001.v1.json",
+      "sha256": "0bf1614ecd1af0e54b14d96eb72b25cd34621f0c4590991ce95065e929b3c3af"
+    },
+    {
+      "path": "candidates/oxford-history-french-revolution-2002-original-published-index/missing-access-audits/missing-access-audit.CHUNK-002.v1.json",
+      "sha256": "6ecdd8fddc881f789d87d979d6a6b8bae446d6676679b83a369f70ba68bc76e2"
+    },
+    {
+      "path": "candidates/oxford-history-french-revolution-2002-original-published-index/missing-access-audits/missing-access-audit.CHUNK-003.v1.json",
+      "sha256": "37ca7f31723d53f28aff42c072bd03e87e844ccc1ccdf194df85519de130c870"
+    },
+    {
+      "path": "candidates/oxford-history-french-revolution-2002-original-published-index/missing-access-audits/missing-access-audit.CHUNK-004.v1.json",
+      "sha256": "464ada6ecfc5e607760aa5a630f9be65d77471f28496384e32a5feee951c6259"
+    },
+    {
+      "path": "candidates/oxford-history-french-revolution-2002-original-published-index/missing-access-audits/missing-access-audit.CHUNK-005.v1.json",
+      "sha256": "29e1a93086ea579432bce115be3e99b4f3451aa6ae804446c4a03f573de4de67"
+    },
+    {
+      "path": "candidates/oxford-history-french-revolution-2002-original-published-index/missing-access-audits/missing-access-audit.CHUNK-006.v1.json",
+      "sha256": "b537756a124d9d8a459aac0b294c9efbebf0b019ce50b3f9a36928929bd5f726"
+    },
+    {
+      "path": "candidates/oxford-history-french-revolution-2002-original-published-index/missing-access-audits/missing-access-audit.CHUNK-007.v1.json",
+      "sha256": "ef776b93b152e720c3bcb64647304b6cb1d5e4b23767978b0ca672351493f691"
+    },
+    {
+      "path": "candidates/oxford-history-french-revolution-2002-original-published-index/missing-access-audits/missing-access-audit.CHUNK-008.v1.json",
+      "sha256": "a084492915fa9a641871195b99aec630941f6d8f4bd7a47e9c631d4ef1ee3501"
+    },
+    {
+      "path": "candidates/oxford-history-french-revolution-2002-original-published-index/missing-access-audits/missing-access-audit.CHUNK-009.v1.json",
+      "sha256": "773df831d73abdc6ba12e0e0feb83973d4e16609096333a77ee84d07ea3a4aec"
+    },
+    {
+      "path": "candidates/oxford-history-french-revolution-2002-original-published-index/missing-access-audits/missing-access-audit.CHUNK-010.v1.json",
+      "sha256": "41ce3cef105fa3373522034274e4c2a35396eb1e502ff2e2035402b4dc0c7f87"
+    },
+    {
+      "path": "candidates/oxford-history-french-revolution-2002-original-published-index/missing-access-audits/missing-access-audit.CHUNK-011.v1.json",
+      "sha256": "0dfb83d6469ef50d640e9b7de0405e8fc8678a99ec02ecdb75cf6cc788dc2ea2"
+    },
+    {
+      "path": "candidates/oxford-history-french-revolution-2002-original-published-index/missing-access-audits/missing-access-audit.CHUNK-012.v1.json",
+      "sha256": "568c0c5874e5223f10b13a5385984a4dd55fd852e8ceec6abfc7912360321dbf"
+    },
+    {
+      "path": "candidates/oxford-history-french-revolution-2002-original-published-index/missing-access-audits/missing-access-audit.CHUNK-013.v1.json",
+      "sha256": "8af840d5d953bda9d3f83b9fcb090f80cc870ae5f2873ef23bb611ced5498a5b"
+    },
+    {
+      "path": "candidates/oxford-history-french-revolution-2002-original-published-index/missing-access-audits/missing-access-audit.CHUNK-014.v1.json",
+      "sha256": "952dc924ff4129818729b7362cccc1bd413ee0dd7ceb90475591db15f2784a77"
+    },
+    {
+      "path": "candidates/oxford-history-french-revolution-2002-original-published-index/missing-access-audits/missing-access-audit.CHUNK-015.v1.json",
+      "sha256": "da67d539fedfc8d0f47a2a6cacdaf748d6f94e51ca3d09ebc89312eccfb80cec"
+    },
+    {
+      "path": "candidates/oxford-history-french-revolution-2002-original-published-index/missing-access-audits/missing-access-audit.CHUNK-016.v1.json",
+      "sha256": "c54e3f6400e0cafb54dc323c1eed36f4ff3f0fc3001be3f798232c884f5fa099"
+    },
+    {
+      "path": "candidates/oxford-history-french-revolution-2002-original-published-index/missing-access-audits/missing-access-audit.CHUNK-017.v1.json",
+      "sha256": "938e072e5e6e113d3220c7bd83144f69999ca4c7a8df32f30160200a4c8b4474"
+    },
+    {
+      "path": "candidates/oxford-history-french-revolution-2002-original-published-index/normalization-exceptions.v1.json",
+      "sha256": "2106026b8850a4c159ed4d716c0e727c6d30a97ef8f55f41f87273ce0b2d128f"
+    },
+    {
+      "path": "evaluation-state.json",
+      "sha256": "10c055e4951562e26f4acfba61fe815e58f90470a5da1d79f48a8a7089f6af26"
+    },
+    {
+      "path": "scoring/causal-percentage-native/dimension-calculations.v6.json",
+      "sha256": "b501b297ad212c956c4db3de734b93735e2ec8d3fa0071802f43fba01d87fa79"
+    },
+    {
+      "path": "scoring/causal-percentage-native/item-assessments.v7.json",
+      "sha256": "d85e21c0a1e4c285a8707d7d4bfa0cbc1066df482f3f74ede6498132cf8e82db"
+    },
+    {
+      "path": "scoring/causal-percentage-native/projection-metadata.v2.json",
+      "sha256": "ccae204b345eb7acf1ac91e43ee89e0cd02fa62401c4a0d8a3fd3a1bf503de46"
+    },
+    {
+      "path": "scoring/dimension-calculation-input.v2.json",
+      "sha256": "8750199596d2f1576ba52dd71a08da1334eddedab5d5c3d33a27672019ff6c94"
+    },
+    {
+      "path": "scoring/dimension-calculations.v5.json",
+      "sha256": "1c50553269054eb6a84b9f987c578a8a48cdbc7f76e8661c72e43bfed9008a2a"
+    },
+    {
+      "path": "scoring/evaluation-result.v10.json",
+      "sha256": "34dcdf109b3ef991ff8f18690f8f3f5ebd835bf0e25214804d6666fcad6716f3"
+    },
+    {
+      "path": "scoring/item-assessments.v6.json",
+      "sha256": "a74ce5b9344ee7768ff9a062f1eec1cf944b97b05e3acaf03298219f93a8b54d"
+    },
+    {
+      "path": "scoring/projection-metadata.v1.json",
+      "sha256": "69a2673585de69f4fa534f1e0658e4b496cc13af317142a968d3e526c3039461"
+    },
+    {
+      "path": "scoring/web-report.v8.json",
+      "sha256": "b01bf343d961189ed1b126b8a22054c7ea4f4ca3779f4e6f7b253bad90b10219"
+    },
+    {
+      "path": "source/chunk-manifest.json",
+      "sha256": "5287f421e1e7be03444c2681beb1e1d63d5d103a96ab770565e32411956ce396"
+    },
+    {
+      "path": "source/chunks/CHUNK-001.pages.json",
+      "sha256": "d5aea1f2d3936b3c491351c83dab8132bc59ee2915a878ba93e59b35d2fd43a1"
+    },
+    {
+      "path": "source/chunks/CHUNK-001.pdf",
+      "sha256": "d07984346063e4466b5d5dc6f68e3d20ba3e9fd1adf87a83c88d1bb13782e967"
+    },
+    {
+      "path": "source/chunks/CHUNK-002.pages.json",
+      "sha256": "2d4d0cc922dbeaf146e97bdf16a6ff6236e3ce3931cf2b10cc0605551b1112b5"
+    },
+    {
+      "path": "source/chunks/CHUNK-002.pdf",
+      "sha256": "221dc48fc9f6d433209232db442e0e5730257e8204d24c7f88a78b76c6c0033f"
+    },
+    {
+      "path": "source/chunks/CHUNK-003.pages.json",
+      "sha256": "137041fcbc7ece6a63fbef85072c760f342fc92b28734410a8aeccd1d5c8a272"
+    },
+    {
+      "path": "source/chunks/CHUNK-003.pdf",
+      "sha256": "7f74759390a5ca8c85378649b56f58c161ef091a3ab428a17131ed27db73b00f"
+    },
+    {
+      "path": "source/chunks/CHUNK-004.pages.json",
+      "sha256": "1353e5061e5cc9988be43e54fe912a2c5b4b2e6bd2e069edb529786a0fde01a8"
+    },
+    {
+      "path": "source/chunks/CHUNK-004.pdf",
+      "sha256": "a38f47cc71bf0f119fa26760d9780b6b3cd6d8885547d6e933f093da4f351cfe"
+    },
+    {
+      "path": "source/chunks/CHUNK-005.pages.json",
+      "sha256": "f9117474d9c2f749acbf2564b8e9e1fa08b8ba2b8a9808cb9175376cf3a574bf"
+    },
+    {
+      "path": "source/chunks/CHUNK-005.pdf",
+      "sha256": "8ead7b33b569c1fd236d3126ce0868284e9aa4fece95ab16c864e81a94f135af"
+    },
+    {
+      "path": "source/chunks/CHUNK-006.pages.json",
+      "sha256": "b87631df54474bc7167f0eb7b4dd1e187cb75da7fe5a09d7697c2e798a66f154"
+    },
+    {
+      "path": "source/chunks/CHUNK-006.pdf",
+      "sha256": "22e6923731c4aeae3940f1aa95f109816eb48b7d53175ee720115ca5ed697306"
+    },
+    {
+      "path": "source/chunks/CHUNK-007.pages.json",
+      "sha256": "693a25f982ac97534f3380439f2b56b35b1e1e023a4686d4e40e7b9950e9c423"
+    },
+    {
+      "path": "source/chunks/CHUNK-007.pdf",
+      "sha256": "26ce178444651abe7aa3ed668ab060768fd093bb76ab6556ed9beea11cfbd55c"
+    },
+    {
+      "path": "source/chunks/CHUNK-008.pages.json",
+      "sha256": "be52821ccc83f0449e9230ea1d0eebab1ca21509bf5757a8281f9ecd35b256ef"
+    },
+    {
+      "path": "source/chunks/CHUNK-008.pdf",
+      "sha256": "9623c8767a2f57eb09e7d6ad4992ac17f78e8781db8ff176c56f474065cc2d81"
+    },
+    {
+      "path": "source/chunks/CHUNK-009.pages.json",
+      "sha256": "4c25483f5fbd081ae044d416e6c0218f55c32544f8d85f14d6a102bd35de1bf5"
+    },
+    {
+      "path": "source/chunks/CHUNK-009.pdf",
+      "sha256": "889d2ae4c025d67f39454662f6c7a69958e309110eaf097f0affe88f2c750bb8"
+    },
+    {
+      "path": "source/chunks/CHUNK-010.pages.json",
+      "sha256": "a47ea2d7d5d3f22b92e602ec257eeb6270ec473e925c062ab0c5ae21c850f2d2"
+    },
+    {
+      "path": "source/chunks/CHUNK-010.pdf",
+      "sha256": "70d05ac8d6cc96da9bcac61000cc95e7901b80f076b11b2239a86bb98b35b03d"
+    },
+    {
+      "path": "source/chunks/CHUNK-011.pages.json",
+      "sha256": "76bd6dbe287db97c2e7c9bb07da5d5646e5b7a4f4b8b7b2af07ab496248250bb"
+    },
+    {
+      "path": "source/chunks/CHUNK-011.pdf",
+      "sha256": "1ccf98d94ddf7179f5a329405289af148e4d969a3471fea8ba06b1bfbfd6e701"
+    },
+    {
+      "path": "source/chunks/CHUNK-012.pages.json",
+      "sha256": "1aae86ff378f6183aa249f64159ad6989faf4b2a670f99e943212e84c64c9fef"
+    },
+    {
+      "path": "source/chunks/CHUNK-012.pdf",
+      "sha256": "adcc5f3733a4b4eae22148d711efe7799f5ab829b0896e8b61f90e0bd6a5084d"
+    },
+    {
+      "path": "source/chunks/CHUNK-013.pages.json",
+      "sha256": "9851fef1e66228487ec0e40b0e3815cd7545f32a5cb17fa160d077fe700db264"
+    },
+    {
+      "path": "source/chunks/CHUNK-013.pdf",
+      "sha256": "84e657a01aeee0c9857dbc8a2440d2560bf022489fbc239a6c82c6c11e49db8e"
+    },
+    {
+      "path": "source/chunks/CHUNK-014.pages.json",
+      "sha256": "69931f8ac03b3e62741bd23de5a17b2bc99f0d53857c7bb150517631a2c10e17"
+    },
+    {
+      "path": "source/chunks/CHUNK-014.pdf",
+      "sha256": "381e325c2092560623bf8df064bdf1f4c6dea16e296622c17010b9ca49d35c40"
+    },
+    {
+      "path": "source/chunks/CHUNK-015.pages.json",
+      "sha256": "f289a89749e60a58a78c7c7f0dfee21c8ca38910dfab17f1adfdc08675f409d8"
+    },
+    {
+      "path": "source/chunks/CHUNK-015.pdf",
+      "sha256": "7c4ed0ce7194d3e6cbc64cb4b2a09dd46872092840da5fe2c7afba446937f1f5"
+    },
+    {
+      "path": "source/chunks/CHUNK-016.pages.json",
+      "sha256": "645c8040bdca4f7717bd90497f417eb37e8469ae770dcdac4edc1cf5efd428fb"
+    },
+    {
+      "path": "source/chunks/CHUNK-016.pdf",
+      "sha256": "99e50a197f89a797538286f99cc276cdc32b3237e978d0e815b29146f624cda9"
+    },
+    {
+      "path": "source/chunks/CHUNK-017.pages.json",
+      "sha256": "0d58ce5bc2a9e81e9c8adb53f2c44c9461abfbbfa70198300109dbed98079cbc"
+    },
+    {
+      "path": "source/chunks/CHUNK-017.pdf",
+      "sha256": "26cc6541447d9175fb9ff8abc63f9e1ed63a6ea3c42f57b8f5e5c53a383071b2"
+    },
+    {
+      "path": "source/chunks/source-chunk-inventory.json",
+      "sha256": "ea30bb5e527bec5e222005e248c831235a8c3aa12952197c8b6221a06bead876"
+    },
+    {
+      "path": "source/evaluation-policy.v4.json",
+      "sha256": "835112b6b8fc820d14ba1489f7940a72f71bd7913fe9e690ea789b9fab34843b"
+    },
+    {
+      "path": "source/page-map.json",
+      "sha256": "dbc3ac1a4a7ea04403639dd9f41cdf79eebf1b8486d4ff65f799d05730fc8b0d"
+    },
+    {
+      "path": "source/restricted/Oxford_History_of_the_French_Revolution--IndexerLabs.(3).pdf",
+      "sha256": "5f89aa2592218983c594278bfd86cc1e4b74be1dd6dd8aac5c2610a48fa34047"
+    },
+    {
+      "path": "source/source-benchmark.draft.v1.json",
+      "sha256": "a84d96aa8ed6bb4233d035f11f0f09cf232aa351fa494dad897db3cc85a41294"
+    },
+    {
+      "path": "source/source-benchmark.v2.json",
+      "sha256": "f58fae3d56c427fcac8771d8ca4181f98a9d496096e35ea1d130e200567a816c"
+    },
+    {
+      "path": "source/source-subject-chunk.CHUNK-001.json",
+      "sha256": "85445ae2f986c9055c45b92899e02e4f3929d1c45cd8f7662a1e03319132643c"
+    },
+    {
+      "path": "source/source-subject-chunk.CHUNK-002.json",
+      "sha256": "6b9628305dce25867616592997a3657b2ed78b0232419a54b57f16875c892fdf"
+    },
+    {
+      "path": "source/source-subject-chunk.CHUNK-003.json",
+      "sha256": "35e538697d5f2dfb436fd22c044dff5157e2334ce852265dc95ce7cfb8339f71"
+    },
+    {
+      "path": "source/source-subject-chunk.CHUNK-004.json",
+      "sha256": "82f69c8c23f4cf8e78a1ac4c71802974652fffc2e6c01184793131add44fc618"
+    },
+    {
+      "path": "source/source-subject-chunk.CHUNK-005.json",
+      "sha256": "e84976b5ef52ea03ff3bab1596e17610191f2d431809aade5a0297d1d6c9e9ac"
+    },
+    {
+      "path": "source/source-subject-chunk.CHUNK-006.json",
+      "sha256": "eb4ec2ef0161883f0a1e3600d75456a3ae3cbdeeb14e035dcdf565debcfc2dc4"
+    },
+    {
+      "path": "source/source-subject-chunk.CHUNK-007.json",
+      "sha256": "1794606c77ad5183716d742bfc1cd246255147209d50ce072a75c98f87ad2488"
+    },
+    {
+      "path": "source/source-subject-chunk.CHUNK-008.json",
+      "sha256": "eccd5b28588f7dbebbb69d7ae28401b3e7aa11c9e76f012f53a94fa85141576d"
+    },
+    {
+      "path": "source/source-subject-chunk.CHUNK-009.json",
+      "sha256": "b1b91c60c4dc18b7b5c58a0b9562a45202d65ca1560aac400aac8d7dde9bd911"
+    },
+    {
+      "path": "source/source-subject-chunk.CHUNK-010.json",
+      "sha256": "7031491fe4f9e28ce7ace7d747af5d1c1a794092c42c34e2b3a4c60221db0c77"
+    },
+    {
+      "path": "source/source-subject-chunk.CHUNK-011.json",
+      "sha256": "bbe1cca9159a1e0e7964d158e5bbf827794aa1209bd6a2b8afc6d3026ef14901"
+    },
+    {
+      "path": "source/source-subject-chunk.CHUNK-012.json",
+      "sha256": "7edb3f244ba8ad70184110886b6b9a1653d465430758bcc4d35daa1bf505b504"
+    },
+    {
+      "path": "source/source-subject-chunk.CHUNK-013.json",
+      "sha256": "78d2e26ce17f2fd94239b5c4eddb4d54b1ba616dccfcde814df490c44b3c749f"
+    },
+    {
+      "path": "source/source-subject-chunk.CHUNK-014.json",
+      "sha256": "ce9721e26aee620cb2530d40312e1d2afaae7ccad6a917d9e0edcee14c5d33e5"
+    },
+    {
+      "path": "source/source-subject-chunk.CHUNK-015.json",
+      "sha256": "d2080e65df89a54ff177dd133d700bc01f4fc19a3425ac6ce00efd0738830a6c"
+    },
+    {
+      "path": "source/source-subject-chunk.CHUNK-016.json",
+      "sha256": "92cc73086f4c8bb536377c6d793018ea9b2cb27623a70a591c625ecf699c4ec7"
+    },
+    {
+      "path": "source/source-subject-chunk.CHUNK-017.json",
+      "sha256": "442c9fa4c2a884c0682260b75d9a3b148bb07d77edd36a0f23b8c14c203e0000"
+    },
+    {
+      "path": "structure/structure-audit.v5.json",
+      "sha256": "ffe13170172d360aa6db6fc1dac7e24a65d353a1d062f1142f99666db1fee556"
+    },
+    {
+      "path": "structure/structure-audit.v6.json",
+      "sha256": "be6cae9872e7d3b9105c4465cadf18e54b230aab900de1d5c8628c3e1bc2aa33"
+    },
+    {
+      "path": "validation/candidate-normalization-qa.oxford-history-french-revolution-2002-original-published-index.v1.json",
+      "sha256": "8a9680242c25e917b8b89ac825113593539c77aa90c1091b4b7844631e65aebb"
+    },
+    {
+      "path": "validation/candidate-normalization-qa.oxford-history-french-revolution-2002-original-published-index.v1.template.json",
+      "sha256": "fe7ce793b661b8752a2d42888c6eefafe9f0218ccaf692e79637f552d24b3e71"
+    },
+    {
+      "path": "validation/candidate-normalization-report.oxford-history-french-revolution-2002-original-published-index.v1.json",
+      "sha256": "fa169ffc46d89e65df3f83e8167f46a6b89ed0a4728e69ea8e46466ff5dd3b16"
+    },
+    {
+      "path": "validation/final-completion-report.md",
+      "sha256": "e81f91ecc7ec471e86487971fd3af51ad04897f0ce6338dd9ec3db2d2e8ff50b"
+    },
+    {
+      "path": "validation/locator-audits-pr17-combined-validation.json",
+      "sha256": "ac1c05d4b3989e134be0459caa85f53eeb934b6e1b380477821db875d68a190a"
+    },
+    {
+      "path": "validation/locator-audits.pr21-fit-refresh.validation.json",
+      "sha256": "38b8de33f7171990e91963aa178ca3e35033b6dbfd737f29fcd150867600b938"
+    },
+    {
+      "path": "validation/missing-access-pr17-combined-validation.json",
+      "sha256": "beea8905aedb611d559839c755d84c0fea91c9c7de7817c34a655ced0f9240d8"
+    },
+    {
+      "path": "validation/source-benchmark-review-inventory.json",
+      "sha256": "5278f3dc570feaec86eb58eddcdd16d7fbdc0c7ba38ec15e5a813fcc0b5fd8d3"
+    },
+    {
+      "path": "validation/source-benchmark-review.v1.json",
+      "sha256": "1427248ed809aeb829dac8deba3cfc6b932e90732132904318a17778b953e1c0"
+    },
+    {
+      "path": "validation/structure-locator-review.pr17.validation.json",
+      "sha256": "8af288801bc072a04460029da08d84e087efef7b8ad401f2d9699b36466fd692"
+    }
+  ],
+  "dimension_comparison": [
+    {
+      "dimension_id": "meaningful_coverage",
+      "ordinary_components_unchanged": true,
+      "component_consequence_metadata_changes": [],
+      "original_pre_cap_percentage": "86.92592592592592592592592593",
+      "revised_pre_cap_percentage": "86.92592592592592592592592593",
+      "original_dimension_percentage": "86.92592592592592592592592593",
+      "revised_dimension_percentage": "86.92592592592592592592592593",
+      "weighted_contribution": "17.38518518518518518518518519",
+      "original_triggered_ceilings": [
+        {
+          "cap_id": "coverage.essential_miss_rate",
+          "maximum_percentage": 90,
+          "triggered": true,
+          "threshold": {
+            "table": "essential_miss_rate_v1",
+            "band": "above_0_through_5_percent"
+          },
+          "observed": {
+            "missing": 4,
+            "essential_denominator": 178,
+            "rate": "0.02247191011235955056179775281"
+          },
+          "affected_evidence_ids": [
+            "SUBJ-0190",
+            "SUBJ-0191",
+            "SUBJ-0219",
+            "SUBJ-0250"
+          ]
+        }
+      ],
+      "revised_triggered_ceilings": [
+        {
+          "cap_id": "coverage.essential_miss_rate",
+          "maximum_percentage": 90,
+          "triggered": true,
+          "threshold": {
+            "table": "essential_miss_rate_v1",
+            "band": "above_0_through_5_percent"
+          },
+          "observed": {
+            "missing": 4,
+            "essential_denominator": 178,
+            "rate": "0.02247191011235955056179775281",
+            "consequence_evidence": [],
+            "qualifying_locator_evidence": [],
+            "severity_basis": [
+              "frozen_quantitative_threshold"
+            ],
+            "retrieval_consequence": [
+              "Essential subject access is absent."
+            ],
+            "threshold_reason": "Essential subject access is absent. Observed evidence satisfies {\"band\":\"above_0_through_5_percent\",\"table\":\"essential_miss_rate_v1\"}"
+          },
+          "affected_evidence_ids": [
+            "SUBJ-0190",
+            "SUBJ-0191",
+            "SUBJ-0219",
+            "SUBJ-0250"
+          ],
+          "binding": false
+        }
+      ]
+    },
+    {
+      "dimension_id": "editorial_selectivity",
+      "ordinary_components_unchanged": true,
+      "component_consequence_metadata_changes": [],
+      "original_pre_cap_percentage": "76.82657517272091852117083307",
+      "revised_pre_cap_percentage": "76.82657517272091852117083307",
+      "original_dimension_percentage": "76.82657517272091852117083307",
+      "revised_dimension_percentage": "76.82657517272091852117083307",
+      "weighted_contribution": "11.52398627590813777817562496",
+      "original_triggered_ceilings": [],
+      "revised_triggered_ceilings": []
+    },
+    {
+      "dimension_id": "conceptual_stance_fidelity",
+      "ordinary_components_unchanged": true,
+      "component_consequence_metadata_changes": [],
+      "original_pre_cap_percentage": "99.08613445378151260504201681",
+      "revised_pre_cap_percentage": "99.08613445378151260504201681",
+      "original_dimension_percentage": "99.08613445378151260504201681",
+      "revised_dimension_percentage": "99.08613445378151260504201681",
+      "weighted_contribution": "14.86292016806722689075630252",
+      "original_triggered_ceilings": [],
+      "revised_triggered_ceilings": []
+    },
+    {
+      "dimension_id": "page_reference_reliability",
+      "ordinary_components_unchanged": true,
+      "component_consequence_metadata_changes": [
+        {
+          "component_id": "high_value_treatment_recall_safeguard",
+          "field": "weight",
+          "old": "cap_only",
+          "new": "reported_diagnostic_only"
+        },
+        {
+          "component_id": "high_value_treatment_recall_safeguard",
+          "field": "effective_weight",
+          "old": "cap_only",
+          "new": "reported_diagnostic_only"
+        }
+      ],
+      "original_pre_cap_percentage": "93.09012446826866785359208541",
+      "revised_pre_cap_percentage": "93.09012446826866785359208541",
+      "original_dimension_percentage": "90",
+      "revised_dimension_percentage": "90",
+      "weighted_contribution": "22.5",
+      "original_triggered_ceilings": [
+        {
+          "cap_id": "reliability.distributed_unsupported_pattern",
+          "maximum_percentage": 90,
+          "triggered": true,
+          "threshold": {
+            "minimum_source_unit_rate": "0.25",
+            "rate_table": "reliability_owned_unsupported_v1",
+            "band": "1_to_below_3_percent"
+          },
+          "observed": {
+            "unsupported_count": 94,
+            "assessable_locator_denominator": 5338,
+            "rate": "0.01760959160734357437242412889",
+            "affected_source_units": 16,
+            "source_unit_denominator": 17,
+            "source_unit_rate": "0.9411764705882352941176470588"
+          },
+          "affected_evidence_ids": [
+            "LOC-01D58B93A387",
+            "LOC-07A4CC9CF8E2",
+            "LOC-0A3777CEF8BB",
+            "LOC-0B5AE6EEE5A4",
+            "LOC-10B912216828",
+            "LOC-10E205739DD1",
+            "LOC-11F229652FAF",
+            "LOC-141282E04891",
+            "LOC-145AAAB05500",
+            "LOC-153703C7BF5D",
+            "LOC-1930376F734E",
+            "LOC-1A9E9F6C9B4A",
+            "LOC-1EAE01485F57",
+            "LOC-1FAD4979FB8A",
+            "LOC-20357BC84E90",
+            "LOC-2161067AD390",
+            "LOC-272356A26778",
+            "LOC-2E3B8AD6FB89",
+            "LOC-312BC8E9C6B8",
+            "LOC-3915B5C755DA",
+            "LOC-3E647F586C2F",
+            "LOC-3EAD8CF938BA",
+            "LOC-467C055AB72C",
+            "LOC-4848FFFBC70F",
+            "LOC-4CD7F3B97A15",
+            "LOC-4F8779BDE059",
+            "LOC-53959BBA04E4",
+            "LOC-55A33806E289",
+            "LOC-591B4162B22B",
+            "LOC-5DFD6A555619",
+            "LOC-66587825D814",
+            "LOC-69ED2E8F1700",
+            "LOC-6B1A8F5DAB1D",
+            "LOC-6F2C8755A88A",
+            "LOC-752D67D91E3E",
+            "LOC-757EE1FC9C68",
+            "LOC-75A15AB48DBB",
+            "LOC-7BFDF9C874D5",
+            "LOC-8020164CF145",
+            "LOC-816D3A517518",
+            "LOC-86960B2713B7",
+            "LOC-8702FDD33D7D",
+            "LOC-873429D48B63",
+            "LOC-88AC7DF26586",
+            "LOC-8AA942F0409A",
+            "LOC-938D3A27E0EF",
+            "LOC-956320533A37",
+            "LOC-98413282C7FF",
+            "LOC-9DBEFF386492",
+            "LOC-9EAF33C53A04",
+            "LOC-A06A77444DBD",
+            "LOC-A3578A3B3A6F",
+            "LOC-A36589B344EF",
+            "LOC-A37C51D0A785",
+            "LOC-A51F18ACD25C",
+            "LOC-A5F3D4213BF0",
+            "LOC-A6F7F12DEE54",
+            "LOC-AD8334E701B2",
+            "LOC-AE316AD1E4AE",
+            "LOC-B0C52F6288F0",
+            "LOC-B26207D5AD3D",
+            "LOC-B57004FD3588",
+            "LOC-B66D3AB7C226",
+            "LOC-BBEBFACE3C97",
+            "LOC-C273BA432AE5",
+            "LOC-C29B048D0D49",
+            "LOC-C30A1CEB3F8B",
+            "LOC-C342D8099B70",
+            "LOC-C43DAB94F6E0",
+            "LOC-C4CA01EB82FE",
+            "LOC-C4F6CAA977E7",
+            "LOC-C52014C1FDAF",
+            "LOC-D808750AE746",
+            "LOC-D831B6E5FC6F",
+            "LOC-D8CF805EB9FF",
+            "LOC-DB42C7C801D3",
+            "LOC-E0E648FAC69D",
+            "LOC-E1A196CF65FF",
+            "LOC-E4612D875085",
+            "LOC-E5D8A5E9529E",
+            "LOC-E6E965E2EE2F",
+            "LOC-E761D3AB9073",
+            "LOC-E7F6F4073DA8",
+            "LOC-E8029DC786A5",
+            "LOC-E8BF6AC30553",
+            "LOC-EC4F8F4733D7",
+            "LOC-EEB2313A58BA",
+            "LOC-F2F22AD0F6EB",
+            "LOC-F61C15B5BB31",
+            "LOC-F9791D7E1167",
+            "LOC-FBE3A4B1DEC8",
+            "LOC-FC045985F7EF",
+            "LOC-FC967107966B",
+            "LOC-FE62776DD1B8"
+          ]
+        }
+      ],
+      "revised_triggered_ceilings": [
+        {
+          "cap_id": "reliability.distributed_unsupported_pattern",
+          "maximum_percentage": 90,
+          "triggered": true,
+          "threshold": {
+            "minimum_count": 3,
+            "fit": [
+              "severe_mismatch",
+              "no_fit"
+            ],
+            "minimum_source_unit_rate": "0.25",
+            "rate_table": "reliability_owned_unsupported_v1",
+            "band": "1_to_below_3_percent"
+          },
+          "observed": {
+            "unsupported_count": 93,
+            "assessable_locator_denominator": 5338,
+            "rate": "0.01742225552641438741101536156",
+            "affected_source_units": 16,
+            "source_unit_denominator": 17,
+            "source_unit_rate": "0.9411764705882352941176470588",
+            "consequence_evidence": [],
+            "qualifying_locator_evidence": [],
+            "severity_basis": [
+              "frozen_quantitative_threshold"
+            ],
+            "retrieval_consequence": [
+              "Delivered severe/no-fit locators materially mislead retrieval."
+            ],
+            "threshold_reason": "Delivered severe/no-fit locators materially mislead retrieval. Observed evidence satisfies {\"band\":\"1_to_below_3_percent\",\"fit\":[\"severe_mismatch\",\"no_fit\"],\"minimum_count\":3,\"minimum_source_unit_rate\":\"0.25\",\"rate_table\":\"reliability_owned_unsupported_v1\"}"
+          },
+          "affected_evidence_ids": [
+            "LOC-01D58B93A387",
+            "LOC-07A4CC9CF8E2",
+            "LOC-0A3777CEF8BB",
+            "LOC-0B5AE6EEE5A4",
+            "LOC-10B912216828",
+            "LOC-10E205739DD1",
+            "LOC-11F229652FAF",
+            "LOC-141282E04891",
+            "LOC-145AAAB05500",
+            "LOC-153703C7BF5D",
+            "LOC-1930376F734E",
+            "LOC-1A9E9F6C9B4A",
+            "LOC-1EAE01485F57",
+            "LOC-1FAD4979FB8A",
+            "LOC-20357BC84E90",
+            "LOC-2161067AD390",
+            "LOC-272356A26778",
+            "LOC-2E3B8AD6FB89",
+            "LOC-312BC8E9C6B8",
+            "LOC-3915B5C755DA",
+            "LOC-3E647F586C2F",
+            "LOC-3EAD8CF938BA",
+            "LOC-467C055AB72C",
+            "LOC-4848FFFBC70F",
+            "LOC-4CD7F3B97A15",
+            "LOC-4F8779BDE059",
+            "LOC-53959BBA04E4",
+            "LOC-55A33806E289",
+            "LOC-591B4162B22B",
+            "LOC-5DFD6A555619",
+            "LOC-66587825D814",
+            "LOC-69ED2E8F1700",
+            "LOC-6B1A8F5DAB1D",
+            "LOC-6F2C8755A88A",
+            "LOC-752D67D91E3E",
+            "LOC-757EE1FC9C68",
+            "LOC-75A15AB48DBB",
+            "LOC-7BFDF9C874D5",
+            "LOC-8020164CF145",
+            "LOC-816D3A517518",
+            "LOC-86960B2713B7",
+            "LOC-8702FDD33D7D",
+            "LOC-873429D48B63",
+            "LOC-88AC7DF26586",
+            "LOC-8AA942F0409A",
+            "LOC-938D3A27E0EF",
+            "LOC-956320533A37",
+            "LOC-98413282C7FF",
+            "LOC-9DBEFF386492",
+            "LOC-9EAF33C53A04",
+            "LOC-A06A77444DBD",
+            "LOC-A3578A3B3A6F",
+            "LOC-A36589B344EF",
+            "LOC-A37C51D0A785",
+            "LOC-A51F18ACD25C",
+            "LOC-A5F3D4213BF0",
+            "LOC-A6F7F12DEE54",
+            "LOC-AD8334E701B2",
+            "LOC-AE316AD1E4AE",
+            "LOC-B0C52F6288F0",
+            "LOC-B26207D5AD3D",
+            "LOC-B57004FD3588",
+            "LOC-B66D3AB7C226",
+            "LOC-BBEBFACE3C97",
+            "LOC-C273BA432AE5",
+            "LOC-C29B048D0D49",
+            "LOC-C30A1CEB3F8B",
+            "LOC-C342D8099B70",
+            "LOC-C43DAB94F6E0",
+            "LOC-C4CA01EB82FE",
+            "LOC-C4F6CAA977E7",
+            "LOC-C52014C1FDAF",
+            "LOC-D808750AE746",
+            "LOC-D831B6E5FC6F",
+            "LOC-D8CF805EB9FF",
+            "LOC-DB42C7C801D3",
+            "LOC-E0E648FAC69D",
+            "LOC-E1A196CF65FF",
+            "LOC-E4612D875085",
+            "LOC-E5D8A5E9529E",
+            "LOC-E6E965E2EE2F",
+            "LOC-E761D3AB9073",
+            "LOC-E7F6F4073DA8",
+            "LOC-E8029DC786A5",
+            "LOC-E8BF6AC30553",
+            "LOC-EC4F8F4733D7",
+            "LOC-EEB2313A58BA",
+            "LOC-F61C15B5BB31",
+            "LOC-F9791D7E1167",
+            "LOC-FBE3A4B1DEC8",
+            "LOC-FC045985F7EF",
+            "LOC-FC967107966B",
+            "LOC-FE62776DD1B8"
+          ],
+          "binding": true
+        }
+      ]
+    },
+    {
+      "dimension_id": "findability_navigation",
+      "ordinary_components_unchanged": true,
+      "component_consequence_metadata_changes": [],
+      "original_pre_cap_percentage": "90.58902057199691470791215037",
+      "revised_pre_cap_percentage": "90.58902057199691470791215037",
+      "original_dimension_percentage": "90.58902057199691470791215037",
+      "revised_dimension_percentage": "90.58902057199691470791215037",
+      "weighted_contribution": "18.11780411439938294158243007",
+      "original_triggered_ceilings": [],
+      "revised_triggered_ceilings": []
+    },
+    {
+      "dimension_id": "mechanics_consistency",
+      "ordinary_components_unchanged": true,
+      "component_consequence_metadata_changes": [],
+      "original_pre_cap_percentage": "99.8555672268907563025210084",
+      "revised_pre_cap_percentage": "99.8555672268907563025210084",
+      "original_dimension_percentage": "99.8555672268907563025210084",
+      "revised_dimension_percentage": "99.8555672268907563025210084",
+      "weighted_contribution": "4.99277836134453781512605042",
+      "original_triggered_ceilings": [],
+      "revised_triggered_ceilings": []
+    }
+  ],
+  "score_comparison": {
+    "original": 89.38,
+    "revised": 89.38,
+    "ordinary_components_unchanged": true,
+    "all_dimension_percentages_unchanged": true
+  },
+  "publication_gate_review": [
+    {
+      "gate_id": "GATE-STANCE",
+      "original_triggered": true,
+      "revised_triggered": false,
+      "frozen_defects_reused": [
+        {
+          "defect_id": "DEFECT-STRUCT-RELATIONSHIP-001",
+          "code": "CMP",
+          "dimension_owner": "conceptual_stance_fidelity",
+          "severity": "minor",
+          "severity_basis": "localized_repairable_friction",
+          "retrieval_consequence": "slows",
+          "defect_kind": "misleading_relationship",
+          "affected_item_ids": [
+            "NODE-11B72395CD19"
+          ],
+          "affected_source_sections": [],
+          "affected_structural_sections": [
+            "NODE-D1B4995AD44A"
+          ],
+          "root_cause_family": "wrong_royal_kinship_in_delivered_artois_heading",
+          "affected_count": 1,
+          "applicable_count": 1904,
+          "affected_rate": "0.000525",
+          "source_section_denominator": 17,
+          "source_section_rate": "0",
+          "structural_section_denominator": 1066,
+          "structural_section_rate": "0.000938",
+          "high_priority_access_destroyed": false
+        }
+      ],
+      "decision_reason": "Minor relationship friction with slows consequence; neither major/critical severity nor blocks/misleads consequence. The affected subheading also has ordinary partial-fit evidence, which cannot be promoted to a stance gate."
+    },
+    {
+      "gate_id": "GATE-COMPOUND",
+      "original_triggered": true,
+      "revised_triggered": false,
+      "frozen_defects_reused": [
+        {
+          "defect_id": "DEFECT-STRUCT-RELATIONSHIP-001",
+          "code": "CMP",
+          "dimension_owner": "conceptual_stance_fidelity",
+          "severity": "minor",
+          "severity_basis": "localized_repairable_friction",
+          "retrieval_consequence": "slows",
+          "defect_kind": "misleading_relationship",
+          "affected_item_ids": [
+            "NODE-11B72395CD19"
+          ],
+          "affected_source_sections": [],
+          "affected_structural_sections": [
+            "NODE-D1B4995AD44A"
+          ],
+          "root_cause_family": "wrong_royal_kinship_in_delivered_artois_heading",
+          "affected_count": 1,
+          "applicable_count": 1904,
+          "affected_rate": "0.000525",
+          "source_section_denominator": 17,
+          "source_section_rate": "0",
+          "structural_section_denominator": 1066,
+          "structural_section_rate": "0.000938",
+          "high_priority_access_destroyed": false
+        }
+      ],
+      "decision_reason": "CMP code alone is insufficient. The frozen defect is minor/slows and binds a NODE rather than a qualifying severe/no-fit delivered locator. No new major misrepresentation is inferred."
+    },
+    {
+      "gate_id": "GATE-CROSS-REFERENCE",
+      "original_triggered": true,
+      "revised_triggered": false,
+      "frozen_defects_reused": [
+        {
+          "defect_id": "DEFECT-STRUCT-XREF-001",
+          "code": "XRF",
+          "dimension_owner": "findability_navigation",
+          "severity": "minor",
+          "severity_basis": "localized_repairable_friction",
+          "retrieval_consequence": "slows",
+          "defect_kind": "unsupported_reference",
+          "affected_item_ids": [
+            "XREF-6E6F54660707",
+            "XREF-9A63B6DC42BB"
+          ],
+          "affected_source_sections": [],
+          "affected_structural_sections": [
+            "NODE-A520DD605A20",
+            "NODE-C6CE3A4C7AF6"
+          ],
+          "root_cause_family": "unresolvable_or_mechanically_corrupted_cross_reference_targets",
+          "affected_count": 2,
+          "applicable_count": 16,
+          "affected_rate": "0.125",
+          "source_section_denominator": 17,
+          "source_section_rate": "0",
+          "structural_section_denominator": 1066,
+          "structural_section_rate": "0.001876",
+          "high_priority_access_destroyed": false
+        }
+      ],
+      "decision_reason": "Two minor references out of 16 (12.5%) do not meet the minimum ten-item systemic count; 2/1066 structural sections (0.1876%) also fail 25% spread. Both retain ordinary deductions. The see-also to individual regiments preserves a delivered locator; the levée-en-masse route is intelligible but mechanically corrupted."
+    },
+    {
+      "gate_id": "GATE-CLUTTER",
+      "original_triggered": true,
+      "revised_triggered": false,
+      "frozen_defects_reused": [
+        {
+          "defect_id": "DEFECT-STRUCT-SUBDIVISION-001",
+          "code": "SUB",
+          "dimension_owner": "findability_navigation",
+          "severity": "minor",
+          "severity_basis": "localized_repairable_friction",
+          "retrieval_consequence": "slows",
+          "defect_kind": "clutter_pattern",
+          "affected_item_ids": [
+            "PATH-18754890DD4A",
+            "PATH-80810BD7161F",
+            "PATH-94F0FB7DD912"
+          ],
+          "affected_source_sections": [],
+          "affected_structural_sections": [
+            "NODE-4764A9A9CD71",
+            "NODE-FB186A17F8F5",
+            "NODE-FBD4309DABD4"
+          ],
+          "root_cause_family": "undifferentiated_conceptual_treatments_impair_retrieval",
+          "affected_count": 3,
+          "applicable_count": 1904,
+          "affected_rate": "0.001576",
+          "source_section_denominator": 17,
+          "source_section_rate": "0",
+          "structural_section_denominator": 1066,
+          "structural_section_rate": "0.002814",
+          "high_priority_access_destroyed": false
+        }
+      ],
+      "decision_reason": "Three paths out of 1904 (0.1576%) in 3/1066 structural sections (0.2814%) fail both minimum ten-item/5% item prevalence and 25% spread. Localized subdivision friction remains scored."
+    }
+  ],
+  "additional_consequence_review": {
+    "reliability_excluded_locator": {
+      "locator_id": "LOC-F2F22AD0F6EB",
+      "evidence_ids": [
+        "EVID-CHUNK003-P074-F2F22AD0F6EB"
+      ],
+      "original_unsupported_judgment_retained": true,
+      "complete_path_fit": "material_mismatch",
+      "severity": "minor",
+      "reason": "Excluded from the distributed severe_mismatch/no_fit population only; keep-credit zero and diagnostic grade unchanged. Qualifying count falls from 94 to 93, retaining the same binding 90% band."
+    },
+    "essential_subject_ceiling": {
+      "subject_ids": [
+        "SUBJ-0190",
+        "SUBJ-0191",
+        "SUBJ-0219",
+        "SUBJ-0250"
+      ],
+      "count": 4,
+      "denominator": 178,
+      "basis": "Frozen benchmark essential priority and missing subject judgments. Ordinary priority-weighted Coverage deductions and the non-binding 90% essential-miss ceiling remain.",
+      "publication_gate_distinction": "The missing-access rows carry critical severity but do not supply a separately structured central-omission defect with the required severity basis and blocks/misleads consequence. Missing headings or treatments alone are insufficient for a new publication gate; no escalation or new review is invented."
+    },
+    "evaluation_validity": {
+      "status": "valid",
+      "blockers": [],
+      "used_as_publication_gate": false
+    },
+    "candidate_output_failure": false,
+    "partial_fit_review_signal_count": 102,
+    "review_signals": [
+      {
+        "signal_id": "REVIEW-PARTIAL-FIT",
+        "color": "yellow",
+        "affected_evidence_ids": [
+          "LOC-003F71762571",
+          "LOC-008139FA2BC7",
+          "LOC-03965E612F0F",
+          "LOC-044290DBBA7F",
+          "LOC-045BF26CDB87",
+          "LOC-0599C7020FC3",
+          "LOC-064E74EE09A5",
+          "LOC-07C19A8E6712",
+          "LOC-07D39DBEB6CD",
+          "LOC-0992C8AEFF8F",
+          "LOC-0B580D3C90A8",
+          "LOC-0B91A2BFB976",
+          "LOC-0E04C379CB41",
+          "LOC-10CB3E8E93CB",
+          "LOC-1D03ABE81781",
+          "LOC-1D793C49C50E",
+          "LOC-1E53E8658922",
+          "LOC-1EE9A725B231",
+          "LOC-29AD5C72B1BD",
+          "LOC-2DA800BD7738",
+          "LOC-2FB6734ED8EA",
+          "LOC-317488B25A6B",
+          "LOC-3252EEFA0B75",
+          "LOC-3556C7E139CF",
+          "LOC-3D6DC633B34A",
+          "LOC-3F4319E5F33C",
+          "LOC-403B1097CD36",
+          "LOC-407B35E267F6",
+          "LOC-458A263F7F94",
+          "LOC-5158D1F92ABA",
+          "LOC-51905A097AFB",
+          "LOC-5265ADB33180",
+          "LOC-52ABF4F7BC86",
+          "LOC-557B0C5564B6",
+          "LOC-5B0AF00BE559",
+          "LOC-5B80AD70B78C",
+          "LOC-6161D27AF7DE",
+          "LOC-6608CA7EE24C",
+          "LOC-66BA1BA6FC11",
+          "LOC-6B6C00037719",
+          "LOC-6C3131470F47",
+          "LOC-70E9B597AF65",
+          "LOC-72F15852C0AC",
+          "LOC-74D3E6FF1760",
+          "LOC-77C669B392D5",
+          "LOC-7A73F7823A57",
+          "LOC-7C47860A4B29",
+          "LOC-7CF81085CF57",
+          "LOC-7E9FE0CB8EF7",
+          "LOC-81D1B964462A",
+          "LOC-85E43F84BFB1",
+          "LOC-8828EB8E587A",
+          "LOC-8935B2B37159",
+          "LOC-8FD0332C3585",
+          "LOC-901E1C6D282D",
+          "LOC-9217D7991F28",
+          "LOC-940CA86558F7",
+          "LOC-94170198CC9F",
+          "LOC-999C9168EAEC",
+          "LOC-9B599DFDF135",
+          "LOC-9F59C81DDFFA",
+          "LOC-9F7033287BAF",
+          "LOC-A37FE40F4398",
+          "LOC-AA8243BE4489",
+          "LOC-AAB4A87CCC4A",
+          "LOC-AB537F69F9F6",
+          "LOC-AC2896EED86C",
+          "LOC-AC5BF7E2E325",
+          "LOC-AE9E3CC62509",
+          "LOC-B31929356294",
+          "LOC-B3A892B6E376",
+          "LOC-B4A44F7CDDB8",
+          "LOC-B685D3F8FEE2",
+          "LOC-BB498F1D4870",
+          "LOC-BF7BF514B717",
+          "LOC-C0CFFDC75062",
+          "LOC-C5E7EE5275AA",
+          "LOC-C75001C54495",
+          "LOC-C77753200BAC",
+          "LOC-C97570509503",
+          "LOC-CADEC1A04803",
+          "LOC-D01DB7D48587",
+          "LOC-D14D79FF628B",
+          "LOC-D17181AC55E5",
+          "LOC-D1FF7F6B340A",
+          "LOC-D59B9EBADF64",
+          "LOC-D938F34518DB",
+          "LOC-DBF5B94C25F2",
+          "LOC-E077EECB8B85",
+          "LOC-E25109013C79",
+          "LOC-E2CA9519BB8E",
+          "LOC-E4E09172278B",
+          "LOC-E6C5637091C4",
+          "LOC-EADA05986518",
+          "LOC-EC17515C9AEE",
+          "LOC-ECC2B4FD3222",
+          "LOC-F1E08595D1DD",
+          "LOC-F43F663A1294",
+          "LOC-F8F5E48950B6",
+          "LOC-FDA65E34343A",
+          "LOC-FF63257EFE64",
+          "LOC-FFF84BC8EA27"
+        ],
+        "count": 102,
+        "reason": "Partial fits retain ordinary diagnostic and rating consequences; no cap or gate.",
+        "individually_caps_or_gates": false
+      }
+    ]
+  },
+  "preserved_unrelated_warning": [
+    {
+      "artifact_id": "ART-704D9F7F1A44",
+      "stage": "source_chunk_preparation",
+      "artifact_type": "source-chunk-inventory",
+      "path": "source/chunks/source-chunk-inventory.json",
+      "sha256": "0224346a01d646ea23b5a463566079321d0ec7f5a76ade51c0d8b6abb78efeaa",
+      "media_type": "application/json",
+      "visibility": "restricted",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-09T13:35:45Z",
+      "schema_version": "source-chunk-inventory-v1",
+      "actual_sha256": "ea30bb5e527bec5e222005e248c831235a8c3aa12952197c8b6221a06bead876",
+      "disposition": "Retain warning: pre-existing source inventory drift, not a scoring input; no unrelated byte or registration repair."
+    }
+  ],
+  "changed_private_artifacts": [
+    {
+      "path": "corrections/correction-overlay.v1.json",
+      "original_sha256": null,
+      "revised_sha256": "7734d0ee8afb24d6d24465d013687e02ea43b527e518dc0e150ba2450204e159"
+    },
+    {
+      "path": "scoring/v8.1/dimension-calculation-input.v2.json",
+      "original_sha256": null,
+      "revised_sha256": "d7792d702c467104a29af0fdeea84754eb7897f4366eefdc2136d5a59896faee"
+    },
+    {
+      "path": "scoring/v8.1/dimension-calculations.v6.json",
+      "original_sha256": null,
+      "revised_sha256": "47cd541bb1aeed0b27df7b43e53f3868147837c9a04279e4c39eab4452e9c897"
+    },
+    {
+      "path": "scoring/v8.1/evaluation-result.v12.json",
+      "original_sha256": null,
+      "revised_sha256": "e1ae0c51e62a0f62a221b8c6196c2d9e66a7058e7037c62f63aba5178fd641f9"
+    },
+    {
+      "path": "scoring/v8.1/item-assessments.v7.json",
+      "original_sha256": null,
+      "revised_sha256": "eb0a7d6223e91351e46487d96685a3805b8c1f53945001018bab7c0ab52d94c2"
+    },
+    {
+      "path": "scoring/v8.1/projection-metadata.v2.json",
+      "original_sha256": null,
+      "revised_sha256": "ac9b9606377d928a195e26a30dbe6b8918cc96058edf4ab90b325b5fdb3da378"
+    },
+    {
+      "path": "scoring/v8.1/v8-canonical-projection/data/correction-overlay.v1.json",
+      "original_sha256": null,
+      "revised_sha256": "7734d0ee8afb24d6d24465d013687e02ea43b527e518dc0e150ba2450204e159"
+    },
+    {
+      "path": "scoring/v8.1/v8-canonical-projection/data/density.v1.json",
+      "original_sha256": null,
+      "revised_sha256": "347d18892f21a23cf15c979d0bb4be58b2674c6a9e548aaedfdefa143209cb8d"
+    },
+    {
+      "path": "scoring/v8.1/v8-canonical-projection/data/index-records.v1.json",
+      "original_sha256": null,
+      "revised_sha256": "e052e8e3f0795fc336adaa312bfff8068cc77f0c00daee5f6534d61114bbf1f9"
+    },
+    {
+      "path": "scoring/v8.1/v8-canonical-projection/data/source-subjects.v1.json",
+      "original_sha256": null,
+      "revised_sha256": "ba0e62ae7e325f40b62a01e9e8e4f928e3ab2054a8c44ed0d0062172ccc71b6a"
+    },
+    {
+      "path": "scoring/v8.1/v8-canonical-projection/projection.v1.json",
+      "original_sha256": null,
+      "revised_sha256": "0c04df8c1590ee6394a0cac2fc2302f2a927972b3f4085626940f5fe66b89a1e"
+    },
+    {
+      "path": "scoring/v8.1/web-report.v10.json",
+      "original_sha256": null,
+      "revised_sha256": "8ffed30ca6fcda5d09bac63994495a46e942e49b820f7f2790bc71411005abfe"
+    },
+    {
+      "path": "source/evaluation-policy.v8.1.json",
+      "original_sha256": null,
+      "revised_sha256": "bd578b4f8a869fa2562a390cb8c5dff8e98fa8d09ee782d792a0856697c02df2"
+    }
+  ],
+  "public_artifact_hashes": [
+    {
+      "path": "candidate/v8.1/evaluation-result.v12.json",
+      "sha256": "e1ae0c51e62a0f62a221b8c6196c2d9e66a7058e7037c62f63aba5178fd641f9"
+    },
+    {
+      "path": "candidate/v8.1/web-report.v10.json",
+      "sha256": "8ffed30ca6fcda5d09bac63994495a46e942e49b820f7f2790bc71411005abfe"
+    },
+    {
+      "path": "web/v8.1-canonical-projection/data/correction-overlay.v1.json",
+      "sha256": "7734d0ee8afb24d6d24465d013687e02ea43b527e518dc0e150ba2450204e159"
+    },
+    {
+      "path": "web/v8.1-canonical-projection/data/density.v1.json",
+      "sha256": "347d18892f21a23cf15c979d0bb4be58b2674c6a9e548aaedfdefa143209cb8d"
+    },
+    {
+      "path": "web/v8.1-canonical-projection/data/index-records.v1.json",
+      "sha256": "e052e8e3f0795fc336adaa312bfff8068cc77f0c00daee5f6534d61114bbf1f9"
+    },
+    {
+      "path": "web/v8.1-canonical-projection/data/source-subjects.v1.json",
+      "sha256": "ba0e62ae7e325f40b62a01e9e8e4f928e3ab2054a8c44ed0d0062172ccc71b6a"
+    },
+    {
+      "path": "web/v8.1-canonical-projection/projection.v1.json",
+      "sha256": "0c04df8c1590ee6394a0cac2fc2302f2a927972b3f4085626940f5fe66b89a1e"
+    }
+  ],
+  "validation": {
+    "registered_structure": "passed",
+    "registered_score": "passed",
+    "registered_report_and_bundle": "passed",
+    "ordinary_components": "Exact equality of numeric components; high-value treatment recall weight/effective_weight changes from cap_only to reported_diagnostic_only as prescribed by V8.1.",
+    "diagnostic_item_assessments": "exact equality; only top-level evidence_identity changes",
+    "additional_validation_receipt": "validation/v8.1-validation-receipt.json"
+  }
+}

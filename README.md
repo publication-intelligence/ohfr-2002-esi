@@ -4,9 +4,13 @@ This repository evaluates candidate `oxford-history-french-revolution-2002-origi
 
 The candidate and source PDFs, full normalized index, item inventory, detailed QA ledger, recovery bundles, and other restricted preparation artifacts are intentionally excluded. Only schema-validated public-safe projections belong in this repository.
 
-## Current V8 result
+## Current V8.1 result
 
-The completed V8 evaluation is authoritative. Its schema-validated public result and web-report projection are in [`candidate/v8/`](candidate/v8/). The source, normalized candidate, detailed audit evidence, and portable checkpoint remain private.
+The authorized targeted migration is in [`candidate/v8.1/`](candidate/v8.1/). The score remains **89.38/100**; publication gates change from four to zero, with valid evaluation evidence. The migration ledger, validation receipts, and new [canonical projection](web/v8.1-canonical-projection/) preserve the original evidence and ordinary deductions.
+
+## Preserved V8 result
+
+The completed V8 evaluation remains preserved under its original methodology identity. Its schema-validated public result and web-report projection are in [`candidate/v8/`](candidate/v8/). The source, normalized candidate, detailed audit evidence, and portable checkpoint remain private.
 
 See [`web/v8-canonical-projection/`](web/v8-canonical-projection/) for the canonical web-data projection: observed and representation-adjusted score views, the complete correction overlay, full index display records, detailed source-subject/task/treatment collections, density rows, provenance, and validation contracts.
 
