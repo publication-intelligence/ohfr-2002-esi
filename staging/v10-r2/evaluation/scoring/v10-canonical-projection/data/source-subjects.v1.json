@@ -1,6 +1,6 @@
 {
   "collection_kind": "source_subjects",
-  "collection_sha256": "0eb1fe60a169c7f34db1733f3c48a7f9650e2ee28935f782697df199b5f8c50d",
+  "collection_sha256": "3b9a84796851605c83d33d595e5d17c49d651582830fff74c38f073245b3c65c",
   "count": 531,
   "counts": {
     "expected_treatments": 2385,
@@ -158797,23 +158797,18 @@
       ],
       "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
       "assessment": {
-        "axis_resolution": {
-          "coverage": "unresolved",
-          "realistic_first_lookup_success": "unresolved",
-          "stance_preserved": "unresolved"
-        },
-        "confidence": "medium",
-        "coverage": null,
+        "confidence": "high",
+        "coverage": "partial",
         "evidence_ids": [
           "EVID-SUCC-B417AA38C634",
           "EVID-SUCC-BCC014F56CCE",
           "EVID-SUCC-D81553B21BAE"
         ],
         "grade": {
-          "band": "not_measured",
-          "color_token": "grade_neutral",
-          "score": null,
-          "status": "not_measured"
+          "band": "poor",
+          "color_token": "grade_poor",
+          "score": 50.0,
+          "status": "fails"
         },
         "grade_scope": "access_to_one_frozen_source_subject",
         "matched_path_ids": [
@@ -158825,7 +158820,7 @@
           "PATH-C46EA2D5516B"
         ],
         "popover": {
-          "confidence": "medium",
+          "confidence": "high",
           "evidence_ids": [
             "EVID-SUCC-B417AA38C634",
             "EVID-SUCC-BCC014F56CCE",
@@ -158833,10 +158828,10 @@
           ],
           "factors": [],
           "grade": {
-            "band": "not_measured",
-            "color_token": "grade_neutral",
-            "score": null,
-            "status": "not_measured"
+            "band": "poor",
+            "color_token": "grade_poor",
+            "score": 50.0,
+            "status": "fails"
           },
           "grade_scope": "access_to_one_frozen_source_subject",
           "navigation": {
@@ -158849,30 +158844,27 @@
               "PATH-C46EA2D5516B"
             ]
           },
-          "summary": "Frozen benchmark subject access is semantically unresolved after inspection.",
+          "summary": "Frozen benchmark subject access is partial.",
           "title": "Source subject SUBJ-SUCC-5AAF2CE28F56"
         },
-        "semantic_unknown_axes": [
-          "coverage",
-          "stance_preserved",
-          "realistic_first_lookup_success"
-        ],
         "subject_id": "SUBJ-SUCC-5AAF2CE28F56",
-        "summary": "Frozen benchmark subject access is semantically unresolved after inspection."
+        "summary": "Frozen benchmark subject access is partial."
       },
       "audit_judgment": {
-        "access_rationale": "Coverage is semantically unresolved after inspection; direct access is True; cross-reference access is False.",
+        "access_rationale": "Coverage is partial; direct access is True; cross-reference access is False.",
         "axis_resolution": {
-          "coverage": "unresolved",
-          "realistic_first_lookup_success": "unresolved",
-          "stance_preserved": "unresolved"
+          "coverage": "known",
+          "realistic_first_lookup_success": "known",
+          "stance_preserved": "known"
         },
-        "confidence": "medium",
-        "coverage": null,
+        "confidence": "high",
+        "coverage": "partial",
         "cross_reference_access": false,
         "dependency_defects": [],
         "direct_access": true,
-        "error_codes": [],
+        "error_codes": [
+          "COV"
+        ],
         "evidence_ids": [
           "EVID-SUCC-B417AA38C634",
           "EVID-SUCC-BCC014F56CCE",
@@ -158916,38 +158908,10 @@
           }
         ],
         "priority": "essential",
-        "realistic_first_lookup_success": null,
-        "semantic_uncertainties": [
-          {
-            "evidence_ids": [
-              "EVID-SUCC-B417AA38C634",
-              "EVID-SUCC-BCC014F56CCE",
-              "EVID-SUCC-D81553B21BAE"
-            ],
-            "field": "coverage",
-            "reason_category": "unresolved_scope"
-          },
-          {
-            "evidence_ids": [
-              "EVID-SUCC-B417AA38C634",
-              "EVID-SUCC-BCC014F56CCE",
-              "EVID-SUCC-D81553B21BAE"
-            ],
-            "field": "stance_preserved",
-            "reason_category": "unresolved_scope"
-          },
-          {
-            "evidence_ids": [
-              "EVID-SUCC-B417AA38C634",
-              "EVID-SUCC-BCC014F56CCE",
-              "EVID-SUCC-D81553B21BAE"
-            ],
-            "field": "realistic_first_lookup_success",
-            "reason_category": "unresolved_scope"
-          }
-        ],
-        "severity": "major",
-        "stance_preserved": null,
+        "realistic_first_lookup_success": "partly",
+        "semantic_uncertainties": [],
+        "severity": "minor",
+        "stance_preserved": "yes",
         "subject_id": "SUBJ-SUCC-5AAF2CE28F56",
         "treatment_recall": {
           "principal": {
@@ -158978,13 +158942,7 @@
           }
         },
         "uncertainty": {
-          "evidence_ids": [
-            "EVID-SUCC-B417AA38C634",
-            "EVID-SUCC-BCC014F56CCE",
-            "EVID-SUCC-D81553B21BAE"
-          ],
-          "reason": "Access uncertainty status is uncertain.",
-          "status": "uncertain"
+          "status": "none"
         }
       },
       "chapter_provenance": [
@@ -159231,7 +159189,7 @@
         "CHUNK-008"
       ],
       "source_order": 277,
-      "stance": "Benchmark stance narrative withheld from the public projection; stance preservation outcome: None.",
+      "stance": "Benchmark stance narrative withheld from the public projection; stance preservation outcome: yes.",
       "subject_id": "SUBJ-SUCC-5AAF2CE28F56"
     },
     {
@@ -261225,23 +261183,18 @@
       ],
       "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
       "assessment": {
-        "axis_resolution": {
-          "coverage": "unresolved",
-          "realistic_first_lookup_success": "unresolved",
-          "stance_preserved": "unresolved"
-        },
-        "confidence": "medium",
-        "coverage": null,
+        "confidence": "high",
+        "coverage": "partial",
         "evidence_ids": [
           "EVID-SUCC-122FCE73B3A5",
           "EVID-SUCC-B22E134BEFB4",
           "EVID-SUCC-D4B5613FA785"
         ],
         "grade": {
-          "band": "not_measured",
-          "color_token": "grade_neutral",
-          "score": null,
-          "status": "not_measured"
+          "band": "poor",
+          "color_token": "grade_poor",
+          "score": 50.0,
+          "status": "fails"
         },
         "grade_scope": "access_to_one_frozen_source_subject",
         "matched_path_ids": [
@@ -261253,7 +261206,7 @@
           "PATH-25193CF1A115"
         ],
         "popover": {
-          "confidence": "medium",
+          "confidence": "high",
           "evidence_ids": [
             "EVID-SUCC-122FCE73B3A5",
             "EVID-SUCC-B22E134BEFB4",
@@ -261261,10 +261214,10 @@
           ],
           "factors": [],
           "grade": {
-            "band": "not_measured",
-            "color_token": "grade_neutral",
-            "score": null,
-            "status": "not_measured"
+            "band": "poor",
+            "color_token": "grade_poor",
+            "score": 50.0,
+            "status": "fails"
           },
           "grade_scope": "access_to_one_frozen_source_subject",
           "navigation": {
@@ -261277,30 +261230,27 @@
               "PATH-25193CF1A115"
             ]
           },
-          "summary": "Frozen benchmark subject access is semantically unresolved after inspection.",
+          "summary": "Frozen benchmark subject access is partial.",
           "title": "Source subject SUBJ-SUCC-FA919FE4CE14"
         },
-        "semantic_unknown_axes": [
-          "coverage",
-          "stance_preserved",
-          "realistic_first_lookup_success"
-        ],
         "subject_id": "SUBJ-SUCC-FA919FE4CE14",
-        "summary": "Frozen benchmark subject access is semantically unresolved after inspection."
+        "summary": "Frozen benchmark subject access is partial."
       },
       "audit_judgment": {
-        "access_rationale": "Coverage is semantically unresolved after inspection; direct access is True; cross-reference access is False.",
+        "access_rationale": "Coverage is partial; direct access is True; cross-reference access is False.",
         "axis_resolution": {
-          "coverage": "unresolved",
-          "realistic_first_lookup_success": "unresolved",
-          "stance_preserved": "unresolved"
+          "coverage": "known",
+          "realistic_first_lookup_success": "known",
+          "stance_preserved": "known"
         },
-        "confidence": "medium",
-        "coverage": null,
+        "confidence": "high",
+        "coverage": "partial",
         "cross_reference_access": false,
         "dependency_defects": [],
         "direct_access": true,
-        "error_codes": [],
+        "error_codes": [
+          "COV"
+        ],
         "evidence_ids": [
           "EVID-SUCC-122FCE73B3A5",
           "EVID-SUCC-B22E134BEFB4",
@@ -261344,38 +261294,10 @@
           }
         ],
         "priority": "major",
-        "realistic_first_lookup_success": null,
-        "semantic_uncertainties": [
-          {
-            "evidence_ids": [
-              "EVID-SUCC-122FCE73B3A5",
-              "EVID-SUCC-B22E134BEFB4",
-              "EVID-SUCC-D4B5613FA785"
-            ],
-            "field": "coverage",
-            "reason_category": "unresolved_scope"
-          },
-          {
-            "evidence_ids": [
-              "EVID-SUCC-122FCE73B3A5",
-              "EVID-SUCC-B22E134BEFB4",
-              "EVID-SUCC-D4B5613FA785"
-            ],
-            "field": "stance_preserved",
-            "reason_category": "unresolved_scope"
-          },
-          {
-            "evidence_ids": [
-              "EVID-SUCC-122FCE73B3A5",
-              "EVID-SUCC-B22E134BEFB4",
-              "EVID-SUCC-D4B5613FA785"
-            ],
-            "field": "realistic_first_lookup_success",
-            "reason_category": "unresolved_scope"
-          }
-        ],
-        "severity": "major",
-        "stance_preserved": null,
+        "realistic_first_lookup_success": "partly",
+        "semantic_uncertainties": [],
+        "severity": "minor",
+        "stance_preserved": "partly",
         "subject_id": "SUBJ-SUCC-FA919FE4CE14",
         "treatment_recall": {
           "principal": {
@@ -261410,13 +261332,7 @@
           }
         },
         "uncertainty": {
-          "evidence_ids": [
-            "EVID-SUCC-122FCE73B3A5",
-            "EVID-SUCC-B22E134BEFB4",
-            "EVID-SUCC-D4B5613FA785"
-          ],
-          "reason": "Access uncertainty status is uncertain.",
-          "status": "uncertain"
+          "status": "none"
         }
       },
       "chapter_provenance": [
@@ -261469,11 +261385,11 @@
           "required_access_facets": [],
           "result": {
             "access_mode": "direct",
-            "access_rationale": "Reader task result is semantically unresolved after inspection through direct access.",
+            "access_rationale": "Reader task result is partially_succeeds through direct access.",
             "axis_resolution": {
-              "result": "unresolved"
+              "result": "known"
             },
-            "confidence": "medium",
+            "confidence": "high",
             "evidence_ids": [
               "EVID-SUCC-122FCE73B3A5",
               "EVID-SUCC-B22E134BEFB4",
@@ -261487,19 +261403,9 @@
               "PATH-119556AE87F5",
               "PATH-25193CF1A115"
             ],
-            "result": null,
-            "semantic_uncertainties": [
-              {
-                "evidence_ids": [
-                  "EVID-SUCC-122FCE73B3A5",
-                  "EVID-SUCC-B22E134BEFB4",
-                  "EVID-SUCC-D4B5613FA785"
-                ],
-                "field": "result",
-                "reason_category": "dependent_semantic_uncertainty"
-              }
-            ],
-            "severity": "major",
+            "result": "partially_succeeds",
+            "semantic_uncertainties": [],
+            "severity": "minor",
             "subject_ids": [
               "SUBJ-SUCC-FA919FE4CE14"
             ],
@@ -261626,7 +261532,7 @@
         "CHUNK-017"
       ],
       "source_order": 496,
-      "stance": "Benchmark stance narrative withheld from the public projection; stance preservation outcome: None.",
+      "stance": "Benchmark stance narrative withheld from the public projection; stance preservation outcome: partly.",
       "subject_id": "SUBJ-SUCC-FA919FE4CE14"
     },
     {
