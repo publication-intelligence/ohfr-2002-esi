@@ -168,7 +168,7 @@
     },
     "density_measurements_sha256": "0489559ce7d0890f959024c702c7903df123f8b69d0928511b12bdc99e261f4d",
     "execution_contract": {
-      "compatibility_sha256": "20aec9b35c4cf48a68e0e5e52ad31b4d9b8ce030e1b60ee893a76175b2c64860",
+      "compatibility_sha256": "16c65bc5d45f5c985e606390f157b227d012ed1ea5ba0c54003e5582692e9863",
       "contract_constituents": {
         "subject-index-evaluation-v10-decision-v3": "779fb8ffb21bc17fe87a23ee9160a124e013a094c08280b7bdb26fef40d2da50",
         "subject-index-evaluation-v10-semantic-uncertainty-addendum-v1": "e0f0e91a23274a94e292409b17df53d1b403bd0a52b26e6e7ae84809430c5f76",
@@ -177,11 +177,11 @@
         "subject-index-evaluation-v10-semantic-uncertainty-addendum-v4": "b5d51033cb03093ca242841f8d9a5aac510915cfedad800614078e5199220a64"
       },
       "execution_contract_id": "subject-index-v10-semantic-execution-v3",
-      "runtime_payload_sha256": "5fb8513cfc2fba5c64dd7c6aef8188f1b3da997e1a33819aba2b4e4dc1c151c2",
+      "runtime_payload_sha256": "dce71d46d425a5862e3a2811bfbd287c4c40fa3768bb40583c35e642c95b0856",
       "source_release_file_sha256": "441e051f435b6a9518f59d4176e60c3f2c358f139698e8ffe69500f1e3bb9a94",
-      "successor_runtime_commit": "3f1f3776eb173fef2ea269db683150527a1a9fec"
+      "successor_runtime_commit": "47669b44529f61414edf68ef73de676b8886958d"
     },
-    "identity_sha256": "445db307634692c8e511f26d6e66b23282aa7be8c2279c5aa9e70c209111d739",
+    "identity_sha256": "ba528a43293180bd2d33fa95b55bc6806446847989852eac45c6a55c3b58e2b5",
     "policy_profile": "subject-index-standard-policy-v10",
     "policy_semantic_sha256": "6f0291ba3611cbdd94daed6d358ef27ee4605d824d8517216662fffab229fe5d",
     "release": {
@@ -371,17 +371,17 @@
     "calculation_profile": "subject-index-dimension-calculation-v9",
     "rubric_version": "subject-index-rubric-v10"
   },
-  "projection_id": "OHFR-V10-WEB-0FE12A4426BA",
+  "projection_id": "OHFR-V10-WEB-AD45A469B562",
   "projection_role": "deterministic_public_safe_display_projection",
-  "projection_sha256": "cb0e5f735219c960b3a6903542500e68de09518d2914ad52e3459cb6b4ea4d92",
+  "projection_sha256": "cb7c7146da9b8bb23994b542b8a3dc3cbf8fd2a147f088bf27b04fe3a4aac1ba",
   "provenance": {
     "benchmark_sha256": "d521c17e208cf1ac26386ae513edc1d096e1772a1cb5acd8b5095ce9d7d59fa9",
-    "calculation_sha256": "fb1677b0647c977aa3e1525a0fd0791f28b3abd53fd541a580ded9c7e6821500",
+    "calculation_sha256": "87768008dc8801c3315f453228abd365e9b1c799fac25539bca66f8206623003",
     "correction_overlay_sha256": null,
     "dimension_calculation_profile": "subject-index-dimension-calculation-v9",
     "judgment_policy_sha256": "c0c26ea4beb7f90706a1f1cd56490b31cd6e0d0faa2b0c5205ba9ec7c2596d43",
     "missing_access_audit_set_sha256": "094381404e0ed2930a43e24a7b9ddea67a8deefe63c5335742a0f6d1143e1388",
-    "projection_metadata_sha256": "0317ba8c5e14f62106a168c1b85e4af190b7a7dbb84b3f6d033b9d6f740be100",
+    "projection_metadata_sha256": "a45f306ca444ddb1b5448a125765f87efb59e28c414c70b75e170cee83dd0517",
     "rubric_version": "subject-index-rubric-v10",
     "source_artifacts": [
       {
@@ -505,28 +505,28 @@
         "sha256": "4d70462528690a7efe3ac8cf5d6ee7c0049f9a5ee32ec1a25ad3135fdb4eabca"
       },
       {
-        "artifact_path": "scoring-pr69-final/dimension-calculations.v9.json",
+        "artifact_path": "scoring-pr71-final/dimension-calculations.v9.json",
         "availability": "canonical_registered_input",
         "schema_version": "subject-index-dimension-calculations-v9",
-        "sha256": "b56408d7f06923189446b289399bce09804ed3c5ce0b0595c89713fa96caeb94"
+        "sha256": "8dae77d51b3e093e6d40077166456daa8a246dc0f5476914e2cb27d343da03dd"
       },
       {
-        "artifact_path": "scoring-pr69-final/evaluation-result.v15.json",
+        "artifact_path": "scoring-pr71-final/evaluation-result.v15.json",
         "availability": "canonical_registered_input",
         "schema_version": "subject-index-evaluation-result-v15",
-        "sha256": "7dbe3cba2fff7d62168636ea2bc47e0c20222a6a9ac50d2acb09c2535a59d9f0"
+        "sha256": "553870dc43a138fb699651daa9fc2318962f3475a5e71de0b4bae5afbe7f24a8"
       },
       {
-        "artifact_path": "scoring-pr69-final/item-assessments.v10.json",
+        "artifact_path": "scoring-pr71-final/item-assessments.v10.json",
         "availability": "canonical_registered_input",
         "schema_version": "subject-index-item-assessments-v10",
         "sha256": "f65ef2213a9e1a1a8eb68ed3f4a8f9114a064297a1b9b6fa1e4a5045fa9c2f7c"
       },
       {
-        "artifact_path": "scoring-pr69-final/web-report.v13.json",
+        "artifact_path": "scoring-pr71-final/web-report.v13.json",
         "availability": "canonical_registered_input",
         "schema_version": "subject-index-web-report-v13",
-        "sha256": "2882ad2cec7f32567d2c670484b6229c44c55e8e060003d3f02b6611c8924cd4"
+        "sha256": "0c2f86e063d144a18d4b7ba9f64ca754b085e8427fef3aec51fb8f1d6446e7a6"
       },
       {
         "artifact_path": "source/chunk-manifest.json",
@@ -3823,22 +3823,22 @@
         "maximum": 100,
         "provenance_artifacts": [
           {
-            "artifact_path": "scoring-pr69-final/evaluation-result.v15.json",
+            "artifact_path": "scoring-pr71-final/evaluation-result.v15.json",
             "availability": "canonical_registered_input",
             "schema_version": "subject-index-evaluation-result-v15",
-            "sha256": "7dbe3cba2fff7d62168636ea2bc47e0c20222a6a9ac50d2acb09c2535a59d9f0"
+            "sha256": "553870dc43a138fb699651daa9fc2318962f3475a5e71de0b4bae5afbe7f24a8"
           },
           {
-            "artifact_path": "scoring-pr69-final/web-report.v13.json",
+            "artifact_path": "scoring-pr71-final/web-report.v13.json",
             "availability": "canonical_registered_input",
             "schema_version": "subject-index-web-report-v13",
-            "sha256": "2882ad2cec7f32567d2c670484b6229c44c55e8e060003d3f02b6611c8924cd4"
+            "sha256": "0c2f86e063d144a18d4b7ba9f64ca754b085e8427fef3aec51fb8f1d6446e7a6"
           },
           {
-            "artifact_path": "scoring-pr69-final/dimension-calculations.v9.json",
+            "artifact_path": "scoring-pr71-final/dimension-calculations.v9.json",
             "availability": "canonical_registered_input",
             "schema_version": "subject-index-dimension-calculations-v9",
-            "sha256": "b56408d7f06923189446b289399bce09804ed3c5ce0b0595c89713fa96caeb94"
+            "sha256": "8dae77d51b3e093e6d40077166456daa8a246dc0f5476914e2cb27d343da03dd"
           }
         ],
         "readiness": {
