@@ -168,7 +168,7 @@
     },
     "density_measurements_sha256": "0489559ce7d0890f959024c702c7903df123f8b69d0928511b12bdc99e261f4d",
     "execution_contract": {
-      "compatibility_sha256": "16c65bc5d45f5c985e606390f157b227d012ed1ea5ba0c54003e5582692e9863",
+      "compatibility_sha256": "2e593499cac528264324eb2ea9605749b0da4d3c7f26b5f2fa27b41c340c170c",
       "contract_constituents": {
         "subject-index-evaluation-v10-decision-v3": "779fb8ffb21bc17fe87a23ee9160a124e013a094c08280b7bdb26fef40d2da50",
         "subject-index-evaluation-v10-semantic-uncertainty-addendum-v1": "e0f0e91a23274a94e292409b17df53d1b403bd0a52b26e6e7ae84809430c5f76",
@@ -181,7 +181,7 @@
       "source_release_file_sha256": "441e051f435b6a9518f59d4176e60c3f2c358f139698e8ffe69500f1e3bb9a94",
       "successor_runtime_commit": "47669b44529f61414edf68ef73de676b8886958d"
     },
-    "identity_sha256": "ba528a43293180bd2d33fa95b55bc6806446847989852eac45c6a55c3b58e2b5",
+    "identity_sha256": "b29c93e0cb4928bce1c0f3d2a582a3c846f06c80e80f0ca37c545bac7f06530f",
     "policy_profile": "subject-index-standard-policy-v10",
     "policy_semantic_sha256": "6f0291ba3611cbdd94daed6d358ef27ee4605d824d8517216662fffab229fe5d",
     "release": {
@@ -371,17 +371,17 @@
     "calculation_profile": "subject-index-dimension-calculation-v9",
     "rubric_version": "subject-index-rubric-v10"
   },
-  "projection_id": "OHFR-V10-WEB-AD45A469B562",
+  "projection_id": "OHFR-V10-WEB-5C2186F6B3AD",
   "projection_role": "deterministic_public_safe_display_projection",
-  "projection_sha256": "cb7c7146da9b8bb23994b542b8a3dc3cbf8fd2a147f088bf27b04fe3a4aac1ba",
+  "projection_sha256": "d19bd80cbbbd9573b8abb6f75119dda023a1fd5eb0b38aa4cfac4e0e1c6d5304",
   "provenance": {
     "benchmark_sha256": "d521c17e208cf1ac26386ae513edc1d096e1772a1cb5acd8b5095ce9d7d59fa9",
-    "calculation_sha256": "87768008dc8801c3315f453228abd365e9b1c799fac25539bca66f8206623003",
+    "calculation_sha256": "835fba118979db2ccb6971998393653f6bd2c3e85b48648389b0bded654709c6",
     "correction_overlay_sha256": null,
     "dimension_calculation_profile": "subject-index-dimension-calculation-v9",
     "judgment_policy_sha256": "c0c26ea4beb7f90706a1f1cd56490b31cd6e0d0faa2b0c5205ba9ec7c2596d43",
     "missing_access_audit_set_sha256": "094381404e0ed2930a43e24a7b9ddea67a8deefe63c5335742a0f6d1143e1388",
-    "projection_metadata_sha256": "a45f306ca444ddb1b5448a125765f87efb59e28c414c70b75e170cee83dd0517",
+    "projection_metadata_sha256": "d7db7d6ca403cdfdbcd4530cc8f74093498e99ba818370c6e259327c844e5d89",
     "rubric_version": "subject-index-rubric-v10",
     "source_artifacts": [
       {
@@ -505,28 +505,28 @@
         "sha256": "4d70462528690a7efe3ac8cf5d6ee7c0049f9a5ee32ec1a25ad3135fdb4eabca"
       },
       {
-        "artifact_path": "scoring-pr71-final/dimension-calculations.v9.json",
+        "artifact_path": "scoring-shared-pr71-final/dimension-calculations.v9.json",
         "availability": "canonical_registered_input",
         "schema_version": "subject-index-dimension-calculations-v9",
-        "sha256": "8dae77d51b3e093e6d40077166456daa8a246dc0f5476914e2cb27d343da03dd"
+        "sha256": "8c671b3b4c6ed6def553e9d9820f8eddbfdd22fc2e221949c447312ec3b7469f"
       },
       {
-        "artifact_path": "scoring-pr71-final/evaluation-result.v15.json",
+        "artifact_path": "scoring-shared-pr71-final/evaluation-result.v15.json",
         "availability": "canonical_registered_input",
         "schema_version": "subject-index-evaluation-result-v15",
-        "sha256": "553870dc43a138fb699651daa9fc2318962f3475a5e71de0b4bae5afbe7f24a8"
+        "sha256": "2509e5554a03a5df9bad4447300891b36a29909e4cdec8ffb1a963696a6a05d6"
       },
       {
-        "artifact_path": "scoring-pr71-final/item-assessments.v10.json",
+        "artifact_path": "scoring-shared-pr71-final/item-assessments.v10.json",
         "availability": "canonical_registered_input",
         "schema_version": "subject-index-item-assessments-v10",
         "sha256": "f65ef2213a9e1a1a8eb68ed3f4a8f9114a064297a1b9b6fa1e4a5045fa9c2f7c"
       },
       {
-        "artifact_path": "scoring-pr71-final/web-report.v13.json",
+        "artifact_path": "scoring-shared-pr71-final/web-report.v13.json",
         "availability": "canonical_registered_input",
         "schema_version": "subject-index-web-report-v13",
-        "sha256": "0c2f86e063d144a18d4b7ba9f64ca754b085e8427fef3aec51fb8f1d6446e7a6"
+        "sha256": "a3b5f872bba9443872e290253172e6f26229ade3102ba7454f1a218b909dc806"
       },
       {
         "artifact_path": "source/chunk-manifest.json",
@@ -3823,22 +3823,22 @@
         "maximum": 100,
         "provenance_artifacts": [
           {
-            "artifact_path": "scoring-pr71-final/evaluation-result.v15.json",
+            "artifact_path": "scoring-shared-pr71-final/evaluation-result.v15.json",
             "availability": "canonical_registered_input",
             "schema_version": "subject-index-evaluation-result-v15",
-            "sha256": "553870dc43a138fb699651daa9fc2318962f3475a5e71de0b4bae5afbe7f24a8"
+            "sha256": "2509e5554a03a5df9bad4447300891b36a29909e4cdec8ffb1a963696a6a05d6"
           },
           {
-            "artifact_path": "scoring-pr71-final/web-report.v13.json",
+            "artifact_path": "scoring-shared-pr71-final/web-report.v13.json",
             "availability": "canonical_registered_input",
             "schema_version": "subject-index-web-report-v13",
-            "sha256": "0c2f86e063d144a18d4b7ba9f64ca754b085e8427fef3aec51fb8f1d6446e7a6"
+            "sha256": "a3b5f872bba9443872e290253172e6f26229ade3102ba7454f1a218b909dc806"
           },
           {
-            "artifact_path": "scoring-pr71-final/dimension-calculations.v9.json",
+            "artifact_path": "scoring-shared-pr71-final/dimension-calculations.v9.json",
             "availability": "canonical_registered_input",
             "schema_version": "subject-index-dimension-calculations-v9",
-            "sha256": "8dae77d51b3e093e6d40077166456daa8a246dc0f5476914e2cb27d343da03dd"
+            "sha256": "8c671b3b4c6ed6def553e9d9820f8eddbfdd22fc2e221949c447312ec3b7469f"
           }
         ],
         "readiness": {
