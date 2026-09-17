@@ -1,0 +1,138 @@
+{
+  "schema_version": "ohfr-benchmark-comparability-investigation-v1",
+  "comparison_status": "blocked_distinct_benchmark_families",
+  "same_source_page_map_and_chunks": true,
+  "semantic_fingerprint_fields": [
+    "subjects",
+    "relationships",
+    "reader_tasks",
+    "exclusions",
+    "uncertainties"
+  ],
+  "semantic_fingerprint_encoding": "UTF-8 JSON, sorted object keys, compact separators, preserved array order; excludes per-evaluation identity/freeze/policy wrappers",
+  "evaluations": [
+    {
+      "candidate": "Published",
+      "benchmark_id": "ohfr-2002-original-published-index-v8-source-benchmark",
+      "benchmark_version": 2,
+      "file_sha256": "f58fae3d56c427fcac8771d8ca4181f98a9d496096e35ea1d130e200567a816c",
+      "benchmark_sha256": "558980b374ca4b162b12f2726e237319b170f9e8b7014f71ad7c2171e9e98983",
+      "source_sha256": "5f89aa2592218983c594278bfd86cc1e4b74be1dd6dd8aac5c2610a48fa34047",
+      "page_map_sha256": "452602deebdae19f8e35c589f2ff2a7a0b9fc955d268b14f760391b0043e9653",
+      "chunk_manifest_sha256": "5fc5450386114fdeb19838f54d3f1662c3d6dec81d4729c73f4f7ec0cb341a6f",
+      "subjects": 638,
+      "unique_subject_ids": 638,
+      "expected_treatments": 1569,
+      "relationships": 281,
+      "reader_tasks": 638,
+      "priorities": {
+        "major": 356,
+        "essential": 178,
+        "optional": 104
+      },
+      "semantic_content_sha256": "983b5f5d4559215bda3eb36a0b62c4d192ca9921b086cc279d8af3444aee5e8a",
+      "source_words": 195346
+    },
+    {
+      "candidate": "IndexPDF",
+      "benchmark_id": "ohfr-2002-indexpdf-v8-source-benchmark",
+      "benchmark_version": 3,
+      "file_sha256": "06cc88f02103c8730845c55d1f93b4224c1828df45981bb7df4b4bbf45064f67",
+      "benchmark_sha256": "c1a4bf76f624b40b3feb846cef04619400ecf00561b454edb7946cc9acacfe3d",
+      "source_sha256": "5f89aa2592218983c594278bfd86cc1e4b74be1dd6dd8aac5c2610a48fa34047",
+      "page_map_sha256": "452602deebdae19f8e35c589f2ff2a7a0b9fc955d268b14f760391b0043e9653",
+      "chunk_manifest_sha256": "5fc5450386114fdeb19838f54d3f1662c3d6dec81d4729c73f4f7ec0cb341a6f",
+      "subjects": 638,
+      "unique_subject_ids": 638,
+      "expected_treatments": 1569,
+      "relationships": 281,
+      "reader_tasks": 638,
+      "priorities": {
+        "major": 356,
+        "essential": 178,
+        "optional": 104
+      },
+      "semantic_content_sha256": "983b5f5d4559215bda3eb36a0b62c4d192ca9921b086cc279d8af3444aee5e8a",
+      "source_words": 195346
+    },
+    {
+      "candidate": "IndexerLabs",
+      "benchmark_id": "oxford-history-french-revolution-2002-source-benchmark-v8-import",
+      "benchmark_version": 4,
+      "file_sha256": "dfe01ab10a929dfb2944542cf879608057b59acd74a909038e7608a015b0d448",
+      "benchmark_sha256": "4e3147464c9a907d5d9c6ce689bae53bb1f9ace53b99c0146b49a105629e6562",
+      "source_sha256": "5f89aa2592218983c594278bfd86cc1e4b74be1dd6dd8aac5c2610a48fa34047",
+      "page_map_sha256": "452602deebdae19f8e35c589f2ff2a7a0b9fc955d268b14f760391b0043e9653",
+      "chunk_manifest_sha256": "5fc5450386114fdeb19838f54d3f1662c3d6dec81d4729c73f4f7ec0cb341a6f",
+      "subjects": 1366,
+      "unique_subject_ids": 1366,
+      "expected_treatments": 3210,
+      "relationships": 3460,
+      "reader_tasks": 1026,
+      "priorities": {
+        "essential": 155,
+        "major": 1125,
+        "optional": 86
+      },
+      "semantic_content_sha256": "a625e7bb3be3012e0fb94548e4d056bff4df696c7b1ddd20eb5f178337dcbfa2",
+      "source_words": 194718
+    },
+    {
+      "candidate": "Indexia",
+      "benchmark_id": "ohfr-2002-indexia-v8-source-benchmark",
+      "benchmark_version": 1,
+      "file_sha256": "b75659dac4d4e996629ac2dd1e7d088e05e9ca847ef3f2c5a32114db72610668",
+      "benchmark_sha256": "ca1c6f40b5fc2c89ee94ec5751e8820bd8c292e58231269d5a64ac20504b0aa8",
+      "source_sha256": "5f89aa2592218983c594278bfd86cc1e4b74be1dd6dd8aac5c2610a48fa34047",
+      "page_map_sha256": "452602deebdae19f8e35c589f2ff2a7a0b9fc955d268b14f760391b0043e9653",
+      "chunk_manifest_sha256": "5fc5450386114fdeb19838f54d3f1662c3d6dec81d4729c73f4f7ec0cb341a6f",
+      "subjects": 1366,
+      "unique_subject_ids": 1366,
+      "expected_treatments": 3210,
+      "relationships": 3460,
+      "reader_tasks": 1026,
+      "priorities": {
+        "essential": 155,
+        "major": 1125,
+        "optional": 86
+      },
+      "semantic_content_sha256": "a625e7bb3be3012e0fb94548e4d056bff4df696c7b1ddd20eb5f178337dcbfa2",
+      "source_words": 194718
+    }
+  ],
+  "verified_pairs": [
+    [
+      "Published",
+      "IndexPDF"
+    ],
+    [
+      "IndexerLabs",
+      "Indexia"
+    ]
+  ],
+  "cross_family_subject_id_overlap": 0,
+  "lineage": {
+    "legacy_v2": {
+      "file_sha256": "de16bd7bae84a5afcc9ff8b46ff1b29c9a6eb6824a592d970f9dad0bb5679cc1",
+      "subjects": 1366,
+      "benchmark_sha256": "39c84c1217aba4d5b3d5d81f6d12c0463caf2ab0fbaf8edf62ac50de4d5cc8d1"
+    },
+    "legacy_v3": {
+      "freeze_commit": "98dbffd0ca171b5b7db76dbe1b2b5d5265ccacab",
+      "file_sha256": "34a399cda8ca9f1b07b9fa0ddad36ac4f5073ef12d8b12df42fb023818508b27",
+      "subjects": 1366,
+      "frozen_at": "2026-08-24T13:40:50Z",
+      "benchmark_sha256": "b925797fcab50b2008ad5974590e323f772e5ea7013efa84ce7606007439aeb3",
+      "semantically_identical_to_imported_family_after_type_key_normalization": true
+    },
+    "native_v2": {
+      "file_sha256": "f58fae3d56c427fcac8771d8ca4181f98a9d496096e35ea1d130e200567a816c",
+      "subjects": 638,
+      "frozen_at": "2026-09-09T12:09:43-05:00",
+      "same_as_legacy_v2": false
+    }
+  },
+  "directly_benchmark_dependent_overall_weight_percent": 65,
+  "interpretation": "Different source-subject/task/treatment definitions and priority weights prevent one controlled four-way aggregate-score comparison. This is not a measured error magnitude or direction of bias. Individual V8.2 migration validation remains valid within each preserved benchmark.",
+  "action": "Keep migration PRs draft and bundle cutover on hold; preserve all artifacts. Perform source-only common-benchmark selection and a reviewed crosswalk/reuse assessment before any authorized reevaluation."
+}

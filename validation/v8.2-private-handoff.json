@@ -1,0 +1,23 @@
+{
+  "schema_version": "ohfr-v8.2-private-handoff-v1",
+  "status": "verified_staged_pending_public_pr_merge",
+  "public_pr": "https://github.com/publication-intelligence/ohfr-2002-esi/pull/44",
+  "methodology_commit": "c11c6ccb16000fe79646af16b7be01f6cbeeac78",
+  "installation_receipt_sha256": "f7d0b2bd830dfbca7b1e8c4f79c6320e2c7a945d075342807d24d6f9f7cd1204",
+  "archive": "published-v8.2-final.private.zip",
+  "archive_sha256": "95f2f5523d68dc54a2d50c12377bab6076177840a6dc60c2693378c8285103ad",
+  "archive_members": 171,
+  "durable_files_verified": 171,
+  "canonical_state_sha256": "ad0231e3053c4e674ea94f58ab89fb7152af0319b94e3a0e7dc04c7717354a5e",
+  "public_validation_receipt_sha256": "85733cc58540c7c2becee3a07e846dffca706d77ad63fc0858077151e688fb74",
+  "registered_state_validation": "passed",
+  "saved_input_preflight": "passed",
+  "warnings": [
+    "Artifact bytes changed since registration: source/chunks/source-chunk-inventory.json"
+  ],
+  "active_saved_project": "V8.1 remains active pending public PR merge; final V8.2 private tree is separately staged and verified.",
+  "preserved_baselines": [
+    "original V8 and recovered V8.1 full private archives",
+    "adeb691 intermediate V8.2 private archive and exact installation receipt"
+  ]
+}
